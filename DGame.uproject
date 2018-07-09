@@ -1,0 +1,17 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "{98501816-4353-485D-DB5D-C58ADE0B8AC5}",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "DGame",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine",
+				"UMG"
+			]
+		}
+	]
+}

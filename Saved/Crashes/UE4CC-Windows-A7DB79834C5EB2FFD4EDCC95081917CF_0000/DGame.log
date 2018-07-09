@@ -1,0 +1,1536 @@
+﻿Log file open, 07/05/18 16:26:44
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: DGame
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(2038888030) SRandInit(2038888030).
+LogInit: Read version file with build ID 'b18491ae-a27b-4abc-bef7-00616cdae016'
+LogInit: Registered custom module enumerator with build ID 'b18491ae-a27b-4abc-bef7-00616cdae016'
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.259074
+LogD3D11RHI: Aftermath initialized
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +8:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LiveLink
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleARKit
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.068s to configure plugins.
+LogModuleManager: Warning: Module file E:/ue4/DGame/Binaries/Win64/UE4Editor-DGame-7954.dll is missing. This is likely a stale module that must be recompiled.
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperTiledImporter.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-SmartSnapping.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Animation/LiveLink/Binaries/Win64/UE4Editor-LiveLink.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Animation/LiveLink/Binaries/Win64/UE4Editor-LiveLinkEditor.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeRuntime.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeEditor.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/CLionSourceCodeAccess/Binaries/Win64/UE4Editor-CLionSourceCodeAccess.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/GitSourceControl/Binaries/Win64/UE4Editor-GitSourceControl.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/PerforceSourceControl/Binaries/Win64/UE4Editor-PerforceSourceControl.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/SubversionSourceControl/Binaries/Win64/UE4Editor-SubversionSourceControl.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/UObjectPlugin/Binaries/Win64/UE4Editor-UObjectPlugin.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioCodeSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioCodeSourceCodeAccess.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioSourceCodeAccess.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AssetManagerEditor/Binaries/Win64/UE4Editor-AssetManagerEditor.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/CryptoKeys/Binaries/Win64/UE4Editor-CryptoKeys.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/CryptoKeys/Binaries/Win64/UE4Editor-CryptoKeysOpenSSL.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/DataValidation/Binaries/Win64/UE4Editor-DataValidation.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimation.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimationEditor.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/GameplayTagsEditor/Binaries/Win64/UE4Editor-GameplayTagsEditor.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/MobileLauncherProfileWizard/Binaries/Win64/UE4Editor-MobileLauncherProfileWizard.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/PluginBrowser/Binaries/Win64/UE4Editor-PluginBrowser.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/SpeedTreeImporter/Binaries/Win64/UE4Editor-SpeedTreeImporter.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Enterprise/DatasmithContent/Binaries/Win64/UE4Editor-DatasmithContent.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicImporter.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicLibrary.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/CharacterAI/Binaries/Win64/UE4Editor-CharacterAI.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/HTML5Networking/Binaries/Win64/UE4Editor-HTML5Networking.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaEditor.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaFactory.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaEditor.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMedia.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaEditor.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-OpenExrWrapper.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/LinearTimecode/Binaries/Win64/UE4Editor-LinearTimecode.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositing.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositingEditor.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaPlayerEditor/Binaries/Win64/UE4Editor-MediaPlayerEditor.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMedia.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaEditor.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/TcpMessaging/Binaries/Win64/UE4Editor-TcpMessaging.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/UdpMessaging/Binaries/Win64/UE4Editor-UdpMessaging.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/ActorSequence/Binaries/Win64/UE4Editor-ActorSequence.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/LevelSequenceEditor/Binaries/Win64/UE4Editor-LevelSequenceEditor.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/MatineeToLevelSequence/Binaries/Win64/UE4Editor-MatineeToLevelSequence.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/NetcodeUnitTest/NetcodeUnitTest/Binaries/Win64/UE4Editor-NetcodeUnitTest.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/NetcodeUnitTest/NUTUnrealEngine4/Binaries/Win64/UE4Editor-NUTUnrealEngine4.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystem/Binaries/Win64/UE4Editor-OnlineSubsystem.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemNull/Binaries/Win64/UE4Editor-OnlineSubsystemNull.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineSubsystemUtils.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineBlueprintSupport.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidDeviceProfileSelector/Binaries/Win64/UE4Editor-AndroidDeviceProfileSelector.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidPermission/Binaries/Win64/UE4Editor-AndroidPermission.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AppleARKit/Binaries/Win64/UE4Editor-AppleARKit.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ArchVisCharacter/Binaries/Win64/UE4Editor-ArchVisCharacter.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AudioCapture/Binaries/Win64/UE4Editor-AudioCapture.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AudioCapture/Binaries/Win64/UE4Editor-AudioCaptureEditor.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CableComponent/Binaries/Win64/UE4Editor-CableComponent.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CustomMeshComponent/Binaries/Win64/UE4Editor-CustomMeshComponent.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ExampleDeviceProfileSelector/Binaries/Win64/UE4Editor-ExampleDeviceProfileSelector.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysics.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysicsEditor.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/LocationServicesBPLibrary/Binaries/Win64/UE4Editor-LocationServicesBPLibrary.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/MobilePatchingUtils/Binaries/Win64/UE4Editor-MobilePatchingUtils.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusHMD.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusInput.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusEditor.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehicles.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehiclesEditor.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponent.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponentEditor.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/RuntimePhysXCooking/Binaries/Win64/UE4Editor-RuntimePhysXCooking.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVR.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVRController.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/WindowsMoviePlayer/Binaries/Win64/UE4Editor-WindowsMoviePlayer.dll (API version 0).
+LogInit: Warning: Incompatible or missing module: UE4Editor-DGame.dll
+Running C:/my_code/UnrealEngine-release/Engine/Binaries/DotNET/UnrealBuildTool.exe DGame Development Win64 -project="E:/ue4/DGame/DGame.uproject" -editorrecompile -progress -NoHotReloadFromIDE
+Creating makefile for DGame (ini files are newer than UBTMakefile)
+@progress push 5%
+@progress pop
+Target is up to date
+Total build time: 12.41 seconds (NoActionsToExecute executor: 0.00 seconds)
+LogModuleManager: Display: Found up-to-date module file E:/ue4/DGame/Binaries/Win64/UE4Editor-DGame.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperTiledImporter.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-SmartSnapping.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Animation/LiveLink/Binaries/Win64/UE4Editor-LiveLink.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Animation/LiveLink/Binaries/Win64/UE4Editor-LiveLinkEditor.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeRuntime.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeEditor.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/CLionSourceCodeAccess/Binaries/Win64/UE4Editor-CLionSourceCodeAccess.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/GitSourceControl/Binaries/Win64/UE4Editor-GitSourceControl.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/PerforceSourceControl/Binaries/Win64/UE4Editor-PerforceSourceControl.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/SubversionSourceControl/Binaries/Win64/UE4Editor-SubversionSourceControl.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/UObjectPlugin/Binaries/Win64/UE4Editor-UObjectPlugin.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioCodeSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioCodeSourceCodeAccess.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioSourceCodeAccess.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AssetManagerEditor/Binaries/Win64/UE4Editor-AssetManagerEditor.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/CryptoKeys/Binaries/Win64/UE4Editor-CryptoKeys.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/CryptoKeys/Binaries/Win64/UE4Editor-CryptoKeysOpenSSL.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/DataValidation/Binaries/Win64/UE4Editor-DataValidation.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimation.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimationEditor.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/GameplayTagsEditor/Binaries/Win64/UE4Editor-GameplayTagsEditor.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/MobileLauncherProfileWizard/Binaries/Win64/UE4Editor-MobileLauncherProfileWizard.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/PluginBrowser/Binaries/Win64/UE4Editor-PluginBrowser.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/SpeedTreeImporter/Binaries/Win64/UE4Editor-SpeedTreeImporter.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Enterprise/DatasmithContent/Binaries/Win64/UE4Editor-DatasmithContent.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicImporter.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicLibrary.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/CharacterAI/Binaries/Win64/UE4Editor-CharacterAI.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/HTML5Networking/Binaries/Win64/UE4Editor-HTML5Networking.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaEditor.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaFactory.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaEditor.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMedia.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaEditor.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-OpenExrWrapper.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/LinearTimecode/Binaries/Win64/UE4Editor-LinearTimecode.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositing.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositingEditor.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaPlayerEditor/Binaries/Win64/UE4Editor-MediaPlayerEditor.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMedia.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaEditor.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/TcpMessaging/Binaries/Win64/UE4Editor-TcpMessaging.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/UdpMessaging/Binaries/Win64/UE4Editor-UdpMessaging.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/ActorSequence/Binaries/Win64/UE4Editor-ActorSequence.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/LevelSequenceEditor/Binaries/Win64/UE4Editor-LevelSequenceEditor.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/MatineeToLevelSequence/Binaries/Win64/UE4Editor-MatineeToLevelSequence.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/NetcodeUnitTest/NetcodeUnitTest/Binaries/Win64/UE4Editor-NetcodeUnitTest.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/NetcodeUnitTest/NUTUnrealEngine4/Binaries/Win64/UE4Editor-NUTUnrealEngine4.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystem/Binaries/Win64/UE4Editor-OnlineSubsystem.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemNull/Binaries/Win64/UE4Editor-OnlineSubsystemNull.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineSubsystemUtils.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineBlueprintSupport.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidDeviceProfileSelector/Binaries/Win64/UE4Editor-AndroidDeviceProfileSelector.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidPermission/Binaries/Win64/UE4Editor-AndroidPermission.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AppleARKit/Binaries/Win64/UE4Editor-AppleARKit.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ArchVisCharacter/Binaries/Win64/UE4Editor-ArchVisCharacter.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AudioCapture/Binaries/Win64/UE4Editor-AudioCapture.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AudioCapture/Binaries/Win64/UE4Editor-AudioCaptureEditor.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CableComponent/Binaries/Win64/UE4Editor-CableComponent.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CustomMeshComponent/Binaries/Win64/UE4Editor-CustomMeshComponent.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ExampleDeviceProfileSelector/Binaries/Win64/UE4Editor-ExampleDeviceProfileSelector.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysics.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysicsEditor.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/LocationServicesBPLibrary/Binaries/Win64/UE4Editor-LocationServicesBPLibrary.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/MobilePatchingUtils/Binaries/Win64/UE4Editor-MobilePatchingUtils.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusHMD.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusInput.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusEditor.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehicles.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehiclesEditor.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponent.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponentEditor.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/RuntimePhysXCooking/Binaries/Win64/UE4Editor-RuntimePhysXCooking.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVR.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVRController.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/WindowsMoviePlayer/Binaries/Win64/UE4Editor-WindowsMoviePlayer.dll (API version 0).
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: WinSock: I am duaduacao-PC0 (10.32.204.62:0)
+LogInit: Build: ++UE4+Release-4.19-CL-0
+LogInit: Engine Version: 4.19.2-0+++UE4+Release-4.19
+LogInit: Compatible Engine Version: 4.19.0-0+++UE4+Release-4.19
+LogInit: Net CL: 0
+LogDevObjectVersion: Number of dev versions registered: 18
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 23
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 33
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 25
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 6
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 1
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 2
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 16
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogInit: Compiled (64-bit): Jun 25 2018 20:26:12
+LogInit: Compiled with Visual C++: 19.14.26431.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.19
+LogInit: Command Line:  -skipcompile
+LogInit: Base Directory: C:/my_code/UnrealEngine-release/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 0
+LogStreaming: Display: Took  0.000s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.07.05-08.27.02:068][  0]LogInit: Selected Device Profile: [Windows]
+[2018.07.05-08.27.02:068][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.07.05-08.27.02:074][  0]LogInit: Computer: duaduacao-PC0
+[2018.07.05-08.27.02:074][  0]LogInit: User: duaduacao
+[2018.07.05-08.27.02:074][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.07.05-08.27.02:074][  0]LogInit: High frequency timer resolution =3.515630 MHz
+[2018.07.05-08.27.02:074][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.07.05-08.27.02:074][  0]LogMemory: Platform Memory Stats for Windows
+[2018.07.05-08.27.02:074][  0]LogMemory: Process Physical Memory: 278.12 MB used, 278.12 MB peak
+[2018.07.05-08.27.02:074][  0]LogMemory: Process Virtual Memory: 265.13 MB used, 265.13 MB peak
+[2018.07.05-08.27.02:074][  0]LogMemory: Physical Memory: 8177.67 MB used,  8134.32 MB free, 16311.99 MB total
+[2018.07.05-08.27.02:074][  0]LogMemory: Virtual Memory: 697.60 MB used,  8134.32 MB free, 134217728.00 MB total
+[2018.07.05-08.27.02:246][  0]LogInit: Using OS detected language (zh-CN).
+[2018.07.05-08.27.02:246][  0]LogInit: Using OS detected locale (zh-CN).
+[2018.07.05-08.27.02:505][  0]LogStreaming: Display: Took  0.259s to EndInitTextLocalization.
+[2018.07.05-08.27.02:505][  0]LogInit: Setting process to per monitor DPI aware
+[2018.07.05-08.27.02:572][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.07.05-08.27.02:572][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.07.05-08.27.02:717][  0]LogD3D11RHI: D3D11 adapters:
+[2018.07.05-08.27.02:988][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 6GB' (Feature Level 11_0)
+[2018.07.05-08.27.02:988][  0]LogD3D11RHI:       6052/0/8155 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.07.05-08.27.03:012][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.07.05-08.27.03:013][  0]LogD3D11RHI:       0/0/8155 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.07.05-08.27.03:013][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.07.05-08.27.03:019][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.07.05-08.27.03:019][  0]LogD3D11RHI:     GPU DeviceId: 0x1c03 (for the marketing name, search the web for "GPU Device Id")
+[2018.07.05-08.27.03:019][  0]LogWindows: EnumDisplayDevices:
+[2018.07.05-08.27.03:020][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 6GB' (P:1 D:1)
+[2018.07.05-08.27.03:020][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2018.07.05-08.27.03:020][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2018.07.05-08.27.03:020][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2018.07.05-08.27.03:021][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2018.07.05-08.27.03:021][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 6GB
+[2018.07.05-08.27.03:021][  0]LogD3D11RHI:   Driver Version: 390.65 (internal:23.21.13.9065, unified:390.65)
+[2018.07.05-08.27.03:021][  0]LogD3D11RHI:      Driver Date: 1-3-2018
+[2018.07.05-08.27.03:021][  0]LogRHI: Texture pool is 4236 MB (70% of 6052 MB)
+[2018.07.05-08.27.03:049][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2018.07.05-08.27.03:049][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2018.07.05-08.27.03:049][  0]LogD3D11RHI: Async texture creation enabled
+[2018.07.05-08.27.03:065][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.07.05-08.27.03:107][  0]LogShaderCompilers: Guid format shader working directory is 38 characters bigger than the processId version (E:/ue4/DGame/Intermediate/Shaders/WorkingDirectory/6936/).
+[2018.07.05-08.27.03:107][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/duaduacao/AppData/Local/Temp/UnrealShaderWorkingDir/A2B2CA044C32F698A81DFA830B5FA350/'.
+[2018.07.05-08.27.03:321][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.07.05-08.27.03:331][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.07.05-08.27.03:342][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.07.05-08.27.03:352][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.07.05-08.27.03:364][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.07.05-08.27.03:375][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.07.05-08.27.03:388][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.07.05-08.27.03:400][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.07.05-08.27.03:406][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.07.05-08.27.03:415][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.07.05-08.27.03:426][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.07.05-08.27.03:435][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.07.05-08.27.03:445][  0]LogTemp: Display: Loaded TP Android_ETC1aTargetPlatform
+[2018.07.05-08.27.03:455][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.07.05-08.27.03:464][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.07.05-08.27.03:484][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.07.05-08.27.03:484][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.07.05-08.27.03:494][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.07.05-08.27.03:497][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.07.05-08.27.03:534][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.07.05-08.27.03:543][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.07.05-08.27.03:543][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.07.05-08.27.03:765][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.07.05-08.27.03:765][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.07.05-08.27.03:765][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.07.05-08.27.04:324][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.07.05-08.27.04:391][  0]LogDerivedDataCache: Loaded boot cache 0.07s 74MB E:/ue4/DGame/DerivedDataCache/Boot.ddc.
+[2018.07.05-08.27.04:391][  0]LogDerivedDataCache: Display: Loaded Boot cache: E:/ue4/DGame/DerivedDataCache/Boot.ddc
+[2018.07.05-08.27.04:391][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file E:/ue4/DGame/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.07.05-08.27.04:391][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.07.05-08.27.04:391][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnginePak pak cache file ../../../Engine/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.07.05-08.27.04:391][  0]LogDerivedDataCache: Unable to find inner node EnginePak for hierarchical cache Hierarchy.
+[2018.07.05-08.27.04:404][  0]LogDerivedDataCache: Using Local data cache path ../../../Engine/DerivedDataCache: Writable
+[2018.07.05-08.27.04:404][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.07.05-08.27.04:404][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.07.05-08.27.04:413][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.07.05-08.27.04:414][  0]LogSlate: Using Freetype 2.6.0
+[2018.07.05-08.27.04:414][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.07.05-08.27.04:414][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.07.05-08.27.04:510][  0]LogAssetRegistry: FAssetRegistry took 0.0235 seconds to start up
+[2018.07.05-08.27.04:741][  0]LogInit: Selected Device Profile: [Windows]
+[2018.07.05-08.27.05:013][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.07.05-08.27.05:013][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.07.05-08.27.05:013][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.07.05-08.27.05:013][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2018.07.05-08.27.05:013][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.07.05-08.27.05:013][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2018.07.05-08.27.05:036][  0]LogNetVersion: DGame , NetCL: 0, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3774009162)
+[2018.07.05-08.27.05:467][  0]LogPackageLocalizationCache: Processed 9 localized package path(s) for 4 prioritized culture(s) in 0.120871 seconds
+[2018.07.05-08.27.05:472][  0]LogUObjectArray: 36684 objects as part of root set at end of initial load.
+[2018.07.05-08.27.05:472][  0]LogUObjectAllocator: 7307408 out of 0 bytes used by permanent object pool.
+[2018.07.05-08.27.05:472][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.07.05-08.27.05:859][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png' error.
+[2018.07.05-08.27.05:859][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png
+[2018.07.05-08.27.05:859][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
+[2018.07.05-08.27.05:859][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
+[2018.07.05-08.27.05:859][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
+[2018.07.05-08.27.05:859][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
+[2018.07.05-08.27.05:859][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png' error.
+[2018.07.05-08.27.05:859][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png
+[2018.07.05-08.27.05:859][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
+[2018.07.05-08.27.05:859][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
+[2018.07.05-08.27.05:859][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
+[2018.07.05-08.27.05:859][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
+[2018.07.05-08.27.05:859][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png' error.
+[2018.07.05-08.27.05:859][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png
+[2018.07.05-08.27.05:859][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
+[2018.07.05-08.27.05:859][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
+[2018.07.05-08.27.05:859][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
+[2018.07.05-08.27.05:859][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
+[2018.07.05-08.27.05:859][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png' error.
+[2018.07.05-08.27.05:859][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png
+[2018.07.05-08.27.05:859][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
+[2018.07.05-08.27.05:859][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
+[2018.07.05-08.27.05:859][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
+[2018.07.05-08.27.05:859][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
+[2018.07.05-08.27.05:860][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_24x.png' error.
+[2018.07.05-08.27.05:860][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_24x.png
+[2018.07.05-08.27.05:860][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png' error.
+[2018.07.05-08.27.05:860][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png
+[2018.07.05-08.27.05:860][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png' error.
+[2018.07.05-08.27.05:860][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png
+[2018.07.05-08.27.05:860][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_24x.png' error.
+[2018.07.05-08.27.05:860][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_24x.png
+[2018.07.05-08.27.05:860][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png' error.
+[2018.07.05-08.27.05:860][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png
+[2018.07.05-08.27.05:860][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png' error.
+[2018.07.05-08.27.05:860][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png
+[2018.07.05-08.27.05:860][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_24x.png' error.
+[2018.07.05-08.27.05:860][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_24x.png
+[2018.07.05-08.27.05:860][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png' error.
+[2018.07.05-08.27.05:860][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png
+[2018.07.05-08.27.05:860][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png' error.
+[2018.07.05-08.27.05:860][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png
+[2018.07.05-08.27.05:860][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_24x.png' error.
+[2018.07.05-08.27.05:860][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_24x.png
+[2018.07.05-08.27.05:860][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png' error.
+[2018.07.05-08.27.05:860][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png
+[2018.07.05-08.27.05:860][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png' error.
+[2018.07.05-08.27.05:860][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png
+[2018.07.05-08.27.05:860][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_24x.png' error.
+[2018.07.05-08.27.05:860][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_24x.png
+[2018.07.05-08.27.05:860][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.07.05-08.27.05:860][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.07.05-08.27.05:861][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.07.05-08.27.05:861][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.07.05-08.27.05:861][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_24x.png' error.
+[2018.07.05-08.27.05:861][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_24x.png
+[2018.07.05-08.27.05:861][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.07.05-08.27.05:861][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.07.05-08.27.05:861][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.07.05-08.27.05:861][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.07.05-08.27.05:861][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ATC_24x.png' error.
+[2018.07.05-08.27.05:861][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ATC_24x.png
+[2018.07.05-08.27.05:861][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.07.05-08.27.05:861][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.07.05-08.27.05:861][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.07.05-08.27.05:861][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.07.05-08.27.05:861][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_DXT_24x.png' error.
+[2018.07.05-08.27.05:861][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_DXT_24x.png
+[2018.07.05-08.27.05:861][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.07.05-08.27.05:861][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.07.05-08.27.05:861][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.07.05-08.27.05:861][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.07.05-08.27.05:861][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC1_24x.png' error.
+[2018.07.05-08.27.05:861][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC1_24x.png
+[2018.07.05-08.27.05:861][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.07.05-08.27.05:861][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.07.05-08.27.05:861][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.07.05-08.27.05:861][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.07.05-08.27.05:861][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC2_24x.png' error.
+[2018.07.05-08.27.05:861][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC2_24x.png
+[2018.07.05-08.27.05:861][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.07.05-08.27.05:861][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.07.05-08.27.05:861][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.07.05-08.27.05:861][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.07.05-08.27.05:861][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC2_24x.png' error.
+[2018.07.05-08.27.05:861][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC2_24x.png
+[2018.07.05-08.27.05:861][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.07.05-08.27.05:861][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.07.05-08.27.05:861][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.07.05-08.27.05:861][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.07.05-08.27.05:861][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_PVRTC_24x.png' error.
+[2018.07.05-08.27.05:861][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_PVRTC_24x.png
+[2018.07.05-08.27.05:861][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.07.05-08.27.05:861][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.07.05-08.27.05:861][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.07.05-08.27.05:861][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.07.05-08.27.05:861][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ASTC_24x.png' error.
+[2018.07.05-08.27.05:861][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ASTC_24x.png
+[2018.07.05-08.27.05:861][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.07.05-08.27.05:861][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.07.05-08.27.05:861][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.07.05-08.27.05:861][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.07.05-08.27.07:066][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.07.05-08.27.07:093][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.07.05-08.27.07:416][  0]SourceControl: 源码控制已禁用
+[2018.07.05-08.27.07:416][  0]SourceControl: 源码控制已禁用
+[2018.07.05-08.27.07:456][  0]SourceControl: 源码控制已禁用
+[2018.07.05-08.27.07:472][  0]SourceControl: 源码控制已禁用
+[2018.07.05-08.27.07:964][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.07.05-08.27.08:119][  0]LogOcInput: OculusInput pre-init called
+[2018.07.05-08.27.08:214][  0]LogEngine: Initializing Engine...
+[2018.07.05-08.27.08:215][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.07.05-08.27.08:216][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.07.05-08.27.08:216][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.07.05-08.27.08:416][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.07.05-08.27.08:429][  0]LogInit: XAudio2 using '扬声器 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.07.05-08.27.08:447][  0]LogInit: FAudioDevice initialized.
+[2018.07.05-08.27.08:652][  0]LogDerivedDataCache: Saved boot cache 0.20s 74MB E:/ue4/DGame/DerivedDataCache/Boot.ddc.
+[2018.07.05-08.27.08:656][  0]LogInit: Texture streaming: Enabled
+[2018.07.05-08.27.08:676][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.07.05-08.27.08:691][  0]LogInit: Transaction tracking system initialized
+[2018.07.05-08.27.08:733][  0]BlueprintLog: New page: 编辑器加载
+[2018.07.05-08.27.08:910][  0]LocalizationService: 本地化服务已被禁用
+[2018.07.05-08.27.09:065][  0]LogConsoleResponse: Display: 
+[2018.07.05-08.27.09:196][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.07.05-08.27.09:196][  0]LogCook: Display: Mobile HDR setting 1
+[2018.07.05-08.27.09:196][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.07.05-08.27.09:196][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.07.05-08.27.09:196][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.07.05-08.27.09:534][  0]LogFileCache: Scanning file cache for directory 'E:/ue4/DGame/Content/' took 0.01s
+[2018.07.05-08.27.09:551][  0]SourceControl: 源码控制已禁用
+[2018.07.05-08.27.09:551][  0]Cmd: MAP LOAD FILE="E:/ue4/DGame/Content/Maps/maps_start.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.07.05-08.27.09:552][  0]LightingResults: New page: 光照构建
+[2018.07.05-08.27.09:554][  0]MapCheck: New page: 地图检测
+[2018.07.05-08.27.09:554][  0]LightingResults: New page: 光照构建
+[2018.07.05-08.27.09:700][  0]LogAIModule: Creating AISystem for world maps_start
+[2018.07.05-08.27.09:704][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.07.05-08.27.09:715][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.07.05-08.27.09:750][  0]MapCheck: 地图检测完成：0个错误，0 个警告，用时35.153毫秒完成。
+[2018.07.05-08.27.09:751][  0]LogFileHelpers: Loading map 'maps_start' took 0.199
+[2018.07.05-08.27.09:897][  0]LogCollectionManager: Loaded 0 collections in 0.001589 seconds
+[2018.07.05-08.27.09:935][  0]LogFileCache: Scanning file cache for directory 'E:/ue4/DGame/Saved/Collections/' took 0.01s
+[2018.07.05-08.27.09:935][  0]LogFileCache: Scanning file cache for directory 'E:/ue4/DGame/Content/Developers/duaduacao/Collections/' took 0.01s
+[2018.07.05-08.27.09:935][  0]LogFileCache: Scanning file cache for directory 'E:/ue4/DGame/Content/Collections/' took 0.01s
+[2018.07.05-08.27.09:935][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.07.05-08.27.09:942][  0]LogContentBrowser: Native class hierarchy populated in 0.0073 seconds. Added 2452 classes and 558 folders.
+[2018.07.05-08.27.09:948][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2018.07.05-08.27.09:977][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2018.07.05-08.27.10:028][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2018.07.05-08.27.10:077][  0]LogSlate: Took 0.000191 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.07.05-08.27.10:081][  0]LogSlate: Took 0.002692 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2018.07.05-08.27.10:082][  0]LogSlate: Took 0.000135 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.07.05-08.27.10:083][  0]LogSlate: Took 0.000124 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.07.05-08.27.10:144][  0]LogRenderer: Reallocating scene render targets to support 860x1084 Format 10 NumSamples 1 (Frame:1).
+[2018.07.05-08.27.10:298][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2018.07.05-08.27.10:298][  0]LogLoad: (Engine Initialization) Total time: 26.48 seconds
+[2018.07.05-08.27.10:298][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.07.05-08.27.10:337][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.07.05-08.27.10:356][  0]LogSlate: Took 0.000152 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.07.05-08.27.10:485][  1]LogAssetRegistry: Asset discovery search completed in 5.9957 seconds
+[2018.07.05-08.27.10:486][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.07.05-08.27.10:486][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000035 seconds (updated 0 objects)
+[2018.07.05-08.27.37:217][184]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.05-08.27.38:550][343]LogLinker: Warning: 无法寻找到文件'/Game/DynamicSwordAnimset/Weapon/Shield_PhysicsAsset'
+[2018.07.05-08.27.38:550][343]LogLinker: Warning: 无法在加载E:/ue4/DGame/Content/Assets/Weapon/Shield.uasset时寻找到资源'/Game/DynamicSwordAnimset/Weapon/Shield_PhysicsAsset'的文件。
+[2018.07.05-08.27.38:550][343]LoadErrors: Error: /Game/Assets/Weapon/Shield : 无法寻找到资源的文件。 /Game/DynamicSwordAnimset/Weapon/Shield_PhysicsAsset
+[2018.07.05-08.27.38:550][343]LogLinker: Warning: 无法寻找到文件'/Game/DynamicSwordAnimset/Weapon/Shield_Skeleton'
+[2018.07.05-08.27.38:550][343]LogLinker: Warning: 无法在加载E:/ue4/DGame/Content/Assets/Weapon/Shield.uasset时寻找到资源'/Game/DynamicSwordAnimset/Weapon/Shield_Skeleton'的文件。
+[2018.07.05-08.27.38:550][343]LoadErrors: Error: /Game/Assets/Weapon/Shield : 无法寻找到资源的文件。 /Game/DynamicSwordAnimset/Weapon/Shield_Skeleton
+[2018.07.05-08.27.38:551][343]LogLinker: Warning: 无法寻找到文件'/Game/DynamicSwordAnimset/Weapon/Shield_PhysicsAsset'
+[2018.07.05-08.27.38:551][343]LogLinker: Warning: 无法在加载E:/ue4/DGame/Content/Assets/Weapon/Shield.uasset时寻找到资源'/Game/DynamicSwordAnimset/Weapon/Shield_PhysicsAsset'的文件。
+[2018.07.05-08.27.38:551][343]LogLinker: Warning: 无法寻找到文件'/Game/DynamicSwordAnimset/Weapon/Shield_Skeleton'
+[2018.07.05-08.27.38:551][343]LogLinker: Warning: 无法在加载E:/ue4/DGame/Content/Assets/Weapon/Shield.uasset时寻找到资源'/Game/DynamicSwordAnimset/Weapon/Shield_Skeleton'的文件。
+[2018.07.05-08.27.38:551][343]LogLinker: Warning: 无法寻找到文件'/Game/DynamicSwordAnimset/Weapon/Shield_Skeleton'
+[2018.07.05-08.27.38:551][343]LoadErrors: 加载失败 /Game/DynamicSwordAnimset/Weapon/Shield_Skeleton.Shield_Skeleton 引用者 Shield
+[2018.07.05-08.27.38:551][343]LogLinker: Warning: 无法在加载NULL时寻找到资源'/Game/DynamicSwordAnimset/Weapon/Shield_Skeleton'的文件。
+[2018.07.05-08.27.38:551][343]LogLinker: Warning: 无法寻找到文件'/Game/DynamicSwordAnimset/Weapon/Shield_PhysicsAsset'
+[2018.07.05-08.27.38:551][343]LoadErrors: 加载失败 /Game/DynamicSwordAnimset/Weapon/Shield_PhysicsAsset.Shield_PhysicsAsset 引用者 Shield
+[2018.07.05-08.27.38:551][343]LogLinker: Warning: 无法在加载NULL时寻找到资源'/Game/DynamicSwordAnimset/Weapon/Shield_PhysicsAsset'的文件。
+[2018.07.05-08.27.38:552][343]LogSkeletalMesh: Building Skeletal Mesh Shield...
+[2018.07.05-08.27.38:552][343]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/Assets/Weapon/Shield.Shield
+[2018.07.05-08.27.38:555][343]LogSlate: Took 0.000150 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.07.05-08.27.40:424][343]LogSlate: Window '信息' being destroyed
+[2018.07.05-08.27.40:449][343]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2018.07.05-08.27.40:560][343]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_0:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.07.05-08.27.40:563][343]LogContentBrowser: Native class hierarchy updated for 'PinnedCommandList' in 0.0004 seconds. Added 1 classes and 0 folders.
+[2018.07.05-08.27.40:774][343]LogSlate: Took 0.000165 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.07.05-08.27.40:847][343]LogContentBrowser: Native class hierarchy updated for 'ClothingSystemEditorInterface' in 0.0004 seconds. Added 1 classes and 0 folders.
+[2018.07.05-08.27.40:856][343]LogRenderer: Reallocating scene render targets to support 984x1084 Format 10 NumSamples 1 (Frame:1).
+[2018.07.05-08.27.42:869][559]LogSlate: Window 'Shield*' being destroyed
+[2018.07.05-08.27.50:518][344]LogSlate: Window 'Delete Assets' being destroyed
+[2018.07.05-08.27.52:707][489]LogSlate: Window 'Delete Assets' being destroyed
+[2018.07.05-08.27.55:012][652]LogSlate: Window 'Delete Assets' being destroyed
+[2018.07.05-08.27.55:317][652]LogSkeletalMesh: Building Skeletal Mesh Shield...
+[2018.07.05-08.27.55:317][652]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/Assets/Weapon/Shield.Shield
+[2018.07.05-08.27.55:374][652]LogAnimation: Warning: SkeletalMesh Shield has no skeleton. This needs to fixed before an animation can be set
+[2018.07.05-08.27.55:375][652]LogAnimation: Warning: SkeletalMesh Shield has no skeleton. This needs to fixed before an animation can be set
+[2018.07.05-08.27.55:391][654]LogAnimation: Warning: SkeletalMesh Shield has no skeleton. This needs to fixed before an animation can be set
+[2018.07.05-08.27.55:399][655]LogAnimation: Warning: SkeletalMesh Shield has no skeleton. This needs to fixed before an animation can be set
+[2018.07.05-08.27.55:407][656]LogAnimation: Warning: SkeletalMesh Shield has no skeleton. This needs to fixed before an animation can be set
+[2018.07.05-08.27.55:415][657]LogAnimation: Warning: SkeletalMesh Shield has no skeleton. This needs to fixed before an animation can be set
+[2018.07.05-08.27.55:424][658]LogAnimation: Warning: SkeletalMesh Shield has no skeleton. This needs to fixed before an animation can be set
+[2018.07.05-08.27.55:432][659]LogAnimation: Warning: SkeletalMesh Shield has no skeleton. This needs to fixed before an animation can be set
+[2018.07.05-08.27.55:440][660]LogAnimation: Warning: SkeletalMesh Shield has no skeleton. This needs to fixed before an animation can be set
+[2018.07.05-08.27.55:448][661]LogAnimation: Warning: SkeletalMesh Shield has no skeleton. This needs to fixed before an animation can be set
+[2018.07.05-08.27.55:457][662]LogAnimation: Warning: SkeletalMesh Shield has no skeleton. This needs to fixed before an animation can be set
+[2018.07.05-08.27.55:465][663]LogAnimation: Warning: SkeletalMesh Shield has no skeleton. This needs to fixed before an animation can be set
+[2018.07.05-08.27.55:473][664]LogAnimation: Warning: SkeletalMesh Shield has no skeleton. This needs to fixed before an animation can be set
+[2018.07.05-08.27.55:482][665]LogAnimation: Warning: SkeletalMesh Shield has no skeleton. This needs to fixed before an animation can be set
+[2018.07.05-08.27.55:491][666]LogAnimation: Warning: SkeletalMesh Shield has no skeleton. This needs to fixed before an animation can be set
+[2018.07.05-08.27.55:499][667]LogAnimation: Warning: SkeletalMesh Shield has no skeleton. This needs to fixed before an animation can be set
+[2018.07.05-08.27.55:507][668]LogAnimation: Warning: SkeletalMesh Shield has no skeleton. This needs to fixed before an animation can be set
+[2018.07.05-08.27.55:516][669]LogAnimation: Warning: SkeletalMesh Shield has no skeleton. This needs to fixed before an animation can be set
+[2018.07.05-08.27.55:524][670]LogAnimation: Warning: SkeletalMesh Shield has no skeleton. This needs to fixed before an animation can be set
+[2018.07.05-08.27.55:532][671]LogAnimation: Warning: SkeletalMesh Shield has no skeleton. This needs to fixed before an animation can be set
+[2018.07.05-08.27.55:541][672]LogAnimation: Warning: SkeletalMesh Shield has no skeleton. This needs to fixed before an animation can be set
+[2018.07.05-08.27.55:549][673]LogAnimation: Warning: SkeletalMesh Shield has no skeleton. This needs to fixed before an animation can be set
+[2018.07.05-08.27.55:557][674]LogAnimation: Warning: SkeletalMesh Shield has no skeleton. This needs to fixed before an animation can be set
+[2018.07.05-08.27.55:566][675]LogAnimation: Warning: SkeletalMesh Shield has no skeleton. This needs to fixed before an animation can be set
+[2018.07.05-08.27.55:574][676]LogAnimation: Warning: SkeletalMesh Shield has no skeleton. This needs to fixed before an animation can be set
+[2018.07.05-08.27.55:582][677]LogAnimation: Warning: SkeletalMesh Shield has no skeleton. This needs to fixed before an animation can be set
+[2018.07.05-08.27.55:590][678]LogAnimation: Warning: SkeletalMesh Shield has no skeleton. This needs to fixed before an animation can be set
+[2018.07.05-08.27.55:599][679]LogAnimation: Warning: SkeletalMesh Shield has no skeleton. This needs to fixed before an animation can be set
+[2018.07.05-08.27.55:607][680]LogAnimation: Warning: SkeletalMesh Shield has no skeleton. This needs to fixed before an animation can be set
+[2018.07.05-08.27.55:615][681]LogAnimation: Warning: SkeletalMesh Shield has no skeleton. This needs to fixed before an animation can be set
+[2018.07.05-08.27.55:699][691]LogAnimation: Warning: SkeletalMesh Shield has no skeleton. This needs to fixed before an animation can be set
+[2018.07.05-08.27.55:707][692]LogAnimation: Warning: SkeletalMesh Shield has no skeleton. This needs to fixed before an animation can be set
+[2018.07.05-08.27.55:715][693]LogAnimation: Warning: SkeletalMesh Shield has no skeleton. This needs to fixed before an animation can be set
+[2018.07.05-08.27.55:724][694]LogAnimation: Warning: SkeletalMesh Shield has no skeleton. This needs to fixed before an animation can be set
+[2018.07.05-08.27.55:732][695]LogAnimation: Warning: SkeletalMesh Shield has no skeleton. This needs to fixed before an animation can be set
+[2018.07.05-08.27.55:740][696]LogAnimation: Warning: SkeletalMesh Shield has no skeleton. This needs to fixed before an animation can be set
+[2018.07.05-08.27.55:749][697]LogAnimation: Warning: SkeletalMesh Shield has no skeleton. This needs to fixed before an animation can be set
+[2018.07.05-08.27.55:757][698]LogAnimation: Warning: SkeletalMesh Shield has no skeleton. This needs to fixed before an animation can be set
+[2018.07.05-08.27.55:765][699]LogAnimation: Warning: SkeletalMesh Shield has no skeleton. This needs to fixed before an animation can be set
+[2018.07.05-08.27.55:775][700]LogAnimation: Warning: SkeletalMesh Shield has no skeleton. This needs to fixed before an animation can be set
+[2018.07.05-08.27.55:782][701]LogAnimation: Warning: SkeletalMesh Shield has no skeleton. This needs to fixed before an animation can be set
+[2018.07.05-08.27.55:791][702]LogAnimation: Warning: SkeletalMesh Shield has no skeleton. This needs to fixed before an animation can be set
+[2018.07.05-08.27.55:799][703]LogAnimation: Warning: SkeletalMesh Shield has no skeleton. This needs to fixed before an animation can be set
+[2018.07.05-08.27.55:807][704]LogAnimation: Warning: SkeletalMesh Shield has no skeleton. This needs to fixed before an animation can be set
+[2018.07.05-08.27.55:815][705]LogAnimation: Warning: SkeletalMesh Shield has no skeleton. This needs to fixed before an animation can be set
+[2018.07.05-08.27.55:824][706]LogAnimation: Warning: SkeletalMesh Shield has no skeleton. This needs to fixed before an animation can be set
+[2018.07.05-08.27.55:832][707]LogAnimation: Warning: SkeletalMesh Shield has no skeleton. This needs to fixed before an animation can be set
+[2018.07.05-08.27.55:840][708]LogAnimation: Warning: SkeletalMesh Shield has no skeleton. This needs to fixed before an animation can be set
+[2018.07.05-08.27.55:849][709]LogAnimation: Warning: SkeletalMesh Shield has no skeleton. This needs to fixed before an animation can be set
+[2018.07.05-08.27.55:858][710]LogAnimation: Warning: SkeletalMesh Shield has no skeleton. This needs to fixed before an animation can be set
+[2018.07.05-08.27.55:866][711]LogAnimation: Warning: SkeletalMesh Shield has no skeleton. This needs to fixed before an animation can be set
+[2018.07.05-08.27.55:874][712]LogAnimation: Warning: SkeletalMesh Shield has no skeleton. This needs to fixed before an animation can be set
+[2018.07.05-08.27.55:882][713]LogAnimation: Warning: SkeletalMesh Shield has no skeleton. This needs to fixed before an animation can be set
+[2018.07.05-08.27.55:891][714]LogAnimation: Warning: SkeletalMesh Shield has no skeleton. This needs to fixed before an animation can be set
+[2018.07.05-08.27.55:899][715]LogAnimation: Warning: SkeletalMesh Shield has no skeleton. This needs to fixed before an animation can be set
+[2018.07.05-08.27.55:907][716]LogAnimation: Warning: SkeletalMesh Shield has no skeleton. This needs to fixed before an animation can be set
+[2018.07.05-08.27.55:916][717]LogAnimation: Warning: SkeletalMesh Shield has no skeleton. This needs to fixed before an animation can be set
+[2018.07.05-08.27.55:924][718]LogAnimation: Warning: SkeletalMesh Shield has no skeleton. This needs to fixed before an animation can be set
+[2018.07.05-08.27.55:932][719]LogAnimation: Warning: SkeletalMesh Shield has no skeleton. This needs to fixed before an animation can be set
+[2018.07.05-08.27.55:941][720]LogAnimation: Warning: SkeletalMesh Shield has no skeleton. This needs to fixed before an animation can be set
+[2018.07.05-08.27.55:949][721]LogAnimation: Warning: SkeletalMesh Shield has no skeleton. This needs to fixed before an animation can be set
+[2018.07.05-08.27.55:957][722]LogAnimation: Warning: SkeletalMesh Shield has no skeleton. This needs to fixed before an animation can be set
+[2018.07.05-08.27.55:965][723]LogAnimation: Warning: SkeletalMesh Shield has no skeleton. This needs to fixed before an animation can be set
+[2018.07.05-08.27.55:974][724]LogAnimation: Warning: SkeletalMesh Shield has no skeleton. This needs to fixed before an animation can be set
+[2018.07.05-08.27.55:982][725]LogAnimation: Warning: SkeletalMesh Shield has no skeleton. This needs to fixed before an animation can be set
+[2018.07.05-08.27.55:991][726]LogAnimation: Warning: SkeletalMesh Shield has no skeleton. This needs to fixed before an animation can be set
+[2018.07.05-08.27.55:999][727]LogAnimation: Warning: SkeletalMesh Shield has no skeleton. This needs to fixed before an animation can be set
+[2018.07.05-08.27.56:007][728]LogAnimation: Warning: SkeletalMesh Shield has no skeleton. This needs to fixed before an animation can be set
+[2018.07.05-08.27.56:016][729]LogAnimation: Warning: SkeletalMesh Shield has no skeleton. This needs to fixed before an animation can be set
+[2018.07.05-08.27.56:024][730]LogAnimation: Warning: SkeletalMesh Shield has no skeleton. This needs to fixed before an animation can be set
+[2018.07.05-08.27.56:032][731]LogAnimation: Warning: SkeletalMesh Shield has no skeleton. This needs to fixed before an animation can be set
+[2018.07.05-08.27.56:041][732]LogAnimation: Warning: SkeletalMesh Shield has no skeleton. This needs to fixed before an animation can be set
+[2018.07.05-08.27.56:049][733]LogAnimation: Warning: SkeletalMesh Shield has no skeleton. This needs to fixed before an animation can be set
+[2018.07.05-08.27.56:060][734]LogAnimation: Warning: SkeletalMesh Shield has no skeleton. This needs to fixed before an animation can be set
+[2018.07.05-08.27.56:068][735]LogAnimation: Warning: SkeletalMesh Shield has no skeleton. This needs to fixed before an animation can be set
+[2018.07.05-08.27.56:075][736]LogAnimation: Warning: SkeletalMesh Shield has no skeleton. This needs to fixed before an animation can be set
+[2018.07.05-08.27.56:084][737]LogAnimation: Warning: SkeletalMesh Shield has no skeleton. This needs to fixed before an animation can be set
+[2018.07.05-08.27.56:092][738]LogAnimation: Warning: SkeletalMesh Shield has no skeleton. This needs to fixed before an animation can be set
+[2018.07.05-08.27.56:100][739]LogAnimation: Warning: SkeletalMesh Shield has no skeleton. This needs to fixed before an animation can be set
+[2018.07.05-08.27.56:109][740]LogAnimation: Warning: SkeletalMesh Shield has no skeleton. This needs to fixed before an animation can be set
+[2018.07.05-08.27.56:118][741]LogAnimation: Warning: SkeletalMesh Shield has no skeleton. This needs to fixed before an animation can be set
+[2018.07.05-08.27.56:125][742]LogAnimation: Warning: SkeletalMesh Shield has no skeleton. This needs to fixed before an animation can be set
+[2018.07.05-08.27.56:134][743]LogAnimation: Warning: SkeletalMesh Shield has no skeleton. This needs to fixed before an animation can be set
+[2018.07.05-08.27.56:142][744]LogAnimation: Warning: SkeletalMesh Shield has no skeleton. This needs to fixed before an animation can be set
+[2018.07.05-08.27.56:150][745]LogAnimation: Warning: SkeletalMesh Shield has no skeleton. This needs to fixed before an animation can be set
+[2018.07.05-08.27.56:158][746]LogAnimation: Warning: SkeletalMesh Shield has no skeleton. This needs to fixed before an animation can be set
+[2018.07.05-08.27.56:167][747]LogAnimation: Warning: SkeletalMesh Shield has no skeleton. This needs to fixed before an animation can be set
+[2018.07.05-08.27.56:175][748]LogAnimation: Warning: SkeletalMesh Shield has no skeleton. This needs to fixed before an animation can be set
+[2018.07.05-08.27.56:183][749]LogAnimation: Warning: SkeletalMesh Shield has no skeleton. This needs to fixed before an animation can be set
+[2018.07.05-08.27.56:192][750]LogAnimation: Warning: SkeletalMesh Shield has no skeleton. This needs to fixed before an animation can be set
+[2018.07.05-08.27.56:200][751]LogAnimation: Warning: SkeletalMesh Shield has no skeleton. This needs to fixed before an animation can be set
+[2018.07.05-08.27.56:208][752]LogAnimation: Warning: SkeletalMesh Shield has no skeleton. This needs to fixed before an animation can be set
+[2018.07.05-08.27.56:216][753]LogAnimation: Warning: SkeletalMesh Shield has no skeleton. This needs to fixed before an animation can be set
+[2018.07.05-08.27.56:226][754]LogAnimation: Warning: SkeletalMesh Shield has no skeleton. This needs to fixed before an animation can be set
+[2018.07.05-08.27.56:234][755]LogAnimation: Warning: SkeletalMesh Shield has no skeleton. This needs to fixed before an animation can be set
+[2018.07.05-08.27.56:242][756]LogAnimation: Warning: SkeletalMesh Shield has no skeleton. This needs to fixed before an animation can be set
+[2018.07.05-08.27.56:250][757]LogAnimation: Warning: SkeletalMesh Shield has no skeleton. This needs to fixed before an animation can be set
+[2018.07.05-08.27.56:350][769]LogAnimation: Warning: SkeletalMesh Shield has no skeleton. This needs to fixed before an animation can be set
+[2018.07.05-08.27.56:358][770]LogAnimation: Warning: SkeletalMesh Shield has no skeleton. This needs to fixed before an animation can be set
+[2018.07.05-08.27.56:367][771]LogAnimation: Warning: SkeletalMesh Shield has no skeleton. This needs to fixed before an animation can be set
+[2018.07.05-08.27.56:375][772]LogAnimation: Warning: SkeletalMesh Shield has no skeleton. This needs to fixed before an animation can be set
+[2018.07.05-08.27.56:383][773]LogAnimation: Warning: SkeletalMesh Shield has no skeleton. This needs to fixed before an animation can be set
+[2018.07.05-08.27.56:391][774]LogAnimation: Warning: SkeletalMesh Shield has no skeleton. This needs to fixed before an animation can be set
+[2018.07.05-08.27.56:400][775]LogAnimation: Warning: SkeletalMesh Shield has no skeleton. This needs to fixed before an animation can be set
+[2018.07.05-08.27.57:514][776]LogSlate: Window '信息' being destroyed
+[2018.07.05-08.27.57:543][776]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.Actor_1.DebugSkelMeshComponent_1) Already registered. Aborting.
+[2018.07.05-08.27.59:368][937]LogSlate: Window 'Shield*' being destroyed
+[2018.07.05-08.28.00:448][ 57]LogLinker: Warning: 无法寻找到文件'/Game/DynamicSwordAnimset/Weapon/Sword_PhysicsAsset'
+[2018.07.05-08.28.00:448][ 57]LogLinker: Warning: 无法在加载E:/ue4/DGame/Content/Assets/Weapon/Sword.uasset时寻找到资源'/Game/DynamicSwordAnimset/Weapon/Sword_PhysicsAsset'的文件。
+[2018.07.05-08.28.00:448][ 57]LoadErrors: Error: /Game/Assets/Weapon/Sword : 无法寻找到资源的文件。 /Game/DynamicSwordAnimset/Weapon/Sword_PhysicsAsset
+[2018.07.05-08.28.00:448][ 57]LogLinker: Warning: 无法寻找到文件'/Game/DynamicSwordAnimset/Weapon/Sword_Skeleton'
+[2018.07.05-08.28.00:448][ 57]LogLinker: Warning: 无法在加载E:/ue4/DGame/Content/Assets/Weapon/Sword.uasset时寻找到资源'/Game/DynamicSwordAnimset/Weapon/Sword_Skeleton'的文件。
+[2018.07.05-08.28.00:448][ 57]LoadErrors: Error: /Game/Assets/Weapon/Sword : 无法寻找到资源的文件。 /Game/DynamicSwordAnimset/Weapon/Sword_Skeleton
+[2018.07.05-08.28.00:449][ 57]LogLinker: Warning: 无法寻找到文件'/Game/DynamicSwordAnimset/Weapon/Sword_PhysicsAsset'
+[2018.07.05-08.28.00:449][ 57]LogLinker: Warning: 无法在加载E:/ue4/DGame/Content/Assets/Weapon/Sword.uasset时寻找到资源'/Game/DynamicSwordAnimset/Weapon/Sword_PhysicsAsset'的文件。
+[2018.07.05-08.28.00:449][ 57]LogLinker: Warning: 无法寻找到文件'/Game/DynamicSwordAnimset/Weapon/Sword_Skeleton'
+[2018.07.05-08.28.00:449][ 57]LogLinker: Warning: 无法在加载E:/ue4/DGame/Content/Assets/Weapon/Sword.uasset时寻找到资源'/Game/DynamicSwordAnimset/Weapon/Sword_Skeleton'的文件。
+[2018.07.05-08.28.00:449][ 57]LogLinker: Warning: 无法寻找到文件'/Game/DynamicSwordAnimset/Weapon/Sword_Skeleton'
+[2018.07.05-08.28.00:449][ 57]LoadErrors: 加载失败 /Game/DynamicSwordAnimset/Weapon/Sword_Skeleton.Sword_Skeleton 引用者 Sword
+[2018.07.05-08.28.00:449][ 57]LogLinker: Warning: 无法在加载NULL时寻找到资源'/Game/DynamicSwordAnimset/Weapon/Sword_Skeleton'的文件。
+[2018.07.05-08.28.00:449][ 57]LogLinker: Warning: 无法寻找到文件'/Game/DynamicSwordAnimset/Weapon/Sword_PhysicsAsset'
+[2018.07.05-08.28.00:449][ 57]LoadErrors: 加载失败 /Game/DynamicSwordAnimset/Weapon/Sword_PhysicsAsset.Sword_PhysicsAsset 引用者 Sword
+[2018.07.05-08.28.00:449][ 57]LogLinker: Warning: 无法在加载NULL时寻找到资源'/Game/DynamicSwordAnimset/Weapon/Sword_PhysicsAsset'的文件。
+[2018.07.05-08.28.00:450][ 57]LogSkeletalMesh: Building Skeletal Mesh Sword...
+[2018.07.05-08.28.00:450][ 57]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/Assets/Weapon/Sword.Sword
+[2018.07.05-08.28.01:420][ 57]LogSlate: Window '信息' being destroyed
+[2018.07.05-08.28.01:437][ 57]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.Actor_2.DebugSkelMeshComponent_2) Already registered. Aborting.
+[2018.07.05-08.28.02:710][174]LogSlate: Window 'Sword*' being destroyed
+[2018.07.05-08.28.03:919][301]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Weapon/Sword_Skeleton" FILE="E:/ue4/DGame/Content/Assets/Weapon/Sword_Skeleton.uasset" SILENT=true
+[2018.07.05-08.28.03:922][301]LogSavePackage: Save=1.53ms
+[2018.07.05-08.28.03:922][301]LogSavePackage: Moving 'E:/ue4/DGame/Saved/Sword_Skeleton6183BC214DD505B0322CA09BE4D1DDBF.tmp' to 'E:/ue4/DGame/Content/Assets/Weapon/Sword_Skeleton.uasset'
+[2018.07.05-08.28.03:924][301]LogSavePackage: Display: Finished SavePackage E:/ue4/DGame/Content/Assets/Weapon/Sword_Skeleton.uasset
+[2018.07.05-08.28.03:927][301]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Weapon/Shield_Skeleton" FILE="E:/ue4/DGame/Content/Assets/Weapon/Shield_Skeleton.uasset" SILENT=true
+[2018.07.05-08.28.03:930][301]LogSavePackage: Save=1.17ms
+[2018.07.05-08.28.03:930][301]LogSavePackage: Moving 'E:/ue4/DGame/Saved/Shield_Skeleton002D630B4CD62610B1BDFD9256265896.tmp' to 'E:/ue4/DGame/Content/Assets/Weapon/Shield_Skeleton.uasset'
+[2018.07.05-08.28.03:932][301]LogSavePackage: Display: Finished SavePackage E:/ue4/DGame/Content/Assets/Weapon/Shield_Skeleton.uasset
+[2018.07.05-08.28.03:946][301]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Weapon/Sword" FILE="E:/ue4/DGame/Content/Assets/Weapon/Sword.uasset" SILENT=true
+[2018.07.05-08.28.03:959][301]LogSavePackage: Save=8.60ms
+[2018.07.05-08.28.03:959][301]LogSavePackage: Moving 'E:/ue4/DGame/Saved/SwordC901E7C44287558B0E02C2A9817F1838.tmp' to 'E:/ue4/DGame/Content/Assets/Weapon/Sword.uasset'
+[2018.07.05-08.28.03:962][301]LogSavePackage: Display: Finished SavePackage E:/ue4/DGame/Content/Assets/Weapon/Sword.uasset
+[2018.07.05-08.28.03:973][301]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Weapon/Shield" FILE="E:/ue4/DGame/Content/Assets/Weapon/Shield.uasset" SILENT=true
+[2018.07.05-08.28.03:985][301]LogSavePackage: Save=7.90ms
+[2018.07.05-08.28.03:985][301]LogSavePackage: Moving 'E:/ue4/DGame/Saved/ShieldFE90AD8E407C44B47D4C609D9B6F7C77.tmp' to 'E:/ue4/DGame/Content/Assets/Weapon/Shield.uasset'
+[2018.07.05-08.28.03:988][301]LogSavePackage: Display: Finished SavePackage E:/ue4/DGame/Content/Assets/Weapon/Shield.uasset
+[2018.07.05-08.28.04:919][405]LogContentBrowser: Native class hierarchy updated for 'PhysicsAssetEditor' in 0.0004 seconds. Added 7 classes and 3 folders.
+[2018.07.05-08.28.04:919][405]LogLinker: Warning: 无法寻找到文件'/Game/DynamicSwordAnimset/Weapon/Shield'
+[2018.07.05-08.28.04:920][405]LogLinker: Warning: 无法寻找到文件'/Game/DynamicSwordAnimset/Weapon/Shield'
+[2018.07.05-08.28.04:922][405]LogUObjectGlobals: Warning: 寻找对象'Object /Game/DynamicSwordAnimset/Weapon/Shield.Shield'失败
+[2018.07.05-08.28.04:923][405]LogSkeletalMesh: Skeletal Mesh found in DDC [0.114347ms] /Engine/EngineMeshes/SkeletalCube.SkeletalCube
+[2018.07.05-08.28.06:037][405]LogSlate: Window '信息' being destroyed
+[2018.07.05-08.28.08:374][405]LogSlate: Window '信息' being destroyed
+[2018.07.05-08.28.08:382][405]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_4:PersistentLevel.Actor_3.PhysicsAssetEditorSkeletalMeshComponent_0'
+[2018.07.05-08.28.08:382][405]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_4:PersistentLevel.Actor_3.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
+[2018.07.05-08.28.08:409][405]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_4:PersistentLevel.Actor_3.PhysicsAssetEditorSkeletalMeshComponent_0'
+[2018.07.05-08.28.08:567][405]LogSlate: Took 0.000134 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.07.05-08.28.08:625][405]LogRenderer: Reallocating scene render targets to support 1104x1084 Format 10 NumSamples 1 (Frame:1).
+[2018.07.05-08.28.26:730][472]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021e50c57178, Size=8, Default__TutorialAnimationBlueprint_C Function /Engine/Tutorial/SubEditors/TutorialAssets/TutorialAnimationBlueprint.TutorialAnimationBlueprint_C:ExecuteUbergraph_TutorialAnimationBlueprint
+[2018.07.05-08.28.26:732][472]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021e50c57178, Size=8
+[2018.07.05-08.28.26:732][472]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021e50c57178, Size=8, Default__TutorialAnimationBlueprint_C Function /Engine/Transient.REINST_TutorialAnimationBlueprint_C_0:ExecuteUbergraph_TutorialAnimationBlueprint
+[2018.07.05-08.28.26:733][472]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021e50c57ea0, Size=8, Default__TutorialAnimationBlueprint_C Function /Engine/Tutorial/SubEditors/TutorialAssets/TutorialAnimationBlueprint.TutorialAnimationBlueprint_C:ExecuteUbergraph_TutorialAnimationBlueprint
+[2018.07.05-08.28.26:767][472]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.Actor_4.DebugSkelMeshComponent_3) Already registered. Aborting.
+[2018.07.05-08.28.26:963][472]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 116 classes and 0 folders.
+[2018.07.05-08.28.27:197][472]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021e1d1a16a0, Size=4, Default__SKEL_PROTO_BP_AnimBlueprint_0_C Function /Engine/Transient.SKEL_PROTO_BP_AnimBlueprint_0_C:ExecuteUbergraph_PROTO_BP_AnimBlueprint_0
+[2018.07.05-08.28.27:197][472]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021e1d1a1698, Size=4, Default__PROTO_BP_AnimBlueprint_0_C Function /Engine/Transient.PROTO_BP_AnimBlueprint_0_C:ExecuteUbergraph_PROTO_BP_AnimBlueprint_0
+[2018.07.05-08.28.29:030][615]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.Actor_5.DebugSkelMeshComponent_5) Already registered. Aborting.
+[2018.07.05-08.28.29:852][681]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_11:PersistentLevel.Actor_6.DebugSkelMeshComponent_6) Already registered. Aborting.
+[2018.07.05-08.28.33:659][ 72]LogSlate: Window 'SkeletalCube_Skeleton*' being destroyed
+[2018.07.05-08.28.37:510][523]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021e50c57178, Size=8
+[2018.07.05-08.28.38:417][523]LogSlate: Window 'Delete Assets' being destroyed
+[2018.07.05-08.28.42:773][919]LogSlate: Window 'Delete Assets' being destroyed
+[2018.07.05-08.28.44:103][ 65]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_12:PersistentLevel.Actor_7.DebugSkelMeshComponent_7) Already registered. Aborting.
+[2018.07.05-08.28.56:578][501]LogSlate: Window 'Shield' being destroyed
+[2018.07.05-08.29.26:284][231]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_13:PersistentLevel.Actor_8.DebugSkelMeshComponent_8) Already registered. Aborting.
+[2018.07.05-08.29.33:281][ 31]LogSlate: Window 'Shield' being destroyed
+[2018.07.05-08.29.37:094][309]LogSlate: Window '保存内容' being destroyed
+[2018.07.05-08.29.37:118][309]Cmd: OBJ SAVEPACKAGE PACKAGE="/Engine/EngineMeshes/SkeletalCube_Skeleton" FILE="../../../Engine/Content/EngineMeshes/SkeletalCube_Skeleton.uasset" SILENT=true
+[2018.07.05-08.29.37:127][309]LogSavePackage: Save=1.33ms
+[2018.07.05-08.29.37:127][309]LogSavePackage: Moving 'E:/ue4/DGame/Saved/SkeletalCube_Skeleton75022100454A289E8894889838FC0F9A.tmp' to '../../../Engine/Content/EngineMeshes/SkeletalCube_Skeleton.uasset'
+[2018.07.05-08.29.37:131][309]LogSavePackage: Display: Finished SavePackage ../../../Engine/Content/EngineMeshes/SkeletalCube_Skeleton.uasset
+[2018.07.05-08.29.39:061][524]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_14:PersistentLevel.Actor_9.DebugSkelMeshComponent_9) Already registered. Aborting.
+[2018.07.05-08.29.44:250][112]LogSkeletalMesh: Building Skeletal Mesh Shield...
+[2018.07.05-08.29.44:250][112]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/Assets/Weapon/Shield.Shield
+[2018.07.05-08.29.44:282][113]LogSkeletalMesh: Skeletal Mesh found in DDC [3.003160ms] /Game/Assets/Character/SK_Mannequin.SK_Mannequin
+[2018.07.05-08.29.56:369][289]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Weapon/Shield" FILE="E:/ue4/DGame/Content/Assets/Weapon/Shield.uasset" SILENT=true
+[2018.07.05-08.29.56:381][289]LogSavePackage: Save=8.10ms
+[2018.07.05-08.29.56:381][289]LogSavePackage: Moving 'E:/ue4/DGame/Saved/Shield88C676D34E49E9EB10D9FAAF2C0E617F.tmp' to 'E:/ue4/DGame/Content/Assets/Weapon/Shield.uasset'
+[2018.07.05-08.29.56:384][289]LogSavePackage: Display: Finished SavePackage E:/ue4/DGame/Content/Assets/Weapon/Shield.uasset
+[2018.07.05-08.30.00:769][787]LogSkeletalMesh: Building Skeletal Mesh Shield...
+[2018.07.05-08.30.00:770][787]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/Assets/Weapon/Shield.Shield
+[2018.07.05-08.30.01:503][869]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Weapon/Shield" FILE="E:/ue4/DGame/Content/Assets/Weapon/Shield.uasset" SILENT=true
+[2018.07.05-08.30.01:515][869]LogSavePackage: Save=8.12ms
+[2018.07.05-08.30.01:516][869]LogSavePackage: Moving 'E:/ue4/DGame/Saved/ShieldB928EC7F4D31DE99EC27788FB8DADD60.tmp' to 'E:/ue4/DGame/Content/Assets/Weapon/Shield.uasset'
+[2018.07.05-08.30.01:518][869]LogSavePackage: Display: Finished SavePackage E:/ue4/DGame/Content/Assets/Weapon/Shield.uasset
+[2018.07.05-08.30.03:297][ 79]LogSlate: Window 'Shield' being destroyed
+[2018.07.05-08.30.03:302][ 79]LogSlate: Window 'Shield' being destroyed
+[2018.07.05-08.30.04:182][171]LogSlate: Window 'DGame - 虚幻编辑器' being destroyed
+[2018.07.05-08.30.04:334][172]Cmd: QUIT_EDITOR
+[2018.07.05-08.30.04:351][172]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2018.07.05-08.30.04:352][172]LogExit: Preparing to exit.
+[2018.07.05-08.30.05:200][172]LogExit: Editor shut down
+[2018.07.05-08.30.05:202][172]LogExit: Transaction tracking system shut down
+[2018.07.05-08.30.05:202][172]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021e50c57ea0, Size=8
+[2018.07.05-08.30.05:205][172]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021e1d1a16a0, Size=4
+[2018.07.05-08.30.05:205][172]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021e1d1a1698, Size=4
+[2018.07.05-08.30.05:328][172]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2018.07.05-08.30.05:329][172]LogDirectoryWatcher: A directory notification for 'E:/ue4/DGame/Content/' was aborted.
+[2018.07.05-08.30.05:329][172]LogDirectoryWatcher: A directory notification for '../../Plugins/2D/Paper2D/Content/' was aborted.
+[2018.07.05-08.30.05:329][172]LogDirectoryWatcher: A directory notification for '../../Plugins/Enterprise/DatasmithContent/Content/' was aborted.
+[2018.07.05-08.30.05:329][172]LogDirectoryWatcher: A directory notification for '../../Plugins/Media/MediaCompositing/Content/' was aborted.
+[2018.07.05-08.30.05:329][172]LogDirectoryWatcher: A directory notification for '../../Plugins/Runtime/AppleARKit/Content/' was aborted.
+[2018.07.05-08.30.05:329][172]LogDirectoryWatcher: A directory notification for '../../Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2018.07.05-08.30.05:329][172]LogDirectoryWatcher: A directory notification for '../../Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2018.07.05-08.30.05:417][172]LogExit: Object subsystem successfully closed.
+[2018.07.05-08.30.05:434][172]LogShaderCompilers: Display: Shaders left to compile 0
+[2018.07.05-08.30.05:436][172]LogD3D11RHI: Shutdown
+[2018.07.05-08.30.05:436][172]LogD3D11RHI: CleanupD3DDevice
+[2018.07.05-08.30.05:439][172]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.07.05-08.30.05:457][172]LogModuleManager: Shutting down and abandoning module BlueprintGraph (576)
+[2018.07.05-08.30.05:457][172]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (574)
+[2018.07.05-08.30.05:457][172]LogModuleManager: Shutting down and abandoning module PhysicsAssetEditor (572)
+[2018.07.05-08.30.05:457][172]LogModuleManager: Shutting down and abandoning module ClothingSystemEditorInterface (570)
+[2018.07.05-08.30.05:458][172]LogModuleManager: Shutting down and abandoning module PinnedCommandList (568)
+[2018.07.05-08.30.05:458][172]LogModuleManager: Shutting down and abandoning module SkeletonEditor (566)
+[2018.07.05-08.30.05:458][172]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (564)
+[2018.07.05-08.30.05:458][172]LogModuleManager: Shutting down and abandoning module SceneOutliner (562)
+[2018.07.05-08.30.05:458][172]LogModuleManager: Shutting down and abandoning module AddContentDialog (560)
+[2018.07.05-08.30.05:458][172]LogDirectoryWatcher: A directory notification for 'C:/my_code/UnrealEngine-release/FeaturePacks/' was aborted.
+[2018.07.05-08.30.05:458][172]LogModuleManager: Shutting down and abandoning module WidgetCarousel (559)
+[2018.07.05-08.30.05:458][172]LogModuleManager: Shutting down and abandoning module EditorWidgets (556)
+[2018.07.05-08.30.05:458][172]LogModuleManager: Shutting down and abandoning module CollectionManager (554)
+[2018.07.05-08.30.05:458][172]LogDirectoryWatcher: A directory notification for 'E:/ue4/DGame/Content/Collections/' was aborted.
+[2018.07.05-08.30.05:458][172]LogDirectoryWatcher: A directory notification for 'E:/ue4/DGame/Content/Developers/duaduacao/Collections/' was aborted.
+[2018.07.05-08.30.05:458][172]LogDirectoryWatcher: A directory notification for 'E:/ue4/DGame/Saved/Collections/' was aborted.
+[2018.07.05-08.30.05:458][172]LogModuleManager: Shutting down and abandoning module StatsViewer (552)
+[2018.07.05-08.30.05:458][172]LogModuleManager: Shutting down and abandoning module FoliageEdit (550)
+[2018.07.05-08.30.05:458][172]LogModuleManager: Shutting down and abandoning module LandscapeEditor (548)
+[2018.07.05-08.30.05:459][172]LogModuleManager: Shutting down and abandoning module MeshPaintMode (546)
+[2018.07.05-08.30.05:459][172]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (544)
+[2018.07.05-08.30.05:459][172]LogModuleManager: Shutting down and abandoning module ActorPickerMode (542)
+[2018.07.05-08.30.05:459][172]LogModuleManager: Shutting down and abandoning module GeometryMode (540)
+[2018.07.05-08.30.05:459][172]LogModuleManager: Shutting down and abandoning module TextureAlignMode (538)
+[2018.07.05-08.30.05:459][172]LogModuleManager: Shutting down and abandoning module BspMode (536)
+[2018.07.05-08.30.05:459][172]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (534)
+[2018.07.05-08.30.05:459][172]LogModuleManager: Shutting down and abandoning module HardwareSurvey (532)
+[2018.07.05-08.30.05:459][172]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (530)
+[2018.07.05-08.30.05:459][172]LogModuleManager: Shutting down and abandoning module AutomationWorker (528)
+[2018.07.05-08.30.05:459][172]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (526)
+[2018.07.05-08.30.05:459][172]LogModuleManager: Shutting down and abandoning module SequenceRecorder (525)
+[2018.07.05-08.30.05:459][172]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (522)
+[2018.07.05-08.30.05:459][172]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (520)
+[2018.07.05-08.30.05:459][172]LogModuleManager: Shutting down and abandoning module PlacementMode (519)
+[2018.07.05-08.30.05:459][172]LogModuleManager: Shutting down and abandoning module MaterialEditor (518)
+[2018.07.05-08.30.05:459][172]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (514)
+[2018.07.05-08.30.05:459][172]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (512)
+[2018.07.05-08.30.05:459][172]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (510)
+[2018.07.05-08.30.05:459][172]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (508)
+[2018.07.05-08.30.05:459][172]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (506)
+[2018.07.05-08.30.05:459][172]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (504)
+[2018.07.05-08.30.05:459][172]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (502)
+[2018.07.05-08.30.05:459][172]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (500)
+[2018.07.05-08.30.05:459][172]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (498)
+[2018.07.05-08.30.05:459][172]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (496)
+[2018.07.05-08.30.05:459][172]LogModuleManager: Shutting down and abandoning module CharacterAI (494)
+[2018.07.05-08.30.05:459][172]LogModuleManager: Shutting down and abandoning module SmartSnapping (492)
+[2018.07.05-08.30.05:459][172]LogModuleManager: Shutting down and abandoning module SessionServices (490)
+[2018.07.05-08.30.05:459][172]LogModuleManager: Shutting down and abandoning module ViewportSnapping (488)
+[2018.07.05-08.30.05:459][172]LogModuleManager: Shutting down and abandoning module ViewportInteraction (486)
+[2018.07.05-08.30.05:459][172]LogModuleManager: Shutting down and abandoning module ClothPainter (484)
+[2018.07.05-08.30.05:459][172]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (483)
+[2018.07.05-08.30.05:459][172]LogModuleManager: Shutting down and abandoning module LogVisualizer (480)
+[2018.07.05-08.30.05:459][172]LogModuleManager: Shutting down and abandoning module IntroTutorials (478)
+[2018.07.05-08.30.05:459][172]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (477)
+[2018.07.05-08.30.05:459][172]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (474)
+[2018.07.05-08.30.05:459][172]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (472)
+[2018.07.05-08.30.05:459][172]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (470)
+[2018.07.05-08.30.05:459][172]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (469)
+[2018.07.05-08.30.06:024][172]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (466)
+[2018.07.05-08.30.06:024][172]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (464)
+[2018.07.05-08.30.06:024][172]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (462)
+[2018.07.05-08.30.06:024][172]LogModuleManager: Shutting down and abandoning module InputBindingEditor (460)
+[2018.07.05-08.30.06:024][172]LogModuleManager: Shutting down and abandoning module MergeActors (458)
+[2018.07.05-08.30.06:024][172]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (456)
+[2018.07.05-08.30.06:024][172]LogModuleManager: Shutting down and abandoning module LocalizationService (455)
+[2018.07.05-08.30.06:024][172]LogModuleManager: Shutting down and abandoning module HardwareTargeting (452)
+[2018.07.05-08.30.06:024][172]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (450)
+[2018.07.05-08.30.06:024][172]LogModuleManager: Shutting down and abandoning module UndoHistory (448)
+[2018.07.05-08.30.06:024][172]LogModuleManager: Shutting down and abandoning module XmlParser (446)
+[2018.07.05-08.30.06:024][172]LogModuleManager: Shutting down and abandoning module Blutility (444)
+[2018.07.05-08.30.06:024][172]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (442)
+[2018.07.05-08.30.06:024][172]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (441)
+[2018.07.05-08.30.06:024][172]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (438)
+[2018.07.05-08.30.06:024][172]LogModuleManager: Shutting down and abandoning module SettingsEditor (436)
+[2018.07.05-08.30.06:024][172]LogModuleManager: Shutting down and abandoning module ProjectLauncher (434)
+[2018.07.05-08.30.06:024][172]LogModuleManager: Shutting down and abandoning module SessionFrontend (432)
+[2018.07.05-08.30.06:024][172]LogModuleManager: Shutting down and abandoning module ProfilerClient (430)
+[2018.07.05-08.30.06:024][172]LogModuleManager: Shutting down and abandoning module DeviceManager (428)
+[2018.07.05-08.30.06:024][172]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (427)
+[2018.07.05-08.30.06:067][172]LogModuleManager: Shutting down and abandoning module AutomationController (424)
+[2018.07.05-08.30.06:067][172]LogModuleManager: Shutting down and abandoning module AutomationWindow (422)
+[2018.07.05-08.30.06:067][172]LogModuleManager: Shutting down and abandoning module Layers (420)
+[2018.07.05-08.30.06:067][172]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (418)
+[2018.07.05-08.30.06:067][172]LogModuleManager: Shutting down and abandoning module DetailCustomizations (416)
+[2018.07.05-08.30.06:067][172]LogModuleManager: Shutting down and abandoning module PackagesDialog (414)
+[2018.07.05-08.30.06:067][172]LogModuleManager: Shutting down and abandoning module Persona (412)
+[2018.07.05-08.30.06:067][172]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (411)
+[2018.07.05-08.30.06:068][172]LogModuleManager: Shutting down and abandoning module AnimGraph (409)
+[2018.07.05-08.30.06:068][172]LogModuleManager: Shutting down and abandoning module Kismet (406)
+[2018.07.05-08.30.06:071][172]LogModuleManager: Shutting down and abandoning module GraphEditor (404)
+[2018.07.05-08.30.06:071][172]LogModuleManager: Shutting down and abandoning module ClassViewer (402)
+[2018.07.05-08.30.06:072][172]LogModuleManager: Shutting down and abandoning module Toolbox (400)
+[2018.07.05-08.30.06:072][172]LogModuleManager: Shutting down and abandoning module ModuleUI (398)
+[2018.07.05-08.30.06:072][172]LogModuleManager: Shutting down and abandoning module MovieSceneTools (396)
+[2018.07.05-08.30.06:072][172]LogModuleManager: Shutting down and abandoning module OutputLog (394)
+[2018.07.05-08.30.06:072][172]LogModuleManager: Shutting down and abandoning module GammaUI (392)
+[2018.07.05-08.30.06:072][172]LogModuleManager: Shutting down and abandoning module Documentation (390)
+[2018.07.05-08.30.06:072][172]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (388)
+[2018.07.05-08.30.06:072][172]LogModuleManager: Shutting down and abandoning module MovieScene (386)
+[2018.07.05-08.30.06:072][172]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (384)
+[2018.07.05-08.30.06:072][172]LogModuleManager: Shutting down and abandoning module LauncherPlatform (382)
+[2018.07.05-08.30.06:072][172]LogModuleManager: Shutting down and abandoning module AnalyticsET (380)
+[2018.07.05-08.30.06:072][172]LogModuleManager: Shutting down and abandoning module PortalServices (378)
+[2018.07.05-08.30.06:072][172]LogModuleManager: Shutting down and abandoning module PortalRpc (376)
+[2018.07.05-08.30.06:072][172]LogModuleManager: Shutting down and abandoning module MessagingRpc (374)
+[2018.07.05-08.30.06:072][172]LogModuleManager: Shutting down and abandoning module AIModule (372)
+[2018.07.05-08.30.06:072][172]LogModuleManager: Shutting down and abandoning module GameplayDebugger (371)
+[2018.07.05-08.30.06:072][172]LogModuleManager: Shutting down and abandoning module AITestSuite (369)
+[2018.07.05-08.30.06:072][172]LogModuleManager: Shutting down and abandoning module ProfilerService (366)
+[2018.07.05-08.30.06:116][172]LogModuleManager: Shutting down and abandoning module TaskGraph (364)
+[2018.07.05-08.30.06:116][172]LogModuleManager: Shutting down and abandoning module SteamVRController (362)
+[2018.07.05-08.30.06:116][172]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (360)
+[2018.07.05-08.30.06:116][172]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (358)
+[2018.07.05-08.30.06:116][172]LogModuleManager: Shutting down and abandoning module OculusInput (356)
+[2018.07.05-08.30.06:116][172]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (354)
+[2018.07.05-08.30.06:116][172]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (352)
+[2018.07.05-08.30.06:116][172]LogModuleManager: Shutting down and abandoning module CableComponent (350)
+[2018.07.05-08.30.06:116][172]LogModuleManager: Shutting down and abandoning module AudioCapture (348)
+[2018.07.05-08.30.06:116][172]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (346)
+[2018.07.05-08.30.06:116][172]LogModuleManager: Shutting down and abandoning module AndroidPermission (344)
+[2018.07.05-08.30.06:116][172]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (340)
+[2018.07.05-08.30.06:116][172]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (338)
+[2018.07.05-08.30.06:116][172]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (336)
+[2018.07.05-08.30.06:116][172]LogModuleManager: Shutting down and abandoning module MediaCompositing (334)
+[2018.07.05-08.30.06:116][172]LogModuleManager: Shutting down and abandoning module LinearTimecode (332)
+[2018.07.05-08.30.06:116][172]LogModuleManager: Shutting down and abandoning module ImgMedia (330)
+[2018.07.05-08.30.06:119][172]LogModuleManager: Shutting down and abandoning module HTML5Networking (328)
+[2018.07.05-08.30.06:119][172]LogModuleManager: Shutting down and abandoning module AlembicImporter (326)
+[2018.07.05-08.30.06:119][172]LogModuleManager: Shutting down and abandoning module AlembicLibrary (325)
+[2018.07.05-08.30.06:119][172]LogModuleManager: Shutting down and abandoning module GeometryCache (324)
+[2018.07.05-08.30.06:119][172]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (323)
+[2018.07.05-08.30.06:119][172]LogModuleManager: Shutting down and abandoning module DatasmithContent (318)
+[2018.07.05-08.30.06:119][172]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (316)
+[2018.07.05-08.30.06:119][172]LogModuleManager: Shutting down and abandoning module PluginBrowser (314)
+[2018.07.05-08.30.06:119][172]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (312)
+[2018.07.05-08.30.06:119][172]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (310)
+[2018.07.05-08.30.06:119][172]LogModuleManager: Shutting down and abandoning module CryptoKeys (308)
+[2018.07.05-08.30.06:119][172]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (306)
+[2018.07.05-08.30.06:119][172]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (304)
+[2018.07.05-08.30.06:119][172]LogModuleManager: Shutting down and abandoning module UObjectPlugin (302)
+[2018.07.05-08.30.06:119][172]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (300)
+[2018.07.05-08.30.06:119][172]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (298)
+[2018.07.05-08.30.06:119][172]LogModuleManager: Shutting down and abandoning module GitSourceControl (296)
+[2018.07.05-08.30.06:119][172]LogModuleManager: Shutting down and abandoning module SourceControl (295)
+[2018.07.05-08.30.06:119][172]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (292)
+[2018.07.05-08.30.06:119][172]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (290)
+[2018.07.05-08.30.06:119][172]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (288)
+[2018.07.05-08.30.06:119][172]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (286)
+[2018.07.05-08.30.06:119][172]LogModuleManager: Shutting down and abandoning module Paper2DEditor (284)
+[2018.07.05-08.30.06:119][172]LogModuleManager: Shutting down and abandoning module MeshPaint (283)
+[2018.07.05-08.30.06:119][172]LogModuleManager: Shutting down and abandoning module DGame (280)
+[2018.07.05-08.30.06:119][172]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (278)
+[2018.07.05-08.30.06:119][172]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (276)
+[2018.07.05-08.30.06:119][172]LogModuleManager: Shutting down and abandoning module PhysXVehicles (274)
+[2018.07.05-08.30.06:119][172]LogModuleManager: Shutting down and abandoning module OculusEditor (272)
+[2018.07.05-08.30.06:120][172]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (270)
+[2018.07.05-08.30.06:120][172]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (268)
+[2018.07.05-08.30.06:120][172]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (266)
+[2018.07.05-08.30.06:120][172]LogModuleManager: Shutting down and abandoning module ActorSequence (264)
+[2018.07.05-08.30.06:120][172]LogModuleManager: Shutting down and abandoning module UdpMessaging (262)
+[2018.07.05-08.30.06:221][172]LogModuleManager: Shutting down and abandoning module TcpMessaging (260)
+[2018.07.05-08.30.06:321][172]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (258)
+[2018.07.05-08.30.06:321][172]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (256)
+[2018.07.05-08.30.06:321][172]LogModuleManager: Shutting down and abandoning module FacialAnimation (254)
+[2018.07.05-08.30.06:321][172]LogModuleManager: Shutting down and abandoning module DataValidation (252)
+[2018.07.05-08.30.06:321][172]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (250)
+[2018.07.05-08.30.06:321][172]LogModuleManager: Shutting down and abandoning module LevelEditor (249)
+[2018.07.05-08.30.06:322][172]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (248)
+[2018.07.05-08.30.06:322][172]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (246)
+[2018.07.05-08.30.06:322][172]LogModuleManager: Shutting down and abandoning module MainFrame (244)
+[2018.07.05-08.30.06:322][172]LogModuleManager: Shutting down and abandoning module HotReload (243)
+[2018.07.05-08.30.06:322][172]LogDirectoryWatcher: A directory notification for 'E:/ue4/DGame/Binaries/Win64' was aborted.
+[2018.07.05-08.30.06:323][172]LogModuleManager: Shutting down and abandoning module ContentBrowser (239)
+[2018.07.05-08.30.06:324][172]LogModuleManager: Shutting down and abandoning module TreeMap (237)
+[2018.07.05-08.30.06:324][172]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (234)
+[2018.07.05-08.30.06:324][172]LogModuleManager: Shutting down and abandoning module LiveLinkEditor (232)
+[2018.07.05-08.30.06:324][172]LogModuleManager: Shutting down and abandoning module LiveLink (230)
+[2018.07.05-08.30.06:723][172]LogModuleManager: Shutting down and abandoning module Paper2D (228)
+[2018.07.05-08.30.06:723][172]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (226)
+[2018.07.05-08.30.06:723][172]LogModuleManager: Shutting down and abandoning module WmfMedia (224)
+[2018.07.05-08.30.06:723][172]LogModuleManager: Shutting down and abandoning module Media (223)
+[2018.07.05-08.30.06:730][172]LogModuleManager: Shutting down and abandoning module PacketHandler (220)
+[2018.07.05-08.30.06:730][172]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (218)
+[2018.07.05-08.30.06:730][172]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (216)
+[2018.07.05-08.30.06:730][172]LogModuleManager: Shutting down and abandoning module MediaAssets (214)
+[2018.07.05-08.30.06:730][172]LogModuleManager: Shutting down and abandoning module Overlay (212)
+[2018.07.05-08.30.06:730][172]LogModuleManager: Shutting down and abandoning module OverlayEditor (211)
+[2018.07.05-08.30.06:730][172]LogModuleManager: Shutting down and abandoning module VREditor (208)
+[2018.07.05-08.30.06:730][172]LogModuleManager: Shutting down and abandoning module StringTableEditor (206)
+[2018.07.05-08.30.06:730][172]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (204)
+[2018.07.05-08.30.06:730][172]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (202)
+[2018.07.05-08.30.06:730][172]LogModuleManager: Shutting down and abandoning module FunctionalTesting (200)
+[2018.07.05-08.30.06:730][172]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (198)
+[2018.07.05-08.30.06:730][172]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (197)
+[2018.07.05-08.30.06:730][172]LogModuleManager: Shutting down and abandoning module UMG (194)
+[2018.07.05-08.30.06:730][172]LogModuleManager: Shutting down and abandoning module UMGEditor (193)
+[2018.07.05-08.30.06:730][172]LogModuleManager: Shutting down and abandoning module Sequencer (192)
+[2018.07.05-08.30.06:730][172]LogModuleManager: Shutting down and abandoning module MessageLog (189)
+[2018.07.05-08.30.06:730][172]LogModuleManager: Shutting down and abandoning module SlateReflector (184)
+[2018.07.05-08.30.06:730][172]LogModuleManager: Shutting down and abandoning module Slate (182)
+[2018.07.05-08.30.06:730][172]LogModuleManager: Shutting down and abandoning module EditorStyle (180)
+[2018.07.05-08.30.06:732][172]LogModuleManager: Shutting down and abandoning module MRMesh (178)
+[2018.07.05-08.30.06:732][172]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (176)
+[2018.07.05-08.30.06:732][172]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (174)
+[2018.07.05-08.30.06:732][172]LogModuleManager: Shutting down and abandoning module XAudio2 (172)
+[2018.07.05-08.30.06:732][172]LogModuleManager: Shutting down and abandoning module Networking (170)
+[2018.07.05-08.30.06:732][172]LogModuleManager: Shutting down and abandoning module Core (168)
+[2018.07.05-08.30.06:732][172]LogModuleManager: Shutting down and abandoning module LevelSequence (166)
+[2018.07.05-08.30.06:732][172]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
+[2018.07.05-08.30.06:732][172]LogModuleManager: Shutting down and abandoning module MeshUtilities (162)
+[2018.07.05-08.30.06:732][172]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (161)
+[2018.07.05-08.30.06:732][172]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (160)
+[2018.07.05-08.30.06:732][172]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (159)
+[2018.07.05-08.30.06:732][172]LogModuleManager: Shutting down and abandoning module MaterialBaking (155)
+[2018.07.05-08.30.06:732][172]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (151)
+[2018.07.05-08.30.06:733][172]LogModuleManager: Shutting down and abandoning module DerivedDataCache (148)
+[2018.07.05-08.30.06:808][172]LogDerivedDataCache: Shutdown
+[2018.07.05-08.30.06:808][172]LogModuleManager: Shutting down and abandoning module XGEController (146)
+[2018.07.05-08.30.06:808][172]LogModuleManager: Shutting down and abandoning module TargetPlatform (144)
+[2018.07.05-08.30.06:808][172]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (143)
+[2018.07.05-08.30.06:808][172]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (141)
+[2018.07.05-08.30.06:808][172]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (139)
+[2018.07.05-08.30.06:808][172]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (137)
+[2018.07.05-08.30.06:808][172]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (135)
+[2018.07.05-08.30.06:808][172]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (133)
+[2018.07.05-08.30.06:808][172]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (131)
+[2018.07.05-08.30.06:808][172]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (129)
+[2018.07.05-08.30.06:808][172]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (127)
+[2018.07.05-08.30.06:808][172]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (125)
+[2018.07.05-08.30.06:809][172]LogModuleManager: Shutting down and abandoning module ImageWrapper (124)
+[2018.07.05-08.30.06:809][172]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (121)
+[2018.07.05-08.30.06:809][172]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (119)
+[2018.07.05-08.30.06:809][172]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (117)
+[2018.07.05-08.30.06:809][172]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (115)
+[2018.07.05-08.30.06:809][172]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (113)
+[2018.07.05-08.30.06:809][172]LogModuleManager: Shutting down and abandoning module Messaging (111)
+[2018.07.05-08.30.06:809][172]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (109)
+[2018.07.05-08.30.06:809][172]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (107)
+[2018.07.05-08.30.06:809][172]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (105)
+[2018.07.05-08.30.06:809][172]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (103)
+[2018.07.05-08.30.06:809][172]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (101)
+[2018.07.05-08.30.06:809][172]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (99)
+[2018.07.05-08.30.06:809][172]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (97)
+[2018.07.05-08.30.06:809][172]LogModuleManager: Shutting down and abandoning module Android_ETC1aTargetPlatform (95)
+[2018.07.05-08.30.06:809][172]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (93)
+[2018.07.05-08.30.06:809][172]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (91)
+[2018.07.05-08.30.06:809][172]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (89)
+[2018.07.05-08.30.06:809][172]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (87)
+[2018.07.05-08.30.06:809][172]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (85)
+[2018.07.05-08.30.06:809][172]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (83)
+[2018.07.05-08.30.06:809][172]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (81)
+[2018.07.05-08.30.06:809][172]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (79)
+[2018.07.05-08.30.06:809][172]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (77)
+[2018.07.05-08.30.06:809][172]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (75)
+[2018.07.05-08.30.06:809][172]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (73)
+[2018.07.05-08.30.06:809][172]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (71)
+[2018.07.05-08.30.06:809][172]LogModuleManager: Shutting down and abandoning module InputCore (68)
+[2018.07.05-08.30.06:809][172]LogModuleManager: Shutting down and abandoning module Settings (66)
+[2018.07.05-08.30.06:809][172]LogModuleManager: Shutting down and abandoning module PhysXCooking (64)
+[2018.07.05-08.30.06:809][172]LogModuleManager: Shutting down and abandoning module SteamVR (62)
+[2018.07.05-08.30.06:809][172]LogModuleManager: Shutting down and abandoning module OculusHMD (60)
+[2018.07.05-08.30.06:809][172]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (58)
+[2018.07.05-08.30.06:809][172]LogModuleManager: Shutting down and abandoning module AppleARKit (56)
+[2018.07.05-08.30.06:809][172]LogModuleManager: Shutting down and abandoning module AugmentedReality (53)
+[2018.07.05-08.30.06:809][172]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (50)
+[2018.07.05-08.30.06:809][172]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (46)
+[2018.07.05-08.30.06:809][172]LogModuleManager: Shutting down and abandoning module XMPP (45)
+[2018.07.05-08.30.06:809][172]LogModuleManager: Shutting down and abandoning module HTTP (43)
+[2018.07.05-08.30.06:809][172]LogHttp: Display: Http module shutting down, but needs to wait on 3 outstanding Http requests:
+[2018.07.05-08.30.06:809][172]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BED0C0FFF-4063-B55B-39E3-249A77A286C9%7D&AppID=UEEditor.UnrealEngine.Release&AppVersion=4.19.2-0%2B%2B%2BUE4%2BRelease-4.19&UserID=5a18308d4dbc22491a6528b3ceec25b2%7C321d150c1ad4465ea32ff383fcd85ca6%7Cb9abf892-6297-4ebe-a44c-32437dec0ee3&AppEnvironment=datacollector-source&UploadType=eteventstream] status=Processing
+[2018.07.05-08.30.06:809][172]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BED0C0FFF-4063-B55B-39E3-249A77A286C9%7D&AppID=UEEditor.UnrealEngine.Release&AppVersion=4.19.2-0%2B%2B%2BUE4%2BRelease-4.19&UserID=5a18308d4dbc22491a6528b3ceec25b2%7C321d150c1ad4465ea32ff383fcd85ca6%7Cb9abf892-6297-4ebe-a44c-32437dec0ee3&AppEnvironment=datacollector-source&UploadType=eteventstream] status=Processing
+[2018.07.05-08.30.06:809][172]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BED0C0FFF-4063-B55B-39E3-249A77A286C9%7D&AppID=UEEditor.UnrealEngine.Release&AppVersion=4.19.2-0%2B%2B%2BUE4%2BRelease-4.19&UserID=5a18308d4dbc22491a6528b3ceec25b2%7C321d150c1ad4465ea32ff383fcd85ca6%7Cb9abf892-6297-4ebe-a44c-32437dec0ee3&AppEnvironment=datacollector-source&UploadType=eteventstream] status=Processing
+[2018.07.05-08.30.06:809][172]LogHttp: Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.07.05-08.30.07:310][172]LogHttp: Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.07.05-08.30.07:810][172]LogHttp: Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.07.05-08.30.08:311][172]LogHttp: Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.07.05-08.30.08:811][172]LogHttp: Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.07.05-08.30.09:311][172]LogHttp: Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.07.05-08.30.09:811][172]LogHttp: Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.07.05-08.30.10:312][172]LogHttp: Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.07.05-08.30.10:812][172]LogHttp: Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.07.05-08.30.11:313][172]LogHttp: Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.07.05-08.30.11:813][172]LogHttp: Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.07.05-08.30.12:313][172]LogHttp: Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.07.05-08.30.12:814][172]LogHttp: Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.07.05-08.30.13:314][172]LogHttp: Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.07.05-08.30.13:814][172]LogHttp: Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.07.05-08.30.14:315][172]LogHttp: Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.07.05-08.30.14:815][172]LogHttp: Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.07.05-08.30.15:315][172]LogHttp: Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.07.05-08.30.15:816][172]LogHttp: Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.07.05-08.30.16:316][172]LogHttp: Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.07.05-08.30.16:816][172]LogHttp: Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.07.05-08.30.17:317][172]LogHttp: Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.07.05-08.30.17:817][172]LogHttp: Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.07.05-08.30.18:317][172]LogHttp: Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.07.05-08.30.18:818][172]LogHttp: Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.07.05-08.30.19:319][172]LogHttp: Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.07.05-08.30.19:819][172]LogHttp: Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.07.05-08.30.20:320][172]LogHttp: Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.07.05-08.30.20:820][172]LogHttp: Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.07.05-08.30.21:320][172]LogHttp: Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.07.05-08.30.21:820][172]LogHttp: Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.07.05-08.30.22:321][172]LogHttp: Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.07.05-08.30.22:821][172]LogHttp: Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.07.05-08.30.23:321][172]LogHttp: Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.07.05-08.30.23:822][172]LogHttp: Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.07.05-08.30.24:322][172]LogHttp: Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.07.05-08.30.24:822][172]LogHttp: Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.07.05-08.30.25:322][172]LogHttp: Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.07.05-08.30.25:823][172]LogHttp: Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.07.05-08.30.26:323][172]LogHttp: Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.07.05-08.30.26:823][172]LogHttp: Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.07.05-08.30.27:324][172]LogHttp: Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.07.05-08.30.27:824][172]LogHttp: Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.07.05-08.30.28:324][172]LogHttp: Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.07.05-08.30.28:825][172]LogHttp: Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.07.05-08.30.29:325][172]LogHttp: Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.07.05-08.30.29:826][172]LogHttp: Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.07.05-08.30.30:327][172]LogHttp: Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.07.05-08.30.30:827][172]LogHttp: Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.07.05-08.30.31:327][172]LogHttp: Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.07.05-08.30.31:828][172]LogHttp: Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.07.05-08.30.32:329][172]LogHttp: Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.07.05-08.30.32:829][172]LogHttp: Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.07.05-08.30.33:329][172]LogHttp: Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.07.05-08.30.33:830][172]LogHttp: Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.07.05-08.30.34:330][172]LogHttp: Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.07.05-08.30.34:830][172]LogHttp: Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.07.05-08.30.35:331][172]LogHttp: Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.07.05-08.30.35:831][172]LogHttp: Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.07.05-08.30.36:332][172]LogHttp: Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.07.05-08.30.36:832][172]LogHttp: Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.07.05-08.30.37:333][172]LogHttp: Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.07.05-08.30.37:833][172]LogHttp: Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.07.05-08.30.38:334][172]LogHttp: Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.07.05-08.30.38:834][172]LogHttp: Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.07.05-08.30.39:334][172]LogHttp: Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.07.05-08.30.39:835][172]LogHttp: Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.07.05-08.30.40:335][172]LogHttp: Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.07.05-08.30.40:835][172]LogHttp: Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.07.05-08.30.41:336][172]LogHttp: Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.07.05-08.30.41:836][172]LogHttp: Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.07.05-08.30.42:336][172]LogHttp: Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.07.05-08.30.42:837][172]LogHttp: Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.07.05-08.30.43:337][172]LogHttp: Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.07.05-08.30.43:837][172]LogHttp: Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.07.05-08.30.44:338][172]LogHttp: Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.07.05-08.30.44:838][172]LogHttp: Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.07.05-08.30.45:338][172]LogHttp: Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.07.05-08.30.45:839][172]LogHttp: Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.07.05-08.30.46:339][172]LogHttp: Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.07.05-08.30.46:840][172]LogHttp: Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.07.05-08.30.47:340][172]LogHttp: Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.07.05-08.30.47:840][172]LogHttp: Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.07.05-08.30.48:341][172]LogHttp: Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.07.05-08.30.48:841][172]LogHttp: Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.07.05-08.30.49:341][172]LogHttp: Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.07.05-08.30.49:842][172]LogHttp: Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.07.05-08.30.50:342][172]LogHttp: Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.07.05-08.30.50:842][172]LogHttp: Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.07.05-08.30.51:343][172]LogHttp: Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.07.05-08.30.51:844][172]LogHttp: Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.07.05-08.30.52:344][172]LogHttp: Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.07.05-08.30.52:845][172]LogHttp: Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.07.05-08.30.53:346][172]LogHttp: Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.07.05-08.30.53:846][172]LogHttp: Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.07.05-08.30.54:346][172]LogHttp: Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.07.05-08.30.54:847][172]LogHttp: Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.07.05-08.30.55:347][172]LogHttp: Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.07.05-08.30.55:847][172]LogHttp: Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.07.05-08.30.56:348][172]LogHttp: Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.07.05-08.30.56:849][172]LogHttp: Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.07.05-08.30.57:349][172]LogHttp: Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.07.05-08.30.57:849][172]LogHttp: Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.07.05-08.30.58:350][172]LogHttp: Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.07.05-08.30.58:850][172]LogHttp: Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.07.05-08.30.59:350][172]LogHttp: Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.07.05-08.30.59:851][172]LogHttp: Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.07.05-08.31.00:351][172]LogHttp: Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.07.05-08.31.00:851][172]LogHttp: Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.07.05-08.31.01:352][172]LogHttp: Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.07.05-08.31.01:852][172]LogHttp: Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.07.05-08.31.02:352][172]LogHttp: Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.07.05-08.31.02:853][172]LogHttp: Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.07.05-08.31.03:353][172]LogHttp: Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.07.05-08.31.03:853][172]LogHttp: Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.07.05-08.31.04:353][172]LogHttp: Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.07.05-08.31.04:854][172]LogHttp: Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.07.05-08.31.05:354][172]LogHttp: Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.07.05-08.31.05:854][172]LogHttp: Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.07.05-08.31.06:355][172]LogHttp: Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.07.05-08.31.06:855][172]LogHttp: Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.07.05-08.31.07:355][172]LogHttp: Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.07.05-08.31.07:856][172]LogHttp: Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.07.05-08.31.08:356][172]LogHttp: Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.07.05-08.31.08:856][172]LogHttp: Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.07.05-08.31.09:357][172]LogHttp: Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.07.05-08.31.09:858][172]LogHttp: Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.07.05-08.31.10:358][172]LogHttp: Warning: 0000021E8F68B400: HTTP request timed out after 180.00 seconds URL=https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BED0C0FFF-4063-B55B-39E3-249A77A286C9%7D&AppID=UEEditor.UnrealEngine.Release&AppVersion=4.19.2-0%2B%2B%2BUE4%2BRelease-4.19&UserID=5a18308d4dbc22491a6528b3ceec25b2%7C321d150c1ad4465ea32ff383fcd85ca6%7Cb9abf892-6297-4ebe-a44c-32437dec0ee3&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2018.07.05-08.31.10:358][172]LogHttp: Warning: 0000021E8F68B400: request failed, libcurl error: 0 (No error)
+[2018.07.05-08.31.10:358][172]LogHttp: Warning: 0000021E8F68B400: libcurl info message cache 0 (  Trying 35.153.13.89...)
+[2018.07.05-08.31.10:358][172]LogHttp: Warning: 0000021E8F68B400: libcurl info message cache 1 (connect to 35.153.13.89 port 443 failed: Timed out)
+[2018.07.05-08.31.10:358][172]LogHttp: Warning: 0000021E8F68B400: libcurl info message cache 2 (  Trying 35.169.42.52...)
+[2018.07.05-08.31.10:358][172]LogHttp: Warning: 0000021E8F68B400: libcurl info message cache 3 (connect to 35.169.42.52 port 443 failed: Timed out)
+[2018.07.05-08.31.10:358][172]LogHttp: Warning: 0000021E8F68B400: libcurl info message cache 4 (  Trying 35.153.123.226...)
+[2018.07.05-08.31.10:358][172]LogHttp: Warning: 0000021E8F68B400: libcurl info message cache 5 (connect to 35.153.123.226 port 443 failed: Timed out)
+[2018.07.05-08.31.10:358][172]LogHttp: Warning: 0000021E8F68B400: libcurl info message cache 6 (  Trying 35.153.94.250...)
+[2018.07.05-08.31.10:358][172]LogHttp: Warning: 0000021E8F68B400: libcurl info message cache 7 (connect to 35.153.94.250 port 443 failed: Timed out)
+[2018.07.05-08.31.10:358][172]LogHttp: Warning: 0000021E8F68B400: libcurl info message cache 8 (  Trying 34.239.217.69...)
+[2018.07.05-08.31.10:358][172]LogHttp: Warning: 0000021E8F68B400: libcurl info message cache 9 (connect to 34.239.217.69 port 443 failed: Timed out)
+[2018.07.05-08.31.10:358][172]LogHttp: Warning: 0000021E8F68B400: libcurl info message cache 10 (  Trying 35.169.90.239...)
+[2018.07.05-08.31.10:358][172]LogHttp: Warning: 0000021E8F68B400: libcurl info message cache 11 (connect to 35.169.90.239 port 443 failed: Timed out)
+[2018.07.05-08.31.10:358][172]LogHttp: Warning: 0000021E8F68B400: libcurl info message cache 12 (  Trying 35.153.29.57...)
+[2018.07.05-08.31.10:358][172]LogHttp: Warning: 0000021E8F68B400: libcurl info message cache 13 (connect to 35.153.29.57 port 443 failed: Timed out)
+[2018.07.05-08.31.10:358][172]LogHttp: Warning: 0000021E8F68B400: libcurl info message cache 14 (  Trying 35.168.132.219...)
+[2018.07.05-08.31.10:358][172]LogHttp: Warning: 0000021E8F68B400: libcurl info message cache 15 (connect to 35.168.132.219 port 443 failed: Timed out)
+[2018.07.05-08.31.10:358][172]LogHttp: Warning: 0000021E8F68B400: libcurl info message cache 16 (  Trying 35.153.13.89...)
+[2018.07.05-08.31.10:358][172]LogHttp: Warning: 0000021E8F68B400: libcurl info message cache 17 (Closing connection 0)
+[2018.07.05-08.31.10:358][172]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.05-08.31.10:859][172]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.05-08.31.11:359][172]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.05-08.31.11:860][172]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.05-08.31.12:360][172]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.05-08.31.12:860][172]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.05-08.31.13:360][172]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.05-08.31.13:861][172]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.05-08.31.14:361][172]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.05-08.31.14:861][172]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.05-08.31.15:362][172]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.05-08.31.15:862][172]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.05-08.31.16:363][172]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.05-08.31.16:863][172]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.05-08.31.17:363][172]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.05-08.31.17:864][172]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.05-08.31.18:364][172]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.05-08.31.18:864][172]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.05-08.31.19:365][172]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.05-08.31.19:865][172]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.05-08.31.20:365][172]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.05-08.31.20:866][172]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.05-08.31.21:366][172]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.05-08.31.21:867][172]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.05-08.31.22:367][172]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.05-08.31.22:867][172]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.05-08.31.23:368][172]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.05-08.31.23:869][172]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.05-08.31.24:369][172]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.05-08.31.24:870][172]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.05-08.31.25:370][172]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.05-08.31.25:870][172]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.05-08.31.26:371][172]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.05-08.31.26:871][172]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.05-08.31.27:372][172]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.05-08.31.27:873][172]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.05-08.31.28:373][172]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.05-08.31.28:874][172]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.05-08.31.29:375][172]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.05-08.31.29:875][172]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.05-08.31.30:376][172]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.05-08.31.30:877][172]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.05-08.31.31:378][172]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.05-08.31.31:879][172]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.05-08.31.32:379][172]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.05-08.31.32:879][172]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.05-08.31.33:380][172]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.05-08.31.33:881][172]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.05-08.31.34:381][172]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.05-08.31.34:882][172]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.05-08.31.35:382][172]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.05-08.31.35:882][172]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.05-08.31.36:383][172]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.05-08.31.36:883][172]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.05-08.31.37:384][172]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.05-08.31.37:884][172]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.05-08.31.38:384][172]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.05-08.31.38:884][172]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.05-08.31.39:385][172]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.05-08.31.39:885][172]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.05-08.31.40:385][172]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.05-08.31.40:886][172]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.05-08.31.41:386][172]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.05-08.31.41:887][172]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.05-08.31.42:387][172]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.05-08.31.42:888][172]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.05-08.31.43:388][172]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.05-08.31.43:889][172]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.05-08.31.44:389][172]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.05-08.31.44:890][172]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.05-08.31.45:390][172]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.05-08.31.45:891][172]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.05-08.31.46:391][172]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.05-08.31.46:891][172]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.05-08.31.47:392][172]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.05-08.31.47:892][172]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.05-08.31.48:392][172]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.05-08.31.48:892][172]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.05-08.31.49:393][172]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.05-08.31.49:893][172]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.05-08.31.50:393][172]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.05-08.31.50:894][172]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.05-08.31.51:394][172]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.05-08.31.51:894][172]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.05-08.31.52:395][172]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.05-08.31.52:895][172]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.05-08.31.53:395][172]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.05-08.31.53:896][172]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.05-08.31.54:396][172]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.05-08.31.54:896][172]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.05-08.31.55:397][172]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.05-08.31.55:897][172]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.05-08.31.56:397][172]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.05-08.31.56:898][172]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.05-08.31.57:399][172]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.05-08.31.57:899][172]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.05-08.31.58:400][172]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.05-08.31.58:900][172]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.05-08.31.59:400][172]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.05-08.31.59:901][172]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.05-08.32.00:401][172]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.05-08.32.00:901][172]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.05-08.32.01:402][172]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.05-08.32.01:902][172]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.05-08.32.02:403][172]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.05-08.32.02:903][172]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.05-08.32.03:404][172]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.05-08.32.03:904][172]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.05-08.32.04:405][172]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.05-08.32.04:905][172]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.05-08.32.05:405][172]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.05-08.32.05:906][172]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.05-08.32.06:406][172]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.05-08.32.06:906][172]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.05-08.32.07:407][172]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.05-08.32.07:907][172]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.05-08.32.08:408][172]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.05-08.32.08:908][172]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.05-08.32.09:409][172]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.05-08.32.09:909][172]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.05-08.32.10:409][172]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.05-08.32.10:910][172]LogHttp: Warning: 0000021E1350D180: HTTP request timed out after 180.00 seconds URL=https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BED0C0FFF-4063-B55B-39E3-249A77A286C9%7D&AppID=UEEditor.UnrealEngine.Release&AppVersion=4.19.2-0%2B%2B%2BUE4%2BRelease-4.19&UserID=5a18308d4dbc22491a6528b3ceec25b2%7C321d150c1ad4465ea32ff383fcd85ca6%7Cb9abf892-6297-4ebe-a44c-32437dec0ee3&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2018.07.05-08.32.10:910][172]LogHttp: Warning: 0000021E1350D180: request failed, libcurl error: 0 (No error)
+[2018.07.05-08.32.10:910][172]LogHttp: Warning: 0000021E1350D180: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x21e5793ffe8 [serially])
+[2018.07.05-08.32.10:910][172]LogHttp: Warning: 0000021E1350D180: libcurl info message cache 1 (Hostname in DNS cache was stale, zapped)
+[2018.07.05-08.32.10:910][172]LogHttp: Warning: 0000021E1350D180: libcurl info message cache 2 (  Trying 34.233.154.194...)
+[2018.07.05-08.32.10:910][172]LogHttp: Warning: 0000021E1350D180: libcurl info message cache 3 (connect to 34.233.154.194 port 443 failed: Timed out)
+[2018.07.05-08.32.10:910][172]LogHttp: Warning: 0000021E1350D180: libcurl info message cache 4 (  Trying 34.233.246.175...)
+[2018.07.05-08.32.10:910][172]LogHttp: Warning: 0000021E1350D180: libcurl info message cache 5 (connect to 34.233.246.175 port 443 failed: Timed out)
+[2018.07.05-08.32.10:910][172]LogHttp: Warning: 0000021E1350D180: libcurl info message cache 6 (  Trying 34.232.82.35...)
+[2018.07.05-08.32.10:910][172]LogHttp: Warning: 0000021E1350D180: libcurl info message cache 7 (connect to 34.232.82.35 port 443 failed: Timed out)
+[2018.07.05-08.32.10:910][172]LogHttp: Warning: 0000021E1350D180: libcurl info message cache 8 (  Trying 34.228.126.143...)
+[2018.07.05-08.32.10:910][172]LogHttp: Warning: 0000021E1350D180: libcurl info message cache 9 (connect to 34.228.126.143 port 443 failed: Timed out)
+[2018.07.05-08.32.10:910][172]LogHttp: Warning: 0000021E1350D180: libcurl info message cache 10 (  Trying 34.231.0.173...)
+[2018.07.05-08.32.10:910][172]LogHttp: Warning: 0000021E1350D180: libcurl info message cache 11 (connect to 34.231.0.173 port 443 failed: Timed out)
+[2018.07.05-08.32.10:910][172]LogHttp: Warning: 0000021E1350D180: libcurl info message cache 12 (  Trying 34.233.223.249...)
+[2018.07.05-08.32.10:910][172]LogHttp: Warning: 0000021E1350D180: libcurl info message cache 13 (connect to 34.233.223.249 port 443 failed: Timed out)
+[2018.07.05-08.32.10:910][172]LogHttp: Warning: 0000021E1350D180: libcurl info message cache 14 (  Trying 34.231.138.22...)
+[2018.07.05-08.32.10:910][172]LogHttp: Warning: 0000021E1350D180: libcurl info message cache 15 (connect to 34.231.138.22 port 443 failed: Timed out)
+[2018.07.05-08.32.10:910][172]LogHttp: Warning: 0000021E1350D180: libcurl info message cache 16 (  Trying 34.231.103.121...)
+[2018.07.05-08.32.10:910][172]LogHttp: Warning: 0000021E1350D180: libcurl info message cache 17 (connect to 34.231.103.121 port 443 failed: Timed out)
+[2018.07.05-08.32.10:910][172]LogHttp: Warning: 0000021E1350D180: libcurl info message cache 18 (  Trying 34.233.154.194...)
+[2018.07.05-08.32.10:910][172]LogHttp: Warning: 0000021E1350D180: libcurl info message cache 19 (Closing connection 1)
+[2018.07.05-08.32.10:911][172]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.05-08.32.11:411][172]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.05-08.32.11:911][172]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.05-08.32.12:412][172]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.05-08.32.12:912][172]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.05-08.32.13:413][172]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.05-08.32.13:913][172]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.05-08.32.14:414][172]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.05-08.32.14:914][172]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.05-08.32.15:414][172]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.05-08.32.15:915][172]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.05-08.32.16:415][172]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.05-08.32.16:915][172]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.05-08.32.17:416][172]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.05-08.32.17:916][172]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.05-08.32.18:416][172]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.05-08.32.18:917][172]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.05-08.32.19:417][172]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.05-08.32.19:917][172]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.05-08.32.20:418][172]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.05-08.32.20:918][172]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.05-08.32.21:418][172]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.05-08.32.21:919][172]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.05-08.32.22:419][172]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.05-08.32.22:920][172]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.05-08.32.23:421][172]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.05-08.32.23:921][172]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.05-08.32.24:421][172]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.05-08.32.24:922][172]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.05-08.32.25:422][172]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.05-08.32.25:922][172]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.05-08.32.26:423][172]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.05-08.32.26:923][172]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.05-08.32.27:423][172]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.05-08.32.27:924][172]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.05-08.32.28:424][172]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.05-08.32.28:924][172]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.05-08.32.29:425][172]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.05-08.32.29:925][172]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.05-08.32.30:425][172]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.05-08.32.30:926][172]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.05-08.32.31:426][172]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.05-08.32.31:926][172]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.05-08.32.32:427][172]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.05-08.32.32:927][172]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.05-08.32.33:427][172]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.05-08.32.33:927][172]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.05-08.32.34:428][172]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.05-08.32.34:928][172]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.05-08.32.35:429][172]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.05-08.32.35:929][172]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.05-08.32.36:430][172]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.05-08.32.36:930][172]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.05-08.32.37:430][172]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.05-08.32.37:930][172]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.05-08.32.38:431][172]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.05-08.32.38:931][172]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.05-08.32.39:431][172]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.05-08.32.39:932][172]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.05-08.32.40:433][172]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.05-08.32.40:933][172]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.05-08.32.41:433][172]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.05-08.32.41:934][172]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.05-08.32.42:434][172]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.05-08.32.42:934][172]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.05-08.32.43:435][172]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.05-08.32.43:935][172]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.05-08.32.44:436][172]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.05-08.32.44:936][172]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.05-08.32.45:437][172]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.05-08.32.45:937][172]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.05-08.32.46:437][172]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.05-08.32.46:938][172]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.05-08.32.47:438][172]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.05-08.32.47:939][172]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.05-08.32.48:439][172]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.05-08.32.48:940][172]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.05-08.32.49:440][172]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.05-08.32.49:941][172]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.05-08.32.50:441][172]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.05-08.32.50:941][172]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.05-08.32.51:442][172]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.05-08.32.51:942][172]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.05-08.32.52:443][172]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.05-08.32.52:943][172]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.05-08.32.53:444][172]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.05-08.32.53:944][172]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.05-08.32.54:444][172]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.05-08.32.54:945][172]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.05-08.32.55:445][172]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.05-08.32.55:946][172]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.05-08.32.56:446][172]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.05-08.32.56:946][172]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.05-08.32.57:447][172]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.05-08.32.57:948][172]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.05-08.32.58:448][172]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.05-08.32.58:948][172]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.05-08.32.59:449][172]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.05-08.32.59:949][172]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.05-08.33.00:449][172]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.05-08.33.00:950][172]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.05-08.33.01:450][172]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.05-08.33.01:950][172]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.05-08.33.02:450][172]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.05-08.33.02:951][172]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.05-08.33.03:451][172]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.05-08.33.03:951][172]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.05-08.33.04:452][172]LogHttp: Warning: 0000021E5EE2E080: HTTP request timed out after 180.00 seconds URL=https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BED0C0FFF-4063-B55B-39E3-249A77A286C9%7D&AppID=UEEditor.UnrealEngine.Release&AppVersion=4.19.2-0%2B%2B%2BUE4%2BRelease-4.19&UserID=5a18308d4dbc22491a6528b3ceec25b2%7C321d150c1ad4465ea32ff383fcd85ca6%7Cb9abf892-6297-4ebe-a44c-32437dec0ee3&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2018.07.05-08.33.04:452][172]LogHttp: Warning: 0000021E5EE2E080: request failed, libcurl error: 0 (No error)
+[2018.07.05-08.33.04:452][172]LogHttp: Warning: 0000021E5EE2E080: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x21e5793ffe8 [serially])
+[2018.07.05-08.33.04:452][172]LogHttp: Warning: 0000021E5EE2E080: libcurl info message cache 1 (Hostname datarouter.ol.epicgames.com was found in DNS cache)
+[2018.07.05-08.33.04:452][172]LogHttp: Warning: 0000021E5EE2E080: libcurl info message cache 2 (  Trying 34.233.154.194...)
+[2018.07.05-08.33.04:452][172]LogHttp: Warning: 0000021E5EE2E080: libcurl info message cache 3 (connect to 34.233.154.194 port 443 failed: Timed out)
+[2018.07.05-08.33.04:452][172]LogHttp: Warning: 0000021E5EE2E080: libcurl info message cache 4 (  Trying 34.233.246.175...)
+[2018.07.05-08.33.04:452][172]LogHttp: Warning: 0000021E5EE2E080: libcurl info message cache 5 (connect to 34.233.246.175 port 443 failed: Timed out)
+[2018.07.05-08.33.04:452][172]LogHttp: Warning: 0000021E5EE2E080: libcurl info message cache 6 (  Trying 34.232.82.35...)
+[2018.07.05-08.33.04:452][172]LogHttp: Warning: 0000021E5EE2E080: libcurl info message cache 7 (connect to 34.232.82.35 port 443 failed: Timed out)
+[2018.07.05-08.33.04:452][172]LogHttp: Warning: 0000021E5EE2E080: libcurl info message cache 8 (  Trying 34.228.126.143...)
+[2018.07.05-08.33.04:452][172]LogHttp: Warning: 0000021E5EE2E080: libcurl info message cache 9 (connect to 34.228.126.143 port 443 failed: Timed out)
+[2018.07.05-08.33.04:452][172]LogHttp: Warning: 0000021E5EE2E080: libcurl info message cache 10 (  Trying 34.231.0.173...)
+[2018.07.05-08.33.04:452][172]LogHttp: Warning: 0000021E5EE2E080: libcurl info message cache 11 (connect to 34.231.0.173 port 443 failed: Timed out)
+[2018.07.05-08.33.04:452][172]LogHttp: Warning: 0000021E5EE2E080: libcurl info message cache 12 (  Trying 34.233.223.249...)
+[2018.07.05-08.33.04:453][172]LogHttp: Warning: 0000021E5EE2E080: libcurl info message cache 13 (connect to 34.233.223.249 port 443 failed: Timed out)
+[2018.07.05-08.33.04:453][172]LogHttp: Warning: 0000021E5EE2E080: libcurl info message cache 14 (  Trying 34.231.138.22...)
+[2018.07.05-08.33.04:453][172]LogHttp: Warning: 0000021E5EE2E080: libcurl info message cache 15 (connect to 34.231.138.22 port 443 failed: Timed out)
+[2018.07.05-08.33.04:453][172]LogHttp: Warning: 0000021E5EE2E080: libcurl info message cache 16 (  Trying 34.231.103.121...)
+[2018.07.05-08.33.04:453][172]LogHttp: Warning: 0000021E5EE2E080: libcurl info message cache 17 (connect to 34.231.103.121 port 443 failed: Timed out)
+[2018.07.05-08.33.04:453][172]LogHttp: Warning: 0000021E5EE2E080: libcurl info message cache 18 (  Trying 34.233.154.194...)
+[2018.07.05-08.33.04:453][172]LogHttp: Warning: 0000021E5EE2E080: libcurl info message cache 19 (Closing connection 2)
+[2018.07.05-08.33.04:482][172]LogModuleManager: Shutting down and abandoning module SSL (42)
+[2018.07.05-08.33.04:483][172]LogModuleManager: Shutting down and abandoning module DesktopPlatform (38)
+[2018.07.05-08.33.04:483][172]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2018.07.05-08.33.04:483][172]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2018.07.05-08.33.04:483][172]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2018.07.05-08.33.04:483][172]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2018.07.05-08.33.04:483][172]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2018.07.05-08.33.04:483][172]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2018.07.05-08.33.04:483][172]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2018.07.05-08.33.04:485][172]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2018.07.05-08.33.04:485][172]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2018.07.05-08.33.04:485][172]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2018.07.05-08.33.04:485][172]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2018.07.05-08.33.04:485][172]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2018.07.05-08.33.04:485][172]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2018.07.05-08.33.04:485][172]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2018.07.05-08.33.04:485][172]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2018.07.05-08.33.04:485][172]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.07.05-08.33.04:485][172]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.07.05-08.33.04:485][172]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.07.05-08.33.04:490][172]LogExit: Exiting.
+[2018.07.05-08.33.04:496][172]Log file closed, 07/05/18 16:33:04
