@@ -22,6 +22,9 @@ public:
 	UFUNCTION(BlueprintCallable, Category = "Run")
 	bool get_b_run() { return b_run; }
 
+	UFUNCTION(BlueprintCallable, Category = "Fight")
+	bool get_b_attack_q() { return b_attack_q; }
+
 	// 控制状态变量
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Controller)
 	EControllerState controller_state;
@@ -34,6 +37,7 @@ public:
 	// 更新战斗状态 -- 根据当前状态
 	UFUNCTION(BlueprintCallable)
 	void update_fight_state();
+
 
 protected:
 	virtual void BeginPlay()                 override;	// 游戏开始时的初始化操作 
@@ -55,6 +59,9 @@ protected:
 	// run事件
 	void on_run_start();
 	void on_run_stop();
+	// 攻击事件
+	void on_attack_q_pressed();
+	void on_attack_q_released();
 
 	// 视角移动事件
 	void on_can_rotate_pressed();     
@@ -70,6 +77,8 @@ private:
 	uint32 b_move_to_cursor : 1;				// 人物移动到鼠标标记
 
 	uint32 b_run : 1;							// 是否跑步
+
+	uint32 b_attack_q : 1;						// 是否释放q技能
 
 	// 视角移动相关
 	uint32 b_can_rotate : 1;					// 是否可以移动视角

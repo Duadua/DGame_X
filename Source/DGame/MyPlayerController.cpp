@@ -14,6 +14,9 @@ AMyPlayerController::AMyPlayerController() {
 	// 初始化跑步
 	b_run = false;
 
+	// 初始化技能状态
+	b_attack_q = false;
+
 	// 初始化视角移动相关参数
 	b_can_rotate = false;
 	turn_rate = 45.f;
@@ -63,6 +66,9 @@ void AMyPlayerController::SetupInputComponent() {
 	// run事件
 	InputComponent->BindAction("Run", IE_Pressed, this, &AMyPlayerController::on_run_start);
 	InputComponent->BindAction("Run", IE_Released, this, &AMyPlayerController::on_run_stop);
+	// 技能释放事件
+	InputComponent->BindAction("Attack_Q", IE_Pressed, this, &AMyPlayerController::on_attack_q_pressed);
+	InputComponent->BindAction("Attack_Q", IE_Released, this, &AMyPlayerController::on_attack_q_released);
 
 	// 视角移动事件
 	InputComponent->BindAction("CanRotate", IE_Pressed, this, &AMyPlayerController::on_can_rotate_pressed);
@@ -144,6 +150,9 @@ void AMyPlayerController::on_move_right(float value) {
 // run事件
 void AMyPlayerController::on_run_start() { b_run = true; }
 void AMyPlayerController::on_run_stop() { b_run = false; }
+// 攻击事件
+void AMyPlayerController::on_attack_q_pressed() { b_attack_q = true; }
+void AMyPlayerController::on_attack_q_released() { b_attack_q = false; }
 
 // 视角移动事件
 void AMyPlayerController::on_can_rotate_pressed() {

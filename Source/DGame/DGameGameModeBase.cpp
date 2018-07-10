@@ -4,7 +4,7 @@
 #include "MyCharacter.h"
 #include "Engine.h"
 #include "Kismet/GameplayStatics.h"
-#include "Runtime/SQLiteSupport/Public/SQLiteDatabaseConnection.h"
+//#include "Runtime/SQLiteSupport/Public/SQLiteDatabaseConnection.h"
 
 //static void Log(FString info) { if(GEngine) GEngine->AddOnScreenDebugMessage(-1, 5.0f, FColor::Green, info);                         } 
 //static void Log(int     info) { if(GEngine) GEngine->AddOnScreenDebugMessage(-1, 5.0f, FColor::Green, FString::FromInt(info));       } 
@@ -33,7 +33,7 @@ void ADGameGameModeBase::BeginPlay() {
 	change_input_to_ui_only();		// 设置UIOnly输入
 
 	// datebase test
-	FSQLiteDatabase my_db;
+	/*FSQLiteDatabase my_db;
 	if(my_db.Open(TEXT("E:/mydb.db"), nullptr, nullptr)) {
 		int id = 1;
 		FString pw = TEXT("'123'");
@@ -44,7 +44,7 @@ void ADGameGameModeBase::BeginPlay() {
 			GEngine->AddOnScreenDebugMessage(-1, 10.f, FColor::Green, "no");
 		}
 		else GEngine->AddOnScreenDebugMessage(-1, 10.f, FColor::Green, "good");
-	}
+	}*/
 }
 
 // 初始化
