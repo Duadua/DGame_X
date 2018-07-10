@@ -476,3 +476,1276 @@ LogInit: Object subsystem initialized
 [2018.07.10-01.13.32:969][  0]LogOutputDevice: Error: [Callstack] 0x00000000E9F40D51 ntdll.dll!UnknownFunction []
 [2018.07.10-01.13.32:969][  0]LogOutputDevice: Error: 
 [2018.07.10-01.13.32:972][  0]LogStats:                SubmitErrorReport -  0.000 s
+[2018.07.10-01.13.33:150][  0]LogWindows: Warning: CreateProc failed: 系统找不到指定的文件。 (0x00000002)
+[2018.07.10-01.13.33:150][  0]LogWindows: Warning: URL: ../../../Engine/Binaries/Win64/CrashReportClient.exe "E:/ue4/DGame/Saved/Crashes/UE4CC-Windows-19A50AC0417E5E84318678AC20425F17_0000" -Unattended -AppName=UE4-DGame -CrashGUID=UE4CC-Windows-19A50AC0417E5E84318678AC20425F17_0000 -DebugSymbols=..\..\..\Engine\Intermediate\Symbols
+[2018.07.10-01.13.33:150][  0]LogStats:                    SendNewReport -  0.178 s
+[2018.07.10-01.13.33:150][  0]LogStats:             FDebug::EnsureFailed -  5.225 s
+[2018.07.10-01.13.33:150][  0]LogAnimation: Warning: SkeletalMesh Sword has no skeleton. This needs to fixed before an animation can be set
+[2018.07.10-01.13.33:150][  0]LogAnimation: Warning: SkeletalMesh Shield has no skeleton. This needs to fixed before an animation can be set
+[2018.07.10-01.13.33:152][  0]LogAnimation: Warning: SkeletalMesh Sword has no skeleton. This needs to fixed before an animation can be set
+[2018.07.10-01.13.33:152][  0]LogAnimation: Warning: SkeletalMesh Shield has no skeleton. This needs to fixed before an animation can be set
+[2018.07.10-01.13.33:235][  0]LogSkeletalMesh: Skeletal Mesh found in DDC [0.082773ms] /Game/Assets/Weapon/Sword.Sword
+[2018.07.10-01.13.33:238][  0]LogSkeletalMesh: Skeletal Mesh found in DDC [0.037547ms] /Game/Assets/Weapon/Shield.Shield
+[2018.07.10-01.13.33:248][  0]LogSkeletalMesh: Skeletal Mesh found in DDC [2.974431ms] /Game/Assets/Character/SK_Mannequin.SK_Mannequin
+[2018.07.10-01.13.33:427][  0]SourceControl: 源码控制已禁用
+[2018.07.10-01.13.33:427][  0]SourceControl: 源码控制已禁用
+[2018.07.10-01.13.33:472][  0]SourceControl: 源码控制已禁用
+[2018.07.10-01.13.33:493][  0]SourceControl: 源码控制已禁用
+[2018.07.10-01.13.34:092][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.07.10-01.13.34:293][  0]LogOcInput: OculusInput pre-init called
+[2018.07.10-01.13.34:404][  0]LogEngine: Initializing Engine...
+[2018.07.10-01.13.34:406][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.07.10-01.13.34:407][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.07.10-01.13.34:407][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.07.10-01.13.34:616][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.07.10-01.13.34:635][  0]LogInit: XAudio2 using '扬声器 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.07.10-01.13.34:709][  0]LogInit: FAudioDevice initialized.
+[2018.07.10-01.13.34:841][  0]LogDerivedDataCache: Saved boot cache 0.13s 80MB E:/ue4/DGame/DerivedDataCache/Boot.ddc.
+[2018.07.10-01.13.34:849][  0]LogInit: Texture streaming: Enabled
+[2018.07.10-01.13.34:881][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.07.10-01.13.34:896][  0]LogInit: Transaction tracking system initialized
+[2018.07.10-01.13.34:949][  0]BlueprintLog: New page: 编辑器加载
+[2018.07.10-01.13.35:262][  0]LocalizationService: 本地化服务已被禁用
+[2018.07.10-01.13.35:454][  0]LogConsoleResponse: Display: 
+[2018.07.10-01.13.35:591][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.07.10-01.13.35:591][  0]LogCook: Display: Mobile HDR setting 1
+[2018.07.10-01.13.35:591][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.07.10-01.13.35:591][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.07.10-01.13.35:591][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.07.10-01.13.36:029][  0]LogFileCache: Scanning file cache for directory 'E:/ue4/DGame/Content/' took 0.01s
+[2018.07.10-01.13.36:029][  0]SourceControl: 源码控制已禁用
+[2018.07.10-01.13.36:029][  0]Cmd: MAP LOAD FILE="E:/ue4/DGame/Content/Maps/maps_start.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.07.10-01.13.36:030][  0]LightingResults: New page: 光照构建
+[2018.07.10-01.13.36:033][  0]MapCheck: New page: 地图检测
+[2018.07.10-01.13.36:033][  0]LightingResults: New page: 光照构建
+[2018.07.10-01.13.36:044][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002306f543d80, Size=312
+[2018.07.10-01.13.36:200][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000002306f1bf3c0, Size=208, Default__bp_01_C Function /Game/Learn_temp/bp_01.bp_01_C:ExecuteUbergraph_bp_01
+[2018.07.10-01.13.36:202][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002306f1bf3c0, Size=208
+[2018.07.10-01.13.36:202][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000002306f48c2c0, Size=208, Default__bp_01_C Function /Engine/Transient.REINST_bp_01_C_6:ExecuteUbergraph_bp_01
+[2018.07.10-01.13.36:203][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000002306f48d440, Size=208, Default__bp_01_C Function /Game/Learn_temp/bp_01.bp_01_C:ExecuteUbergraph_bp_01
+[2018.07.10-01.13.36:221][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000002306f256380, Size=176, Default__bp_int_01_C Function /Game/Learn_temp/bp_int_01.bp_int_01_C:ExecuteUbergraph_bp_int_01
+[2018.07.10-01.13.36:223][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002306f256380, Size=176
+[2018.07.10-01.13.36:223][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000002306f256380, Size=176, Default__bp_int_01_C Function /Engine/Transient.REINST_bp_int_01_C_12:ExecuteUbergraph_bp_int_01
+[2018.07.10-01.13.36:223][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000002306f256080, Size=176, Default__bp_int_01_C Function /Game/Learn_temp/bp_int_01.bp_int_01_C:ExecuteUbergraph_bp_int_01
+[2018.07.10-01.13.36:227][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000002306f2559c0, Size=176, Default__bp_int_02_C Function /Game/Learn_temp/bp_int_02.bp_int_02_C:ExecuteUbergraph_bp_int_02
+[2018.07.10-01.13.36:228][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002306f2559c0, Size=176
+[2018.07.10-01.13.36:228][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000002306f2559c0, Size=176, Default__bp_int_02_C Function /Engine/Transient.REINST_bp_int_02_C_14:ExecuteUbergraph_bp_int_02
+[2018.07.10-01.13.36:229][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000002306f255600, Size=176, Default__bp_int_02_C Function /Game/Learn_temp/bp_int_02.bp_int_02_C:ExecuteUbergraph_bp_int_02
+[2018.07.10-01.13.36:233][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000002306f1e9360, Size=88, Default__bp_int_triggle_C Function /Game/Learn_temp/bp_int_triggle.bp_int_triggle_C:ExecuteUbergraph_bp_int_triggle
+[2018.07.10-01.13.36:234][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002306f1e9360, Size=88
+[2018.07.10-01.13.36:234][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000002306f1e9360, Size=88, Default__bp_int_triggle_C Function /Engine/Transient.REINST_bp_int_triggle_C_16:ExecuteUbergraph_bp_int_triggle
+[2018.07.10-01.13.36:236][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000002306f1e8100, Size=88, Default__bp_int_triggle_C Function /Game/Learn_temp/bp_int_triggle.bp_int_triggle_C:ExecuteUbergraph_bp_int_triggle
+[2018.07.10-01.13.36:360][  0]LogAIModule: Creating AISystem for world maps_start
+[2018.07.10-01.13.36:371][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.07.10-01.13.36:382][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002306f48c2c0, Size=208
+[2018.07.10-01.13.36:382][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002306f256380, Size=176
+[2018.07.10-01.13.36:382][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002306f2559c0, Size=176
+[2018.07.10-01.13.36:383][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002306f1e9360, Size=88
+[2018.07.10-01.13.36:383][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.07.10-01.13.36:428][  0]MapCheck: 地图检测完成：0个错误，0 个警告，用时44.883毫秒完成。
+[2018.07.10-01.13.36:428][  0]LogFileHelpers: Loading map 'maps_start' took 0.399
+[2018.07.10-01.13.36:552][  0]LogCollectionManager: Loaded 0 collections in 0.001707 seconds
+[2018.07.10-01.13.36:591][  0]LogFileCache: Scanning file cache for directory 'E:/ue4/DGame/Saved/Collections/' took 0.01s
+[2018.07.10-01.13.36:591][  0]LogFileCache: Scanning file cache for directory 'E:/ue4/DGame/Content/Developers/duaduacao/Collections/' took 0.01s
+[2018.07.10-01.13.36:591][  0]LogFileCache: Scanning file cache for directory 'E:/ue4/DGame/Content/Collections/' took 0.01s
+[2018.07.10-01.13.36:591][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.07.10-01.13.36:598][  0]LogContentBrowser: Native class hierarchy populated in 0.0076 seconds. Added 2456 classes and 558 folders.
+[2018.07.10-01.13.36:604][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2018.07.10-01.13.36:709][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2018.07.10-01.13.36:773][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2018.07.10-01.13.36:841][  0]LogSlate: Took 0.000174 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.07.10-01.13.36:844][  0]LogSlate: Took 0.002451 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2018.07.10-01.13.36:845][  0]LogSlate: Took 0.000143 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.07.10-01.13.36:847][  0]LogSlate: Took 0.001175 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.07.10-01.13.36:920][  0]LogRenderer: Reallocating scene render targets to support 860x1084 Format 10 NumSamples 1 (Frame:1).
+[2018.07.10-01.13.37:029][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2018.07.10-01.13.37:029][  0]LogLoad: (Engine Initialization) Total time: 19.19 seconds
+[2018.07.10-01.13.37:029][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.07.10-01.13.37:387][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.07.10-01.13.37:410][  0]LogSlate: Took 0.001369 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.07.10-01.13.37:718][  1]LogAssetRegistry: Asset discovery search completed in 13.1635 seconds
+[2018.07.10-01.13.37:720][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.07.10-01.13.37:720][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000057 seconds (updated 0 objects)
+[2018.07.10-01.13.40:704][251]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.10-01.13.40:779][260]LogTemp: Repeating last play command: 新建编辑器窗口（在编辑器中运行）
+[2018.07.10-01.13.40:793][260]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/maps_start.maps_start:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/maps_start.maps_start:PersistentLevel.maps_start' with GeneratedClass '/Game/Maps/maps_start.maps_start_C' with ClassGeneratedBy '/Game/Maps/maps_start.maps_start:PersistentLevel.maps_start'
+[2018.07.10-01.13.40:793][260]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.07.10-01.13.40:793][260]PIE: New page: PIE会话: maps_start (2018年7月10日 下午5:13:40)
+[2018.07.10-01.13.40:793][260]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_maps_start
+[2018.07.10-01.13.40:817][260]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023502s)
+[2018.07.10-01.13.40:817][260]LogAIModule: Creating AISystem for world maps_start
+[2018.07.10-01.13.40:817][260]LogPlayLevel: PIE: World Init took: (0.000716s)
+[2018.07.10-01.13.40:818][260]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/maps_start.maps_start to /Game/Maps/UEDPIE_0_maps_start.maps_start (0.024365s)
+[2018.07.10-01.13.40:830][260]LogInit: XAudio2 using '扬声器 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.07.10-01.13.40:835][260]LogInit: FAudioDevice initialized.
+[2018.07.10-01.13.40:899][260]LogLoad: Game class is 'DGameGameModeBase'
+[2018.07.10-01.13.40:904][260]LogWorld: Bringing World /Game/Maps/UEDPIE_0_maps_start.maps_start up for play (max tick rate 0) at 2018.07.10-09.13.40
+[2018.07.10-01.13.40:904][260]LogWorld: Bringing up level for play took: 0.003541
+[2018.07.10-01.13.40:908][260]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 11 classes and 0 folders.
+[2018.07.10-01.13.41:145][260]PIE: /Game/Maps/UEDPIE_0_maps_start的‘在编辑器中播放’的起始时间0.052
+[2018.07.10-01.13.41:145][260]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/maps_start.maps_start:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/maps_start.maps_start:PersistentLevel.maps_start' with GeneratedClass '/Game/Maps/maps_start.maps_start_C' with ClassGeneratedBy '/Game/Maps/maps_start.maps_start:PersistentLevel.maps_start'
+[2018.07.10-01.13.41:160][260]LogRenderer: Reallocating scene render targets to support 1292x1084 Format 10 NumSamples 1 (Frame:1).
+[2018.07.10-01.13.51:500][488]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.10-01.13.55:192][931]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.10-01.14.01:201][651]LogSlate: Window 'DGame 游戏预览 Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.07.10-01.14.01:204][651]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/maps_start.maps_start:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/maps_start.maps_start:PersistentLevel.maps_start' with GeneratedClass '/Game/Maps/maps_start.maps_start_C' with ClassGeneratedBy '/Game/Maps/maps_start.maps_start:PersistentLevel.maps_start'
+[2018.07.10-01.14.01:234][651]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/maps_start.maps_start:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/maps_start.maps_start:PersistentLevel.maps_start' with GeneratedClass '/Game/Maps/maps_start.maps_start_C' with ClassGeneratedBy '/Game/Maps/maps_start.maps_start:PersistentLevel.maps_start'
+[2018.07.10-01.14.05:984][213]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.10-01.14.06:163][234]LogSlate: Took 0.000121 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.07.10-01.14.06:215][234]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2018.07.10-01.14.06:360][234]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.07.10-01.14.06:363][234]LogContentBrowser: Native class hierarchy updated for 'PinnedCommandList' in 0.0004 seconds. Added 1 classes and 0 folders.
+[2018.07.10-01.14.06:583][234]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 116 classes and 0 folders.
+[2018.07.10-01.14.06:849][234]LogUObjectGlobals: Created PersistentFrame Addr=0x00000230fc28f600, Size=4, Default__SKEL_PROTO_BP_AnimBlueprint_0_C Function /Engine/Transient.SKEL_PROTO_BP_AnimBlueprint_0_C:ExecuteUbergraph_PROTO_BP_AnimBlueprint_0
+[2018.07.10-01.14.06:850][234]LogUObjectGlobals: Created PersistentFrame Addr=0x00000230fc28f5f8, Size=4, Default__PROTO_BP_AnimBlueprint_0_C Function /Engine/Transient.PROTO_BP_AnimBlueprint_0_C:ExecuteUbergraph_PROTO_BP_AnimBlueprint_0
+[2018.07.10-01.14.07:190][234]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_3:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2018.07.10-01.14.07:437][234]LogSlate: Took 0.001281 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.07.10-01.14.07:578][234]LogContentBrowser: Native class hierarchy updated for 'ClothingSystemEditorInterface' in 0.0004 seconds. Added 1 classes and 0 folders.
+[2018.07.10-01.14.07:624][234]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2018.07.10-01.14.13:563][931]LogUObjectGlobals: Created PersistentFrame Addr=0x0000023135a90658, Size=4, Default__SKEL_bp_mycharacter_anim_C Function /Game/Blueprints/Character/bp_mycharacter_anim.SKEL_bp_mycharacter_anim_C:ExecuteUbergraph_bp_mycharacter_anim
+[2018.07.10-01.14.13:573][931]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000023135a90658, Size=4
+[2018.07.10-01.14.13:573][931]LogUObjectGlobals: Created PersistentFrame Addr=0x0000023135a90658, Size=4, Default__SKEL_bp_mycharacter_anim_C Function /Engine/Transient.REINST_SKEL_bp_mycharacter_anim_C_2:ExecuteUbergraph_bp_mycharacter_anim
+[2018.07.10-01.14.13:605][931]LogUObjectGlobals: Created PersistentFrame Addr=0x0000023135a92a08, Size=4, Default__SKEL_bp_mycharacter_anim_C Function /Game/Blueprints/Character/bp_mycharacter_anim.SKEL_bp_mycharacter_anim_C:ExecuteUbergraph_bp_mycharacter_anim
+[2018.07.10-01.14.18:599][502]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000023135a92a08, Size=4
+[2018.07.10-01.14.18:599][502]LogUObjectGlobals: Created PersistentFrame Addr=0x00000231389655f0, Size=4, Default__SKEL_bp_mycharacter_anim_C Function /Engine/Transient.REINST_SKEL_bp_mycharacter_anim_C_3:ExecuteUbergraph_bp_mycharacter_anim
+[2018.07.10-01.14.18:630][502]LogUObjectGlobals: Created PersistentFrame Addr=0x0000023138967038, Size=4, Default__SKEL_bp_mycharacter_anim_C Function /Game/Blueprints/Character/bp_mycharacter_anim.SKEL_bp_mycharacter_anim_C:ExecuteUbergraph_bp_mycharacter_anim
+[2018.07.10-01.14.40:862][161]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000023138967038, Size=4
+[2018.07.10-01.14.40:862][161]LogUObjectGlobals: Created PersistentFrame Addr=0x000002313b035920, Size=4, Default__SKEL_bp_mycharacter_anim_C Function /Engine/Transient.REINST_SKEL_bp_mycharacter_anim_C_4:ExecuteUbergraph_bp_mycharacter_anim
+[2018.07.10-01.14.40:897][161]LogUObjectGlobals: Created PersistentFrame Addr=0x000002313b036718, Size=4, Default__SKEL_bp_mycharacter_anim_C Function /Game/Blueprints/Character/bp_mycharacter_anim.SKEL_bp_mycharacter_anim_C:ExecuteUbergraph_bp_mycharacter_anim
+[2018.07.10-01.14.40:908][161]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002313b036718, Size=4
+[2018.07.10-01.14.40:908][161]LogUObjectGlobals: Created PersistentFrame Addr=0x000002313b036718, Size=4, Default__SKEL_bp_mycharacter_anim_C Function /Engine/Transient.REINST_SKEL_bp_mycharacter_anim_C_5:ExecuteUbergraph_bp_mycharacter_anim
+[2018.07.10-01.14.40:941][161]LogUObjectGlobals: Created PersistentFrame Addr=0x0000023138965308, Size=4, Default__SKEL_bp_mycharacter_anim_C Function /Game/Blueprints/Character/bp_mycharacter_anim.SKEL_bp_mycharacter_anim_C:ExecuteUbergraph_bp_mycharacter_anim
+[2018.07.10-01.14.40:954][161]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000023138965308, Size=4
+[2018.07.10-01.14.40:954][161]LogUObjectGlobals: Created PersistentFrame Addr=0x000002313b0346e0, Size=4, Default__SKEL_bp_mycharacter_anim_C Function /Engine/Transient.REINST_SKEL_bp_mycharacter_anim_C_6:ExecuteUbergraph_bp_mycharacter_anim
+[2018.07.10-01.14.40:988][161]LogUObjectGlobals: Created PersistentFrame Addr=0x000002313b4af270, Size=4, Default__SKEL_bp_mycharacter_anim_C Function /Game/Blueprints/Character/bp_mycharacter_anim.SKEL_bp_mycharacter_anim_C:ExecuteUbergraph_bp_mycharacter_anim
+[2018.07.10-01.14.45:126][649]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002313b4af270, Size=4
+[2018.07.10-01.14.45:126][649]LogUObjectGlobals: Created PersistentFrame Addr=0x00000231358d0ec8, Size=4, Default__SKEL_bp_mycharacter_anim_C Function /Engine/Transient.REINST_SKEL_bp_mycharacter_anim_C_7:ExecuteUbergraph_bp_mycharacter_anim
+[2018.07.10-01.14.45:156][649]LogUObjectGlobals: Created PersistentFrame Addr=0x000002313bf23ff8, Size=4, Default__SKEL_bp_mycharacter_anim_C Function /Game/Blueprints/Character/bp_mycharacter_anim.SKEL_bp_mycharacter_anim_C:ExecuteUbergraph_bp_mycharacter_anim
+[2018.07.10-01.14.50:636][287]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002313bf23ff8, Size=4
+[2018.07.10-01.14.50:636][287]LogUObjectGlobals: Created PersistentFrame Addr=0x000002313bd42270, Size=4, Default__SKEL_bp_mycharacter_anim_C Function /Engine/Transient.REINST_SKEL_bp_mycharacter_anim_C_8:ExecuteUbergraph_bp_mycharacter_anim
+[2018.07.10-01.14.50:667][287]LogUObjectGlobals: Created PersistentFrame Addr=0x000002313c8b33a8, Size=4, Default__SKEL_bp_mycharacter_anim_C Function /Game/Blueprints/Character/bp_mycharacter_anim.SKEL_bp_mycharacter_anim_C:ExecuteUbergraph_bp_mycharacter_anim
+[2018.07.10-01.15.11:206][715]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002313c8b33a8, Size=4
+[2018.07.10-01.15.11:206][715]LogUObjectGlobals: Created PersistentFrame Addr=0x0000023135148ec8, Size=4, Default__SKEL_bp_mycharacter_anim_C Function /Engine/Transient.REINST_SKEL_bp_mycharacter_anim_C_9:ExecuteUbergraph_bp_mycharacter_anim
+[2018.07.10-01.15.11:236][715]LogUObjectGlobals: Created PersistentFrame Addr=0x000002313514a568, Size=4, Default__SKEL_bp_mycharacter_anim_C Function /Game/Blueprints/Character/bp_mycharacter_anim.SKEL_bp_mycharacter_anim_C:ExecuteUbergraph_bp_mycharacter_anim
+[2018.07.10-01.15.11:246][715]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002313514a568, Size=4
+[2018.07.10-01.15.11:246][715]LogUObjectGlobals: Created PersistentFrame Addr=0x000002313514a568, Size=4, Default__SKEL_bp_mycharacter_anim_C Function /Engine/Transient.REINST_SKEL_bp_mycharacter_anim_C_10:ExecuteUbergraph_bp_mycharacter_anim
+[2018.07.10-01.15.11:275][715]LogUObjectGlobals: Created PersistentFrame Addr=0x000002313bd415d8, Size=4, Default__SKEL_bp_mycharacter_anim_C Function /Game/Blueprints/Character/bp_mycharacter_anim.SKEL_bp_mycharacter_anim_C:ExecuteUbergraph_bp_mycharacter_anim
+[2018.07.10-01.15.38:176][884]BlueprintLog: New page: 编译bp_mycharacter_anim
+[2018.07.10-01.15.38:218][884]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002313bd415d8, Size=4
+[2018.07.10-01.15.38:218][884]LogUObjectGlobals: Created PersistentFrame Addr=0x00000230617e55b8, Size=4, Default__SKEL_bp_mycharacter_anim_C Function /Engine/Transient.REINST_SKEL_bp_mycharacter_anim_C_11:ExecuteUbergraph_bp_mycharacter_anim
+[2018.07.10-01.15.38:259][884]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002306f19ccc0, Size=312
+[2018.07.10-01.15.38:259][884]LogUObjectGlobals: Created PersistentFrame Addr=0x0000023140289a80, Size=312, Default__bp_mycharacter_anim_C Function /Engine/Transient.REINST_bp_mycharacter_anim_C_12:ExecuteUbergraph_bp_mycharacter_anim
+[2018.07.10-01.15.38:293][884]LogUObjectGlobals: Created PersistentFrame Addr=0x0000023060b8e680, Size=328, Default__bp_mycharacter_anim_C Function /Game/Blueprints/Character/bp_mycharacter_anim.bp_mycharacter_anim_C:ExecuteUbergraph_bp_mycharacter_anim
+[2018.07.10-01.15.38:407][884]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000023135a90658, Size=4
+[2018.07.10-01.15.38:407][884]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000231389655f0, Size=4
+[2018.07.10-01.15.38:407][884]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002313b035920, Size=4
+[2018.07.10-01.15.38:407][884]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002313b036718, Size=4
+[2018.07.10-01.15.38:407][884]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002313b0346e0, Size=4
+[2018.07.10-01.15.38:407][884]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000231358d0ec8, Size=4
+[2018.07.10-01.15.38:408][884]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002313bd42270, Size=4
+[2018.07.10-01.15.38:408][884]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000023135148ec8, Size=4
+[2018.07.10-01.15.38:408][884]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002313514a568, Size=4
+[2018.07.10-01.15.38:408][884]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000230617e55b8, Size=4
+[2018.07.10-01.15.44:550][601]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsMy_Player_Controller1
+	bp_mycharacter_anim_C /Engine/Transient.World_3:PersistentLevel.Actor_0.DebugSkelMeshComponent_0.bp_mycharacter_anim_C_5
+	Function /Game/Blueprints/Character/bp_mycharacter_anim.bp_mycharacter_anim_C:ExecuteUbergraph_bp_mycharacter_anim:001C
+[2018.07.10-01.16.01:010][570]LogSlate: Took 0.003362 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.07.10-01.16.04:759][ 16]LogUObjectGlobals: Created PersistentFrame Addr=0x0000023135a936a8, Size=4, Default__SKEL_bp_mycharacter_anim_C Function /Game/Blueprints/Character/bp_mycharacter_anim.SKEL_bp_mycharacter_anim_C:ExecuteUbergraph_bp_mycharacter_anim
+[2018.07.10-01.16.04:769][ 16]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000023135a936a8, Size=4
+[2018.07.10-01.16.04:769][ 16]LogUObjectGlobals: Created PersistentFrame Addr=0x0000023135a936a8, Size=4, Default__SKEL_bp_mycharacter_anim_C Function /Engine/Transient.REINST_SKEL_bp_mycharacter_anim_C_14:ExecuteUbergraph_bp_mycharacter_anim
+[2018.07.10-01.16.04:804][ 16]LogUObjectGlobals: Created PersistentFrame Addr=0x000002313b034d20, Size=4, Default__SKEL_bp_mycharacter_anim_C Function /Game/Blueprints/Character/bp_mycharacter_anim.SKEL_bp_mycharacter_anim_C:ExecuteUbergraph_bp_mycharacter_anim
+[2018.07.10-01.16.08:449][446]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002313b034d20, Size=4
+[2018.07.10-01.16.08:449][446]LogUObjectGlobals: Created PersistentFrame Addr=0x000002313b4ad970, Size=4, Default__SKEL_bp_mycharacter_anim_C Function /Engine/Transient.REINST_SKEL_bp_mycharacter_anim_C_15:ExecuteUbergraph_bp_mycharacter_anim
+[2018.07.10-01.16.08:479][446]LogUObjectGlobals: Created PersistentFrame Addr=0x000002313c8b3f38, Size=4, Default__SKEL_bp_mycharacter_anim_C Function /Game/Blueprints/Character/bp_mycharacter_anim.SKEL_bp_mycharacter_anim_C:ExecuteUbergraph_bp_mycharacter_anim
+[2018.07.10-01.16.08:490][446]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002313c8b3f38, Size=4
+[2018.07.10-01.16.08:490][446]LogUObjectGlobals: Created PersistentFrame Addr=0x000002313c8b3f38, Size=4, Default__SKEL_bp_mycharacter_anim_C Function /Engine/Transient.REINST_SKEL_bp_mycharacter_anim_C_16:ExecuteUbergraph_bp_mycharacter_anim
+[2018.07.10-01.16.08:523][446]LogUObjectGlobals: Created PersistentFrame Addr=0x000002313c8b0ec8, Size=4, Default__SKEL_bp_mycharacter_anim_C Function /Game/Blueprints/Character/bp_mycharacter_anim.SKEL_bp_mycharacter_anim_C:ExecuteUbergraph_bp_mycharacter_anim
+[2018.07.10-01.16.47:325][ 25]LogTemp: Repeating last play command: 新建编辑器窗口（在编辑器中运行）
+[2018.07.10-01.16.47:334][ 25]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/maps_start.maps_start:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/maps_start.maps_start:PersistentLevel.maps_start' with GeneratedClass '/Game/Maps/maps_start.maps_start_C' with ClassGeneratedBy '/Game/Maps/maps_start.maps_start:PersistentLevel.maps_start'
+[2018.07.10-01.16.47:334][ 25]BlueprintLog: New page: 运行前自动重新编译
+[2018.07.10-01.16.47:387][ 25]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002313c8b0ec8, Size=4
+[2018.07.10-01.16.47:387][ 25]LogUObjectGlobals: Created PersistentFrame Addr=0x000002313c8b0ec8, Size=4, Default__SKEL_bp_mycharacter_anim_C Function /Engine/Transient.REINST_SKEL_bp_mycharacter_anim_C_17:ExecuteUbergraph_bp_mycharacter_anim
+[2018.07.10-01.16.47:389][ 25]LogPlayLevel: [PlayLevel] Compiling bp_mycharacter_anim before play...
+[2018.07.10-01.16.47:433][ 25]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000023060b8e680, Size=328
+[2018.07.10-01.16.47:433][ 25]LogUObjectGlobals: Created PersistentFrame Addr=0x00000230d8232200, Size=328, bp_mycharacter_anim_C_6 Function /Engine/Transient.REINST_bp_mycharacter_anim_C_18:ExecuteUbergraph_bp_mycharacter_anim
+[2018.07.10-01.16.47:475][ 25]LogUObjectGlobals: Created PersistentFrame Addr=0x000002314404c280, Size=336, Default__bp_mycharacter_anim_C Function /Game/Blueprints/Character/bp_mycharacter_anim.bp_mycharacter_anim_C:ExecuteUbergraph_bp_mycharacter_anim
+[2018.07.10-01.16.47:606][ 25]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000023140289a80, Size=312
+[2018.07.10-01.16.47:607][ 25]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002313c8b0ec8, Size=4
+[2018.07.10-01.16.47:607][ 25]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002313c8b3f38, Size=4
+[2018.07.10-01.16.47:607][ 25]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002313b4ad970, Size=4
+[2018.07.10-01.16.47:607][ 25]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000023135a936a8, Size=4
+[2018.07.10-01.16.47:622][ 25]LogPlayLevel: PlayLevel: Blueprint regeneration took 288 ms (1 blueprints)
+[2018.07.10-01.16.47:623][ 25]PIE: New page: PIE会话: maps_start (2018年7月10日 下午5:16:47)
+[2018.07.10-01.16.47:623][ 25]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_maps_start
+[2018.07.10-01.16.47:645][ 25]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022164s)
+[2018.07.10-01.16.47:645][ 25]LogAIModule: Creating AISystem for world maps_start
+[2018.07.10-01.16.47:645][ 25]LogPlayLevel: PIE: World Init took: (0.000600s)
+[2018.07.10-01.16.47:645][ 25]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/maps_start.maps_start to /Game/Maps/UEDPIE_0_maps_start.maps_start (0.022872s)
+[2018.07.10-01.16.47:669][ 25]LogInit: XAudio2 using '扬声器 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.07.10-01.16.47:674][ 25]LogInit: FAudioDevice initialized.
+[2018.07.10-01.16.47:708][ 25]LogLoad: Game class is 'DGameGameModeBase'
+[2018.07.10-01.16.47:712][ 25]LogWorld: Bringing World /Game/Maps/UEDPIE_0_maps_start.maps_start up for play (max tick rate 0) at 2018.07.10-09.16.47
+[2018.07.10-01.16.47:712][ 25]LogWorld: Bringing up level for play took: 0.003139
+[2018.07.10-01.16.47:781][ 25]PIE: /Game/Maps/UEDPIE_0_maps_start的‘在编辑器中播放’的起始时间0.689
+[2018.07.10-01.16.47:781][ 25]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/maps_start.maps_start:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/maps_start.maps_start:PersistentLevel.maps_start' with GeneratedClass '/Game/Maps/maps_start.maps_start_C' with ClassGeneratedBy '/Game/Maps/maps_start.maps_start:PersistentLevel.maps_start'
+[2018.07.10-01.16.47:885][ 26]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsMy_Player_Controller1
+	bp_mycharacter_anim_C /Game/Maps/UEDPIE_0_maps_start.maps_start:PersistentLevel.bp_MyCharacter_2.CharacterMesh0.bp_mycharacter_anim_C_0
+	Function /Game/Blueprints/Character/bp_mycharacter_anim.bp_mycharacter_anim_C:ExecuteUbergraph_bp_mycharacter_anim:001C
+[2018.07.10-01.16.47:886][ 26]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsMy_Player_Controller1 from function: 'ExecuteUbergraph_bp_mycharacter_anim' from node: Update Fight State in graph: EventGraph in object: bp_mycharacter_anim with description: Accessed None trying to read property K2Node_DynamicCast_AsMy_Player_Controller1
+[2018.07.10-01.16.48:118][ 34]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsMy_Player_Controller1
+	bp_mycharacter_anim_C /Engine/Transient.World_3:PersistentLevel.Actor_0.DebugSkelMeshComponent_0.bp_mycharacter_anim_C_9
+	Function /Game/Blueprints/Character/bp_mycharacter_anim.bp_mycharacter_anim_C:ExecuteUbergraph_bp_mycharacter_anim:001C
+[2018.07.10-01.16.51:153][385]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.10-01.16.51:255][396]LogSlate: Window 'DGame 游戏预览 Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.07.10-01.16.51:258][396]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/maps_start.maps_start:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/maps_start.maps_start:PersistentLevel.maps_start' with GeneratedClass '/Game/Maps/maps_start.maps_start_C' with ClassGeneratedBy '/Game/Maps/maps_start.maps_start:PersistentLevel.maps_start'
+[2018.07.10-01.16.51:289][396]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/maps_start.maps_start:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/maps_start.maps_start:PersistentLevel.maps_start' with GeneratedClass '/Game/Maps/maps_start.maps_start_C' with ClassGeneratedBy '/Game/Maps/maps_start.maps_start:PersistentLevel.maps_start'
+[2018.07.10-01.17.00:442][484]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsMy_Player_Controller1
+	bp_mycharacter_anim_C /Engine/Transient.World_3:PersistentLevel.Actor_0.DebugSkelMeshComponent_0.bp_mycharacter_anim_C_9
+	Function /Game/Blueprints/Character/bp_mycharacter_anim.bp_mycharacter_anim_C:ExecuteUbergraph_bp_mycharacter_anim:001C
+[2018.07.10-01.17.01:454][605]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsMy_Player_Controller1
+	bp_mycharacter_anim_C /Engine/Transient.World_3:PersistentLevel.Actor_0.DebugSkelMeshComponent_0.bp_mycharacter_anim_C_9
+	Function /Game/Blueprints/Character/bp_mycharacter_anim.bp_mycharacter_anim_C:ExecuteUbergraph_bp_mycharacter_anim:001C
+[2018.07.10-01.17.37:016][831]LogHttp: Warning: 0000023124D25300: HTTP request timed out after 180.00 seconds URL=https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BD9DB97DC-4C0F-335E-EE23-FE92E01F3392%7D&AppID=UEEditor.UnrealEngine.Release&AppVersion=4.19.2-0%2B%2B%2BUE4%2BRelease-4.19&UserID=5a18308d4dbc22491a6528b3ceec25b2%7C321d150c1ad4465ea32ff383fcd85ca6%7Cb9abf892-6297-4ebe-a44c-32437dec0ee3&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2018.07.10-01.17.37:017][831]LogHttp: Warning: 0000023124D25300: request failed, libcurl error: 0 (No error)
+[2018.07.10-01.17.37:017][831]LogHttp: Warning: 0000023124D25300: libcurl info message cache 0 (  Trying 52.200.109.100...)
+[2018.07.10-01.17.37:017][831]LogHttp: Warning: 0000023124D25300: libcurl info message cache 1 (connect to 52.200.109.100 port 443 failed: Timed out)
+[2018.07.10-01.17.37:017][831]LogHttp: Warning: 0000023124D25300: libcurl info message cache 2 (  Trying 35.169.90.239...)
+[2018.07.10-01.17.37:017][831]LogHttp: Warning: 0000023124D25300: libcurl info message cache 3 (connect to 35.169.90.239 port 443 failed: Timed out)
+[2018.07.10-01.17.37:017][831]LogHttp: Warning: 0000023124D25300: libcurl info message cache 4 (  Trying 35.173.61.154...)
+[2018.07.10-01.17.37:017][831]LogHttp: Warning: 0000023124D25300: libcurl info message cache 5 (connect to 35.173.61.154 port 443 failed: Timed out)
+[2018.07.10-01.17.37:017][831]LogHttp: Warning: 0000023124D25300: libcurl info message cache 6 (  Trying 35.168.132.219...)
+[2018.07.10-01.17.37:017][831]LogHttp: Warning: 0000023124D25300: libcurl info message cache 7 (connect to 35.168.132.219 port 443 failed: Timed out)
+[2018.07.10-01.17.37:017][831]LogHttp: Warning: 0000023124D25300: libcurl info message cache 8 (  Trying 35.153.29.57...)
+[2018.07.10-01.17.37:017][831]LogHttp: Warning: 0000023124D25300: libcurl info message cache 9 (connect to 35.153.29.57 port 443 failed: Timed out)
+[2018.07.10-01.17.37:017][831]LogHttp: Warning: 0000023124D25300: libcurl info message cache 10 (  Trying 35.169.42.52...)
+[2018.07.10-01.17.37:017][831]LogHttp: Warning: 0000023124D25300: libcurl info message cache 11 (connect to 35.169.42.52 port 443 failed: Timed out)
+[2018.07.10-01.17.37:017][831]LogHttp: Warning: 0000023124D25300: libcurl info message cache 12 (  Trying 35.153.94.250...)
+[2018.07.10-01.17.37:017][831]LogHttp: Warning: 0000023124D25300: libcurl info message cache 13 (connect to 35.153.94.250 port 443 failed: Timed out)
+[2018.07.10-01.17.37:017][831]LogHttp: Warning: 0000023124D25300: libcurl info message cache 14 (  Trying 35.172.157.112...)
+[2018.07.10-01.17.37:017][831]LogHttp: Warning: 0000023124D25300: libcurl info message cache 15 (connect to 35.172.157.112 port 443 failed: Timed out)
+[2018.07.10-01.17.37:017][831]LogHttp: Warning: 0000023124D25300: libcurl info message cache 16 (  Trying 52.200.109.100...)
+[2018.07.10-01.17.37:017][831]LogHttp: Warning: 0000023124D25300: libcurl info message cache 17 (Closing connection 0)
+[2018.07.10-01.18.16:196][447]BlueprintLog: New page: 编译bp_mycharacter_anim
+[2018.07.10-01.18.16:281][447]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002314404c280, Size=336
+[2018.07.10-01.18.16:281][447]LogUObjectGlobals: Created PersistentFrame Addr=0x00000231440f7580, Size=336, Default__bp_mycharacter_anim_C Function /Engine/Transient.REINST_bp_mycharacter_anim_C_20:ExecuteUbergraph_bp_mycharacter_anim
+[2018.07.10-01.18.16:317][447]LogUObjectGlobals: Created PersistentFrame Addr=0x0000023131648280, Size=344, Default__bp_mycharacter_anim_C Function /Game/Blueprints/Character/bp_mycharacter_anim.bp_mycharacter_anim_C:ExecuteUbergraph_bp_mycharacter_anim
+[2018.07.10-01.18.16:462][448]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsMy_Player_Controller1
+	bp_mycharacter_anim_C /Engine/Transient.World_3:PersistentLevel.Actor_0.DebugSkelMeshComponent_0.bp_mycharacter_anim_C_12
+	Function /Game/Blueprints/Character/bp_mycharacter_anim.bp_mycharacter_anim_C:ExecuteUbergraph_bp_mycharacter_anim:001C
+[2018.07.10-01.18.17:788][598]LogTemp: Repeating last play command: 新建编辑器窗口（在编辑器中运行）
+[2018.07.10-01.18.17:798][598]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/maps_start.maps_start:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/maps_start.maps_start:PersistentLevel.maps_start' with GeneratedClass '/Game/Maps/maps_start.maps_start_C' with ClassGeneratedBy '/Game/Maps/maps_start.maps_start:PersistentLevel.maps_start'
+[2018.07.10-01.18.17:798][598]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.07.10-01.18.17:799][598]PIE: New page: PIE会话: maps_start (2018年7月10日 下午5:18:17)
+[2018.07.10-01.18.17:799][598]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_maps_start
+[2018.07.10-01.18.17:820][598]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021290s)
+[2018.07.10-01.18.17:821][598]LogAIModule: Creating AISystem for world maps_start
+[2018.07.10-01.18.17:821][598]LogPlayLevel: PIE: World Init took: (0.000999s)
+[2018.07.10-01.18.17:821][598]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/maps_start.maps_start to /Game/Maps/UEDPIE_0_maps_start.maps_start (0.022569s)
+[2018.07.10-01.18.17:844][598]LogInit: XAudio2 using '扬声器 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.07.10-01.18.17:849][598]LogInit: FAudioDevice initialized.
+[2018.07.10-01.18.17:886][598]LogLoad: Game class is 'DGameGameModeBase'
+[2018.07.10-01.18.17:889][598]LogWorld: Bringing World /Game/Maps/UEDPIE_0_maps_start.maps_start up for play (max tick rate 0) at 2018.07.10-09.18.17
+[2018.07.10-01.18.17:889][598]LogWorld: Bringing up level for play took: 0.002742
+[2018.07.10-01.18.17:954][598]PIE: /Game/Maps/UEDPIE_0_maps_start的‘在编辑器中播放’的起始时间0.96
+[2018.07.10-01.18.17:955][598]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/maps_start.maps_start:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/maps_start.maps_start:PersistentLevel.maps_start' with GeneratedClass '/Game/Maps/maps_start.maps_start_C' with ClassGeneratedBy '/Game/Maps/maps_start.maps_start:PersistentLevel.maps_start'
+[2018.07.10-01.18.18:017][600]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsMy_Player_Controller1
+	bp_mycharacter_anim_C /Game/Maps/UEDPIE_0_maps_start.maps_start:PersistentLevel.bp_MyCharacter_2.CharacterMesh0.bp_mycharacter_anim_C_0
+	Function /Game/Blueprints/Character/bp_mycharacter_anim.bp_mycharacter_anim_C:ExecuteUbergraph_bp_mycharacter_anim:001C
+[2018.07.10-01.18.18:017][600]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsMy_Player_Controller1 from function: 'ExecuteUbergraph_bp_mycharacter_anim' from node: Update Fight State in graph: EventGraph in object: bp_mycharacter_anim with description: Accessed None trying to read property K2Node_DynamicCast_AsMy_Player_Controller1
+[2018.07.10-01.18.18:840][697]LogSlate: Window 'DGame 游戏预览 Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.07.10-01.18.18:843][697]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/maps_start.maps_start:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/maps_start.maps_start:PersistentLevel.maps_start' with GeneratedClass '/Game/Maps/maps_start.maps_start_C' with ClassGeneratedBy '/Game/Maps/maps_start.maps_start:PersistentLevel.maps_start'
+[2018.07.10-01.18.18:877][697]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/maps_start.maps_start:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/maps_start.maps_start:PersistentLevel.maps_start' with GeneratedClass '/Game/Maps/maps_start.maps_start_C' with ClassGeneratedBy '/Game/Maps/maps_start.maps_start:PersistentLevel.maps_start'
+[2018.07.10-01.18.25:663][506]LogSkinnedMeshComp: Warning: GetSocketByName(Sword_2): No SkeletalMesh for Component(CharacterMesh0) Actor(MyCharacter_0)
+[2018.07.10-01.18.25:663][506]LogSkinnedMeshComp: Warning: GetSocketByName(Sword_2): No SkeletalMesh for Component(CharacterMesh0) Actor(MyCharacter_0)
+[2018.07.10-01.18.25:663][506]LogSkinnedMeshComp: Warning: GetSocketByName(Sword_2): No SkeletalMesh for Component(CharacterMesh0) Actor(MyCharacter_0)
+[2018.07.10-01.18.25:663][506]LogSkinnedMeshComp: Warning: GetSocketByName(Sword_2): No SkeletalMesh for Component(CharacterMesh0) Actor(MyCharacter_0)
+[2018.07.10-01.18.25:663][506]LogSkinnedMeshComp: Warning: GetSocketByName(Shield_2): No SkeletalMesh for Component(CharacterMesh0) Actor(MyCharacter_0)
+[2018.07.10-01.18.25:663][506]LogSkinnedMeshComp: Warning: GetSocketByName(Shield_2): No SkeletalMesh for Component(CharacterMesh0) Actor(MyCharacter_0)
+[2018.07.10-01.18.25:663][506]LogSkinnedMeshComp: Warning: GetSocketByName(Shield_2): No SkeletalMesh for Component(CharacterMesh0) Actor(MyCharacter_0)
+[2018.07.10-01.18.25:663][506]LogSkinnedMeshComp: Warning: GetSocketByName(Shield_2): No SkeletalMesh for Component(CharacterMesh0) Actor(MyCharacter_0)
+[2018.07.10-01.18.25:663][506]LogSkinnedMeshComp: Warning: GetSocketByName(Sword_2): No SkeletalMesh for Component(CharacterMesh0) Actor(MyCharacter_0)
+[2018.07.10-01.18.25:663][506]LogSkinnedMeshComp: Warning: GetSocketByName(Shield_2): No SkeletalMesh for Component(CharacterMesh0) Actor(MyCharacter_0)
+[2018.07.10-01.18.25:663][506]LogSkinnedMeshComp: Warning: GetSocketByName(Sword_2): No SkeletalMesh for Component(CharacterMesh0) Actor(MyCharacter_0)
+[2018.07.10-01.18.25:663][506]LogSkinnedMeshComp: Warning: GetSocketByName(Shield_2): No SkeletalMesh for Component(CharacterMesh0) Actor(MyCharacter_0)
+[2018.07.10-01.18.37:773][559]LogHttp: Warning: 0000023053FDEF80: HTTP request timed out after 180.00 seconds URL=https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BD9DB97DC-4C0F-335E-EE23-FE92E01F3392%7D&AppID=UEEditor.UnrealEngine.Release&AppVersion=4.19.2-0%2B%2B%2BUE4%2BRelease-4.19&UserID=5a18308d4dbc22491a6528b3ceec25b2%7C321d150c1ad4465ea32ff383fcd85ca6%7Cb9abf892-6297-4ebe-a44c-32437dec0ee3&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2018.07.10-01.18.37:773][559]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.07.10-01.18.37:779][560]LogHttp: Warning: 0000023053FDEF80: request failed, libcurl error: 0 (No error)
+[2018.07.10-01.18.37:779][560]LogHttp: Warning: 0000023053FDEF80: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x2313b0fbfe8 [serially])
+[2018.07.10-01.18.37:779][560]LogHttp: Warning: 0000023053FDEF80: libcurl info message cache 1 (Hostname in DNS cache was stale, zapped)
+[2018.07.10-01.18.37:779][560]LogHttp: Warning: 0000023053FDEF80: libcurl info message cache 2 (  Trying 52.200.109.100...)
+[2018.07.10-01.18.37:779][560]LogHttp: Warning: 0000023053FDEF80: libcurl info message cache 3 (connect to 52.200.109.100 port 443 failed: Timed out)
+[2018.07.10-01.18.37:779][560]LogHttp: Warning: 0000023053FDEF80: libcurl info message cache 4 (  Trying 35.172.157.112...)
+[2018.07.10-01.18.37:779][560]LogHttp: Warning: 0000023053FDEF80: libcurl info message cache 5 (connect to 35.172.157.112 port 443 failed: Timed out)
+[2018.07.10-01.18.37:779][560]LogHttp: Warning: 0000023053FDEF80: libcurl info message cache 6 (  Trying 52.44.209.208...)
+[2018.07.10-01.18.37:779][560]LogHttp: Warning: 0000023053FDEF80: libcurl info message cache 7 (connect to 52.44.209.208 port 443 failed: Timed out)
+[2018.07.10-01.18.37:779][560]LogHttp: Warning: 0000023053FDEF80: libcurl info message cache 8 (  Trying 52.202.129.51...)
+[2018.07.10-01.18.37:779][560]LogHttp: Warning: 0000023053FDEF80: libcurl info message cache 9 (connect to 52.202.129.51 port 443 failed: Timed out)
+[2018.07.10-01.18.37:779][560]LogHttp: Warning: 0000023053FDEF80: libcurl info message cache 10 (  Trying 34.192.69.192...)
+[2018.07.10-01.18.37:779][560]LogHttp: Warning: 0000023053FDEF80: libcurl info message cache 11 (connect to 34.192.69.192 port 443 failed: Timed out)
+[2018.07.10-01.18.37:779][560]LogHttp: Warning: 0000023053FDEF80: libcurl info message cache 12 (  Trying 35.173.61.154...)
+[2018.07.10-01.18.37:779][560]LogHttp: Warning: 0000023053FDEF80: libcurl info message cache 13 (connect to 35.173.61.154 port 443 failed: Timed out)
+[2018.07.10-01.18.37:779][560]LogHttp: Warning: 0000023053FDEF80: libcurl info message cache 14 (  Trying 18.210.64.195...)
+[2018.07.10-01.18.37:779][560]LogHttp: Warning: 0000023053FDEF80: libcurl info message cache 15 (connect to 18.210.64.195 port 443 failed: Timed out)
+[2018.07.10-01.18.37:779][560]LogHttp: Warning: 0000023053FDEF80: libcurl info message cache 16 (  Trying 18.210.62.211...)
+[2018.07.10-01.18.37:779][560]LogHttp: Warning: 0000023053FDEF80: libcurl info message cache 17 (connect to 18.210.62.211 port 443 failed: Timed out)
+[2018.07.10-01.18.37:779][560]LogHttp: Warning: 0000023053FDEF80: libcurl info message cache 18 (  Trying 52.200.109.100...)
+[2018.07.10-01.18.37:779][560]LogHttp: Warning: 0000023053FDEF80: libcurl info message cache 19 (Closing connection 1)
+[2018.07.10-01.18.37:795][560]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.07.10-01.18.38:201][561]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.07.10-01.18.42:427][562]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.07.10-01.18.43:806][563]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.07.10-01.19.37:359][725]LogHttp: Warning: 00000231428B6C80: HTTP request timed out after 180.00 seconds URL=https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BD9DB97DC-4C0F-335E-EE23-FE92E01F3392%7D&AppID=UEEditor.UnrealEngine.Release&AppVersion=4.19.2-0%2B%2B%2BUE4%2BRelease-4.19&UserID=5a18308d4dbc22491a6528b3ceec25b2%7C321d150c1ad4465ea32ff383fcd85ca6%7Cb9abf892-6297-4ebe-a44c-32437dec0ee3&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2018.07.10-01.19.37:359][725]LogHttp: Warning: 00000231428B6C80: request failed, libcurl error: 0 (No error)
+[2018.07.10-01.19.37:359][725]LogHttp: Warning: 00000231428B6C80: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x2313b0fbfe8 [serially])
+[2018.07.10-01.19.37:359][725]LogHttp: Warning: 00000231428B6C80: libcurl info message cache 1 (Hostname in DNS cache was stale, zapped)
+[2018.07.10-01.19.37:359][725]LogHttp: Warning: 00000231428B6C80: libcurl info message cache 2 (  Trying 35.153.154.4...)
+[2018.07.10-01.19.37:359][725]LogHttp: Warning: 00000231428B6C80: libcurl info message cache 3 (connect to 35.153.154.4 port 443 failed: Timed out)
+[2018.07.10-01.19.37:359][725]LogHttp: Warning: 00000231428B6C80: libcurl info message cache 4 (  Trying 35.168.99.131...)
+[2018.07.10-01.19.37:359][725]LogHttp: Warning: 00000231428B6C80: libcurl info message cache 5 (connect to 35.168.99.131 port 443 failed: Timed out)
+[2018.07.10-01.19.37:359][725]LogHttp: Warning: 00000231428B6C80: libcurl info message cache 6 (  Trying 34.236.247.226...)
+[2018.07.10-01.19.37:359][725]LogHttp: Warning: 00000231428B6C80: libcurl info message cache 7 (connect to 34.236.247.226 port 443 failed: Timed out)
+[2018.07.10-01.19.37:359][725]LogHttp: Warning: 00000231428B6C80: libcurl info message cache 8 (  Trying 35.174.89.230...)
+[2018.07.10-01.19.37:359][725]LogHttp: Warning: 00000231428B6C80: libcurl info message cache 9 (connect to 35.174.89.230 port 443 failed: Timed out)
+[2018.07.10-01.19.37:359][725]LogHttp: Warning: 00000231428B6C80: libcurl info message cache 10 (  Trying 35.173.108.73...)
+[2018.07.10-01.19.37:359][725]LogHttp: Warning: 00000231428B6C80: libcurl info message cache 11 (connect to 35.173.108.73 port 443 failed: Timed out)
+[2018.07.10-01.19.37:359][725]LogHttp: Warning: 00000231428B6C80: libcurl info message cache 12 (  Trying 35.174.140.88...)
+[2018.07.10-01.19.37:359][725]LogHttp: Warning: 00000231428B6C80: libcurl info message cache 13 (connect to 35.174.140.88 port 443 failed: Timed out)
+[2018.07.10-01.19.37:359][725]LogHttp: Warning: 00000231428B6C80: libcurl info message cache 14 (  Trying 35.168.211.70...)
+[2018.07.10-01.19.37:359][725]LogHttp: Warning: 00000231428B6C80: libcurl info message cache 15 (connect to 35.168.211.70 port 443 failed: Timed out)
+[2018.07.10-01.19.37:359][725]LogHttp: Warning: 00000231428B6C80: libcurl info message cache 16 (  Trying 34.236.48.119...)
+[2018.07.10-01.19.37:359][725]LogHttp: Warning: 00000231428B6C80: libcurl info message cache 17 (connect to 34.236.48.119 port 443 failed: Timed out)
+[2018.07.10-01.19.37:359][725]LogHttp: Warning: 00000231428B6C80: libcurl info message cache 18 (  Trying 35.153.154.4...)
+[2018.07.10-01.19.37:359][725]LogHttp: Warning: 00000231428B6C80: libcurl info message cache 19 (Closing connection 2)
+[2018.07.10-01.24.02:450][520]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/maps_start' took 0.020
+[2018.07.10-01.24.02:453][520]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Character/bp_mycharacter_anim] ([1] browsable assets)...
+[2018.07.10-01.24.02:482][520]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/Blueprints/Character/bp_mycharacter_anim.bp_mycharacter_anim]
+[2018.07.10-01.24.02:482][520]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Character/bp_mycharacter_anim]
+[2018.07.10-01.24.02:482][520]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Character/bp_mycharacter_anim" FILE="E:/ue4/DGame/Saved/Autosaves/Game/Blueprints/Character/bp_mycharacter_anim_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2018.07.10-01.24.02:752][520]LogSavePackage: Save=220.49ms
+[2018.07.10-01.24.02:752][520]LogSavePackage: Moving 'E:/ue4/DGame/Saved/bp_mycharacter_anim_Auto1A7C12CA543930051530D58AFE8E3599E.tmp' to 'E:/ue4/DGame/Saved/Autosaves/Game/Blueprints/Character/bp_mycharacter_anim_Auto1.uasset'
+[2018.07.10-01.24.02:769][520]LogSavePackage: Display: Finished SavePackage E:/ue4/DGame/Saved/Autosaves/Game/Blueprints/Character/bp_mycharacter_anim_Auto1.uasset
+[2018.07.10-01.24.02:769][520]LogFileHelpers: Auto-saving content packages took 0.318
+[2018.07.10-01.24.37:445][626]LogHttp: Warning: 00000230614ADC00: HTTP request timed out after 180.00 seconds URL=https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BD9DB97DC-4C0F-335E-EE23-FE92E01F3392%7D&AppID=UEEditor.UnrealEngine.Release&AppVersion=4.19.2-0%2B%2B%2BUE4%2BRelease-4.19&UserID=5a18308d4dbc22491a6528b3ceec25b2%7C321d150c1ad4465ea32ff383fcd85ca6%7Cb9abf892-6297-4ebe-a44c-32437dec0ee3&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2018.07.10-01.24.37:445][626]LogHttp: Warning: 00000230614ADC00: request failed, libcurl error: 0 (No error)
+[2018.07.10-01.24.37:445][626]LogHttp: Warning: 00000230614ADC00: libcurl info message cache 0 (  Trying 52.201.67.204...)
+[2018.07.10-01.24.37:445][626]LogHttp: Warning: 00000230614ADC00: libcurl info message cache 1 (connect to 52.201.67.204 port 443 failed: Timed out)
+[2018.07.10-01.24.37:445][626]LogHttp: Warning: 00000230614ADC00: libcurl info message cache 2 (  Trying 52.202.10.140...)
+[2018.07.10-01.24.37:445][626]LogHttp: Warning: 00000230614ADC00: libcurl info message cache 3 (connect to 52.202.10.140 port 443 failed: Timed out)
+[2018.07.10-01.24.37:445][626]LogHttp: Warning: 00000230614ADC00: libcurl info message cache 4 (  Trying 52.202.184.141...)
+[2018.07.10-01.24.37:445][626]LogHttp: Warning: 00000230614ADC00: libcurl info message cache 5 (connect to 52.202.184.141 port 443 failed: Timed out)
+[2018.07.10-01.24.37:445][626]LogHttp: Warning: 00000230614ADC00: libcurl info message cache 6 (  Trying 52.203.15.83...)
+[2018.07.10-01.24.37:445][626]LogHttp: Warning: 00000230614ADC00: libcurl info message cache 7 (connect to 52.203.15.83 port 443 failed: Timed out)
+[2018.07.10-01.24.37:445][626]LogHttp: Warning: 00000230614ADC00: libcurl info message cache 8 (  Trying 52.203.126.30...)
+[2018.07.10-01.24.37:445][626]LogHttp: Warning: 00000230614ADC00: libcurl info message cache 9 (connect to 52.203.126.30 port 443 failed: Timed out)
+[2018.07.10-01.24.37:445][626]LogHttp: Warning: 00000230614ADC00: libcurl info message cache 10 (  Trying 52.200.19.158...)
+[2018.07.10-01.24.37:445][626]LogHttp: Warning: 00000230614ADC00: libcurl info message cache 11 (connect to 52.200.19.158 port 443 failed: Timed out)
+[2018.07.10-01.24.37:445][626]LogHttp: Warning: 00000230614ADC00: libcurl info message cache 12 (  Trying 52.201.7.125...)
+[2018.07.10-01.24.37:445][626]LogHttp: Warning: 00000230614ADC00: libcurl info message cache 13 (connect to 52.201.7.125 port 443 failed: Timed out)
+[2018.07.10-01.24.37:445][626]LogHttp: Warning: 00000230614ADC00: libcurl info message cache 14 (  Trying 52.2.36.251...)
+[2018.07.10-01.24.37:445][626]LogHttp: Warning: 00000230614ADC00: libcurl info message cache 15 (connect to 52.2.36.251 port 443 failed: Timed out)
+[2018.07.10-01.24.37:445][626]LogHttp: Warning: 00000230614ADC00: libcurl info message cache 16 (  Trying 52.201.67.204...)
+[2018.07.10-01.24.37:445][626]LogHttp: Warning: 00000230614ADC00: libcurl info message cache 17 (Closing connection 3)
+[2018.07.10-01.26.25:119][949]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.07.10-01.26.25:171][949]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (QQ五笔Win8版).
+[2018.07.10-01.26.27:531][230]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.10-01.26.29:337][436]LogSlate: Took 0.008737 seconds to synchronously load lazily loaded font '../../../Engine/Content/SlateDebug/Fonts/LastResort.ttf' (5269K)
+[2018.07.10-01.26.36:725][316]LogHttp: Warning: 000002313C7EAF80: HTTP request timed out after 180.00 seconds URL=https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BD9DB97DC-4C0F-335E-EE23-FE92E01F3392%7D&AppID=UEEditor.UnrealEngine.Release&AppVersion=4.19.2-0%2B%2B%2BUE4%2BRelease-4.19&UserID=5a18308d4dbc22491a6528b3ceec25b2%7C321d150c1ad4465ea32ff383fcd85ca6%7Cb9abf892-6297-4ebe-a44c-32437dec0ee3&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2018.07.10-01.26.36:725][316]LogHttp: Warning: 000002313C7EAF80: request failed, libcurl error: 0 (No error)
+[2018.07.10-01.26.36:725][316]LogHttp: Warning: 000002313C7EAF80: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x2313b0fbfe8 [serially])
+[2018.07.10-01.26.36:725][316]LogHttp: Warning: 000002313C7EAF80: libcurl info message cache 1 (Hostname in DNS cache was stale, zapped)
+[2018.07.10-01.26.36:725][316]LogHttp: Warning: 000002313C7EAF80: libcurl info message cache 2 (  Trying 34.192.69.192...)
+[2018.07.10-01.26.36:725][316]LogHttp: Warning: 000002313C7EAF80: libcurl info message cache 3 (connect to 34.192.69.192 port 443 failed: Timed out)
+[2018.07.10-01.26.36:725][316]LogHttp: Warning: 000002313C7EAF80: libcurl info message cache 4 (  Trying 18.210.64.195...)
+[2018.07.10-01.26.36:725][316]LogHttp: Warning: 000002313C7EAF80: libcurl info message cache 5 (connect to 18.210.64.195 port 443 failed: Timed out)
+[2018.07.10-01.26.36:725][316]LogHttp: Warning: 000002313C7EAF80: libcurl info message cache 6 (  Trying 34.197.134.170...)
+[2018.07.10-01.26.36:725][316]LogHttp: Warning: 000002313C7EAF80: libcurl info message cache 7 (connect to 34.197.134.170 port 443 failed: Timed out)
+[2018.07.10-01.26.36:725][316]LogHttp: Warning: 000002313C7EAF80: libcurl info message cache 8 (  Trying 52.44.209.208...)
+[2018.07.10-01.26.36:725][316]LogHttp: Warning: 000002313C7EAF80: libcurl info message cache 9 (connect to 52.44.209.208 port 443 failed: Timed out)
+[2018.07.10-01.26.36:725][316]LogHttp: Warning: 000002313C7EAF80: libcurl info message cache 10 (  Trying 52.202.129.51...)
+[2018.07.10-01.26.36:725][316]LogHttp: Warning: 000002313C7EAF80: libcurl info message cache 11 (connect to 52.202.129.51 port 443 failed: Timed out)
+[2018.07.10-01.26.36:725][316]LogHttp: Warning: 000002313C7EAF80: libcurl info message cache 12 (  Trying 34.196.247.127...)
+[2018.07.10-01.26.36:725][316]LogHttp: Warning: 000002313C7EAF80: libcurl info message cache 13 (connect to 34.196.247.127 port 443 failed: Timed out)
+[2018.07.10-01.26.36:725][316]LogHttp: Warning: 000002313C7EAF80: libcurl info message cache 14 (  Trying 52.200.109.100...)
+[2018.07.10-01.26.36:725][316]LogHttp: Warning: 000002313C7EAF80: libcurl info message cache 15 (connect to 52.200.109.100 port 443 failed: Timed out)
+[2018.07.10-01.26.36:725][316]LogHttp: Warning: 000002313C7EAF80: libcurl info message cache 16 (  Trying 18.210.62.211...)
+[2018.07.10-01.26.36:725][316]LogHttp: Warning: 000002313C7EAF80: libcurl info message cache 17 (connect to 18.210.62.211 port 443 failed: Timed out)
+[2018.07.10-01.26.36:725][316]LogHttp: Warning: 000002313C7EAF80: libcurl info message cache 18 (  Trying 34.192.69.192...)
+[2018.07.10-01.26.36:725][316]LogHttp: Warning: 000002313C7EAF80: libcurl info message cache 19 (Closing connection 4)
+[2018.07.10-01.26.54:284][374]LogUObjectGlobals: Created PersistentFrame Addr=0x0000023142a07428, Size=4, Default__SKEL_bp_mycharacter_anim_C Function /Game/Blueprints/Character/bp_mycharacter_anim.SKEL_bp_mycharacter_anim_C:ExecuteUbergraph_bp_mycharacter_anim
+[2018.07.10-01.27.07:308][899]LogHotReload: New module detected: UE4Editor-DGame-9161.dll
+[2018.07.10-01.27.08:609][  6]LogHotReload: Starting Hot-Reload from IDE
+[2018.07.10-01.27.08:665][  6]LogClass: Could not find existing class MyPlayerController in package /Script/DGame for HotReload, assuming new class
+[2018.07.10-01.27.08:665][  6]LogClass: Function get_b_attack_q is new.
+[2018.07.10-01.27.08:665][  6]LogClass: Function get_b_run is new.
+[2018.07.10-01.27.08:665][  6]LogClass: Function update_fight_state is new.
+[2018.07.10-01.27.08:666][  6]LogClass: EControllerState HotReload.
+[2018.07.10-01.27.08:667][  6]LogHotReload: Re-instancing DGameGameModeBase after hot-reload.
+[2018.07.10-01.27.08:765][  6]LogHotReload: Re-instancing MyPlayerController after hot-reload.
+[2018.07.10-01.27.08:839][  6]LogContentBrowser: Native class hierarchy updated for 'DGame' in 0.0004 seconds. Added 5 classes and 2 folders.
+[2018.07.10-01.27.08:841][  6]Display: HotReload successful (8 functions remapped  0 scriptstructs remapped)
+[2018.07.10-01.27.09:186][  6]LogContentBrowser: Native class hierarchy populated in 0.0113 seconds. Added 2458 classes and 562 folders.
+[2018.07.10-01.27.09:191][  6]Display: HotReload took  0.6s.
+[2018.07.10-01.27.09:898][ 73]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000023142a07428, Size=4
+[2018.07.10-01.27.09:898][ 73]LogUObjectGlobals: Created PersistentFrame Addr=0x0000023138966790, Size=4, Default__SKEL_bp_mycharacter_anim_C Function /Engine/Transient.REINST_SKEL_bp_mycharacter_anim_C_22:ExecuteUbergraph_bp_mycharacter_anim
+[2018.07.10-01.27.09:932][ 73]LogUObjectGlobals: Created PersistentFrame Addr=0x0000023142a04168, Size=4, Default__SKEL_bp_mycharacter_anim_C Function /Game/Blueprints/Character/bp_mycharacter_anim.SKEL_bp_mycharacter_anim_C:ExecuteUbergraph_bp_mycharacter_anim
+[2018.07.10-01.27.17:452][962]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000023142a04168, Size=4
+[2018.07.10-01.27.17:452][962]LogUObjectGlobals: Created PersistentFrame Addr=0x000002313b4ad450, Size=4, Default__SKEL_bp_mycharacter_anim_C Function /Engine/Transient.REINST_SKEL_bp_mycharacter_anim_C_23:ExecuteUbergraph_bp_mycharacter_anim
+[2018.07.10-01.27.17:484][962]LogUObjectGlobals: Created PersistentFrame Addr=0x000002313b035678, Size=4, Default__SKEL_bp_mycharacter_anim_C Function /Game/Blueprints/Character/bp_mycharacter_anim.SKEL_bp_mycharacter_anim_C:ExecuteUbergraph_bp_mycharacter_anim
+[2018.07.10-01.27.24:156][752]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002313b035678, Size=4
+[2018.07.10-01.27.24:156][752]LogUObjectGlobals: Created PersistentFrame Addr=0x0000023152717e68, Size=4, Default__SKEL_bp_mycharacter_anim_C Function /Engine/Transient.REINST_SKEL_bp_mycharacter_anim_C_24:ExecuteUbergraph_bp_mycharacter_anim
+[2018.07.10-01.27.24:188][752]LogUObjectGlobals: Created PersistentFrame Addr=0x0000023152716688, Size=4, Default__SKEL_bp_mycharacter_anim_C Function /Game/Blueprints/Character/bp_mycharacter_anim.SKEL_bp_mycharacter_anim_C:ExecuteUbergraph_bp_mycharacter_anim
+[2018.07.10-01.27.34:477][977]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000023152716688, Size=4
+[2018.07.10-01.27.34:477][977]LogUObjectGlobals: Created PersistentFrame Addr=0x00000231528a4320, Size=4, Default__SKEL_bp_mycharacter_anim_C Function /Engine/Transient.REINST_SKEL_bp_mycharacter_anim_C_25:ExecuteUbergraph_bp_mycharacter_anim
+[2018.07.10-01.27.34:507][977]LogUObjectGlobals: Created PersistentFrame Addr=0x000002315303f7f8, Size=4, Default__SKEL_bp_mycharacter_anim_C Function /Game/Blueprints/Character/bp_mycharacter_anim.SKEL_bp_mycharacter_anim_C:ExecuteUbergraph_bp_mycharacter_anim
+[2018.07.10-01.27.36:780][240]LogHttp: Warning: 000002313809CE80: HTTP request timed out after 180.00 seconds URL=https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BD9DB97DC-4C0F-335E-EE23-FE92E01F3392%7D&AppID=UEEditor.UnrealEngine.Release&AppVersion=4.19.2-0%2B%2B%2BUE4%2BRelease-4.19&UserID=5a18308d4dbc22491a6528b3ceec25b2%7C321d150c1ad4465ea32ff383fcd85ca6%7Cb9abf892-6297-4ebe-a44c-32437dec0ee3&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2018.07.10-01.27.36:780][240]LogHttp: Warning: 000002313809CE80: request failed, libcurl error: 0 (No error)
+[2018.07.10-01.27.36:780][240]LogHttp: Warning: 000002313809CE80: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x2313b0fbfe8 [serially])
+[2018.07.10-01.27.36:780][240]LogHttp: Warning: 000002313809CE80: libcurl info message cache 1 (Hostname in DNS cache was stale, zapped)
+[2018.07.10-01.27.36:781][240]LogHttp: Warning: 000002313809CE80: libcurl info message cache 2 (  Trying 34.235.172.107...)
+[2018.07.10-01.27.36:781][240]LogHttp: Warning: 000002313809CE80: libcurl info message cache 3 (connect to 34.235.172.107 port 443 failed: Timed out)
+[2018.07.10-01.27.36:781][240]LogHttp: Warning: 000002313809CE80: libcurl info message cache 4 (  Trying 34.233.246.175...)
+[2018.07.10-01.27.36:781][240]LogHttp: Warning: 000002313809CE80: libcurl info message cache 5 (connect to 34.233.246.175 port 443 failed: Timed out)
+[2018.07.10-01.27.36:781][240]LogHttp: Warning: 000002313809CE80: libcurl info message cache 6 (  Trying 34.238.221.216...)
+[2018.07.10-01.27.36:781][240]LogHttp: Warning: 000002313809CE80: libcurl info message cache 7 (connect to 34.238.221.216 port 443 failed: Timed out)
+[2018.07.10-01.27.36:781][240]LogHttp: Warning: 000002313809CE80: libcurl info message cache 8 (  Trying 34.235.83.12...)
+[2018.07.10-01.27.36:781][240]LogHttp: Warning: 000002313809CE80: libcurl info message cache 9 (connect to 34.235.83.12 port 443 failed: Timed out)
+[2018.07.10-01.27.36:781][240]LogHttp: Warning: 000002313809CE80: libcurl info message cache 10 (  Trying 34.239.217.69...)
+[2018.07.10-01.27.36:781][240]LogHttp: Warning: 000002313809CE80: libcurl info message cache 11 (connect to 34.239.217.69 port 443 failed: Timed out)
+[2018.07.10-01.27.36:781][240]LogHttp: Warning: 000002313809CE80: libcurl info message cache 12 (  Trying 34.237.41.97...)
+[2018.07.10-01.27.36:781][240]LogHttp: Warning: 000002313809CE80: libcurl info message cache 13 (connect to 34.237.41.97 port 443 failed: Timed out)
+[2018.07.10-01.27.36:781][240]LogHttp: Warning: 000002313809CE80: libcurl info message cache 14 (  Trying 34.237.88.192...)
+[2018.07.10-01.27.36:781][240]LogHttp: Warning: 000002313809CE80: libcurl info message cache 15 (connect to 34.237.88.192 port 443 failed: Timed out)
+[2018.07.10-01.27.36:781][240]LogHttp: Warning: 000002313809CE80: libcurl info message cache 16 (  Trying 34.233.8.184...)
+[2018.07.10-01.27.36:781][240]LogHttp: Warning: 000002313809CE80: libcurl info message cache 17 (connect to 34.233.8.184 port 443 failed: Timed out)
+[2018.07.10-01.27.36:781][240]LogHttp: Warning: 000002313809CE80: libcurl info message cache 18 (  Trying 34.235.172.107...)
+[2018.07.10-01.27.36:781][240]LogHttp: Warning: 000002313809CE80: libcurl info message cache 19 (Closing connection 5)
+[2018.07.10-01.28.22:963][756]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002315303f7f8, Size=4
+[2018.07.10-01.28.22:963][756]LogUObjectGlobals: Created PersistentFrame Addr=0x00000231531e9e08, Size=4, Default__SKEL_bp_mycharacter_anim_C Function /Engine/Transient.REINST_SKEL_bp_mycharacter_anim_C_26:ExecuteUbergraph_bp_mycharacter_anim
+[2018.07.10-01.28.22:995][756]LogUObjectGlobals: Created PersistentFrame Addr=0x00000231531e82c8, Size=4, Default__SKEL_bp_mycharacter_anim_C Function /Game/Blueprints/Character/bp_mycharacter_anim.SKEL_bp_mycharacter_anim_C:ExecuteUbergraph_bp_mycharacter_anim
+[2018.07.10-01.28.34:310][ 84]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000231531e82c8, Size=4
+[2018.07.10-01.28.34:310][ 84]LogUObjectGlobals: Created PersistentFrame Addr=0x00000231597bca90, Size=4, Default__SKEL_bp_mycharacter_anim_C Function /Engine/Transient.REINST_SKEL_bp_mycharacter_anim_C_27:ExecuteUbergraph_bp_mycharacter_anim
+[2018.07.10-01.28.34:343][ 84]LogUObjectGlobals: Created PersistentFrame Addr=0x00000231597bdae8, Size=4, Default__SKEL_bp_mycharacter_anim_C Function /Game/Blueprints/Character/bp_mycharacter_anim.SKEL_bp_mycharacter_anim_C:ExecuteUbergraph_bp_mycharacter_anim
+[2018.07.10-01.29.04:162][612]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000231597bdae8, Size=4
+[2018.07.10-01.29.04:162][612]LogUObjectGlobals: Created PersistentFrame Addr=0x0000023146d5f368, Size=4, Default__SKEL_bp_mycharacter_anim_C Function /Engine/Transient.REINST_SKEL_bp_mycharacter_anim_C_28:ExecuteUbergraph_bp_mycharacter_anim
+[2018.07.10-01.29.04:193][612]LogUObjectGlobals: Created PersistentFrame Addr=0x00000231597bf3e0, Size=4, Default__SKEL_bp_mycharacter_anim_C Function /Game/Blueprints/Character/bp_mycharacter_anim.SKEL_bp_mycharacter_anim_C:ExecuteUbergraph_bp_mycharacter_anim
+[2018.07.10-01.29.52:828][410]LogSlate: Took 0.003206 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/NotoNaskhArabicUI-Regular.ttf' (144K)
+[2018.07.10-01.30.12:526][763]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000231597bf3e0, Size=4
+[2018.07.10-01.30.12:526][763]LogUObjectGlobals: Created PersistentFrame Addr=0x0000023153a4f990, Size=4, Default__SKEL_bp_mycharacter_anim_C Function /Engine/Transient.REINST_SKEL_bp_mycharacter_anim_C_29:ExecuteUbergraph_bp_mycharacter_anim
+[2018.07.10-01.30.12:558][763]LogUObjectGlobals: Created PersistentFrame Addr=0x000002315d9fdfa0, Size=4, Default__SKEL_bp_mycharacter_anim_C Function /Game/Blueprints/Character/bp_mycharacter_anim.SKEL_bp_mycharacter_anim_C:ExecuteUbergraph_bp_mycharacter_anim
+[2018.07.10-01.30.57:754][134]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002315d9fdfa0, Size=4
+[2018.07.10-01.30.57:754][134]LogUObjectGlobals: Created PersistentFrame Addr=0x000002315ed49ad0, Size=4, Default__SKEL_bp_mycharacter_anim_C Function /Engine/Transient.REINST_SKEL_bp_mycharacter_anim_C_30:ExecuteUbergraph_bp_mycharacter_anim
+[2018.07.10-01.30.57:786][134]LogUObjectGlobals: Created PersistentFrame Addr=0x000002315d3d6188, Size=4, Default__SKEL_bp_mycharacter_anim_C Function /Game/Blueprints/Character/bp_mycharacter_anim.SKEL_bp_mycharacter_anim_C:ExecuteUbergraph_bp_mycharacter_anim
+[2018.07.10-01.31.32:747][298]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002315d3d6188, Size=4
+[2018.07.10-01.31.32:747][298]LogUObjectGlobals: Created PersistentFrame Addr=0x000002315ed4a980, Size=4, Default__SKEL_bp_mycharacter_anim_C Function /Engine/Transient.REINST_SKEL_bp_mycharacter_anim_C_31:ExecuteUbergraph_bp_mycharacter_anim
+[2018.07.10-01.31.32:778][298]LogUObjectGlobals: Created PersistentFrame Addr=0x000002315d5dc648, Size=4, Default__SKEL_bp_mycharacter_anim_C Function /Game/Blueprints/Character/bp_mycharacter_anim.SKEL_bp_mycharacter_anim_C:ExecuteUbergraph_bp_mycharacter_anim
+[2018.07.10-01.31.44:060][632]BlueprintLog: New page: 编译bp_mycharacter_anim
+[2018.07.10-01.31.44:106][632]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002315d5dc648, Size=4
+[2018.07.10-01.31.44:106][632]LogUObjectGlobals: Created PersistentFrame Addr=0x000002315faaa490, Size=4, Default__SKEL_bp_mycharacter_anim_C Function /Engine/Transient.REINST_SKEL_bp_mycharacter_anim_C_32:ExecuteUbergraph_bp_mycharacter_anim
+[2018.07.10-01.31.44:151][632]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000023131648280, Size=344
+[2018.07.10-01.31.44:151][632]LogUObjectGlobals: Created PersistentFrame Addr=0x000002313795ec80, Size=344, bp_mycharacter_anim_C_13 Function /Engine/Transient.REINST_bp_mycharacter_anim_C_33:ExecuteUbergraph_bp_mycharacter_anim
+[2018.07.10-01.31.44:193][632]LogBlueprint: Error: [Compiler bp_mycharacter_anim] 该蓝图（自身）并不是一个MyPlayerController，因此' 目标 '必须具有一个连接。
+[2018.07.10-01.31.44:196][632]LogBlueprint: Error: [Compiler bp_mycharacter_anim] 变量节点 获得fight_state  使用一个无效的目标。 它可能依赖于连接到执行链上的一个节点，但该节点已被清除。
+[2018.07.10-01.31.44:197][632]LogUObjectGlobals: Created PersistentFrame Addr=0x00000231601b56c0, Size=296, Default__bp_mycharacter_anim_C Function /Game/Blueprints/Character/bp_mycharacter_anim.bp_mycharacter_anim_C:ExecuteUbergraph_bp_mycharacter_anim
+[2018.07.10-01.31.44:378][632]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002313b4ad450, Size=4
+[2018.07.10-01.31.44:378][632]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000023138966790, Size=4
+[2018.07.10-01.31.44:378][632]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000023152717e68, Size=4
+[2018.07.10-01.31.44:379][632]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000231528a4320, Size=4
+[2018.07.10-01.31.44:379][632]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000231531e9e08, Size=4
+[2018.07.10-01.31.44:379][632]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000231597bca90, Size=4
+[2018.07.10-01.31.44:379][632]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000023146d5f368, Size=4
+[2018.07.10-01.31.44:380][632]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000023153a4f990, Size=4
+[2018.07.10-01.31.44:380][632]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002315ed49ad0, Size=4
+[2018.07.10-01.31.44:380][632]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002315ed4a980, Size=4
+[2018.07.10-01.31.44:381][632]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002315faaa490, Size=4
+[2018.07.10-01.31.44:436][632]LogBlueprint: Warning: [Compiler bp_mycharacter_anim] [1107.15] Compile of bp_mycharacter_anim failed. 2 Fatal Issue(s) 0 Warning(s) [in 376 ms] (/Game/Blueprints/Character/bp_mycharacter_anim.bp_mycharacter_anim)
+[2018.07.10-01.31.44:948][681]LogTemp: Repeating last play command: 新建编辑器窗口（在编辑器中运行）
+[2018.07.10-01.31.44:961][681]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/maps_start.maps_start:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/maps_start.maps_start:PersistentLevel.maps_start' with GeneratedClass '/Game/Maps/maps_start.maps_start_C' with ClassGeneratedBy '/Game/Maps/maps_start.maps_start:PersistentLevel.maps_start'
+[2018.07.10-01.31.44:961][681]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.07.10-01.31.46:133][681]LogSlate: Window '信息' being destroyed
+[2018.07.10-01.32.02:210][595]BlueprintLog: New page: 编译bp_mycharacter_anim
+[2018.07.10-01.32.02:300][595]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000231601b56c0, Size=296
+[2018.07.10-01.32.02:300][595]LogUObjectGlobals: Created PersistentFrame Addr=0x00000230656ed440, Size=296, bp_mycharacter_anim_C_17 Function /Engine/Transient.REINST_bp_mycharacter_anim_C_35:ExecuteUbergraph_bp_mycharacter_anim
+[2018.07.10-01.32.02:338][595]LogUObjectGlobals: Created PersistentFrame Addr=0x00000230f5e4d1c0, Size=296, Default__bp_mycharacter_anim_C Function /Game/Blueprints/Character/bp_mycharacter_anim.bp_mycharacter_anim_C:ExecuteUbergraph_bp_mycharacter_anim
+[2018.07.10-01.32.02:470][595]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002313795ec80, Size=344
+[2018.07.10-01.32.02:774][615]LogScript: Warning: Accessed None trying to read property my_player_controller
+	bp_mycharacter_anim_C /Engine/Transient.World_3:PersistentLevel.Actor_0.DebugSkelMeshComponent_0.bp_mycharacter_anim_C_20
+	Function /Game/Blueprints/Character/bp_mycharacter_anim.bp_mycharacter_anim_C:ExecuteUbergraph_bp_mycharacter_anim:16BE
+[2018.07.10-01.32.05:217][906]LogTemp: Repeating last play command: 新建编辑器窗口（在编辑器中运行）
+[2018.07.10-01.32.05:229][906]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/maps_start.maps_start:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/maps_start.maps_start:PersistentLevel.maps_start' with GeneratedClass '/Game/Maps/maps_start.maps_start_C' with ClassGeneratedBy '/Game/Maps/maps_start.maps_start:PersistentLevel.maps_start'
+[2018.07.10-01.32.05:229][906]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.07.10-01.32.05:229][906]PIE: New page: PIE会话: maps_start (2018年7月10日 下午5:32:05)
+[2018.07.10-01.32.05:229][906]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_maps_start
+[2018.07.10-01.32.05:251][906]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021547s)
+[2018.07.10-01.32.05:251][906]LogAIModule: Creating AISystem for world maps_start
+[2018.07.10-01.32.05:251][906]LogPlayLevel: PIE: World Init took: (0.000734s)
+[2018.07.10-01.32.05:251][906]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/maps_start.maps_start to /Game/Maps/UEDPIE_0_maps_start.maps_start (0.022407s)
+[2018.07.10-01.32.05:273][906]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000230656ed440, Size=296
+[2018.07.10-01.32.05:279][906]LogInit: XAudio2 using '扬声器 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.07.10-01.32.05:284][906]LogInit: FAudioDevice initialized.
+[2018.07.10-01.32.05:322][906]LogLoad: Game class is 'DGameGameModeBase'
+[2018.07.10-01.32.05:326][906]LogWorld: Bringing World /Game/Maps/UEDPIE_0_maps_start.maps_start up for play (max tick rate 0) at 2018.07.10-09.32.05
+[2018.07.10-01.32.05:326][906]LogWorld: Bringing up level for play took: 0.003358
+[2018.07.10-01.32.05:393][906]PIE: /Game/Maps/UEDPIE_0_maps_start的‘在编辑器中播放’的起始时间0.852
+[2018.07.10-01.32.05:393][906]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/maps_start.maps_start:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/maps_start.maps_start:PersistentLevel.maps_start' with GeneratedClass '/Game/Maps/maps_start.maps_start_C' with ClassGeneratedBy '/Game/Maps/maps_start.maps_start:PersistentLevel.maps_start'
+[2018.07.10-01.32.05:451][907]LogScript: Warning: Accessed None trying to read property my_player_controller
+	bp_mycharacter_anim_C /Game/Maps/UEDPIE_0_maps_start.maps_start:PersistentLevel.bp_MyCharacter_2.CharacterMesh0.bp_mycharacter_anim_C_0
+	Function /Game/Blueprints/Character/bp_mycharacter_anim.bp_mycharacter_anim_C:ExecuteUbergraph_bp_mycharacter_anim:16BE
+[2018.07.10-01.32.05:451][907]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property my_player_controller from function: 'ExecuteUbergraph_bp_mycharacter_anim' from node: Update Fight State in graph: EventGraph in object: bp_mycharacter_anim with description: Accessed None trying to read property my_player_controller
+[2018.07.10-01.32.09:834][378]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.10-01.32.15:953][ 46]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.10-01.32.16:045][ 55]LogSlate: Window 'DGame 游戏预览 Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.07.10-01.32.16:052][ 55]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/maps_start.maps_start:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/maps_start.maps_start:PersistentLevel.maps_start' with GeneratedClass '/Game/Maps/maps_start.maps_start_C' with ClassGeneratedBy '/Game/Maps/maps_start.maps_start:PersistentLevel.maps_start'
+[2018.07.10-01.32.16:087][ 55]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/maps_start.maps_start:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/maps_start.maps_start:PersistentLevel.maps_start' with GeneratedClass '/Game/Maps/maps_start.maps_start_C' with ClassGeneratedBy '/Game/Maps/maps_start.maps_start:PersistentLevel.maps_start'
+[2018.07.10-01.32.20:810][467]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.DGame
+[2018.07.10-01.32.20:810][467]LogTemp: CWD: C:\my_code\UnrealEngine-release\Engine\Binaries\DotNET\IOS
+[2018.07.10-01.32.20:810][467]LogTemp: Initial Dir: C:\my_code\UnrealEngine-release
+[2018.07.10-01.32.20:810][467]LogTemp: Env CWD: C:\my_code\UnrealEngine-release\Engine\Binaries\DotNET\IOS
+[2018.07.10-01.32.20:810][467]LogTemp: BranchPath = duaduacao-PC0/C/my_code/UnrealEngine-release/Engine/Binaries --- GameBranchPath = duaduacao-PC0/C/my_code/UnrealEngine-release/Engine/Binaries
+[2018.07.10-01.32.20:818][468]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\duaduacao\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2018.07.10-01.32.35:248][174]LogSlate: Window '项目设置' being destroyed
+[2018.07.10-01.32.35:251][174]LogSlate: Window '项目设置' being destroyed
+[2018.07.10-01.32.35:778][233]LogTemp: Repeating last play command: 新建编辑器窗口（在编辑器中运行）
+[2018.07.10-01.32.35:789][233]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/maps_start.maps_start:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/maps_start.maps_start:PersistentLevel.maps_start' with GeneratedClass '/Game/Maps/maps_start.maps_start_C' with ClassGeneratedBy '/Game/Maps/maps_start.maps_start:PersistentLevel.maps_start'
+[2018.07.10-01.32.35:789][233]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.07.10-01.32.35:789][233]PIE: New page: PIE会话: maps_start (2018年7月10日 下午5:32:35)
+[2018.07.10-01.32.35:789][233]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_maps_start
+[2018.07.10-01.32.35:810][233]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020883s)
+[2018.07.10-01.32.35:810][233]LogAIModule: Creating AISystem for world maps_start
+[2018.07.10-01.32.35:810][233]LogPlayLevel: PIE: World Init took: (0.000688s)
+[2018.07.10-01.32.35:810][233]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/maps_start.maps_start to /Game/Maps/UEDPIE_0_maps_start.maps_start (0.021676s)
+[2018.07.10-01.32.35:838][233]LogInit: XAudio2 using '扬声器 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.07.10-01.32.35:843][233]LogInit: FAudioDevice initialized.
+[2018.07.10-01.32.35:887][233]LogLoad: Game class is 'DGameGameModeBase'
+[2018.07.10-01.32.35:891][233]LogWorld: Bringing World /Game/Maps/UEDPIE_0_maps_start.maps_start up for play (max tick rate 0) at 2018.07.10-09.32.35
+[2018.07.10-01.32.35:891][233]LogWorld: Bringing up level for play took: 0.003781
+[2018.07.10-01.32.35:956][233]PIE: /Game/Maps/UEDPIE_0_maps_start的‘在编辑器中播放’的起始时间-0.583
+[2018.07.10-01.32.35:957][233]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/maps_start.maps_start:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/maps_start.maps_start:PersistentLevel.maps_start' with GeneratedClass '/Game/Maps/maps_start.maps_start_C' with ClassGeneratedBy '/Game/Maps/maps_start.maps_start:PersistentLevel.maps_start'
+[2018.07.10-01.32.36:035][234]LogScript: Warning: Accessed None trying to read property my_player_controller
+	bp_mycharacter_anim_C /Game/Maps/UEDPIE_0_maps_start.maps_start:PersistentLevel.bp_MyCharacter_2.CharacterMesh0.bp_mycharacter_anim_C_0
+	Function /Game/Blueprints/Character/bp_mycharacter_anim.bp_mycharacter_anim_C:ExecuteUbergraph_bp_mycharacter_anim:16BE
+[2018.07.10-01.32.36:035][234]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property my_player_controller from function: 'ExecuteUbergraph_bp_mycharacter_anim' from node: Update Fight State in graph: EventGraph in object: bp_mycharacter_anim with description: Accessed None trying to read property my_player_controller
+[2018.07.10-01.32.36:791][325]LogHttp: Warning: 0000023146BFCB80: HTTP request timed out after 180.00 seconds URL=https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BD9DB97DC-4C0F-335E-EE23-FE92E01F3392%7D&AppID=UEEditor.UnrealEngine.Release&AppVersion=4.19.2-0%2B%2B%2BUE4%2BRelease-4.19&UserID=5a18308d4dbc22491a6528b3ceec25b2%7C321d150c1ad4465ea32ff383fcd85ca6%7Cb9abf892-6297-4ebe-a44c-32437dec0ee3&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2018.07.10-01.32.36:791][325]LogHttp: Warning: 0000023146BFCB80: request failed, libcurl error: 0 (No error)
+[2018.07.10-01.32.36:791][325]LogHttp: Warning: 0000023146BFCB80: libcurl info message cache 0 (  Trying 52.204.40.189...)
+[2018.07.10-01.32.36:791][325]LogHttp: Warning: 0000023146BFCB80: libcurl info message cache 1 (connect to 52.204.40.189 port 443 failed: Timed out)
+[2018.07.10-01.32.36:791][325]LogHttp: Warning: 0000023146BFCB80: libcurl info message cache 2 (  Trying 52.202.10.140...)
+[2018.07.10-01.32.36:791][325]LogHttp: Warning: 0000023146BFCB80: libcurl info message cache 3 (connect to 52.202.10.140 port 443 failed: Timed out)
+[2018.07.10-01.32.36:791][325]LogHttp: Warning: 0000023146BFCB80: libcurl info message cache 4 (  Trying 52.203.126.30...)
+[2018.07.10-01.32.36:791][325]LogHttp: Warning: 0000023146BFCB80: libcurl info message cache 5 (connect to 52.203.126.30 port 443 failed: Timed out)
+[2018.07.10-01.32.36:791][325]LogHttp: Warning: 0000023146BFCB80: libcurl info message cache 6 (  Trying 52.201.67.204...)
+[2018.07.10-01.32.36:791][325]LogHttp: Warning: 0000023146BFCB80: libcurl info message cache 7 (connect to 52.201.67.204 port 443 failed: Timed out)
+[2018.07.10-01.32.36:791][325]LogHttp: Warning: 0000023146BFCB80: libcurl info message cache 8 (  Trying 52.202.184.141...)
+[2018.07.10-01.32.36:791][325]LogHttp: Warning: 0000023146BFCB80: libcurl info message cache 9 (connect to 52.202.184.141 port 443 failed: Timed out)
+[2018.07.10-01.32.36:791][325]LogHttp: Warning: 0000023146BFCB80: libcurl info message cache 10 (  Trying 52.204.246.26...)
+[2018.07.10-01.32.36:791][325]LogHttp: Warning: 0000023146BFCB80: libcurl info message cache 11 (connect to 52.204.246.26 port 443 failed: Timed out)
+[2018.07.10-01.32.36:791][325]LogHttp: Warning: 0000023146BFCB80: libcurl info message cache 12 (  Trying 52.203.15.83...)
+[2018.07.10-01.32.36:791][325]LogHttp: Warning: 0000023146BFCB80: libcurl info message cache 13 (connect to 52.203.15.83 port 443 failed: Timed out)
+[2018.07.10-01.32.36:791][325]LogHttp: Warning: 0000023146BFCB80: libcurl info message cache 14 (  Trying 52.201.7.125...)
+[2018.07.10-01.32.36:791][325]LogHttp: Warning: 0000023146BFCB80: libcurl info message cache 15 (connect to 52.201.7.125 port 443 failed: Timed out)
+[2018.07.10-01.32.36:791][325]LogHttp: Warning: 0000023146BFCB80: libcurl info message cache 16 (  Trying 52.204.40.189...)
+[2018.07.10-01.32.36:791][325]LogHttp: Warning: 0000023146BFCB80: libcurl info message cache 17 (Closing connection 6)
+[2018.07.10-01.32.37:885][456]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.10-01.32.40:483][767]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.10-01.33.36:811][478]LogHttp: Warning: 0000023153D62C80: HTTP request timed out after 180.00 seconds URL=https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BD9DB97DC-4C0F-335E-EE23-FE92E01F3392%7D&AppID=UEEditor.UnrealEngine.Release&AppVersion=4.19.2-0%2B%2B%2BUE4%2BRelease-4.19&UserID=5a18308d4dbc22491a6528b3ceec25b2%7C321d150c1ad4465ea32ff383fcd85ca6%7Cb9abf892-6297-4ebe-a44c-32437dec0ee3&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2018.07.10-01.33.36:811][478]LogHttp: Warning: 0000023153D62C80: request failed, libcurl error: 0 (No error)
+[2018.07.10-01.33.36:811][478]LogHttp: Warning: 0000023153D62C80: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x2313b0fbfe8 [serially])
+[2018.07.10-01.33.36:811][478]LogHttp: Warning: 0000023153D62C80: libcurl info message cache 1 (Hostname in DNS cache was stale, zapped)
+[2018.07.10-01.33.36:811][478]LogHttp: Warning: 0000023153D62C80: libcurl info message cache 2 (  Trying 34.196.247.127...)
+[2018.07.10-01.33.36:811][478]LogHttp: Warning: 0000023153D62C80: libcurl info message cache 3 (connect to 34.196.247.127 port 443 failed: Timed out)
+[2018.07.10-01.33.36:811][478]LogHttp: Warning: 0000023153D62C80: libcurl info message cache 4 (  Trying 34.199.66.0...)
+[2018.07.10-01.33.36:811][478]LogHttp: Warning: 0000023153D62C80: libcurl info message cache 5 (connect to 34.199.66.0 port 443 failed: Timed out)
+[2018.07.10-01.33.36:811][478]LogHttp: Warning: 0000023153D62C80: libcurl info message cache 6 (  Trying 52.202.129.51...)
+[2018.07.10-01.33.36:811][478]LogHttp: Warning: 0000023153D62C80: libcurl info message cache 7 (connect to 52.202.129.51 port 443 failed: Timed out)
+[2018.07.10-01.33.36:811][478]LogHttp: Warning: 0000023153D62C80: libcurl info message cache 8 (  Trying 18.210.62.211...)
+[2018.07.10-01.33.36:811][478]LogHttp: Warning: 0000023153D62C80: libcurl info message cache 9 (connect to 18.210.62.211 port 443 failed: Timed out)
+[2018.07.10-01.33.36:811][478]LogHttp: Warning: 0000023153D62C80: libcurl info message cache 10 (  Trying 34.197.134.170...)
+[2018.07.10-01.33.36:811][478]LogHttp: Warning: 0000023153D62C80: libcurl info message cache 11 (connect to 34.197.134.170 port 443 failed: Timed out)
+[2018.07.10-01.33.36:811][478]LogHttp: Warning: 0000023153D62C80: libcurl info message cache 12 (  Trying 34.192.69.192...)
+[2018.07.10-01.33.36:811][478]LogHttp: Warning: 0000023153D62C80: libcurl info message cache 13 (connect to 34.192.69.192 port 443 failed: Timed out)
+[2018.07.10-01.33.36:811][478]LogHttp: Warning: 0000023153D62C80: libcurl info message cache 14 (  Trying 52.44.209.208...)
+[2018.07.10-01.33.36:811][478]LogHttp: Warning: 0000023153D62C80: libcurl info message cache 15 (connect to 52.44.209.208 port 443 failed: Timed out)
+[2018.07.10-01.33.36:811][478]LogHttp: Warning: 0000023153D62C80: libcurl info message cache 16 (  Trying 18.210.64.195...)
+[2018.07.10-01.33.36:811][478]LogHttp: Warning: 0000023153D62C80: libcurl info message cache 17 (connect to 18.210.64.195 port 443 failed: Timed out)
+[2018.07.10-01.33.36:811][478]LogHttp: Warning: 0000023153D62C80: libcurl info message cache 18 (  Trying 34.196.247.127...)
+[2018.07.10-01.33.36:811][478]LogHttp: Warning: 0000023153D62C80: libcurl info message cache 19 (Closing connection 7)
+[2018.07.10-01.33.42:498][160]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.10-01.34.06:274][ 11]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.10-01.34.06:372][ 22]LogSlate: Window 'DGame 游戏预览 Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.07.10-01.34.06:376][ 22]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/maps_start.maps_start:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/maps_start.maps_start:PersistentLevel.maps_start' with GeneratedClass '/Game/Maps/maps_start.maps_start_C' with ClassGeneratedBy '/Game/Maps/maps_start.maps_start:PersistentLevel.maps_start'
+[2018.07.10-01.34.06:407][ 22]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/maps_start.maps_start:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/maps_start.maps_start:PersistentLevel.maps_start' with GeneratedClass '/Game/Maps/maps_start.maps_start_C' with ClassGeneratedBy '/Game/Maps/maps_start.maps_start:PersistentLevel.maps_start'
+[2018.07.10-01.34.07:945][195]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Character/bp_mycharacter_anim" FILE="E:/ue4/DGame/Content/Blueprints/Character/bp_mycharacter_anim.uasset" SILENT=true
+[2018.07.10-01.34.08:178][195]LogSavePackage: Save=222.92ms
+[2018.07.10-01.34.08:178][195]LogSavePackage: Moving 'E:/ue4/DGame/Saved/bp_mycharacter_anim9768A3924DCC2ABEB31728996C33D8A0.tmp' to 'E:/ue4/DGame/Content/Blueprints/Character/bp_mycharacter_anim.uasset'
+[2018.07.10-01.34.08:195][195]LogSavePackage: Display: Finished SavePackage E:/ue4/DGame/Content/Blueprints/Character/bp_mycharacter_anim.uasset
+[2018.07.10-01.34.36:810][585]LogHttp: Warning: 00000231447D1600: HTTP request timed out after 180.00 seconds URL=https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BD9DB97DC-4C0F-335E-EE23-FE92E01F3392%7D&AppID=UEEditor.UnrealEngine.Release&AppVersion=4.19.2-0%2B%2B%2BUE4%2BRelease-4.19&UserID=5a18308d4dbc22491a6528b3ceec25b2%7C321d150c1ad4465ea32ff383fcd85ca6%7Cb9abf892-6297-4ebe-a44c-32437dec0ee3&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2018.07.10-01.34.36:810][585]LogHttp: Warning: 00000231447D1600: request failed, libcurl error: 0 (No error)
+[2018.07.10-01.34.36:811][585]LogHttp: Warning: 00000231447D1600: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x2313b0fbfe8 [serially])
+[2018.07.10-01.34.36:811][585]LogHttp: Warning: 00000231447D1600: libcurl info message cache 1 (Hostname in DNS cache was stale, zapped)
+[2018.07.10-01.34.36:811][585]LogHttp: Warning: 00000231447D1600: libcurl info message cache 2 (  Trying 52.5.135.24...)
+[2018.07.10-01.34.36:811][585]LogHttp: Warning: 00000231447D1600: libcurl info message cache 3 (connect to 52.5.135.24 port 443 failed: Timed out)
+[2018.07.10-01.34.36:811][585]LogHttp: Warning: 00000231447D1600: libcurl info message cache 4 (  Trying 34.196.109.155...)
+[2018.07.10-01.34.36:811][585]LogHttp: Warning: 00000231447D1600: libcurl info message cache 5 (connect to 34.196.109.155 port 443 failed: Timed out)
+[2018.07.10-01.34.36:811][585]LogHttp: Warning: 00000231447D1600: libcurl info message cache 6 (  Trying 52.3.214.110...)
+[2018.07.10-01.34.36:811][585]LogHttp: Warning: 00000231447D1600: libcurl info message cache 7 (connect to 52.3.214.110 port 443 failed: Timed out)
+[2018.07.10-01.34.36:811][585]LogHttp: Warning: 00000231447D1600: libcurl info message cache 8 (  Trying 52.4.186.227...)
+[2018.07.10-01.34.36:811][585]LogHttp: Warning: 00000231447D1600: libcurl info message cache 9 (connect to 52.4.186.227 port 443 failed: Timed out)
+[2018.07.10-01.34.36:811][585]LogHttp: Warning: 00000231447D1600: libcurl info message cache 10 (  Trying 52.4.200.136...)
+[2018.07.10-01.34.36:811][585]LogHttp: Warning: 00000231447D1600: libcurl info message cache 11 (connect to 52.4.200.136 port 443 failed: Timed out)
+[2018.07.10-01.34.36:811][585]LogHttp: Warning: 00000231447D1600: libcurl info message cache 12 (  Trying 52.3.59.227...)
+[2018.07.10-01.34.36:811][585]LogHttp: Warning: 00000231447D1600: libcurl info message cache 13 (connect to 52.3.59.227 port 443 failed: Timed out)
+[2018.07.10-01.34.36:811][585]LogHttp: Warning: 00000231447D1600: libcurl info message cache 14 (  Trying 52.3.98.22...)
+[2018.07.10-01.34.36:811][585]LogHttp: Warning: 00000231447D1600: libcurl info message cache 15 (connect to 52.3.98.22 port 443 failed: Timed out)
+[2018.07.10-01.34.36:811][585]LogHttp: Warning: 00000231447D1600: libcurl info message cache 16 (  Trying 52.3.199.88...)
+[2018.07.10-01.34.36:811][585]LogHttp: Warning: 00000231447D1600: libcurl info message cache 17 (connect to 52.3.199.88 port 443 failed: Timed out)
+[2018.07.10-01.34.36:811][585]LogHttp: Warning: 00000231447D1600: libcurl info message cache 18 (  Trying 52.5.135.24...)
+[2018.07.10-01.34.36:811][585]LogHttp: Warning: 00000231447D1600: libcurl info message cache 19 (Closing connection 8)
+[2018.07.10-01.34.38:620][801]LogTemp: Repeating last play command: 新建编辑器窗口（在编辑器中运行）
+[2018.07.10-01.34.38:631][801]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/maps_start.maps_start:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/maps_start.maps_start:PersistentLevel.maps_start' with GeneratedClass '/Game/Maps/maps_start.maps_start_C' with ClassGeneratedBy '/Game/Maps/maps_start.maps_start:PersistentLevel.maps_start'
+[2018.07.10-01.34.38:632][801]BlueprintLog: New page: 运行前自动重新编译
+[2018.07.10-01.34.38:675][801]LogPlayLevel: [PlayLevel] Compiling bp_mycharacter_anim before play...
+[2018.07.10-01.34.38:719][801]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000230f5e4d1c0, Size=296
+[2018.07.10-01.34.38:719][801]LogUObjectGlobals: Created PersistentFrame Addr=0x0000023069459e40, Size=296, bp_mycharacter_anim_C_21 Function /Engine/Transient.REINST_bp_mycharacter_anim_C_37:ExecuteUbergraph_bp_mycharacter_anim
+[2018.07.10-01.34.38:756][801]LogUObjectGlobals: Created PersistentFrame Addr=0x000002303cd31a80, Size=296, Default__bp_mycharacter_anim_C Function /Game/Blueprints/Character/bp_mycharacter_anim.bp_mycharacter_anim_C:ExecuteUbergraph_bp_mycharacter_anim
+[2018.07.10-01.34.38:897][801]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000023069459e40, Size=296
+[2018.07.10-01.34.38:901][801]LogPlayLevel: PlayLevel: Blueprint regeneration took 269 ms (1 blueprints)
+[2018.07.10-01.34.38:901][801]PIE: New page: PIE会话: maps_start (2018年7月10日 下午5:34:38)
+[2018.07.10-01.34.38:901][801]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_maps_start
+[2018.07.10-01.34.38:921][801]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020025s)
+[2018.07.10-01.34.38:922][801]LogAIModule: Creating AISystem for world maps_start
+[2018.07.10-01.34.38:922][801]LogPlayLevel: PIE: World Init took: (0.000873s)
+[2018.07.10-01.34.38:922][801]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/maps_start.maps_start to /Game/Maps/UEDPIE_0_maps_start.maps_start (0.021128s)
+[2018.07.10-01.34.38:945][801]LogInit: XAudio2 using '扬声器 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.07.10-01.34.38:951][801]LogInit: FAudioDevice initialized.
+[2018.07.10-01.34.38:988][801]LogLoad: Game class is 'DGameGameModeBase'
+[2018.07.10-01.34.38:992][801]LogWorld: Bringing World /Game/Maps/UEDPIE_0_maps_start.maps_start up for play (max tick rate 0) at 2018.07.10-09.34.38
+[2018.07.10-01.34.38:992][801]LogWorld: Bringing up level for play took: 0.003113
+[2018.07.10-01.34.39:118][801]PIE: /Game/Maps/UEDPIE_0_maps_start的‘在编辑器中播放’的起始时间0.585
+[2018.07.10-01.34.39:118][801]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/maps_start.maps_start:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/maps_start.maps_start:PersistentLevel.maps_start' with GeneratedClass '/Game/Maps/maps_start.maps_start_C' with ClassGeneratedBy '/Game/Maps/maps_start.maps_start:PersistentLevel.maps_start'
+[2018.07.10-01.34.39:215][802]LogScript: Warning: Accessed None trying to read property my_player_controller
+	bp_mycharacter_anim_C /Game/Maps/UEDPIE_0_maps_start.maps_start:PersistentLevel.bp_MyCharacter_2.CharacterMesh0.bp_mycharacter_anim_C_0
+	Function /Game/Blueprints/Character/bp_mycharacter_anim.bp_mycharacter_anim_C:ExecuteUbergraph_bp_mycharacter_anim:16BE
+[2018.07.10-01.34.39:216][802]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property my_player_controller from function: 'ExecuteUbergraph_bp_mycharacter_anim' from node: Update Fight State in graph: EventGraph in object: bp_mycharacter_anim with description: Accessed None trying to read property my_player_controller
+[2018.07.10-01.34.39:450][817]LogScript: Warning: Accessed None trying to read property my_player_controller
+	bp_mycharacter_anim_C /Engine/Transient.World_3:PersistentLevel.Actor_0.DebugSkelMeshComponent_0.bp_mycharacter_anim_C_24
+	Function /Game/Blueprints/Character/bp_mycharacter_anim.bp_mycharacter_anim_C:ExecuteUbergraph_bp_mycharacter_anim:16BE
+[2018.07.10-01.34.42:954][237]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.10-01.34.56:731][890]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.10-01.35.06:333][ 35]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.10-01.35.13:717][921]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.10-01.35.23:876][140]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.10-01.35.47:481][970]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.10-01.35.47:537][976]LogSlate: Window 'DGame 游戏预览 Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.07.10-01.35.47:545][976]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/maps_start.maps_start:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/maps_start.maps_start:PersistentLevel.maps_start' with GeneratedClass '/Game/Maps/maps_start.maps_start_C' with ClassGeneratedBy '/Game/Maps/maps_start.maps_start:PersistentLevel.maps_start'
+[2018.07.10-01.35.47:575][976]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/maps_start.maps_start:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/maps_start.maps_start:PersistentLevel.maps_start' with GeneratedClass '/Game/Maps/maps_start.maps_start_C' with ClassGeneratedBy '/Game/Maps/maps_start.maps_start:PersistentLevel.maps_start'
+[2018.07.10-01.35.49:060][145]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Character/bp_mycharacter_anim" FILE="E:/ue4/DGame/Content/Blueprints/Character/bp_mycharacter_anim.uasset" SILENT=true
+[2018.07.10-01.35.49:289][145]LogSavePackage: Save=220.54ms
+[2018.07.10-01.35.49:289][145]LogSavePackage: Moving 'E:/ue4/DGame/Saved/bp_mycharacter_anim8E006B71440275FBC59EF989004500AB.tmp' to 'E:/ue4/DGame/Content/Blueprints/Character/bp_mycharacter_anim.uasset'
+[2018.07.10-01.35.49:291][145]LogSavePackage: Display: Finished SavePackage E:/ue4/DGame/Content/Blueprints/Character/bp_mycharacter_anim.uasset
+[2018.07.10-01.39.37:200][378]LogHttp: Warning: 0000023135736800: HTTP request timed out after 180.00 seconds URL=https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BD9DB97DC-4C0F-335E-EE23-FE92E01F3392%7D&AppID=UEEditor.UnrealEngine.Release&AppVersion=4.19.2-0%2B%2B%2BUE4%2BRelease-4.19&UserID=5a18308d4dbc22491a6528b3ceec25b2%7C321d150c1ad4465ea32ff383fcd85ca6%7Cb9abf892-6297-4ebe-a44c-32437dec0ee3&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2018.07.10-01.39.37:200][378]LogHttp: Warning: 0000023135736800: request failed, libcurl error: 0 (No error)
+[2018.07.10-01.39.37:200][378]LogHttp: Warning: 0000023135736800: libcurl info message cache 0 (  Trying 34.202.80.111...)
+[2018.07.10-01.39.37:200][378]LogHttp: Warning: 0000023135736800: libcurl info message cache 1 (connect to 34.202.80.111 port 443 failed: Timed out)
+[2018.07.10-01.39.37:200][378]LogHttp: Warning: 0000023135736800: libcurl info message cache 2 (  Trying 34.202.144.153...)
+[2018.07.10-01.39.37:201][378]LogHttp: Warning: 0000023135736800: libcurl info message cache 3 (connect to 34.202.144.153 port 443 failed: Timed out)
+[2018.07.10-01.39.37:201][378]LogHttp: Warning: 0000023135736800: libcurl info message cache 4 (  Trying 34.197.134.170...)
+[2018.07.10-01.39.37:201][378]LogHttp: Warning: 0000023135736800: libcurl info message cache 5 (connect to 34.197.134.170 port 443 failed: Timed out)
+[2018.07.10-01.39.37:201][378]LogHttp: Warning: 0000023135736800: libcurl info message cache 6 (  Trying 34.200.55.200...)
+[2018.07.10-01.39.37:201][378]LogHttp: Warning: 0000023135736800: libcurl info message cache 7 (connect to 34.200.55.200 port 443 failed: Timed out)
+[2018.07.10-01.39.37:201][378]LogHttp: Warning: 0000023135736800: libcurl info message cache 8 (  Trying 34.199.66.0...)
+[2018.07.10-01.39.37:201][378]LogHttp: Warning: 0000023135736800: libcurl info message cache 9 (connect to 34.199.66.0 port 443 failed: Timed out)
+[2018.07.10-01.39.37:201][378]LogHttp: Warning: 0000023135736800: libcurl info message cache 10 (  Trying 34.201.203.98...)
+[2018.07.10-01.39.37:201][378]LogHttp: Warning: 0000023135736800: libcurl info message cache 11 (connect to 34.201.203.98 port 443 failed: Timed out)
+[2018.07.10-01.39.37:201][378]LogHttp: Warning: 0000023135736800: libcurl info message cache 12 (  Trying 34.202.188.131...)
+[2018.07.10-01.39.37:201][378]LogHttp: Warning: 0000023135736800: libcurl info message cache 13 (connect to 34.202.188.131 port 443 failed: Timed out)
+[2018.07.10-01.39.37:201][378]LogHttp: Warning: 0000023135736800: libcurl info message cache 14 (  Trying 34.202.222.90...)
+[2018.07.10-01.39.37:201][378]LogHttp: Warning: 0000023135736800: libcurl info message cache 15 (connect to 34.202.222.90 port 443 failed: Timed out)
+[2018.07.10-01.39.37:201][378]LogHttp: Warning: 0000023135736800: libcurl info message cache 16 (  Trying 34.202.80.111...)
+[2018.07.10-01.39.37:201][378]LogHttp: Warning: 0000023135736800: libcurl info message cache 17 (Closing connection 9)
+[2018.07.10-01.41.37:212][738]LogHttp: Warning: 0000023135735F00: HTTP request timed out after 180.00 seconds URL=https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BD9DB97DC-4C0F-335E-EE23-FE92E01F3392%7D&AppID=UEEditor.UnrealEngine.Release&AppVersion=4.19.2-0%2B%2B%2BUE4%2BRelease-4.19&UserID=5a18308d4dbc22491a6528b3ceec25b2%7C321d150c1ad4465ea32ff383fcd85ca6%7Cb9abf892-6297-4ebe-a44c-32437dec0ee3&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2018.07.10-01.41.37:212][738]LogHttp: Warning: 0000023135735F00: request failed, libcurl error: 0 (No error)
+[2018.07.10-01.41.37:212][738]LogHttp: Warning: 0000023135735F00: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x2313b0fbfe8 [serially])
+[2018.07.10-01.41.37:212][738]LogHttp: Warning: 0000023135735F00: libcurl info message cache 1 (Hostname in DNS cache was stale, zapped)
+[2018.07.10-01.41.37:212][738]LogHttp: Warning: 0000023135735F00: libcurl info message cache 2 (  Trying 52.22.151.230...)
+[2018.07.10-01.41.37:212][738]LogHttp: Warning: 0000023135735F00: libcurl info message cache 3 (connect to 52.22.151.230 port 443 failed: Timed out)
+[2018.07.10-01.41.37:212][738]LogHttp: Warning: 0000023135735F00: libcurl info message cache 4 (  Trying 52.22.97.182...)
+[2018.07.10-01.41.37:212][738]LogHttp: Warning: 0000023135735F00: libcurl info message cache 5 (connect to 52.22.97.182 port 443 failed: Timed out)
+[2018.07.10-01.41.37:213][738]LogHttp: Warning: 0000023135735F00: libcurl info message cache 6 (  Trying 52.3.59.227...)
+[2018.07.10-01.41.37:213][738]LogHttp: Warning: 0000023135735F00: libcurl info message cache 7 (connect to 52.3.59.227 port 443 failed: Timed out)
+[2018.07.10-01.41.37:213][738]LogHttp: Warning: 0000023135735F00: libcurl info message cache 8 (  Trying 52.22.167.223...)
+[2018.07.10-01.41.37:213][738]LogHttp: Warning: 0000023135735F00: libcurl info message cache 9 (connect to 52.22.167.223 port 443 failed: Timed out)
+[2018.07.10-01.41.37:213][738]LogHttp: Warning: 0000023135735F00: libcurl info message cache 10 (  Trying 52.3.199.88...)
+[2018.07.10-01.41.37:213][738]LogHttp: Warning: 0000023135735F00: libcurl info message cache 11 (connect to 52.3.199.88 port 443 failed: Timed out)
+[2018.07.10-01.41.37:213][738]LogHttp: Warning: 0000023135735F00: libcurl info message cache 12 (  Trying 52.22.116.109...)
+[2018.07.10-01.41.37:213][738]LogHttp: Warning: 0000023135735F00: libcurl info message cache 13 (connect to 52.22.116.109 port 443 failed: Timed out)
+[2018.07.10-01.41.37:213][738]LogHttp: Warning: 0000023135735F00: libcurl info message cache 14 (  Trying 52.3.98.22...)
+[2018.07.10-01.41.37:213][738]LogHttp: Warning: 0000023135735F00: libcurl info message cache 15 (connect to 52.3.98.22 port 443 failed: Timed out)
+[2018.07.10-01.41.37:213][738]LogHttp: Warning: 0000023135735F00: libcurl info message cache 16 (  Trying 52.3.214.110...)
+[2018.07.10-01.41.37:213][738]LogHttp: Warning: 0000023135735F00: libcurl info message cache 17 (connect to 52.3.214.110 port 443 failed: Timed out)
+[2018.07.10-01.41.37:213][738]LogHttp: Warning: 0000023135735F00: libcurl info message cache 18 (  Trying 52.22.151.230...)
+[2018.07.10-01.41.37:213][738]LogHttp: Warning: 0000023135735F00: libcurl info message cache 19 (Closing connection 10)
+[2018.07.10-01.46.37:555][639]LogHttp: Warning: 0000023135735F00: HTTP request timed out after 180.00 seconds URL=https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BD9DB97DC-4C0F-335E-EE23-FE92E01F3392%7D&AppID=UEEditor.UnrealEngine.Release&AppVersion=4.19.2-0%2B%2B%2BUE4%2BRelease-4.19&UserID=5a18308d4dbc22491a6528b3ceec25b2%7C321d150c1ad4465ea32ff383fcd85ca6%7Cb9abf892-6297-4ebe-a44c-32437dec0ee3&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2018.07.10-01.46.37:555][639]LogHttp: Warning: 0000023135735F00: request failed, libcurl error: 0 (No error)
+[2018.07.10-01.46.37:555][639]LogHttp: Warning: 0000023135735F00: libcurl info message cache 0 (  Trying 34.228.126.143...)
+[2018.07.10-01.46.37:555][639]LogHttp: Warning: 0000023135735F00: libcurl info message cache 1 (connect to 34.228.126.143 port 443 failed: Timed out)
+[2018.07.10-01.46.37:555][639]LogHttp: Warning: 0000023135735F00: libcurl info message cache 2 (  Trying 34.225.34.243...)
+[2018.07.10-01.46.37:555][639]LogHttp: Warning: 0000023135735F00: libcurl info message cache 3 (connect to 34.225.34.243 port 443 failed: Timed out)
+[2018.07.10-01.46.37:555][639]LogHttp: Warning: 0000023135735F00: libcurl info message cache 4 (  Trying 34.231.0.173...)
+[2018.07.10-01.46.37:555][639]LogHttp: Warning: 0000023135735F00: libcurl info message cache 5 (connect to 34.231.0.173 port 443 failed: Timed out)
+[2018.07.10-01.46.37:555][639]LogHttp: Warning: 0000023135735F00: libcurl info message cache 6 (  Trying 34.233.154.194...)
+[2018.07.10-01.46.37:555][639]LogHttp: Warning: 0000023135735F00: libcurl info message cache 7 (connect to 34.233.154.194 port 443 failed: Timed out)
+[2018.07.10-01.46.37:555][639]LogHttp: Warning: 0000023135735F00: libcurl info message cache 8 (  Trying 34.232.82.35...)
+[2018.07.10-01.46.37:556][639]LogHttp: Warning: 0000023135735F00: libcurl info message cache 9 (connect to 34.232.82.35 port 443 failed: Timed out)
+[2018.07.10-01.46.37:556][639]LogHttp: Warning: 0000023135735F00: libcurl info message cache 10 (  Trying 34.224.106.243...)
+[2018.07.10-01.46.37:556][639]LogHttp: Warning: 0000023135735F00: libcurl info message cache 11 (connect to 34.224.106.243 port 443 failed: Timed out)
+[2018.07.10-01.46.37:556][639]LogHttp: Warning: 0000023135735F00: libcurl info message cache 12 (  Trying 34.231.138.22...)
+[2018.07.10-01.46.37:556][639]LogHttp: Warning: 0000023135735F00: libcurl info message cache 13 (connect to 34.231.138.22 port 443 failed: Timed out)
+[2018.07.10-01.46.37:556][639]LogHttp: Warning: 0000023135735F00: libcurl info message cache 14 (  Trying 34.231.103.121...)
+[2018.07.10-01.46.37:556][639]LogHttp: Warning: 0000023135735F00: libcurl info message cache 15 (connect to 34.231.103.121 port 443 failed: Timed out)
+[2018.07.10-01.46.37:556][639]LogHttp: Warning: 0000023135735F00: libcurl info message cache 16 (  Trying 34.228.126.143...)
+[2018.07.10-01.46.37:556][639]LogHttp: Warning: 0000023135735F00: libcurl info message cache 17 (Closing connection 11)
+[2018.07.10-01.48.36:556][996]LogHttp: Warning: 0000023135737100: HTTP request timed out after 180.00 seconds URL=https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BD9DB97DC-4C0F-335E-EE23-FE92E01F3392%7D&AppID=UEEditor.UnrealEngine.Release&AppVersion=4.19.2-0%2B%2B%2BUE4%2BRelease-4.19&UserID=5a18308d4dbc22491a6528b3ceec25b2%7C321d150c1ad4465ea32ff383fcd85ca6%7Cb9abf892-6297-4ebe-a44c-32437dec0ee3&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2018.07.10-01.48.36:557][996]LogHttp: Warning: 0000023135737100: request failed, libcurl error: 0 (No error)
+[2018.07.10-01.48.36:557][996]LogHttp: Warning: 0000023135737100: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x2313b0fbfe8 [serially])
+[2018.07.10-01.48.36:557][996]LogHttp: Warning: 0000023135737100: libcurl info message cache 1 (Hostname in DNS cache was stale, zapped)
+[2018.07.10-01.48.36:557][996]LogHttp: Warning: 0000023135737100: libcurl info message cache 2 (  Trying 52.3.59.227...)
+[2018.07.10-01.48.36:557][996]LogHttp: Warning: 0000023135737100: libcurl info message cache 3 (connect to 52.3.59.227 port 443 failed: Timed out)
+[2018.07.10-01.48.36:557][996]LogHttp: Warning: 0000023135737100: libcurl info message cache 4 (  Trying 52.3.214.110...)
+[2018.07.10-01.48.36:557][996]LogHttp: Warning: 0000023135737100: libcurl info message cache 5 (connect to 52.3.214.110 port 443 failed: Timed out)
+[2018.07.10-01.48.36:557][996]LogHttp: Warning: 0000023135737100: libcurl info message cache 6 (  Trying 52.3.98.22...)
+[2018.07.10-01.48.36:557][996]LogHttp: Warning: 0000023135737100: libcurl info message cache 7 (connect to 52.3.98.22 port 443 failed: Timed out)
+[2018.07.10-01.48.36:557][996]LogHttp: Warning: 0000023135737100: libcurl info message cache 8 (  Trying 52.22.167.223...)
+[2018.07.10-01.48.36:557][996]LogHttp: Warning: 0000023135737100: libcurl info message cache 9 (connect to 52.22.167.223 port 443 failed: Timed out)
+[2018.07.10-01.48.36:557][996]LogHttp: Warning: 0000023135737100: libcurl info message cache 10 (  Trying 52.4.186.227...)
+[2018.07.10-01.48.36:557][996]LogHttp: Warning: 0000023135737100: libcurl info message cache 11 (connect to 52.4.186.227 port 443 failed: Timed out)
+[2018.07.10-01.48.36:557][996]LogHttp: Warning: 0000023135737100: libcurl info message cache 12 (  Trying 52.4.200.136...)
+[2018.07.10-01.48.36:557][996]LogHttp: Warning: 0000023135737100: libcurl info message cache 13 (connect to 52.4.200.136 port 443 failed: Timed out)
+[2018.07.10-01.48.36:557][996]LogHttp: Warning: 0000023135737100: libcurl info message cache 14 (  Trying 52.3.199.88...)
+[2018.07.10-01.48.36:557][996]LogHttp: Warning: 0000023135737100: libcurl info message cache 15 (connect to 52.3.199.88 port 443 failed: Timed out)
+[2018.07.10-01.48.36:557][996]LogHttp: Warning: 0000023135737100: libcurl info message cache 16 (  Trying 52.22.97.182...)
+[2018.07.10-01.48.36:557][996]LogHttp: Warning: 0000023135737100: libcurl info message cache 17 (connect to 52.22.97.182 port 443 failed: Timed out)
+[2018.07.10-01.48.36:557][996]LogHttp: Warning: 0000023135737100: libcurl info message cache 18 (  Trying 52.3.59.227...)
+[2018.07.10-01.48.36:557][996]LogHttp: Warning: 0000023135737100: libcurl info message cache 19 (Closing connection 12)
+[2018.07.10-01.49.36:890][177]LogHttp: Warning: 0000023135736500: HTTP request timed out after 180.00 seconds URL=https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BD9DB97DC-4C0F-335E-EE23-FE92E01F3392%7D&AppID=UEEditor.UnrealEngine.Release&AppVersion=4.19.2-0%2B%2B%2BUE4%2BRelease-4.19&UserID=5a18308d4dbc22491a6528b3ceec25b2%7C321d150c1ad4465ea32ff383fcd85ca6%7Cb9abf892-6297-4ebe-a44c-32437dec0ee3&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2018.07.10-01.49.36:890][177]LogHttp: Warning: 0000023135736500: request failed, libcurl error: 0 (No error)
+[2018.07.10-01.49.36:890][177]LogHttp: Warning: 0000023135736500: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x2313b0fbfe8 [serially])
+[2018.07.10-01.49.36:890][177]LogHttp: Warning: 0000023135736500: libcurl info message cache 1 (Hostname in DNS cache was stale, zapped)
+[2018.07.10-01.49.36:890][177]LogHttp: Warning: 0000023135736500: libcurl info message cache 2 (  Trying 35.173.61.154...)
+[2018.07.10-01.49.36:890][177]LogHttp: Warning: 0000023135736500: libcurl info message cache 3 (connect to 35.173.61.154 port 443 failed: Timed out)
+[2018.07.10-01.49.36:891][177]LogHttp: Warning: 0000023135736500: libcurl info message cache 4 (  Trying 52.200.109.100...)
+[2018.07.10-01.49.36:891][177]LogHttp: Warning: 0000023135736500: libcurl info message cache 5 (connect to 52.200.109.100 port 443 failed: Timed out)
+[2018.07.10-01.49.36:891][177]LogHttp: Warning: 0000023135736500: libcurl info message cache 6 (  Trying 18.210.64.195...)
+[2018.07.10-01.49.36:891][177]LogHttp: Warning: 0000023135736500: libcurl info message cache 7 (connect to 18.210.64.195 port 443 failed: Timed out)
+[2018.07.10-01.49.36:891][177]LogHttp: Warning: 0000023135736500: libcurl info message cache 8 (  Trying 34.196.247.127...)
+[2018.07.10-01.49.36:891][177]LogHttp: Warning: 0000023135736500: libcurl info message cache 9 (connect to 34.196.247.127 port 443 failed: Timed out)
+[2018.07.10-01.49.36:891][177]LogHttp: Warning: 0000023135736500: libcurl info message cache 10 (  Trying 34.192.69.192...)
+[2018.07.10-01.49.36:891][177]LogHttp: Warning: 0000023135736500: libcurl info message cache 11 (connect to 34.192.69.192 port 443 failed: Timed out)
+[2018.07.10-01.49.36:891][177]LogHttp: Warning: 0000023135736500: libcurl info message cache 12 (  Trying 52.44.209.208...)
+[2018.07.10-01.49.36:891][177]LogHttp: Warning: 0000023135736500: libcurl info message cache 13 (connect to 52.44.209.208 port 443 failed: Timed out)
+[2018.07.10-01.49.36:891][177]LogHttp: Warning: 0000023135736500: libcurl info message cache 14 (  Trying 18.210.62.211...)
+[2018.07.10-01.49.36:891][177]LogHttp: Warning: 0000023135736500: libcurl info message cache 15 (connect to 18.210.62.211 port 443 failed: Timed out)
+[2018.07.10-01.49.36:891][177]LogHttp: Warning: 0000023135736500: libcurl info message cache 16 (  Trying 52.202.129.51...)
+[2018.07.10-01.49.36:891][177]LogHttp: Warning: 0000023135736500: libcurl info message cache 17 (connect to 52.202.129.51 port 443 failed: Timed out)
+[2018.07.10-01.49.36:891][177]LogHttp: Warning: 0000023135736500: libcurl info message cache 18 (  Trying 35.173.61.154...)
+[2018.07.10-01.49.36:891][177]LogHttp: Warning: 0000023135736500: libcurl info message cache 19 (Closing connection 13)
+[2018.07.10-01.54.37:231][ 78]LogHttp: Warning: 000002315255FB80: HTTP request timed out after 180.00 seconds URL=https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BD9DB97DC-4C0F-335E-EE23-FE92E01F3392%7D&AppID=UEEditor.UnrealEngine.Release&AppVersion=4.19.2-0%2B%2B%2BUE4%2BRelease-4.19&UserID=5a18308d4dbc22491a6528b3ceec25b2%7C321d150c1ad4465ea32ff383fcd85ca6%7Cb9abf892-6297-4ebe-a44c-32437dec0ee3&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2018.07.10-01.54.37:231][ 78]LogHttp: Warning: 000002315255FB80: request failed, libcurl error: 0 (No error)
+[2018.07.10-01.54.37:231][ 78]LogHttp: Warning: 000002315255FB80: libcurl info message cache 0 (  Trying 52.206.198.61...)
+[2018.07.10-01.54.37:231][ 78]LogHttp: Warning: 000002315255FB80: libcurl info message cache 1 (connect to 52.206.198.61 port 443 failed: Timed out)
+[2018.07.10-01.54.37:231][ 78]LogHttp: Warning: 000002315255FB80: libcurl info message cache 2 (  Trying 52.205.79.197...)
+[2018.07.10-01.54.37:231][ 78]LogHttp: Warning: 000002315255FB80: libcurl info message cache 3 (connect to 52.205.79.197 port 443 failed: Timed out)
+[2018.07.10-01.54.37:231][ 78]LogHttp: Warning: 000002315255FB80: libcurl info message cache 4 (  Trying 52.206.37.107...)
+[2018.07.10-01.54.37:231][ 78]LogHttp: Warning: 000002315255FB80: libcurl info message cache 5 (connect to 52.206.37.107 port 443 failed: Timed out)
+[2018.07.10-01.54.37:231][ 78]LogHttp: Warning: 000002315255FB80: libcurl info message cache 6 (  Trying 52.205.225.225...)
+[2018.07.10-01.54.37:231][ 78]LogHttp: Warning: 000002315255FB80: libcurl info message cache 7 (connect to 52.205.225.225 port 443 failed: Timed out)
+[2018.07.10-01.54.37:231][ 78]LogHttp: Warning: 000002315255FB80: libcurl info message cache 8 (  Trying 52.205.232.82...)
+[2018.07.10-01.54.37:231][ 78]LogHttp: Warning: 000002315255FB80: libcurl info message cache 9 (connect to 52.205.232.82 port 443 failed: Timed out)
+[2018.07.10-01.54.37:231][ 78]LogHttp: Warning: 000002315255FB80: libcurl info message cache 10 (  Trying 52.206.252.70...)
+[2018.07.10-01.54.37:231][ 78]LogHttp: Warning: 000002315255FB80: libcurl info message cache 11 (connect to 52.206.252.70 port 443 failed: Timed out)
+[2018.07.10-01.54.37:231][ 78]LogHttp: Warning: 000002315255FB80: libcurl info message cache 12 (  Trying 52.205.158.236...)
+[2018.07.10-01.54.37:231][ 78]LogHttp: Warning: 000002315255FB80: libcurl info message cache 13 (connect to 52.205.158.236 port 443 failed: Timed out)
+[2018.07.10-01.54.37:231][ 78]LogHttp: Warning: 000002315255FB80: libcurl info message cache 14 (  Trying 52.205.159.66...)
+[2018.07.10-01.54.37:231][ 78]LogHttp: Warning: 000002315255FB80: libcurl info message cache 15 (connect to 52.205.159.66 port 443 failed: Timed out)
+[2018.07.10-01.54.37:231][ 78]LogHttp: Warning: 000002315255FB80: libcurl info message cache 16 (  Trying 52.206.198.61...)
+[2018.07.10-01.54.37:231][ 78]LogHttp: Warning: 000002315255FB80: libcurl info message cache 17 (Closing connection 14)
+[2018.07.10-01.56.36:899][437]LogHttp: Warning: 000002315255FA00: HTTP request timed out after 180.00 seconds URL=https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BD9DB97DC-4C0F-335E-EE23-FE92E01F3392%7D&AppID=UEEditor.UnrealEngine.Release&AppVersion=4.19.2-0%2B%2B%2BUE4%2BRelease-4.19&UserID=5a18308d4dbc22491a6528b3ceec25b2%7C321d150c1ad4465ea32ff383fcd85ca6%7Cb9abf892-6297-4ebe-a44c-32437dec0ee3&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2018.07.10-01.56.36:899][437]LogHttp: Warning: 000002315255FA00: request failed, libcurl error: 0 (No error)
+[2018.07.10-01.56.36:899][437]LogHttp: Warning: 000002315255FA00: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x2313b0fbfe8 [serially])
+[2018.07.10-01.56.36:899][437]LogHttp: Warning: 000002315255FA00: libcurl info message cache 1 (Hostname in DNS cache was stale, zapped)
+[2018.07.10-01.56.36:899][437]LogHttp: Warning: 000002315255FA00: libcurl info message cache 2 (  Trying 52.205.158.236...)
+[2018.07.10-01.56.36:899][437]LogHttp: Warning: 000002315255FA00: libcurl info message cache 3 (connect to 52.205.158.236 port 443 failed: Timed out)
+[2018.07.10-01.56.36:899][437]LogHttp: Warning: 000002315255FA00: libcurl info message cache 4 (  Trying 52.202.10.140...)
+[2018.07.10-01.56.36:899][437]LogHttp: Warning: 000002315255FA00: libcurl info message cache 5 (connect to 52.202.10.140 port 443 failed: Timed out)
+[2018.07.10-01.56.36:899][437]LogHttp: Warning: 000002315255FA00: libcurl info message cache 6 (  Trying 52.202.184.141...)
+[2018.07.10-01.56.36:899][437]LogHttp: Warning: 000002315255FA00: libcurl info message cache 7 (connect to 52.202.184.141 port 443 failed: Timed out)
+[2018.07.10-01.56.36:899][437]LogHttp: Warning: 000002315255FA00: libcurl info message cache 8 (  Trying 52.203.15.83...)
+[2018.07.10-01.56.36:899][437]LogHttp: Warning: 000002315255FA00: libcurl info message cache 9 (connect to 52.203.15.83 port 443 failed: Timed out)
+[2018.07.10-01.56.36:899][437]LogHttp: Warning: 000002315255FA00: libcurl info message cache 10 (  Trying 52.204.246.26...)
+[2018.07.10-01.56.36:899][437]LogHttp: Warning: 000002315255FA00: libcurl info message cache 11 (connect to 52.204.246.26 port 443 failed: Timed out)
+[2018.07.10-01.56.36:899][437]LogHttp: Warning: 000002315255FA00: libcurl info message cache 12 (  Trying 52.204.64.15...)
+[2018.07.10-01.56.36:899][437]LogHttp: Warning: 000002315255FA00: libcurl info message cache 13 (connect to 52.204.64.15 port 443 failed: Timed out)
+[2018.07.10-01.56.36:899][437]LogHttp: Warning: 000002315255FA00: libcurl info message cache 14 (  Trying 52.204.40.189...)
+[2018.07.10-01.56.36:899][437]LogHttp: Warning: 000002315255FA00: libcurl info message cache 15 (connect to 52.204.40.189 port 443 failed: Timed out)
+[2018.07.10-01.56.36:899][437]LogHttp: Warning: 000002315255FA00: libcurl info message cache 16 (  Trying 52.203.126.30...)
+[2018.07.10-01.56.36:899][437]LogHttp: Warning: 000002315255FA00: libcurl info message cache 17 (connect to 52.203.126.30 port 443 failed: Timed out)
+[2018.07.10-01.56.36:900][437]LogHttp: Warning: 000002315255FA00: libcurl info message cache 18 (  Trying 52.205.158.236...)
+[2018.07.10-01.56.36:900][437]LogHttp: Warning: 000002315255FA00: libcurl info message cache 19 (Closing connection 15)
+[2018.07.10-01.57.37:228][618]LogHttp: Warning: 0000023135735F00: HTTP request timed out after 180.00 seconds URL=https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BD9DB97DC-4C0F-335E-EE23-FE92E01F3392%7D&AppID=UEEditor.UnrealEngine.Release&AppVersion=4.19.2-0%2B%2B%2BUE4%2BRelease-4.19&UserID=5a18308d4dbc22491a6528b3ceec25b2%7C321d150c1ad4465ea32ff383fcd85ca6%7Cb9abf892-6297-4ebe-a44c-32437dec0ee3&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2018.07.10-01.57.37:228][618]LogHttp: Warning: 0000023135735F00: request failed, libcurl error: 0 (No error)
+[2018.07.10-01.57.37:228][618]LogHttp: Warning: 0000023135735F00: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x2313b0fbfe8 [serially])
+[2018.07.10-01.57.37:229][618]LogHttp: Warning: 0000023135735F00: libcurl info message cache 1 (Hostname in DNS cache was stale, zapped)
+[2018.07.10-01.57.37:229][618]LogHttp: Warning: 0000023135735F00: libcurl info message cache 2 (  Trying 35.173.108.73...)
+[2018.07.10-01.57.37:229][618]LogHttp: Warning: 0000023135735F00: libcurl info message cache 3 (connect to 35.173.108.73 port 443 failed: Timed out)
+[2018.07.10-01.57.37:229][618]LogHttp: Warning: 0000023135735F00: libcurl info message cache 4 (  Trying 52.0.160.15...)
+[2018.07.10-01.57.37:229][618]LogHttp: Warning: 0000023135735F00: libcurl info message cache 5 (connect to 52.0.160.15 port 443 failed: Timed out)
+[2018.07.10-01.57.37:229][618]LogHttp: Warning: 0000023135735F00: libcurl info message cache 6 (  Trying 52.1.175.27...)
+[2018.07.10-01.57.37:229][618]LogHttp: Warning: 0000023135735F00: libcurl info message cache 7 (connect to 52.1.175.27 port 443 failed: Timed out)
+[2018.07.10-01.57.37:229][618]LogHttp: Warning: 0000023135735F00: libcurl info message cache 8 (  Trying 52.2.103.56...)
+[2018.07.10-01.57.37:229][618]LogHttp: Warning: 0000023135735F00: libcurl info message cache 9 (connect to 52.2.103.56 port 443 failed: Timed out)
+[2018.07.10-01.57.37:229][618]LogHttp: Warning: 0000023135735F00: libcurl info message cache 10 (  Trying 52.1.169.243...)
+[2018.07.10-01.57.37:229][618]LogHttp: Warning: 0000023135735F00: libcurl info message cache 11 (connect to 52.1.169.243 port 443 failed: Timed out)
+[2018.07.10-01.57.37:229][618]LogHttp: Warning: 0000023135735F00: libcurl info message cache 12 (  Trying 35.174.140.88...)
+[2018.07.10-01.57.37:229][618]LogHttp: Warning: 0000023135735F00: libcurl info message cache 13 (connect to 35.174.140.88 port 443 failed: Timed out)
+[2018.07.10-01.57.37:229][618]LogHttp: Warning: 0000023135735F00: libcurl info message cache 14 (  Trying 35.174.89.230...)
+[2018.07.10-01.57.37:229][618]LogHttp: Warning: 0000023135735F00: libcurl info message cache 15 (connect to 35.174.89.230 port 443 failed: Timed out)
+[2018.07.10-01.57.37:229][618]LogHttp: Warning: 0000023135735F00: libcurl info message cache 16 (  Trying 52.1.25.9...)
+[2018.07.10-01.57.37:229][618]LogHttp: Warning: 0000023135735F00: libcurl info message cache 17 (connect to 52.1.25.9 port 443 failed: Timed out)
+[2018.07.10-01.57.37:229][618]LogHttp: Warning: 0000023135735F00: libcurl info message cache 18 (  Trying 35.173.108.73...)
+[2018.07.10-01.57.37:229][618]LogHttp: Warning: 0000023135735F00: libcurl info message cache 19 (Closing connection 16)
+[2018.07.10-01.59.16:151][131]LogTemp: Repeating last play command: 新建编辑器窗口（在编辑器中运行）
+[2018.07.10-01.59.16:165][131]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/maps_start.maps_start:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/maps_start.maps_start:PersistentLevel.maps_start' with GeneratedClass '/Game/Maps/maps_start.maps_start_C' with ClassGeneratedBy '/Game/Maps/maps_start.maps_start:PersistentLevel.maps_start'
+[2018.07.10-01.59.16:166][131]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.07.10-01.59.16:166][131]PIE: New page: PIE会话: maps_start (2018年7月10日 下午5:59:16)
+[2018.07.10-01.59.16:166][131]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_maps_start
+[2018.07.10-01.59.16:189][131]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022793s)
+[2018.07.10-01.59.16:189][131]LogAIModule: Creating AISystem for world maps_start
+[2018.07.10-01.59.16:189][131]LogPlayLevel: PIE: World Init took: (0.000582s)
+[2018.07.10-01.59.16:189][131]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/maps_start.maps_start to /Game/Maps/UEDPIE_0_maps_start.maps_start (0.023484s)
+[2018.07.10-01.59.16:215][131]LogInit: XAudio2 using '扬声器 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.07.10-01.59.16:221][131]LogInit: FAudioDevice initialized.
+[2018.07.10-01.59.16:257][131]LogLoad: Game class is 'DGameGameModeBase'
+[2018.07.10-01.59.16:260][131]LogWorld: Bringing World /Game/Maps/UEDPIE_0_maps_start.maps_start up for play (max tick rate 0) at 2018.07.10-09.59.16
+[2018.07.10-01.59.16:261][131]LogWorld: Bringing up level for play took: 0.002720
+[2018.07.10-01.59.16:357][131]PIE: /Game/Maps/UEDPIE_0_maps_start的‘在编辑器中播放’的起始时间-0.181
+[2018.07.10-01.59.16:357][131]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/maps_start.maps_start:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/maps_start.maps_start:PersistentLevel.maps_start' with GeneratedClass '/Game/Maps/maps_start.maps_start_C' with ClassGeneratedBy '/Game/Maps/maps_start.maps_start:PersistentLevel.maps_start'
+[2018.07.10-01.59.16:418][132]LogScript: Warning: Accessed None trying to read property my_player_controller
+	bp_mycharacter_anim_C /Game/Maps/UEDPIE_0_maps_start.maps_start:PersistentLevel.bp_MyCharacter_2.CharacterMesh0.bp_mycharacter_anim_C_0
+	Function /Game/Blueprints/Character/bp_mycharacter_anim.bp_mycharacter_anim_C:ExecuteUbergraph_bp_mycharacter_anim:16BE
+[2018.07.10-01.59.16:418][132]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property my_player_controller from function: 'ExecuteUbergraph_bp_mycharacter_anim' from node: Update Fight State in graph: EventGraph in object: bp_mycharacter_anim with description: Accessed None trying to read property my_player_controller
+[2018.07.10-01.59.17:299][232]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.10-01.59.23:198][908]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.10-01.59.34:629][243]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.10-01.59.41:299][ 40]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.10-01.59.41:372][ 48]LogSlate: Window 'DGame 游戏预览 Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.07.10-01.59.41:376][ 48]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/maps_start.maps_start:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/maps_start.maps_start:PersistentLevel.maps_start' with GeneratedClass '/Game/Maps/maps_start.maps_start_C' with ClassGeneratedBy '/Game/Maps/maps_start.maps_start:PersistentLevel.maps_start'
+[2018.07.10-01.59.41:409][ 48]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/maps_start.maps_start:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/maps_start.maps_start:PersistentLevel.maps_start' with GeneratedClass '/Game/Maps/maps_start.maps_start_C' with ClassGeneratedBy '/Game/Maps/maps_start.maps_start:PersistentLevel.maps_start'
+[2018.07.10-01.59.52:616][327]LogScript: Warning: Accessed None trying to read property my_player_controller
+	bp_mycharacter_anim_C /Engine/Transient.World_11:PersistentLevel.bp_MyCharacter_C_1.CharacterMesh0.bp_mycharacter_anim_C_25
+	Function /Game/Blueprints/Character/bp_mycharacter_anim.bp_mycharacter_anim_C:ExecuteUbergraph_bp_mycharacter_anim:16BE
+[2018.07.10-01.59.54:254][464]LogScript: Warning: Accessed None trying to read property my_player_controller
+	bp_mycharacter_anim_C /Engine/Transient.World_12:PersistentLevel.bp_MyCharacter_C_2.CharacterMesh0.bp_mycharacter_anim_C_26
+	Function /Game/Blueprints/Character/bp_mycharacter_anim.bp_mycharacter_anim_C:ExecuteUbergraph_bp_mycharacter_anim:16BE
+[2018.07.10-02.00.09:711][232]LogScript: Warning: Accessed None trying to read property my_player_controller
+	bp_mycharacter_anim_C /Engine/Transient.World_12:PersistentLevel.bp_MyCharacter_C_2.CharacterMesh0.bp_mycharacter_anim_C_26
+	Function /Game/Blueprints/Character/bp_mycharacter_anim.bp_mycharacter_anim_C:ExecuteUbergraph_bp_mycharacter_anim:16BE
+[2018.07.10-02.01.19:545][350]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.10-02.02.35:555][ 76]LogScript: Warning: Accessed None trying to read property my_player_controller
+	bp_mycharacter_anim_C /Engine/Transient.World_12:PersistentLevel.bp_MyCharacter_C_2.CharacterMesh0.bp_mycharacter_anim_C_26
+	Function /Game/Blueprints/Character/bp_mycharacter_anim.bp_mycharacter_anim_C:ExecuteUbergraph_bp_mycharacter_anim:16BE
+[2018.07.10-02.02.37:253][280]LogHttp: Warning: 0000023158B16200: HTTP request timed out after 180.00 seconds URL=https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BD9DB97DC-4C0F-335E-EE23-FE92E01F3392%7D&AppID=UEEditor.UnrealEngine.Release&AppVersion=4.19.2-0%2B%2B%2BUE4%2BRelease-4.19&UserID=5a18308d4dbc22491a6528b3ceec25b2%7C321d150c1ad4465ea32ff383fcd85ca6%7Cb9abf892-6297-4ebe-a44c-32437dec0ee3&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2018.07.10-02.02.37:253][280]LogHttp: Warning: 0000023158B16200: request failed, libcurl error: 0 (No error)
+[2018.07.10-02.02.37:253][280]LogHttp: Warning: 0000023158B16200: libcurl info message cache 0 (  Trying 35.173.108.73...)
+[2018.07.10-02.02.37:253][280]LogHttp: Warning: 0000023158B16200: libcurl info message cache 1 (connect to 35.173.108.73 port 443 failed: Timed out)
+[2018.07.10-02.02.37:253][280]LogHttp: Warning: 0000023158B16200: libcurl info message cache 2 (  Trying 35.174.140.88...)
+[2018.07.10-02.02.37:253][280]LogHttp: Warning: 0000023158B16200: libcurl info message cache 3 (connect to 35.174.140.88 port 443 failed: Timed out)
+[2018.07.10-02.02.37:253][280]LogHttp: Warning: 0000023158B16200: libcurl info message cache 4 (  Trying 35.153.154.4...)
+[2018.07.10-02.02.37:253][280]LogHttp: Warning: 0000023158B16200: libcurl info message cache 5 (connect to 35.153.154.4 port 443 failed: Timed out)
+[2018.07.10-02.02.37:253][280]LogHttp: Warning: 0000023158B16200: libcurl info message cache 6 (  Trying 52.0.160.15...)
+[2018.07.10-02.02.37:253][280]LogHttp: Warning: 0000023158B16200: libcurl info message cache 7 (connect to 52.0.160.15 port 443 failed: Timed out)
+[2018.07.10-02.02.37:253][280]LogHttp: Warning: 0000023158B16200: libcurl info message cache 8 (  Trying 52.1.169.243...)
+[2018.07.10-02.02.37:253][280]LogHttp: Warning: 0000023158B16200: libcurl info message cache 9 (connect to 52.1.169.243 port 443 failed: Timed out)
+[2018.07.10-02.02.37:253][280]LogHttp: Warning: 0000023158B16200: libcurl info message cache 10 (  Trying 35.174.89.230...)
+[2018.07.10-02.02.37:253][280]LogHttp: Warning: 0000023158B16200: libcurl info message cache 11 (connect to 35.174.89.230 port 443 failed: Timed out)
+[2018.07.10-02.02.37:253][280]LogHttp: Warning: 0000023158B16200: libcurl info message cache 12 (  Trying 35.168.99.131...)
+[2018.07.10-02.02.37:253][280]LogHttp: Warning: 0000023158B16200: libcurl info message cache 13 (connect to 35.168.99.131 port 443 failed: Timed out)
+[2018.07.10-02.02.37:253][280]LogHttp: Warning: 0000023158B16200: libcurl info message cache 14 (  Trying 35.168.211.70...)
+[2018.07.10-02.02.37:253][280]LogHttp: Warning: 0000023158B16200: libcurl info message cache 15 (connect to 35.168.211.70 port 443 failed: Timed out)
+[2018.07.10-02.02.37:253][280]LogHttp: Warning: 0000023158B16200: libcurl info message cache 16 (  Trying 35.173.108.73...)
+[2018.07.10-02.02.37:253][280]LogHttp: Warning: 0000023158B16200: libcurl info message cache 17 (Closing connection 17)
+[2018.07.10-02.02.55:091][416]LogScript: Warning: Accessed None trying to read property my_player_controller
+	bp_mycharacter_anim_C /Engine/Transient.World_12:PersistentLevel.bp_MyCharacter_C_2.CharacterMesh0.bp_mycharacter_anim_C_26
+	Function /Game/Blueprints/Character/bp_mycharacter_anim.bp_mycharacter_anim_C:ExecuteUbergraph_bp_mycharacter_anim:16BE
+[2018.07.10-02.02.58:866][868]LogScript: Warning: Accessed None trying to read property my_player_controller
+	bp_mycharacter_anim_C /Engine/Transient.World_12:PersistentLevel.bp_MyCharacter_C_2.CharacterMesh0.bp_mycharacter_anim_C_26
+	Function /Game/Blueprints/Character/bp_mycharacter_anim.bp_mycharacter_anim_C:ExecuteUbergraph_bp_mycharacter_anim:16BE
+[2018.07.10-02.03.10:086][213]LogScript: Warning: Accessed None trying to read property my_player_controller
+	bp_mycharacter_anim_C /Engine/Transient.World_12:PersistentLevel.bp_MyCharacter_C_2.CharacterMesh0.bp_mycharacter_anim_C_26
+	Function /Game/Blueprints/Character/bp_mycharacter_anim.bp_mycharacter_anim_C:ExecuteUbergraph_bp_mycharacter_anim:16BE
+[2018.07.10-02.03.41:256][ 98]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/maps_start" FILE="E:/ue4/DGame/Saved/Autosaves/Game/Maps/maps_start_Auto2.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2018.07.10-02.03.41:398][ 98]LogSavePackage: Save=132.11ms
+[2018.07.10-02.03.41:398][ 98]LogSavePackage: Moving 'E:/ue4/DGame/Saved/maps_start_Auto213CE66D0498C147DFEEA30AB5674E913.tmp' to 'E:/ue4/DGame/Saved/Autosaves/Game/Maps/maps_start_Auto2.umap'
+[2018.07.10-02.03.41:399][ 98]LogSavePackage: Display: Finished SavePackage E:/ue4/DGame/Saved/Autosaves/Game/Maps/maps_start_Auto2.umap
+[2018.07.10-02.03.41:400][ 98]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/maps_start' took 0.191
+[2018.07.10-02.03.41:400][ 98]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.191
+[2018.07.10-02.03.41:402][ 98]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Character/bp_MyCharacter] ([1] browsable assets)...
+[2018.07.10-02.03.41:430][ 98]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Character/bp_MyCharacter.bp_MyCharacter]
+[2018.07.10-02.03.41:430][ 98]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Character/bp_MyCharacter]
+[2018.07.10-02.03.41:430][ 98]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Character/bp_MyCharacter" FILE="E:/ue4/DGame/Saved/Autosaves/Game/Blueprints/Character/bp_MyCharacter_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2018.07.10-02.03.41:454][ 98]LogSavePackage: Save=14.53ms
+[2018.07.10-02.03.41:454][ 98]LogSavePackage: Moving 'E:/ue4/DGame/Saved/bp_MyCharacter_Auto2D0B93C7E41B9492F84C947A2E4F525A6.tmp' to 'E:/ue4/DGame/Saved/Autosaves/Game/Blueprints/Character/bp_MyCharacter_Auto2.uasset'
+[2018.07.10-02.03.41:455][ 98]LogSavePackage: Display: Finished SavePackage E:/ue4/DGame/Saved/Autosaves/Game/Blueprints/Character/bp_MyCharacter_Auto2.uasset
+[2018.07.10-02.03.41:455][ 98]LogFileHelpers: Auto-saving content packages took 0.054
+[2018.07.10-02.03.54:537][139]LogHttp: Warning: 000002310997EF80: HTTP request timed out after 180.00 seconds URL=https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BD9DB97DC-4C0F-335E-EE23-FE92E01F3392%7D&AppID=UEEditor.UnrealEngine.Release&AppVersion=4.19.2-0%2B%2B%2BUE4%2BRelease-4.19&UserID=5a18308d4dbc22491a6528b3ceec25b2%7C321d150c1ad4465ea32ff383fcd85ca6%7Cb9abf892-6297-4ebe-a44c-32437dec0ee3&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2018.07.10-02.03.54:537][139]LogHttp: Warning: 000002310997EF80: request failed, libcurl error: 0 (No error)
+[2018.07.10-02.03.54:537][139]LogHttp: Warning: 000002310997EF80: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x2313b0fbfe8 [serially])
+[2018.07.10-02.03.54:537][139]LogHttp: Warning: 000002310997EF80: libcurl info message cache 1 (Hostname in DNS cache was stale, zapped)
+[2018.07.10-02.03.54:537][139]LogHttp: Warning: 000002310997EF80: libcurl info message cache 2 (  Trying 35.153.154.4...)
+[2018.07.10-02.03.54:537][139]LogHttp: Warning: 000002310997EF80: libcurl info message cache 3 (connect to 35.153.154.4 port 443 failed: Timed out)
+[2018.07.10-02.03.54:537][139]LogHttp: Warning: 000002310997EF80: libcurl info message cache 4 (  Trying 52.0.160.15...)
+[2018.07.10-02.03.54:537][139]LogHttp: Warning: 000002310997EF80: libcurl info message cache 5 (connect to 52.0.160.15 port 443 failed: Timed out)
+[2018.07.10-02.03.54:537][139]LogHttp: Warning: 000002310997EF80: libcurl info message cache 6 (  Trying 35.174.140.88...)
+[2018.07.10-02.03.54:537][139]LogHttp: Warning: 000002310997EF80: libcurl info message cache 7 (connect to 35.174.140.88 port 443 failed: Timed out)
+[2018.07.10-02.03.54:537][139]LogHttp: Warning: 000002310997EF80: libcurl info message cache 8 (  Trying 35.174.89.230...)
+[2018.07.10-02.03.54:537][139]LogHttp: Warning: 000002310997EF80: libcurl info message cache 9 (connect to 35.174.89.230 port 443 failed: Timed out)
+[2018.07.10-02.03.54:537][139]LogHttp: Warning: 000002310997EF80: libcurl info message cache 10 (  Trying 35.168.99.131...)
+[2018.07.10-02.03.54:537][139]LogHttp: Warning: 000002310997EF80: libcurl info message cache 11 (connect to 35.168.99.131 port 443 failed: Timed out)
+[2018.07.10-02.03.54:537][139]LogHttp: Warning: 000002310997EF80: libcurl info message cache 12 (  Trying 52.1.169.243...)
+[2018.07.10-02.03.54:537][139]LogHttp: Warning: 000002310997EF80: libcurl info message cache 13 (connect to 52.1.169.243 port 443 failed: Timed out)
+[2018.07.10-02.03.54:537][139]LogHttp: Warning: 000002310997EF80: libcurl info message cache 14 (  Trying 35.168.211.70...)
+[2018.07.10-02.03.54:537][139]LogHttp: Warning: 000002310997EF80: libcurl info message cache 15 (connect to 35.168.211.70 port 443 failed: Timed out)
+[2018.07.10-02.03.54:537][139]LogHttp: Warning: 000002310997EF80: libcurl info message cache 16 (  Trying 35.173.108.73...)
+[2018.07.10-02.03.54:537][139]LogHttp: Warning: 000002310997EF80: libcurl info message cache 17 (connect to 35.173.108.73 port 443 failed: Timed out)
+[2018.07.10-02.03.54:537][139]LogHttp: Warning: 000002310997EF80: libcurl info message cache 18 (  Trying 35.153.154.4...)
+[2018.07.10-02.03.54:537][139]LogHttp: Warning: 000002310997EF80: libcurl info message cache 19 (Closing connection 18)
+[2018.07.10-02.04.08:965][275]LogScript: Warning: Accessed None trying to read property my_player_controller
+	bp_mycharacter_anim_C /Engine/Transient.World_12:PersistentLevel.bp_MyCharacter_C_2.CharacterMesh0.bp_mycharacter_anim_C_26
+	Function /Game/Blueprints/Character/bp_mycharacter_anim.bp_mycharacter_anim_C:ExecuteUbergraph_bp_mycharacter_anim:16BE
+[2018.07.10-02.04.11:714][486]LogScript: Warning: Accessed None trying to read property my_player_controller
+	bp_mycharacter_anim_C /Engine/Transient.World_12:PersistentLevel.bp_MyCharacter_C_2.CharacterMesh0.bp_mycharacter_anim_C_26
+	Function /Game/Blueprints/Character/bp_mycharacter_anim.bp_mycharacter_anim_C:ExecuteUbergraph_bp_mycharacter_anim:16BE
+[2018.07.10-02.04.29:105][244]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.10-02.04.29:172][252]BlueprintLog: New page: 编译bp_MyCharacter
+[2018.07.10-02.04.29:637][253]LogScript: Warning: Accessed None trying to read property my_player_controller
+	bp_mycharacter_anim_C /Engine/Transient.World_12:PersistentLevel.bp_MyCharacter_C_2.CharacterMesh0.bp_mycharacter_anim_C_30
+	Function /Game/Blueprints/Character/bp_mycharacter_anim.bp_mycharacter_anim_C:ExecuteUbergraph_bp_mycharacter_anim:16BE
+[2018.07.10-02.04.34:888][842]LogEditorViewport: Clicking on Actor (LMB): bp_int_02_C (bp_int_02)
+[2018.07.10-02.04.37:019][ 74]LogEditorViewport: Clicking on Actor (LMB): bp_int_triggle_C (bp_int_triggle)
+[2018.07.10-02.04.43:449][809]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.10-02.05.25:500][587]LogTemp: Repeating last play command: 新建编辑器窗口（在编辑器中运行）
+[2018.07.10-02.05.25:516][587]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/maps_start.maps_start:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/maps_start.maps_start:PersistentLevel.maps_start' with GeneratedClass '/Game/Maps/maps_start.maps_start_C' with ClassGeneratedBy '/Game/Maps/maps_start.maps_start:PersistentLevel.maps_start'
+[2018.07.10-02.05.25:516][587]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.07.10-02.05.25:516][587]PIE: New page: PIE会话: maps_start (2018年7月10日 下午6:05:25)
+[2018.07.10-02.05.25:516][587]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_maps_start
+[2018.07.10-02.05.25:540][587]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024277s)
+[2018.07.10-02.05.25:541][587]LogAIModule: Creating AISystem for world maps_start
+[2018.07.10-02.05.25:541][587]LogPlayLevel: PIE: World Init took: (0.000772s)
+[2018.07.10-02.05.25:541][587]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/maps_start.maps_start to /Game/Maps/UEDPIE_0_maps_start.maps_start (0.025190s)
+[2018.07.10-02.05.25:580][587]LogInit: XAudio2 using '扬声器 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.07.10-02.05.25:586][587]LogInit: FAudioDevice initialized.
+[2018.07.10-02.05.25:632][587]LogLoad: Game class is 'DGameGameModeBase'
+[2018.07.10-02.05.25:636][587]LogWorld: Bringing World /Game/Maps/UEDPIE_0_maps_start.maps_start up for play (max tick rate 0) at 2018.07.10-10.05.25
+[2018.07.10-02.05.25:636][587]LogWorld: Bringing up level for play took: 0.003432
+[2018.07.10-02.05.25:737][587]PIE: /Game/Maps/UEDPIE_0_maps_start的‘在编辑器中播放’的起始时间1.194
+[2018.07.10-02.05.25:737][587]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/maps_start.maps_start:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/maps_start.maps_start:PersistentLevel.maps_start' with GeneratedClass '/Game/Maps/maps_start.maps_start_C' with ClassGeneratedBy '/Game/Maps/maps_start.maps_start:PersistentLevel.maps_start'
+[2018.07.10-02.05.25:813][588]LogScript: Warning: Accessed None trying to read property my_player_controller
+	bp_mycharacter_anim_C /Game/Maps/UEDPIE_0_maps_start.maps_start:PersistentLevel.bp_MyCharacter_2.CharacterMesh0.bp_mycharacter_anim_C_0
+	Function /Game/Blueprints/Character/bp_mycharacter_anim.bp_mycharacter_anim_C:ExecuteUbergraph_bp_mycharacter_anim:16BE
+[2018.07.10-02.05.25:813][588]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property my_player_controller from function: 'ExecuteUbergraph_bp_mycharacter_anim' from node: Update Fight State in graph: EventGraph in object: bp_mycharacter_anim with description: Accessed None trying to read property my_player_controller
+[2018.07.10-02.05.30:101][102]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.10-02.05.36:816][908]LogHttp: Warning: 00000230FC376E00: HTTP request timed out after 180.00 seconds URL=https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BD9DB97DC-4C0F-335E-EE23-FE92E01F3392%7D&AppID=UEEditor.UnrealEngine.Release&AppVersion=4.19.2-0%2B%2B%2BUE4%2BRelease-4.19&UserID=5a18308d4dbc22491a6528b3ceec25b2%7C321d150c1ad4465ea32ff383fcd85ca6%7Cb9abf892-6297-4ebe-a44c-32437dec0ee3&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2018.07.10-02.05.36:816][908]LogHttp: Warning: 00000230FC376E00: request failed, libcurl error: 0 (No error)
+[2018.07.10-02.05.36:816][908]LogHttp: Warning: 00000230FC376E00: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x2313b0fbfe8 [serially])
+[2018.07.10-02.05.36:816][908]LogHttp: Warning: 00000230FC376E00: libcurl info message cache 1 (Hostname in DNS cache was stale, zapped)
+[2018.07.10-02.05.36:816][908]LogHttp: Warning: 00000230FC376E00: libcurl info message cache 2 (  Trying 52.2.147.45...)
+[2018.07.10-02.05.36:816][908]LogHttp: Warning: 00000230FC376E00: libcurl info message cache 3 (connect to 52.2.147.45 port 443 failed: Timed out)
+[2018.07.10-02.05.36:816][908]LogHttp: Warning: 00000230FC376E00: libcurl info message cache 4 (  Trying 52.2.36.251...)
+[2018.07.10-02.05.36:816][908]LogHttp: Warning: 00000230FC376E00: libcurl info message cache 5 (connect to 52.2.36.251 port 443 failed: Timed out)
+[2018.07.10-02.05.36:816][908]LogHttp: Warning: 00000230FC376E00: libcurl info message cache 6 (  Trying 52.201.67.204...)
+[2018.07.10-02.05.36:816][908]LogHttp: Warning: 00000230FC376E00: libcurl info message cache 7 (connect to 52.201.67.204 port 443 failed: Timed out)
+[2018.07.10-02.05.36:816][908]LogHttp: Warning: 00000230FC376E00: libcurl info message cache 8 (  Trying 52.1.25.9...)
+[2018.07.10-02.05.36:816][908]LogHttp: Warning: 00000230FC376E00: libcurl info message cache 9 (connect to 52.1.25.9 port 443 failed: Timed out)
+[2018.07.10-02.05.36:816][908]LogHttp: Warning: 00000230FC376E00: libcurl info message cache 10 (  Trying 52.2.250.239...)
+[2018.07.10-02.05.36:816][908]LogHttp: Warning: 00000230FC376E00: libcurl info message cache 11 (connect to 52.2.250.239 port 443 failed: Timed out)
+[2018.07.10-02.05.36:816][908]LogHttp: Warning: 00000230FC376E00: libcurl info message cache 12 (  Trying 52.2.103.56...)
+[2018.07.10-02.05.36:816][908]LogHttp: Warning: 00000230FC376E00: libcurl info message cache 13 (connect to 52.2.103.56 port 443 failed: Timed out)
+[2018.07.10-02.05.36:816][908]LogHttp: Warning: 00000230FC376E00: libcurl info message cache 14 (  Trying 52.201.7.125...)
+[2018.07.10-02.05.36:816][908]LogHttp: Warning: 00000230FC376E00: libcurl info message cache 15 (connect to 52.201.7.125 port 443 failed: Timed out)
+[2018.07.10-02.05.36:816][908]LogHttp: Warning: 00000230FC376E00: libcurl info message cache 16 (  Trying 52.200.19.158...)
+[2018.07.10-02.05.36:816][908]LogHttp: Warning: 00000230FC376E00: libcurl info message cache 17 (connect to 52.200.19.158 port 443 failed: Timed out)
+[2018.07.10-02.05.36:816][908]LogHttp: Warning: 00000230FC376E00: libcurl info message cache 18 (  Trying 52.2.147.45...)
+[2018.07.10-02.05.36:816][908]LogHttp: Warning: 00000230FC376E00: libcurl info message cache 19 (Closing connection 19)
+[2018.07.10-02.06.08:848][748]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.10-02.06.08:957][760]LogSlate: Window 'DGame 游戏预览 Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.07.10-02.06.08:962][760]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/maps_start.maps_start:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/maps_start.maps_start:PersistentLevel.maps_start' with GeneratedClass '/Game/Maps/maps_start.maps_start_C' with ClassGeneratedBy '/Game/Maps/maps_start.maps_start:PersistentLevel.maps_start'
+[2018.07.10-02.06.08:994][760]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/maps_start.maps_start:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/maps_start.maps_start:PersistentLevel.maps_start' with GeneratedClass '/Game/Maps/maps_start.maps_start_C' with ClassGeneratedBy '/Game/Maps/maps_start.maps_start:PersistentLevel.maps_start'
+[2018.07.10-02.06.23:156][445]LogSlate: Window '信息日志' being destroyed
+[2018.07.10-02.06.23:159][445]LogSlate: Window '信息日志' being destroyed
+[2018.07.10-02.06.35:681][934]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/maps_start" FILE="E:/ue4/DGame/Content/Maps/maps_start.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.07.10-02.06.35:841][934]LogSavePackage: Save=128.74ms
+[2018.07.10-02.06.35:841][934]LogSavePackage: Moving 'E:/ue4/DGame/Saved/maps_start421D10364C6F492D027F8EBB854629C4.tmp' to 'E:/ue4/DGame/Content/Maps/maps_start.umap'
+[2018.07.10-02.06.35:866][934]LogSavePackage: Display: Finished SavePackage E:/ue4/DGame/Content/Maps/maps_start.umap
+[2018.07.10-02.06.35:905][934]LogFileHelpers: Saving map 'maps_start' took 0.272
+[2018.07.10-02.06.35:936][934]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Character/bp_MyCharacter" FILE="E:/ue4/DGame/Content/Blueprints/Character/bp_MyCharacter.uasset" SILENT=true
+[2018.07.10-02.06.35:958][934]LogSavePackage: Save=14.14ms
+[2018.07.10-02.06.35:958][934]LogSavePackage: Moving 'E:/ue4/DGame/Saved/bp_MyCharacterBA38635C460A9A70D42F08BAB1BD0D86.tmp' to 'E:/ue4/DGame/Content/Blueprints/Character/bp_MyCharacter.uasset'
+[2018.07.10-02.06.35:960][934]LogSavePackage: Display: Finished SavePackage E:/ue4/DGame/Content/Blueprints/Character/bp_MyCharacter.uasset
+[2018.07.10-02.06.41:507][579]LogScript: Warning: Accessed None trying to read property my_player_controller
+	bp_mycharacter_anim_C /Engine/Transient.World_12:PersistentLevel.bp_MyCharacter_C_2.CharacterMesh0.bp_mycharacter_anim_C_30
+	Function /Game/Blueprints/Character/bp_mycharacter_anim.bp_mycharacter_anim_C:ExecuteUbergraph_bp_mycharacter_anim:16BE
+[2018.07.10-02.06.45:794][ 92]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.10-02.07.05:043][375]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.10-02.07.20:239][197]LogEditorViewport: Clicking on Actor (LMB): bp_int_triggle_C (bp_int_triggle)
+[2018.07.10-02.07.21:614][358]LogEditorViewport: Clicking on Actor (LMB): bp_int_triggle_C (bp_int_triggle)
+[2018.07.10-02.07.21:699][365]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (Cylinder)
+[2018.07.10-02.07.23:529][580]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.10-02.07.25:396][802]LogEditorViewport: Clicking on Actor (LMB): bp_int_triggle_C (bp_int_triggle)
+[2018.07.10-02.07.26:782][966]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.10-02.07.39:816][311]LogSlate: Window 'bp_int_triggle' being destroyed
+[2018.07.10-02.08.15:374][131]BlueprintLog: New page: 编译bp_int_triggle
+[2018.07.10-02.08.15:378][131]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002306f1e8100, Size=88
+[2018.07.10-02.08.15:378][131]LogUObjectGlobals: Created PersistentFrame Addr=0x0000023163325b40, Size=88, Default__bp_int_triggle_C Function /Engine/Transient.REINST_bp_int_triggle_C_83:ExecuteUbergraph_bp_int_triggle
+[2018.07.10-02.08.15:380][131]LogUObjectGlobals: Created PersistentFrame Addr=0x00000231633275e0, Size=88, Default__bp_int_triggle_C Function /Game/Learn_temp/bp_int_triggle.bp_int_triggle_C:ExecuteUbergraph_bp_int_triggle
+[2018.07.10-02.08.15:757][131]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000231440f7580, Size=336
+[2018.07.10-02.08.15:758][131]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000230d8232200, Size=328
+[2018.07.10-02.08.17:646][291]LogSlate: Window 'bp_int_triggle*' being destroyed
+[2018.07.10-02.08.19:511][513]LogEditorViewport: Clicking on Actor (LMB): bp_int_triggle_C (bp_int_triggle)
+[2018.07.10-02.08.21:273][722]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.10-02.08.30:755][854]LogTemp: Repeating last play command: 新建编辑器窗口（在编辑器中运行）
+[2018.07.10-02.08.30:771][854]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/maps_start.maps_start:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/maps_start.maps_start:PersistentLevel.maps_start' with GeneratedClass '/Game/Maps/maps_start.maps_start_C' with ClassGeneratedBy '/Game/Maps/maps_start.maps_start:PersistentLevel.maps_start'
+[2018.07.10-02.08.30:771][854]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.07.10-02.08.30:771][854]PIE: New page: PIE会话: maps_start (2018年7月10日 下午6:08:30)
+[2018.07.10-02.08.30:771][854]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_maps_start
+[2018.07.10-02.08.30:793][854]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021034s)
+[2018.07.10-02.08.30:793][854]LogAIModule: Creating AISystem for world maps_start
+[2018.07.10-02.08.30:794][854]LogPlayLevel: PIE: World Init took: (0.000656s)
+[2018.07.10-02.08.30:794][854]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/maps_start.maps_start to /Game/Maps/UEDPIE_0_maps_start.maps_start (0.021820s)
+[2018.07.10-02.08.30:817][854]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000023163325b40, Size=88
+[2018.07.10-02.08.30:821][854]LogInit: XAudio2 using '扬声器 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.07.10-02.08.30:827][854]LogInit: FAudioDevice initialized.
+[2018.07.10-02.08.30:870][854]LogLoad: Game class is 'DGameGameModeBase'
+[2018.07.10-02.08.30:873][854]LogWorld: Bringing World /Game/Maps/UEDPIE_0_maps_start.maps_start up for play (max tick rate 0) at 2018.07.10-10.08.30
+[2018.07.10-02.08.30:873][854]LogWorld: Bringing up level for play took: 0.003030
+[2018.07.10-02.08.30:951][854]PIE: /Game/Maps/UEDPIE_0_maps_start的‘在编辑器中播放’的起始时间0.396
+[2018.07.10-02.08.30:951][854]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/maps_start.maps_start:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/maps_start.maps_start:PersistentLevel.maps_start' with GeneratedClass '/Game/Maps/maps_start.maps_start_C' with ClassGeneratedBy '/Game/Maps/maps_start.maps_start:PersistentLevel.maps_start'
+[2018.07.10-02.08.31:029][855]LogScript: Warning: Accessed None trying to read property my_player_controller
+	bp_mycharacter_anim_C /Game/Maps/UEDPIE_0_maps_start.maps_start:PersistentLevel.bp_MyCharacter_2.CharacterMesh0.bp_mycharacter_anim_C_0
+	Function /Game/Blueprints/Character/bp_mycharacter_anim.bp_mycharacter_anim_C:ExecuteUbergraph_bp_mycharacter_anim:16BE
+[2018.07.10-02.08.31:029][855]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property my_player_controller from function: 'ExecuteUbergraph_bp_mycharacter_anim' from node: Update Fight State in graph: EventGraph in object: bp_mycharacter_anim with description: Accessed None trying to read property my_player_controller
+[2018.07.10-02.08.42:814][269]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.10-02.08.52:407][420]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.10-02.08.52:464][426]LogSlate: Window 'DGame 游戏预览 Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.07.10-02.08.52:469][426]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/maps_start.maps_start:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/maps_start.maps_start:PersistentLevel.maps_start' with GeneratedClass '/Game/Maps/maps_start.maps_start_C' with ClassGeneratedBy '/Game/Maps/maps_start.maps_start:PersistentLevel.maps_start'
+[2018.07.10-02.08.52:503][426]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/maps_start.maps_start:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/maps_start.maps_start:PersistentLevel.maps_start' with GeneratedClass '/Game/Maps/maps_start.maps_start_C' with ClassGeneratedBy '/Game/Maps/maps_start.maps_start:PersistentLevel.maps_start'
+[2018.07.10-02.08.54:536][657]LogScript: Warning: Accessed None trying to read property my_player_controller
+	bp_mycharacter_anim_C /Engine/Transient.World_12:PersistentLevel.bp_MyCharacter_C_2.CharacterMesh0.bp_mycharacter_anim_C_30
+	Function /Game/Blueprints/Character/bp_mycharacter_anim.bp_mycharacter_anim_C:ExecuteUbergraph_bp_mycharacter_anim:16BE
+[2018.07.10-02.09.00:587][377]LogSlate: Window '信息日志' being destroyed
+[2018.07.10-02.09.00:590][377]LogSlate: Window '信息日志' being destroyed
+[2018.07.10-02.09.10:175][523]LogTemp: Repeating last play command: 新建编辑器窗口（在编辑器中运行）
+[2018.07.10-02.09.10:186][523]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/maps_start.maps_start:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/maps_start.maps_start:PersistentLevel.maps_start' with GeneratedClass '/Game/Maps/maps_start.maps_start_C' with ClassGeneratedBy '/Game/Maps/maps_start.maps_start:PersistentLevel.maps_start'
+[2018.07.10-02.09.10:186][523]BlueprintLog: New page: 运行前自动重新编译
+[2018.07.10-02.09.10:188][523]LogPlayLevel: [PlayLevel] Compiling bp_int_triggle before play...
+[2018.07.10-02.09.10:189][523]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000231633275e0, Size=88
+[2018.07.10-02.09.10:189][523]LogUObjectGlobals: Created PersistentFrame Addr=0x00000231385c7640, Size=88, Default__bp_int_triggle_C Function /Engine/Transient.REINST_bp_int_triggle_C_87:ExecuteUbergraph_bp_int_triggle
+[2018.07.10-02.09.10:191][523]LogUObjectGlobals: Created PersistentFrame Addr=0x00000231312a4e80, Size=88, Default__bp_int_triggle_C Function /Game/Learn_temp/bp_int_triggle.bp_int_triggle_C:ExecuteUbergraph_bp_int_triggle
+[2018.07.10-02.09.10:536][523]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000231385c7640, Size=88
+[2018.07.10-02.09.10:537][523]LogPlayLevel: PlayLevel: Blueprint regeneration took 351 ms (1 blueprints)
+[2018.07.10-02.09.10:537][523]PIE: New page: PIE会话: maps_start (2018年7月10日 下午6:09:10)
+[2018.07.10-02.09.10:537][523]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_maps_start
+[2018.07.10-02.09.10:559][523]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021493s)
+[2018.07.10-02.09.10:560][523]LogAIModule: Creating AISystem for world maps_start
+[2018.07.10-02.09.10:560][523]LogPlayLevel: PIE: World Init took: (0.000666s)
+[2018.07.10-02.09.10:560][523]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/maps_start.maps_start to /Game/Maps/UEDPIE_0_maps_start.maps_start (0.022267s)
+[2018.07.10-02.09.10:587][523]LogInit: XAudio2 using '扬声器 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.07.10-02.09.10:593][523]LogInit: FAudioDevice initialized.
+[2018.07.10-02.09.10:631][523]LogLoad: Game class is 'DGameGameModeBase'
+[2018.07.10-02.09.10:635][523]LogWorld: Bringing World /Game/Maps/UEDPIE_0_maps_start.maps_start up for play (max tick rate 0) at 2018.07.10-10.09.10
+[2018.07.10-02.09.10:635][523]LogWorld: Bringing up level for play took: 0.003249
+[2018.07.10-02.09.10:701][523]PIE: /Game/Maps/UEDPIE_0_maps_start的‘在编辑器中播放’的起始时间0.146
+[2018.07.10-02.09.10:701][523]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/maps_start.maps_start:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/maps_start.maps_start:PersistentLevel.maps_start' with GeneratedClass '/Game/Maps/maps_start.maps_start_C' with ClassGeneratedBy '/Game/Maps/maps_start.maps_start:PersistentLevel.maps_start'
+[2018.07.10-02.09.10:796][524]LogScript: Warning: Accessed None trying to read property my_player_controller
+	bp_mycharacter_anim_C /Game/Maps/UEDPIE_0_maps_start.maps_start:PersistentLevel.bp_MyCharacter_2.CharacterMesh0.bp_mycharacter_anim_C_0
+	Function /Game/Blueprints/Character/bp_mycharacter_anim.bp_mycharacter_anim_C:ExecuteUbergraph_bp_mycharacter_anim:16BE
+[2018.07.10-02.09.10:796][524]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property my_player_controller from function: 'ExecuteUbergraph_bp_mycharacter_anim' from node: Update Fight State in graph: EventGraph in object: bp_mycharacter_anim with description: Accessed None trying to read property my_player_controller
+[2018.07.10-02.09.24:807][196]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.10-02.09.30:018][818]LogSlate: Window 'DGame 游戏预览 Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.07.10-02.09.30:023][818]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/maps_start.maps_start:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/maps_start.maps_start:PersistentLevel.maps_start' with GeneratedClass '/Game/Maps/maps_start.maps_start_C' with ClassGeneratedBy '/Game/Maps/maps_start.maps_start:PersistentLevel.maps_start'
+[2018.07.10-02.09.30:059][818]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/maps_start.maps_start:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/maps_start.maps_start:PersistentLevel.maps_start' with GeneratedClass '/Game/Maps/maps_start.maps_start_C' with ClassGeneratedBy '/Game/Maps/maps_start.maps_start:PersistentLevel.maps_start'
+[2018.07.10-02.10.02:987][736]LogSlate: Window '信息日志' being destroyed
+[2018.07.10-02.10.02:991][736]LogSlate: Window '信息日志' being destroyed
+[2018.07.10-02.10.36:837][772]LogHttp: Warning: 00000230F5470100: HTTP request timed out after 180.00 seconds URL=https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BD9DB97DC-4C0F-335E-EE23-FE92E01F3392%7D&AppID=UEEditor.UnrealEngine.Release&AppVersion=4.19.2-0%2B%2B%2BUE4%2BRelease-4.19&UserID=5a18308d4dbc22491a6528b3ceec25b2%7C321d150c1ad4465ea32ff383fcd85ca6%7Cb9abf892-6297-4ebe-a44c-32437dec0ee3&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2018.07.10-02.10.36:837][772]LogHttp: Warning: 00000230F5470100: request failed, libcurl error: 0 (No error)
+[2018.07.10-02.10.36:837][772]LogHttp: Warning: 00000230F5470100: libcurl info message cache 0 (  Trying 34.205.240.160...)
+[2018.07.10-02.10.36:837][772]LogHttp: Warning: 00000230F5470100: libcurl info message cache 1 (connect to 34.205.240.160 port 443 failed: Timed out)
+[2018.07.10-02.10.36:837][772]LogHttp: Warning: 00000230F5470100: libcurl info message cache 2 (  Trying 34.205.114.120...)
+[2018.07.10-02.10.36:837][772]LogHttp: Warning: 00000230F5470100: libcurl info message cache 3 (connect to 34.205.114.120 port 443 failed: Timed out)
+[2018.07.10-02.10.36:837][772]LogHttp: Warning: 00000230F5470100: libcurl info message cache 4 (  Trying 34.206.232.16...)
+[2018.07.10-02.10.36:837][772]LogHttp: Warning: 00000230F5470100: libcurl info message cache 5 (connect to 34.206.232.16 port 443 failed: Timed out)
+[2018.07.10-02.10.36:837][772]LogHttp: Warning: 00000230F5470100: libcurl info message cache 6 (  Trying 34.207.38.109...)
+[2018.07.10-02.10.36:837][772]LogHttp: Warning: 00000230F5470100: libcurl info message cache 7 (connect to 34.207.38.109 port 443 failed: Timed out)
+[2018.07.10-02.10.36:837][772]LogHttp: Warning: 00000230F5470100: libcurl info message cache 8 (  Trying 34.206.173.2...)
+[2018.07.10-02.10.36:837][772]LogHttp: Warning: 00000230F5470100: libcurl info message cache 9 (connect to 34.206.173.2 port 443 failed: Timed out)
+[2018.07.10-02.10.36:837][772]LogHttp: Warning: 00000230F5470100: libcurl info message cache 10 (  Trying 34.207.10.243...)
+[2018.07.10-02.10.36:837][772]LogHttp: Warning: 00000230F5470100: libcurl info message cache 11 (connect to 34.207.10.243 port 443 failed: Timed out)
+[2018.07.10-02.10.36:837][772]LogHttp: Warning: 00000230F5470100: libcurl info message cache 12 (  Trying 34.206.255.118...)
+[2018.07.10-02.10.36:837][772]LogHttp: Warning: 00000230F5470100: libcurl info message cache 13 (connect to 34.206.255.118 port 443 failed: Timed out)
+[2018.07.10-02.10.36:837][772]LogHttp: Warning: 00000230F5470100: libcurl info message cache 14 (  Trying 34.224.106.243...)
+[2018.07.10-02.10.36:837][772]LogHttp: Warning: 00000230F5470100: libcurl info message cache 15 (connect to 34.224.106.243 port 443 failed: Timed out)
+[2018.07.10-02.10.36:837][772]LogHttp: Warning: 00000230F5470100: libcurl info message cache 16 (  Trying 34.205.240.160...)
+[2018.07.10-02.10.36:837][772]LogHttp: Warning: 00000230F5470100: libcurl info message cache 17 (Closing connection 20)
+[2018.07.10-02.10.44:632][697]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/maps_start" FILE="E:/ue4/DGame/Content/Maps/maps_start.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.07.10-02.10.44:780][697]LogSavePackage: Save=115.67ms
+[2018.07.10-02.10.44:780][697]LogSavePackage: Moving 'E:/ue4/DGame/Saved/maps_start6A62A210467FFF2E53B5328C70080236.tmp' to 'E:/ue4/DGame/Content/Maps/maps_start.umap'
+[2018.07.10-02.10.44:783][697]LogSavePackage: Display: Finished SavePackage E:/ue4/DGame/Content/Maps/maps_start.umap
+[2018.07.10-02.10.44:797][697]LogFileHelpers: Saving map 'maps_start' took 0.218
+[2018.07.10-02.10.44:832][697]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Learn_temp/bp_int_triggle" FILE="E:/ue4/DGame/Content/Learn_temp/bp_int_triggle.uasset" SILENT=true
+[2018.07.10-02.10.44:880][697]LogSavePackage: Save=38.35ms
+[2018.07.10-02.10.44:880][697]LogSavePackage: Moving 'E:/ue4/DGame/Saved/bp_int_triggle99E993524ED6A1A141B1D18C05EFA07F.tmp' to 'E:/ue4/DGame/Content/Learn_temp/bp_int_triggle.uasset'
+[2018.07.10-02.10.44:882][697]LogSavePackage: Display: Finished SavePackage E:/ue4/DGame/Content/Learn_temp/bp_int_triggle.uasset
+[2018.07.10-02.10.54:556][825]LogScript: Warning: Accessed None trying to read property my_player_controller
+	bp_mycharacter_anim_C /Engine/Transient.World_12:PersistentLevel.bp_MyCharacter_C_2.CharacterMesh0.bp_mycharacter_anim_C_30
+	Function /Game/Blueprints/Character/bp_mycharacter_anim.bp_mycharacter_anim_C:ExecuteUbergraph_bp_mycharacter_anim:16BE
+[2018.07.10-02.10.57:676][197]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionEnabled' with an invalid value of ''
+[2018.07.10-02.10.57:676][197]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionEnabled' with an invalid value of ''
+[2018.07.10-02.10.57:676][197]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionEnabled' with an invalid value of ''
+[2018.07.10-02.10.57:676][197]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionEnabled' with an invalid value of ''
+[2018.07.10-02.10.57:676][197]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionChannel' with an invalid value of ''
+[2018.07.10-02.10.57:677][197]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionChannel' with an invalid value of ''
+[2018.07.10-02.10.57:677][197]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionChannel' with an invalid value of ''
+[2018.07.10-02.10.57:677][197]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionChannel' with an invalid value of ''
+[2018.07.10-02.10.57:900][222]LogScript: Warning: Accessed None trying to read property my_player_controller
+	bp_mycharacter_anim_C /Engine/Transient.World_12:PersistentLevel.bp_MyCharacter_C_2.CharacterMesh0.bp_mycharacter_anim_C_30
+	Function /Game/Blueprints/Character/bp_mycharacter_anim.bp_mycharacter_anim_C:ExecuteUbergraph_bp_mycharacter_anim:16BE
+[2018.07.10-02.10.59:805][450]LogScript: Warning: Accessed None trying to read property my_player_controller
+	bp_mycharacter_anim_C /Engine/Transient.World_12:PersistentLevel.bp_MyCharacter_C_2.CharacterMesh0.bp_mycharacter_anim_C_30
+	Function /Game/Blueprints/Character/bp_mycharacter_anim.bp_mycharacter_anim_C:ExecuteUbergraph_bp_mycharacter_anim:16BE
+[2018.07.10-02.11.02:090][723]BlueprintLog: New page: 编译bp_MyCharacter
+[2018.07.10-02.11.02:572][724]LogScript: Warning: Accessed None trying to read property my_player_controller
+	bp_mycharacter_anim_C /Engine/Transient.World_12:PersistentLevel.bp_MyCharacter_C_2.CharacterMesh0.bp_mycharacter_anim_C_35
+	Function /Game/Blueprints/Character/bp_mycharacter_anim.bp_mycharacter_anim_C:ExecuteUbergraph_bp_mycharacter_anim:16BE
+[2018.07.10-02.11.03:418][814]LogTemp: Repeating last play command: 新建编辑器窗口（在编辑器中运行）
+[2018.07.10-02.11.03:435][814]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/maps_start.maps_start:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/maps_start.maps_start:PersistentLevel.maps_start' with GeneratedClass '/Game/Maps/maps_start.maps_start_C' with ClassGeneratedBy '/Game/Maps/maps_start.maps_start:PersistentLevel.maps_start'
+[2018.07.10-02.11.03:435][814]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.07.10-02.11.03:435][814]PIE: New page: PIE会话: maps_start (2018年7月10日 下午6:11:03)
+[2018.07.10-02.11.03:435][814]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_maps_start
+[2018.07.10-02.11.03:456][814]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020711s)
+[2018.07.10-02.11.03:456][814]LogAIModule: Creating AISystem for world maps_start
+[2018.07.10-02.11.03:457][814]LogPlayLevel: PIE: World Init took: (0.000776s)
+[2018.07.10-02.11.03:457][814]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/maps_start.maps_start to /Game/Maps/UEDPIE_0_maps_start.maps_start (0.021593s)
+[2018.07.10-02.11.03:482][814]LogInit: XAudio2 using '扬声器 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.07.10-02.11.03:487][814]LogInit: FAudioDevice initialized.
+[2018.07.10-02.11.03:526][814]LogLoad: Game class is 'DGameGameModeBase'
+[2018.07.10-02.11.03:530][814]LogWorld: Bringing World /Game/Maps/UEDPIE_0_maps_start.maps_start up for play (max tick rate 0) at 2018.07.10-10.11.03
+[2018.07.10-02.11.03:530][814]LogWorld: Bringing up level for play took: 0.003119
+[2018.07.10-02.11.03:605][814]PIE: /Game/Maps/UEDPIE_0_maps_start的‘在编辑器中播放’的起始时间1.05
+[2018.07.10-02.11.03:606][814]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/maps_start.maps_start:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/maps_start.maps_start:PersistentLevel.maps_start' with GeneratedClass '/Game/Maps/maps_start.maps_start_C' with ClassGeneratedBy '/Game/Maps/maps_start.maps_start:PersistentLevel.maps_start'
+[2018.07.10-02.11.03:679][815]LogScript: Warning: Accessed None trying to read property my_player_controller
+	bp_mycharacter_anim_C /Game/Maps/UEDPIE_0_maps_start.maps_start:PersistentLevel.bp_MyCharacter_2.CharacterMesh0.bp_mycharacter_anim_C_0
+	Function /Game/Blueprints/Character/bp_mycharacter_anim.bp_mycharacter_anim_C:ExecuteUbergraph_bp_mycharacter_anim:16BE
+[2018.07.10-02.11.03:679][815]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property my_player_controller from function: 'ExecuteUbergraph_bp_mycharacter_anim' from node: Update Fight State in graph: EventGraph in object: bp_mycharacter_anim with description: Accessed None trying to read property my_player_controller
+[2018.07.10-02.11.04:426][905]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.10-02.11.09:593][525]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.10-02.11.27:511][675]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.10-02.11.27:593][684]LogSlate: Window 'DGame 游戏预览 Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.07.10-02.11.27:598][684]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/maps_start.maps_start:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/maps_start.maps_start:PersistentLevel.maps_start' with GeneratedClass '/Game/Maps/maps_start.maps_start_C' with ClassGeneratedBy '/Game/Maps/maps_start.maps_start:PersistentLevel.maps_start'
+[2018.07.10-02.11.27:633][684]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/maps_start.maps_start:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/maps_start.maps_start:PersistentLevel.maps_start' with GeneratedClass '/Game/Maps/maps_start.maps_start_C' with ClassGeneratedBy '/Game/Maps/maps_start.maps_start:PersistentLevel.maps_start'
+[2018.07.10-02.11.27:828][702]LogScript: Warning: Accessed None trying to read property my_player_controller
+	bp_mycharacter_anim_C /Engine/Transient.World_12:PersistentLevel.bp_MyCharacter_C_2.CharacterMesh0.bp_mycharacter_anim_C_35
+	Function /Game/Blueprints/Character/bp_mycharacter_anim.bp_mycharacter_anim_C:ExecuteUbergraph_bp_mycharacter_anim:16BE
+[2018.07.10-02.11.29:374][877]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/maps_start" FILE="E:/ue4/DGame/Content/Maps/maps_start.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.07.10-02.11.29:519][877]LogSavePackage: Save=115.18ms
+[2018.07.10-02.11.29:519][877]LogSavePackage: Moving 'E:/ue4/DGame/Saved/maps_start7B38C88D47E789F7A813C0AAF47FC07D.tmp' to 'E:/ue4/DGame/Content/Maps/maps_start.umap'
+[2018.07.10-02.11.29:521][877]LogSavePackage: Display: Finished SavePackage E:/ue4/DGame/Content/Maps/maps_start.umap
+[2018.07.10-02.11.29:538][877]LogFileHelpers: Saving map 'maps_start' took 0.209
+[2018.07.10-02.11.29:568][877]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Character/bp_MyCharacter" FILE="E:/ue4/DGame/Content/Blueprints/Character/bp_MyCharacter.uasset" SILENT=true
+[2018.07.10-02.11.29:592][877]LogSavePackage: Save=14.77ms
+[2018.07.10-02.11.29:592][877]LogSavePackage: Moving 'E:/ue4/DGame/Saved/bp_MyCharacter01F97F0740B456BFE56425942855E174.tmp' to 'E:/ue4/DGame/Content/Blueprints/Character/bp_MyCharacter.uasset'
+[2018.07.10-02.11.29:594][877]LogSavePackage: Display: Finished SavePackage E:/ue4/DGame/Content/Blueprints/Character/bp_MyCharacter.uasset
+[2018.07.10-02.11.36:832][718]LogHttp: Warning: 0000023064A07D00: HTTP request timed out after 180.00 seconds URL=https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BD9DB97DC-4C0F-335E-EE23-FE92E01F3392%7D&AppID=UEEditor.UnrealEngine.Release&AppVersion=4.19.2-0%2B%2B%2BUE4%2BRelease-4.19&UserID=5a18308d4dbc22491a6528b3ceec25b2%7C321d150c1ad4465ea32ff383fcd85ca6%7Cb9abf892-6297-4ebe-a44c-32437dec0ee3&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2018.07.10-02.11.36:832][718]LogHttp: Warning: 0000023064A07D00: request failed, libcurl error: 0 (No error)
+[2018.07.10-02.11.36:832][718]LogHttp: Warning: 0000023064A07D00: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x2313b0fbfe8 [serially])
+[2018.07.10-02.11.36:832][718]LogHttp: Warning: 0000023064A07D00: libcurl info message cache 1 (Hostname in DNS cache was stale, zapped)
+[2018.07.10-02.11.36:832][718]LogHttp: Warning: 0000023064A07D00: libcurl info message cache 2 (  Trying 34.207.10.243...)
+[2018.07.10-02.11.36:832][718]LogHttp: Warning: 0000023064A07D00: libcurl info message cache 3 (connect to 34.207.10.243 port 443 failed: Timed out)
+[2018.07.10-02.11.36:832][718]LogHttp: Warning: 0000023064A07D00: libcurl info message cache 4 (  Trying 34.206.232.16...)
+[2018.07.10-02.11.36:832][718]LogHttp: Warning: 0000023064A07D00: libcurl info message cache 5 (connect to 34.206.232.16 port 443 failed: Timed out)
+[2018.07.10-02.11.36:832][718]LogHttp: Warning: 0000023064A07D00: libcurl info message cache 6 (  Trying 34.224.106.243...)
+[2018.07.10-02.11.36:832][718]LogHttp: Warning: 0000023064A07D00: libcurl info message cache 7 (connect to 34.224.106.243 port 443 failed: Timed out)
+[2018.07.10-02.11.36:832][718]LogHttp: Warning: 0000023064A07D00: libcurl info message cache 8 (  Trying 34.205.240.160...)
+[2018.07.10-02.11.36:832][718]LogHttp: Warning: 0000023064A07D00: libcurl info message cache 9 (connect to 34.205.240.160 port 443 failed: Timed out)
+[2018.07.10-02.11.36:832][718]LogHttp: Warning: 0000023064A07D00: libcurl info message cache 10 (  Trying 34.205.114.120...)
+[2018.07.10-02.11.36:832][718]LogHttp: Warning: 0000023064A07D00: libcurl info message cache 11 (connect to 34.205.114.120 port 443 failed: Timed out)
+[2018.07.10-02.11.36:832][718]LogHttp: Warning: 0000023064A07D00: libcurl info message cache 12 (  Trying 34.206.255.118...)
+[2018.07.10-02.11.36:832][718]LogHttp: Warning: 0000023064A07D00: libcurl info message cache 13 (connect to 34.206.255.118 port 443 failed: Timed out)
+[2018.07.10-02.11.36:832][718]LogHttp: Warning: 0000023064A07D00: libcurl info message cache 14 (  Trying 34.207.38.109...)
+[2018.07.10-02.11.36:832][718]LogHttp: Warning: 0000023064A07D00: libcurl info message cache 15 (connect to 34.207.38.109 port 443 failed: Timed out)
+[2018.07.10-02.11.36:832][718]LogHttp: Warning: 0000023064A07D00: libcurl info message cache 16 (  Trying 34.206.173.2...)
+[2018.07.10-02.11.36:832][718]LogHttp: Warning: 0000023064A07D00: libcurl info message cache 17 (connect to 34.206.173.2 port 443 failed: Timed out)
+[2018.07.10-02.11.36:832][718]LogHttp: Warning: 0000023064A07D00: libcurl info message cache 18 (  Trying 34.207.10.243...)
+[2018.07.10-02.11.36:832][718]LogHttp: Warning: 0000023064A07D00: libcurl info message cache 19 (Closing connection 21)
+[2018.07.10-02.12.36:819][907]LogHttp: Warning: 00000230F1662500: HTTP request timed out after 180.00 seconds URL=https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BD9DB97DC-4C0F-335E-EE23-FE92E01F3392%7D&AppID=UEEditor.UnrealEngine.Release&AppVersion=4.19.2-0%2B%2B%2BUE4%2BRelease-4.19&UserID=5a18308d4dbc22491a6528b3ceec25b2%7C321d150c1ad4465ea32ff383fcd85ca6%7Cb9abf892-6297-4ebe-a44c-32437dec0ee3&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2018.07.10-02.12.36:819][907]LogHttp: Warning: 00000230F1662500: request failed, libcurl error: 0 (No error)
+[2018.07.10-02.12.36:819][907]LogHttp: Warning: 00000230F1662500: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x2313b0fbfe8 [serially])
+[2018.07.10-02.12.36:819][907]LogHttp: Warning: 00000230F1662500: libcurl info message cache 1 (Hostname in DNS cache was stale, zapped)
+[2018.07.10-02.12.36:819][907]LogHttp: Warning: 00000230F1662500: libcurl info message cache 2 (  Trying 35.172.157.112...)
+[2018.07.10-02.12.36:819][907]LogHttp: Warning: 00000230F1662500: libcurl info message cache 3 (connect to 35.172.157.112 port 443 failed: Timed out)
+[2018.07.10-02.12.36:819][907]LogHttp: Warning: 00000230F1662500: libcurl info message cache 4 (  Trying 35.168.132.219...)
+[2018.07.10-02.12.36:819][907]LogHttp: Warning: 00000230F1662500: libcurl info message cache 5 (connect to 35.168.132.219 port 443 failed: Timed out)
+[2018.07.10-02.12.36:819][907]LogHttp: Warning: 00000230F1662500: libcurl info message cache 6 (  Trying 35.153.123.226...)
+[2018.07.10-02.12.36:819][907]LogHttp: Warning: 00000230F1662500: libcurl info message cache 7 (connect to 35.153.123.226 port 443 failed: Timed out)
+[2018.07.10-02.12.36:819][907]LogHttp: Warning: 00000230F1662500: libcurl info message cache 8 (  Trying 35.153.94.250...)
+[2018.07.10-02.12.36:819][907]LogHttp: Warning: 00000230F1662500: libcurl info message cache 9 (connect to 35.153.94.250 port 443 failed: Timed out)
+[2018.07.10-02.12.36:819][907]LogHttp: Warning: 00000230F1662500: libcurl info message cache 10 (  Trying 35.153.29.57...)
+[2018.07.10-02.12.36:819][907]LogHttp: Warning: 00000230F1662500: libcurl info message cache 11 (connect to 35.153.29.57 port 443 failed: Timed out)
+[2018.07.10-02.12.36:819][907]LogHttp: Warning: 00000230F1662500: libcurl info message cache 12 (  Trying 35.169.42.52...)
+[2018.07.10-02.12.36:819][907]LogHttp: Warning: 00000230F1662500: libcurl info message cache 13 (connect to 35.169.42.52 port 443 failed: Timed out)
+[2018.07.10-02.12.36:819][907]LogHttp: Warning: 00000230F1662500: libcurl info message cache 14 (  Trying 35.153.13.89...)
+[2018.07.10-02.12.36:819][907]LogHttp: Warning: 00000230F1662500: libcurl info message cache 15 (connect to 35.153.13.89 port 443 failed: Timed out)
+[2018.07.10-02.12.36:819][907]LogHttp: Warning: 00000230F1662500: libcurl info message cache 16 (  Trying 35.169.90.239...)
+[2018.07.10-02.12.36:819][907]LogHttp: Warning: 00000230F1662500: libcurl info message cache 17 (connect to 35.169.90.239 port 443 failed: Timed out)
+[2018.07.10-02.12.36:819][907]LogHttp: Warning: 00000230F1662500: libcurl info message cache 18 (  Trying 35.172.157.112...)
+[2018.07.10-02.12.36:819][907]LogHttp: Warning: 00000230F1662500: libcurl info message cache 19 (Closing connection 22)
+[2018.07.10-02.13.13:451][995]LogSlate: Window '创建蓝图' being destroyed
+[2018.07.10-02.13.23:978][194]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.10-02.13.36:833][733]LogHttp: Warning: 00000230F6AD3B80: HTTP request timed out after 180.00 seconds URL=https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BD9DB97DC-4C0F-335E-EE23-FE92E01F3392%7D&AppID=UEEditor.UnrealEngine.Release&AppVersion=4.19.2-0%2B%2B%2BUE4%2BRelease-4.19&UserID=5a18308d4dbc22491a6528b3ceec25b2%7C321d150c1ad4465ea32ff383fcd85ca6%7Cb9abf892-6297-4ebe-a44c-32437dec0ee3&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2018.07.10-02.13.36:834][733]LogHttp: Warning: 00000230F6AD3B80: request failed, libcurl error: 0 (No error)
+[2018.07.10-02.13.36:834][733]LogHttp: Warning: 00000230F6AD3B80: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x2313b0fbfe8 [serially])
+[2018.07.10-02.13.36:834][733]LogHttp: Warning: 00000230F6AD3B80: libcurl info message cache 1 (Hostname in DNS cache was stale, zapped)
+[2018.07.10-02.13.36:834][733]LogHttp: Warning: 00000230F6AD3B80: libcurl info message cache 2 (  Trying 52.1.25.9...)
+[2018.07.10-02.13.36:834][733]LogHttp: Warning: 00000230F6AD3B80: libcurl info message cache 3 (connect to 52.1.25.9 port 443 failed: Timed out)
+[2018.07.10-02.13.36:834][733]LogHttp: Warning: 00000230F6AD3B80: libcurl info message cache 4 (  Trying 52.2.103.56...)
+[2018.07.10-02.13.36:834][733]LogHttp: Warning: 00000230F6AD3B80: libcurl info message cache 5 (connect to 52.2.103.56 port 443 failed: Timed out)
+[2018.07.10-02.13.36:834][733]LogHttp: Warning: 00000230F6AD3B80: libcurl info message cache 6 (  Trying 52.2.147.45...)
+[2018.07.10-02.13.36:834][733]LogHttp: Warning: 00000230F6AD3B80: libcurl info message cache 7 (connect to 52.2.147.45 port 443 failed: Timed out)
+[2018.07.10-02.13.36:834][733]LogHttp: Warning: 00000230F6AD3B80: libcurl info message cache 8 (  Trying 52.1.169.243...)
+[2018.07.10-02.13.36:834][733]LogHttp: Warning: 00000230F6AD3B80: libcurl info message cache 9 (connect to 52.1.169.243 port 443 failed: Timed out)
+[2018.07.10-02.13.36:834][733]LogHttp: Warning: 00000230F6AD3B80: libcurl info message cache 10 (  Trying 35.174.89.230...)
+[2018.07.10-02.13.36:834][733]LogHttp: Warning: 00000230F6AD3B80: libcurl info message cache 11 (connect to 35.174.89.230 port 443 failed: Timed out)
+[2018.07.10-02.13.36:834][733]LogHttp: Warning: 00000230F6AD3B80: libcurl info message cache 12 (  Trying 52.0.160.15...)
+[2018.07.10-02.13.36:834][733]LogHttp: Warning: 00000230F6AD3B80: libcurl info message cache 13 (connect to 52.0.160.15 port 443 failed: Timed out)
+[2018.07.10-02.13.36:834][733]LogHttp: Warning: 00000230F6AD3B80: libcurl info message cache 14 (  Trying 35.174.140.88...)
+[2018.07.10-02.13.36:834][733]LogHttp: Warning: 00000230F6AD3B80: libcurl info message cache 15 (connect to 35.174.140.88 port 443 failed: Timed out)
+[2018.07.10-02.13.36:834][733]LogHttp: Warning: 00000230F6AD3B80: libcurl info message cache 16 (  Trying 52.1.175.27...)
+[2018.07.10-02.13.36:834][733]LogHttp: Warning: 00000230F6AD3B80: libcurl info message cache 17 (connect to 52.1.175.27 port 443 failed: Timed out)
+[2018.07.10-02.13.36:834][733]LogHttp: Warning: 00000230F6AD3B80: libcurl info message cache 18 (  Trying 52.1.25.9...)
+[2018.07.10-02.13.36:834][733]LogHttp: Warning: 00000230F6AD3B80: libcurl info message cache 19 (Closing connection 23)
+[2018.07.10-02.14.25:062][490]LogEditorTransaction: Undo 修改组件
+[2018.07.10-02.14.25:162][490]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.07.10-02.14.26:429][640]LogEditorTransaction: Undo 修改组件
+[2018.07.10-02.14.26:512][640]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.07.10-02.14.32:704][374]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.10-02.14.59:933][631]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.10-02.15.25:571][549]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.10-02.15.44:498][807]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.10-02.15.48:197][250]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.10-02.15.56:833][278]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionEnabled' with an invalid value of ''
+[2018.07.10-02.18.08:226][457]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Weapon/bp_sword" FILE="E:/ue4/DGame/Content/Blueprints/Weapon/bp_sword.uasset" SILENT=true
+[2018.07.10-02.18.08:240][457]LogSavePackage: Save=12.92ms
+[2018.07.10-02.18.08:240][457]LogSavePackage: Moving 'E:/ue4/DGame/Saved/bp_sword8D8386BC4D902169B5359CB91E354326.tmp' to 'E:/ue4/DGame/Content/Blueprints/Weapon/bp_sword.uasset'
+[2018.07.10-02.18.08:242][457]LogSavePackage: Display: Finished SavePackage E:/ue4/DGame/Content/Blueprints/Weapon/bp_sword.uasset
+[2018.07.10-02.18.17:269][748]LogHotReload: New module detected: UE4Editor-DGame-8589.dll
+[2018.07.10-02.18.18:605][753]LogHotReload: Starting Hot-Reload from IDE
+[2018.07.10-02.18.18:656][753]LogClass: EControllerState HotReload.
+[2018.07.10-02.18.18:662][753]LogContentBrowser: Native class hierarchy updated for 'DGame' in 0.0005 seconds. Added 5 classes and 2 folders.
+[2018.07.10-02.18.18:665][753]Display: HotReload successful (11 functions remapped  0 scriptstructs remapped)
+[2018.07.10-02.18.18:962][753]LogContentBrowser: Native class hierarchy populated in 0.0112 seconds. Added 2458 classes and 562 folders.
+[2018.07.10-02.18.18:965][753]Display: HotReload took  0.4s.

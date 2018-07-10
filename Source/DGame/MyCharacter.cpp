@@ -99,6 +99,9 @@ void AMyCharacter::init_sword() {
 	sword = CreateDefaultSubobject<USkeletalMeshComponent>(TEXT("SwordComponent"));
 	static ConstructorHelpers::FObjectFinder<USkeletalMesh> sword_mesh(TEXT("/Game/Assets/Weapon/Sword"));
 	if(sword_mesh.Succeeded()) sword->SetSkeletalMesh(sword_mesh.Object, true);
+
+	static ConstructorHelpers::FClassFinder<APawn> PlayerPawnBPClass(TEXT("/Game/Blueprints/Character/bp_MyCharacter"));
+
 }
 // ≥ı ºªØ∂‹≈∆
 void AMyCharacter::init_shield() {
