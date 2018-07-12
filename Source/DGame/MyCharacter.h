@@ -1,10 +1,12 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
+#include "BaseCharacter.h"
+#include "DamageInterface.h"
 #include "MyCharacter.generated.h"
 
 UCLASS(Blueprintable)
-class DGAME_API AMyCharacter : public ACharacter {
+class DGAME_API AMyCharacter : public ABaseCharacter, public IDamageInterface {
 	GENERATED_BODY()
 
 public:
@@ -12,6 +14,7 @@ public:
 
 public:
 	virtual void Tick(float DeltaTime) override;		// 每帧都会做的事情
+	virtual void init_fight() override;					// 初始化战斗文本
 
 	// get 私有属性
 	FORCEINLINE class UCameraComponent* get_camera_component() const { return camera_component; } 
@@ -23,8 +26,13 @@ public:
 	void change_sword_place(FName n);		// 改变武器位置
 	void change_shield_place(FName n);		// 改变盾牌位置
 
+	// 重写受伤函数
+	UFUNCTION(BlueprintCallable, BlueprintNativeEvent, Category = "Fight")
+	void DoDamage(float delta);
+	virtual void DoDamage_Implementation(float delta) override;
+
 protected:
-	virtual void BeginPlay() override;
+//	virtual void BeginPlay() override;
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
 private:
@@ -41,11 +49,13 @@ private:
 
 	// 武器
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Mesh, meta = (AllowPrivateAccess = "true"))
-	USkeletalMeshComponent* shield;
-	// 盾牌
-	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Mesh, meta = (AllowPrivateAccess = "true"))
 	USkeletalMeshComponent* sword;
 
+	// 盾牌
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Mesh, meta = (AllowPrivateAccess = "true"))
+	USkeletalMeshComponent* shield;
+
+	
 	void init_body();						// 初始化 本身一些属性  
 	void init_movement();					// 设置 移动组件 的属性 
 	void init_camera();						// 初始化相机       
@@ -54,4 +64,7 @@ private:
 	void init_shield();						// 初始化盾牌       
 
 	void cursor_follow_mouse();				// 贴花跟鼠标走      
+
+
+
 };

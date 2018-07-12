@@ -89,11 +89,18 @@ void ADGameGameModeBase::on_main_free_clicked() {
 		con->controller_state = EControllerState::E_FREE;
 		con->update_controller_state();
 		main_ui->hide_mode_select();
-		main_ui->mode_text->SetText(FText::FromString(TEXT("自在模式")));
+		main_ui->mode_text->SetText(FText::FromString(TEXT("自在视角")));
 	}
 }
 // 切换到固定模式
 void ADGameGameModeBase::on_main_solid_clicked() {
+	AMyPlayerController* con = (AMyPlayerController*) UGameplayStatics::GetPlayerController(GetWorld(), 0);		// 获得 PlayerController
+	if(con) {
+		con->controller_state = EControllerState::E_SOLID;
+		con->update_controller_state();
+		main_ui->hide_mode_select();
+		main_ui->mode_text->SetText(FText::FromString(TEXT("固定视角")));
+	}
 }
 // 切换到3D模式
 void ADGameGameModeBase::on_main_threeD_clicked() {
@@ -107,6 +114,13 @@ void ADGameGameModeBase::on_main_threeD_clicked() {
 }
 // 切换到动作模式
 void ADGameGameModeBase::on_main_act_clicked() {
+	AMyPlayerController* con = (AMyPlayerController*) UGameplayStatics::GetPlayerController(GetWorld(), 0);		// 获得 PlayerController
+	if(con) {
+		con->controller_state = EControllerState::E_ACT;
+		con->update_controller_state();
+		main_ui->hide_mode_select();
+		main_ui->mode_text->SetText(FText::FromString(TEXT("动作模式")));
+	}
 }
 
 // 切换战斗状态

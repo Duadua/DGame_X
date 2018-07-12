@@ -1,0 +1,1389 @@
+﻿Log file open, 07/10/18 13:05:44
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: DGame
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(2091057375) SRandInit(2091057376).
+LogInit: Read version file with build ID 'b18491ae-a27b-4abc-bef7-00616cdae016'
+LogInit: Registered custom module enumerator with build ID 'b18491ae-a27b-4abc-bef7-00616cdae016'
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.281905
+LogD3D11RHI: Aftermath initialized
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +8:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LiveLink
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleARKit
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.077s to configure plugins.
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperTiledImporter.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-SmartSnapping.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Animation/LiveLink/Binaries/Win64/UE4Editor-LiveLink.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Animation/LiveLink/Binaries/Win64/UE4Editor-LiveLinkEditor.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeRuntime.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeEditor.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/CLionSourceCodeAccess/Binaries/Win64/UE4Editor-CLionSourceCodeAccess.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/GitSourceControl/Binaries/Win64/UE4Editor-GitSourceControl.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/PerforceSourceControl/Binaries/Win64/UE4Editor-PerforceSourceControl.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/SubversionSourceControl/Binaries/Win64/UE4Editor-SubversionSourceControl.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/UObjectPlugin/Binaries/Win64/UE4Editor-UObjectPlugin.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioCodeSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioCodeSourceCodeAccess.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioSourceCodeAccess.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AssetManagerEditor/Binaries/Win64/UE4Editor-AssetManagerEditor.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/CryptoKeys/Binaries/Win64/UE4Editor-CryptoKeys.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/CryptoKeys/Binaries/Win64/UE4Editor-CryptoKeysOpenSSL.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/DataValidation/Binaries/Win64/UE4Editor-DataValidation.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimation.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimationEditor.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/GameplayTagsEditor/Binaries/Win64/UE4Editor-GameplayTagsEditor.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/MobileLauncherProfileWizard/Binaries/Win64/UE4Editor-MobileLauncherProfileWizard.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/PluginBrowser/Binaries/Win64/UE4Editor-PluginBrowser.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/SpeedTreeImporter/Binaries/Win64/UE4Editor-SpeedTreeImporter.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Enterprise/DatasmithContent/Binaries/Win64/UE4Editor-DatasmithContent.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicImporter.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicLibrary.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/CharacterAI/Binaries/Win64/UE4Editor-CharacterAI.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/HTML5Networking/Binaries/Win64/UE4Editor-HTML5Networking.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaEditor.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaFactory.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaEditor.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMedia.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaEditor.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-OpenExrWrapper.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/LinearTimecode/Binaries/Win64/UE4Editor-LinearTimecode.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositing.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositingEditor.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaPlayerEditor/Binaries/Win64/UE4Editor-MediaPlayerEditor.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMedia.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaEditor.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/TcpMessaging/Binaries/Win64/UE4Editor-TcpMessaging.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/UdpMessaging/Binaries/Win64/UE4Editor-UdpMessaging.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/ActorSequence/Binaries/Win64/UE4Editor-ActorSequence.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/LevelSequenceEditor/Binaries/Win64/UE4Editor-LevelSequenceEditor.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/MatineeToLevelSequence/Binaries/Win64/UE4Editor-MatineeToLevelSequence.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/NetcodeUnitTest/NetcodeUnitTest/Binaries/Win64/UE4Editor-NetcodeUnitTest.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/NetcodeUnitTest/NUTUnrealEngine4/Binaries/Win64/UE4Editor-NUTUnrealEngine4.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystem/Binaries/Win64/UE4Editor-OnlineSubsystem.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemNull/Binaries/Win64/UE4Editor-OnlineSubsystemNull.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineSubsystemUtils.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineBlueprintSupport.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidDeviceProfileSelector/Binaries/Win64/UE4Editor-AndroidDeviceProfileSelector.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidPermission/Binaries/Win64/UE4Editor-AndroidPermission.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AppleARKit/Binaries/Win64/UE4Editor-AppleARKit.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ArchVisCharacter/Binaries/Win64/UE4Editor-ArchVisCharacter.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AudioCapture/Binaries/Win64/UE4Editor-AudioCapture.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AudioCapture/Binaries/Win64/UE4Editor-AudioCaptureEditor.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CableComponent/Binaries/Win64/UE4Editor-CableComponent.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CustomMeshComponent/Binaries/Win64/UE4Editor-CustomMeshComponent.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ExampleDeviceProfileSelector/Binaries/Win64/UE4Editor-ExampleDeviceProfileSelector.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysics.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysicsEditor.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/LocationServicesBPLibrary/Binaries/Win64/UE4Editor-LocationServicesBPLibrary.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/MobilePatchingUtils/Binaries/Win64/UE4Editor-MobilePatchingUtils.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusHMD.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusInput.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusEditor.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehicles.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehiclesEditor.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponent.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponentEditor.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/RuntimePhysXCooking/Binaries/Win64/UE4Editor-RuntimePhysXCooking.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVR.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVRController.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/WindowsMoviePlayer/Binaries/Win64/UE4Editor-WindowsMoviePlayer.dll (API version 0).
+LogInit: Warning: Incompatible or missing module: UE4Editor-DGame.dll
+Running C:/my_code/UnrealEngine-release/Engine/Binaries/DotNET/UnrealBuildTool.exe DGame Development Win64 -project="E:/ue4/DGame/DGame.uproject" -editorrecompile -progress -NoHotReloadFromIDE
+Using 'git status' to determine working set for adaptive non-unity build.
+Creating makefile for DGame (no existing makefile)
+@progress push 5%
+Building UnrealHeaderTool...
+Creating makefile for UnrealHeaderTool (no existing makefile)
+Target is up to date
+Total build time: 1.22 seconds (NoActionsToExecute executor: 0.00 seconds)
+Parsing headers for DGameEditor
+  Running UnrealHeaderTool "E:\ue4\DGame\DGame.uproject" "E:\ue4\DGame\Intermediate\Build\Win64\DGameEditor\Development\DGameEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors
+Reflection code generated for DGameEditor in 8.1774694 seconds
+@progress pop
+Performing 3 actions (4 in parallel)
+DGame.init.gen.cpp
+[2/3] Link UE4Editor-DGame.dll
+[3/3] Link UE4Editor-DGame.lib
+  ???ڴ????? E:\ue4\DGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-DGame.lib ?Ͷ??? E:\ue4\DGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-DGame.exp
+  ???ڴ????? E:\ue4\DGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-DGame.suppressed.lib ?Ͷ??? E:\ue4\DGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-DGame.suppressed.exp
+Total build time: 24.02 seconds (Local executor: 1.73 seconds)
+LogModuleManager: Display: Found up-to-date module file E:/ue4/DGame/Binaries/Win64/UE4Editor-DGame.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperTiledImporter.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-SmartSnapping.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Animation/LiveLink/Binaries/Win64/UE4Editor-LiveLink.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Animation/LiveLink/Binaries/Win64/UE4Editor-LiveLinkEditor.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeRuntime.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeEditor.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/CLionSourceCodeAccess/Binaries/Win64/UE4Editor-CLionSourceCodeAccess.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/GitSourceControl/Binaries/Win64/UE4Editor-GitSourceControl.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/PerforceSourceControl/Binaries/Win64/UE4Editor-PerforceSourceControl.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/SubversionSourceControl/Binaries/Win64/UE4Editor-SubversionSourceControl.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/UObjectPlugin/Binaries/Win64/UE4Editor-UObjectPlugin.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioCodeSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioCodeSourceCodeAccess.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioSourceCodeAccess.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AssetManagerEditor/Binaries/Win64/UE4Editor-AssetManagerEditor.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/CryptoKeys/Binaries/Win64/UE4Editor-CryptoKeys.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/CryptoKeys/Binaries/Win64/UE4Editor-CryptoKeysOpenSSL.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/DataValidation/Binaries/Win64/UE4Editor-DataValidation.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimation.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimationEditor.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/GameplayTagsEditor/Binaries/Win64/UE4Editor-GameplayTagsEditor.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/MobileLauncherProfileWizard/Binaries/Win64/UE4Editor-MobileLauncherProfileWizard.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/PluginBrowser/Binaries/Win64/UE4Editor-PluginBrowser.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/SpeedTreeImporter/Binaries/Win64/UE4Editor-SpeedTreeImporter.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Enterprise/DatasmithContent/Binaries/Win64/UE4Editor-DatasmithContent.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicImporter.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicLibrary.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/CharacterAI/Binaries/Win64/UE4Editor-CharacterAI.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/HTML5Networking/Binaries/Win64/UE4Editor-HTML5Networking.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaEditor.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaFactory.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaEditor.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMedia.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaEditor.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-OpenExrWrapper.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/LinearTimecode/Binaries/Win64/UE4Editor-LinearTimecode.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositing.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositingEditor.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaPlayerEditor/Binaries/Win64/UE4Editor-MediaPlayerEditor.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMedia.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaEditor.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/TcpMessaging/Binaries/Win64/UE4Editor-TcpMessaging.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/UdpMessaging/Binaries/Win64/UE4Editor-UdpMessaging.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/ActorSequence/Binaries/Win64/UE4Editor-ActorSequence.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/LevelSequenceEditor/Binaries/Win64/UE4Editor-LevelSequenceEditor.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/MatineeToLevelSequence/Binaries/Win64/UE4Editor-MatineeToLevelSequence.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/NetcodeUnitTest/NetcodeUnitTest/Binaries/Win64/UE4Editor-NetcodeUnitTest.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/NetcodeUnitTest/NUTUnrealEngine4/Binaries/Win64/UE4Editor-NUTUnrealEngine4.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystem/Binaries/Win64/UE4Editor-OnlineSubsystem.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemNull/Binaries/Win64/UE4Editor-OnlineSubsystemNull.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineSubsystemUtils.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineBlueprintSupport.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidDeviceProfileSelector/Binaries/Win64/UE4Editor-AndroidDeviceProfileSelector.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidPermission/Binaries/Win64/UE4Editor-AndroidPermission.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AppleARKit/Binaries/Win64/UE4Editor-AppleARKit.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ArchVisCharacter/Binaries/Win64/UE4Editor-ArchVisCharacter.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AudioCapture/Binaries/Win64/UE4Editor-AudioCapture.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AudioCapture/Binaries/Win64/UE4Editor-AudioCaptureEditor.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CableComponent/Binaries/Win64/UE4Editor-CableComponent.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CustomMeshComponent/Binaries/Win64/UE4Editor-CustomMeshComponent.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ExampleDeviceProfileSelector/Binaries/Win64/UE4Editor-ExampleDeviceProfileSelector.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysics.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysicsEditor.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/LocationServicesBPLibrary/Binaries/Win64/UE4Editor-LocationServicesBPLibrary.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/MobilePatchingUtils/Binaries/Win64/UE4Editor-MobilePatchingUtils.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusHMD.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusInput.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusEditor.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehicles.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehiclesEditor.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponent.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponentEditor.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/RuntimePhysXCooking/Binaries/Win64/UE4Editor-RuntimePhysXCooking.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVR.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVRController.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/WindowsMoviePlayer/Binaries/Win64/UE4Editor-WindowsMoviePlayer.dll (API version 0).
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: WinSock: I am duaduacao-PC0 (10.32.204.62:0)
+LogInit: Build: ++UE4+Release-4.19-CL-0
+LogInit: Engine Version: 4.19.2-0+++UE4+Release-4.19
+LogInit: Compatible Engine Version: 4.19.0-0+++UE4+Release-4.19
+LogInit: Net CL: 0
+LogDevObjectVersion: Number of dev versions registered: 18
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 23
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 33
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 25
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 6
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 1
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 2
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 16
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogInit: Compiled (64-bit): Jun 25 2018 20:26:12
+LogInit: Compiled with Visual C++: 19.14.26431.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.19
+LogInit: Command Line: 
+LogInit: Base Directory: C:/my_code/UnrealEngine-release/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 0
+LogStreaming: Display: Took  0.001s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.07.10-05.06.15:177][  0]LogInit: Selected Device Profile: [Windows]
+[2018.07.10-05.06.15:177][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.07.10-05.06.15:185][  0]LogInit: Computer: duaduacao-PC0
+[2018.07.10-05.06.15:185][  0]LogInit: User: duaduacao
+[2018.07.10-05.06.15:185][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.07.10-05.06.15:185][  0]LogInit: High frequency timer resolution =3.515631 MHz
+[2018.07.10-05.06.15:185][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.07.10-05.06.15:185][  0]LogMemory: Platform Memory Stats for Windows
+[2018.07.10-05.06.15:185][  0]LogMemory: Process Physical Memory: 278.43 MB used, 278.43 MB peak
+[2018.07.10-05.06.15:185][  0]LogMemory: Process Virtual Memory: 265.08 MB used, 265.08 MB peak
+[2018.07.10-05.06.15:185][  0]LogMemory: Physical Memory: 5914.63 MB used,  10397.36 MB free, 16311.99 MB total
+[2018.07.10-05.06.15:185][  0]LogMemory: Virtual Memory: 696.98 MB used,  10397.36 MB free, 134217728.00 MB total
+[2018.07.10-05.06.15:340][  0]LogInit: Using OS detected language (zh-CN).
+[2018.07.10-05.06.15:340][  0]LogInit: Using OS detected locale (zh-CN).
+[2018.07.10-05.06.15:614][  0]LogStreaming: Display: Took  0.274s to EndInitTextLocalization.
+[2018.07.10-05.06.15:615][  0]LogInit: Setting process to per monitor DPI aware
+[2018.07.10-05.06.15:687][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.07.10-05.06.15:687][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.07.10-05.06.15:838][  0]LogD3D11RHI: D3D11 adapters:
+[2018.07.10-05.06.16:091][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 6GB' (Feature Level 11_0)
+[2018.07.10-05.06.16:091][  0]LogD3D11RHI:       6052/0/8155 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.07.10-05.06.16:111][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.07.10-05.06.16:111][  0]LogD3D11RHI:       0/0/8155 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.07.10-05.06.16:111][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.07.10-05.06.16:118][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.07.10-05.06.16:118][  0]LogD3D11RHI:     GPU DeviceId: 0x1c03 (for the marketing name, search the web for "GPU Device Id")
+[2018.07.10-05.06.16:118][  0]LogWindows: EnumDisplayDevices:
+[2018.07.10-05.06.16:118][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 6GB' (P:1 D:1)
+[2018.07.10-05.06.16:118][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2018.07.10-05.06.16:118][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2018.07.10-05.06.16:119][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2018.07.10-05.06.16:119][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2018.07.10-05.06.16:119][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 6GB
+[2018.07.10-05.06.16:119][  0]LogD3D11RHI:   Driver Version: 390.65 (internal:23.21.13.9065, unified:390.65)
+[2018.07.10-05.06.16:119][  0]LogD3D11RHI:      Driver Date: 1-3-2018
+[2018.07.10-05.06.16:119][  0]LogRHI: Texture pool is 4236 MB (70% of 6052 MB)
+[2018.07.10-05.06.16:144][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2018.07.10-05.06.16:144][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2018.07.10-05.06.16:144][  0]LogD3D11RHI: Async texture creation enabled
+[2018.07.10-05.06.16:161][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.07.10-05.06.16:203][  0]LogShaderCompilers: Guid format shader working directory is 37 characters bigger than the processId version (E:/ue4/DGame/Intermediate/Shaders/WorkingDirectory/10044/).
+[2018.07.10-05.06.16:203][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/duaduacao/AppData/Local/Temp/UnrealShaderWorkingDir/78E016C8432AE7491EDAE0AE97DBD425/'.
+[2018.07.10-05.06.16:717][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.07.10-05.06.16:728][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.07.10-05.06.16:738][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.07.10-05.06.16:748][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.07.10-05.06.16:758][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.07.10-05.06.16:768][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.07.10-05.06.16:778][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.07.10-05.06.16:788][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.07.10-05.06.16:794][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.07.10-05.06.16:803][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.07.10-05.06.16:814][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.07.10-05.06.16:824][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.07.10-05.06.16:834][  0]LogTemp: Display: Loaded TP Android_ETC1aTargetPlatform
+[2018.07.10-05.06.16:842][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.07.10-05.06.16:853][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.07.10-05.06.16:871][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.07.10-05.06.16:871][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.07.10-05.06.16:880][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.07.10-05.06.16:882][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.07.10-05.06.16:919][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.07.10-05.06.16:927][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.07.10-05.06.16:927][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.07.10-05.06.17:148][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.07.10-05.06.17:148][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.07.10-05.06.17:148][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.07.10-05.06.17:762][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.07.10-05.06.17:830][  0]LogDerivedDataCache: Loaded boot cache 0.07s 80MB E:/ue4/DGame/DerivedDataCache/Boot.ddc.
+[2018.07.10-05.06.17:830][  0]LogDerivedDataCache: Display: Loaded Boot cache: E:/ue4/DGame/DerivedDataCache/Boot.ddc
+[2018.07.10-05.06.17:830][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file E:/ue4/DGame/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.07.10-05.06.17:830][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.07.10-05.06.17:830][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnginePak pak cache file ../../../Engine/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.07.10-05.06.17:830][  0]LogDerivedDataCache: Unable to find inner node EnginePak for hierarchical cache Hierarchy.
+[2018.07.10-05.06.17:843][  0]LogDerivedDataCache: Using Local data cache path ../../../Engine/DerivedDataCache: Writable
+[2018.07.10-05.06.17:843][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.07.10-05.06.17:843][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.07.10-05.06.17:855][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.07.10-05.06.17:856][  0]LogSlate: Using Freetype 2.6.0
+[2018.07.10-05.06.17:856][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.07.10-05.06.17:856][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.07.10-05.06.17:963][  0]LogAssetRegistry: FAssetRegistry took 0.0254 seconds to start up
+[2018.07.10-05.06.18:205][  0]LogInit: Selected Device Profile: [Windows]
+[2018.07.10-05.06.18:486][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.07.10-05.06.18:486][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.07.10-05.06.18:486][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.07.10-05.06.18:487][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2018.07.10-05.06.18:487][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.07.10-05.06.18:487][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2018.07.10-05.06.18:509][  0]LogNetVersion: DGame , NetCL: 0, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3774009162)
+[2018.07.10-05.06.18:931][  0]LogPackageLocalizationCache: Processed 9 localized package path(s) for 4 prioritized culture(s) in 0.118016 seconds
+[2018.07.10-05.06.18:935][  0]LogUObjectArray: 36684 objects as part of root set at end of initial load.
+[2018.07.10-05.06.18:935][  0]LogUObjectAllocator: 7307408 out of 0 bytes used by permanent object pool.
+[2018.07.10-05.06.18:935][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.07.10-05.06.19:350][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png' error.
+[2018.07.10-05.06.19:350][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png
+[2018.07.10-05.06.19:350][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
+[2018.07.10-05.06.19:350][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
+[2018.07.10-05.06.19:350][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
+[2018.07.10-05.06.19:350][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
+[2018.07.10-05.06.19:350][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png' error.
+[2018.07.10-05.06.19:350][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png
+[2018.07.10-05.06.19:350][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
+[2018.07.10-05.06.19:350][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
+[2018.07.10-05.06.19:350][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
+[2018.07.10-05.06.19:350][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
+[2018.07.10-05.06.19:350][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png' error.
+[2018.07.10-05.06.19:350][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png
+[2018.07.10-05.06.19:350][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
+[2018.07.10-05.06.19:351][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
+[2018.07.10-05.06.19:351][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
+[2018.07.10-05.06.19:351][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
+[2018.07.10-05.06.19:351][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png' error.
+[2018.07.10-05.06.19:351][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png
+[2018.07.10-05.06.19:351][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
+[2018.07.10-05.06.19:351][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
+[2018.07.10-05.06.19:351][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
+[2018.07.10-05.06.19:351][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
+[2018.07.10-05.06.19:351][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_24x.png' error.
+[2018.07.10-05.06.19:351][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_24x.png
+[2018.07.10-05.06.19:351][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png' error.
+[2018.07.10-05.06.19:351][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png
+[2018.07.10-05.06.19:351][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png' error.
+[2018.07.10-05.06.19:351][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png
+[2018.07.10-05.06.19:351][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_24x.png' error.
+[2018.07.10-05.06.19:351][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_24x.png
+[2018.07.10-05.06.19:351][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png' error.
+[2018.07.10-05.06.19:351][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png
+[2018.07.10-05.06.19:351][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png' error.
+[2018.07.10-05.06.19:351][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png
+[2018.07.10-05.06.19:351][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_24x.png' error.
+[2018.07.10-05.06.19:351][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_24x.png
+[2018.07.10-05.06.19:351][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png' error.
+[2018.07.10-05.06.19:351][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png
+[2018.07.10-05.06.19:351][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png' error.
+[2018.07.10-05.06.19:351][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png
+[2018.07.10-05.06.19:351][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_24x.png' error.
+[2018.07.10-05.06.19:351][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_24x.png
+[2018.07.10-05.06.19:351][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png' error.
+[2018.07.10-05.06.19:351][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png
+[2018.07.10-05.06.19:351][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png' error.
+[2018.07.10-05.06.19:351][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png
+[2018.07.10-05.06.19:352][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_24x.png' error.
+[2018.07.10-05.06.19:352][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_24x.png
+[2018.07.10-05.06.19:352][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.07.10-05.06.19:352][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.07.10-05.06.19:352][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.07.10-05.06.19:352][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.07.10-05.06.19:352][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_24x.png' error.
+[2018.07.10-05.06.19:352][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_24x.png
+[2018.07.10-05.06.19:352][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.07.10-05.06.19:352][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.07.10-05.06.19:352][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.07.10-05.06.19:352][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.07.10-05.06.19:352][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ATC_24x.png' error.
+[2018.07.10-05.06.19:352][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ATC_24x.png
+[2018.07.10-05.06.19:352][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.07.10-05.06.19:352][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.07.10-05.06.19:352][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.07.10-05.06.19:352][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.07.10-05.06.19:352][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_DXT_24x.png' error.
+[2018.07.10-05.06.19:352][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_DXT_24x.png
+[2018.07.10-05.06.19:352][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.07.10-05.06.19:352][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.07.10-05.06.19:352][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.07.10-05.06.19:352][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.07.10-05.06.19:352][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC1_24x.png' error.
+[2018.07.10-05.06.19:352][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC1_24x.png
+[2018.07.10-05.06.19:352][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.07.10-05.06.19:352][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.07.10-05.06.19:352][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.07.10-05.06.19:352][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.07.10-05.06.19:352][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC2_24x.png' error.
+[2018.07.10-05.06.19:352][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC2_24x.png
+[2018.07.10-05.06.19:352][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.07.10-05.06.19:352][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.07.10-05.06.19:352][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.07.10-05.06.19:352][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.07.10-05.06.19:352][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC2_24x.png' error.
+[2018.07.10-05.06.19:352][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC2_24x.png
+[2018.07.10-05.06.19:352][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.07.10-05.06.19:352][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.07.10-05.06.19:352][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.07.10-05.06.19:352][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.07.10-05.06.19:352][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_PVRTC_24x.png' error.
+[2018.07.10-05.06.19:352][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_PVRTC_24x.png
+[2018.07.10-05.06.19:352][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.07.10-05.06.19:352][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.07.10-05.06.19:352][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.07.10-05.06.19:352][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.07.10-05.06.19:352][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ASTC_24x.png' error.
+[2018.07.10-05.06.19:352][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ASTC_24x.png
+[2018.07.10-05.06.19:352][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.07.10-05.06.19:352][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.07.10-05.06.19:352][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.07.10-05.06.19:352][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.07.10-05.06.20:541][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.07.10-05.06.20:569][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.07.10-05.06.20:830][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001e6ea8de200, Size=384, Default__bp_mycharacter_anim_C Function /Game/Blueprints/Character/bp_mycharacter_anim.bp_mycharacter_anim_C:ExecuteUbergraph_bp_mycharacter_anim
+[2018.07.10-05.06.20:866][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001e6ea8de200, Size=384
+[2018.07.10-05.06.20:866][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001e6eb3f0700, Size=384, Default__bp_mycharacter_anim_C Function /Engine/Transient.REINST_bp_mycharacter_anim_C_0:ExecuteUbergraph_bp_mycharacter_anim
+[2018.07.10-05.06.20:906][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001e6eafea980, Size=384, Default__bp_mycharacter_anim_C Function /Game/Blueprints/Character/bp_mycharacter_anim.bp_mycharacter_anim_C:ExecuteUbergraph_bp_mycharacter_anim
+[2018.07.10-05.06.20:928][  0]LogAnimation: Warning: SkeletalMesh Shield has no skeleton. This needs to fixed before an animation can be set
+[2018.07.10-05.06.23:038][  0]LogStats: FPlatformStackWalk::StackWalkAndDump -  2.111 s
+[2018.07.10-05.06.23:038][  0]LogOutputDevice: Error: === Handled ensure: ===
+[2018.07.10-05.06.23:038][  0]LogOutputDevice: Error: 
+[2018.07.10-05.06.23:038][  0]LogOutputDevice: Error: Ensure condition failed: AttachmentRules.LocationRule == EAttachmentRule::KeepRelative && AttachmentRules.RotationRule == EAttachmentRule::KeepRelative && AttachmentRules.ScaleRule == EAttachmentRule::KeepRelative [File:C:\my_code\UnrealEngine-release\Engine\Source\Runtime\Engine\Private\Components\SceneComponent.cpp] [Line: 1678]
+[2018.07.10-05.06.23:038][  0]LogOutputDevice: Error: AttachToComponent when called from a constructor is only setting up attachment and will always be treated as KeepRelative. Consider calling SetupAttachment directly instead.
+[2018.07.10-05.06.23:038][  0]LogOutputDevice: Error: Stack: 
+[2018.07.10-05.06.23:038][  0]LogOutputDevice: Error: [Callstack] 0x00000000B9BA23F6 UE4Editor-Core.dll!FWindowsPlatformStackWalk::StackWalkAndDump() [c:\my_code\unrealengine-release\engine\source\runtime\core\private\windows\windowsplatformstackwalk.cpp:234]
+[2018.07.10-05.06.23:038][  0]LogOutputDevice: Error: [Callstack] 0x00000000B98F09EA UE4Editor-Core.dll!FDebug::EnsureFailed() [c:\my_code\unrealengine-release\engine\source\runtime\core\private\misc\assertionmacros.cpp:299]
+[2018.07.10-05.06.23:038][  0]LogOutputDevice: Error: [Callstack] 0x00000000B9902B06 UE4Editor-Core.dll!FDebug::OptionallyLogFormattedEnsureMessageReturningFalse() [c:\my_code\unrealengine-release\engine\source\runtime\core\private\misc\assertionmacros.cpp:433]
+[2018.07.10-05.06.23:038][  0]LogOutputDevice: Error: [Callstack] 0x00000000A8721950 UE4Editor-Engine.dll!USceneComponent::AttachToComponent() [c:\my_code\unrealengine-release\engine\source\runtime\engine\private\components\scenecomponent.cpp:1678]
+[2018.07.10-05.06.23:038][  0]LogOutputDevice: Error: [Callstack] 0x000000008F0A5E6C UE4Editor-DGame.dll!AMyCharacter::AMyCharacter() [e:\ue4\dgame\source\dgame\mycharacter.cpp:25]
+[2018.07.10-05.06.23:038][  0]LogOutputDevice: Error: [Callstack] 0x00000000BA19107D UE4Editor-CoreUObject.dll!UClass::CreateDefaultObject() [c:\my_code\unrealengine-release\engine\source\runtime\coreuobject\private\uobject\class.cpp:2749]
+[2018.07.10-05.06.23:038][  0]LogOutputDevice: Error: [Callstack] 0x00000000BA19FD87 UE4Editor-CoreUObject.dll!UClass::GetArchetypeForCDO() [c:\my_code\unrealengine-release\engine\source\runtime\coreuobject\private\uobject\class.cpp:3778]
+[2018.07.10-05.06.23:038][  0]LogOutputDevice: Error: [Callstack] 0x00000000BA3FA3F1 UE4Editor-CoreUObject.dll!GetArchetypeFromRequiredInfoImpl() [c:\my_code\unrealengine-release\engine\source\runtime\coreuobject\private\uobject\uobjectarchetype.cpp:20]
+[2018.07.10-05.06.23:038][  0]LogOutputDevice: Error: [Callstack] 0x00000000BA3FA368 UE4Editor-CoreUObject.dll!UObject::GetArchetypeFromRequiredInfo() [c:\my_code\unrealengine-release\engine\source\runtime\coreuobject\private\uobject\uobjectarchetype.cpp:103]
+[2018.07.10-05.06.23:038][  0]LogOutputDevice: Error: [Callstack] 0x00000000BA2A2591 UE4Editor-CoreUObject.dll!FLinkerLoad::CreateExport() [c:\my_code\unrealengine-release\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:3777]
+[2018.07.10-05.06.23:038][  0]LogOutputDevice: Error: [Callstack] 0x00000000BA2CC0D5 UE4Editor-CoreUObject.dll!FLinkerLoad::IndexToObject() [c:\my_code\unrealengine-release\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:4250]
+[2018.07.10-05.06.23:038][  0]LogOutputDevice: Error: [Callstack] 0x00000000BA291C8E UE4Editor-CoreUObject.dll!FLinkerLoad::operator<<() [c:\my_code\unrealengine-release\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:4461]
+[2018.07.10-05.06.23:038][  0]LogOutputDevice: Error: [Callstack] 0x00000000BA26F124 UE4Editor-CoreUObject.dll!UClass::Serialize() [c:\my_code\unrealengine-release\engine\source\runtime\coreuobject\private\uobject\class.cpp:3654]
+[2018.07.10-05.06.23:038][  0]LogOutputDevice: Error: [Callstack] 0x00000000A85D30A6 UE4Editor-Engine.dll!UBlueprintGeneratedClass::Serialize() [c:\my_code\unrealengine-release\engine\source\runtime\engine\private\blueprintgeneratedclass.cpp:1512]
+[2018.07.10-05.06.23:038][  0]LogOutputDevice: Error: [Callstack] 0x00000000BA2D7B67 UE4Editor-CoreUObject.dll!FLinkerLoad::Preload() [c:\my_code\unrealengine-release\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:3306]
+[2018.07.10-05.06.23:038][  0]LogOutputDevice: Error: [Callstack] 0x00000000BA2A3481 UE4Editor-CoreUObject.dll!FLinkerLoad::CreateExport() [c:\my_code\unrealengine-release\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:4027]
+[2018.07.10-05.06.23:038][  0]LogOutputDevice: Error: [Callstack] 0x00000000BA2A387B UE4Editor-CoreUObject.dll!FLinkerLoad::CreateExportAndPreload() [c:\my_code\unrealengine-release\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:2746]
+[2018.07.10-05.06.23:038][  0]LogOutputDevice: Error: [Callstack] 0x00000000BA2CD3C4 UE4Editor-CoreUObject.dll!FLinkerLoad::LoadAllObjects() [c:\my_code\unrealengine-release\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:2908]
+[2018.07.10-05.06.23:038][  0]LogOutputDevice: Error: [Callstack] 0x00000000BA408A07 UE4Editor-CoreUObject.dll!LoadPackageInternal() [c:\my_code\unrealengine-release\engine\source\runtime\coreuobject\private\uobject\uobjectglobals.cpp:1328]
+[2018.07.10-05.06.23:038][  0]LogOutputDevice: Error: [Callstack] 0x00000000BA407D80 UE4Editor-CoreUObject.dll!LoadPackage() [c:\my_code\unrealengine-release\engine\source\runtime\coreuobject\private\uobject\uobjectglobals.cpp:1436]
+[2018.07.10-05.06.23:039][  0]LogOutputDevice: Error: [Callstack] 0x00000000BA41F92B UE4Editor-CoreUObject.dll!ResolveName() [c:\my_code\unrealengine-release\engine\source\runtime\coreuobject\private\uobject\uobjectglobals.cpp:792]
+[2018.07.10-05.06.23:039][  0]LogOutputDevice: Error: [Callstack] 0x00000000BA42A12B UE4Editor-CoreUObject.dll!StaticLoadObjectInternal() [c:\my_code\unrealengine-release\engine\source\runtime\coreuobject\private\uobject\uobjectglobals.cpp:880]
+[2018.07.10-05.06.23:039][  0]LogOutputDevice: Error: [Callstack] 0x00000000BA429876 UE4Editor-CoreUObject.dll!StaticLoadObject() [c:\my_code\unrealengine-release\engine\source\runtime\coreuobject\private\uobject\uobjectglobals.cpp:947]
+[2018.07.10-05.06.23:039][  0]LogOutputDevice: Error: [Callstack] 0x00000000BA4294A0 UE4Editor-CoreUObject.dll!StaticLoadClass() [c:\my_code\unrealengine-release\engine\source\runtime\coreuobject\private\uobject\uobjectglobals.cpp:980]
+[2018.07.10-05.06.23:039][  0]LogOutputDevice: Error: [Callstack] 0x000000008F0A320F UE4Editor-DGame.dll!ConstructorHelpersInternal::FindOrLoadClass() [c:\my_code\unrealengine-release\engine\source\runtime\coreuobject\public\uobject\constructorhelpers.h:86]
+[2018.07.10-05.06.23:039][  0]LogOutputDevice: Error: [Callstack] 0x000000008F0A2104 UE4Editor-DGame.dll!ADGameGameModeBase::ADGameGameModeBase() [e:\ue4\dgame\source\dgame\dgamegamemodebase.cpp:17]
+[2018.07.10-05.06.23:039][  0]LogOutputDevice: Error: [Callstack] 0x00000000BA19107D UE4Editor-CoreUObject.dll!UClass::CreateDefaultObject() [c:\my_code\unrealengine-release\engine\source\runtime\coreuobject\private\uobject\class.cpp:2749]
+[2018.07.10-05.06.23:039][  0]LogOutputDevice: Error: [Callstack] 0x00000000BA42D9A7 UE4Editor-CoreUObject.dll!UObjectLoadAllCompiledInDefaultProperties() [c:\my_code\unrealengine-release\engine\source\runtime\coreuobject\private\uobject\uobjectbase.cpp:821]
+[2018.07.10-05.06.23:039][  0]LogOutputDevice: Error: [Callstack] 0x00000000BA40F1A1 UE4Editor-CoreUObject.dll!ProcessNewlyLoadedUObjects() [c:\my_code\unrealengine-release\engine\source\runtime\coreuobject\private\uobject\uobjectbase.cpp:895]
+[2018.07.10-05.06.23:039][  0]LogOutputDevice: Error: [Callstack] 0x00000000BA196B77 UE4Editor-CoreUObject.dll!TBaseStaticDelegateInstance<void __cdecl(void)>::ExecuteIfSafe() [c:\my_code\unrealengine-release\engine\source\runtime\core\public\delegates\delegateinstancesimpl.h:788]
+[2018.07.10-05.06.23:039][  0]LogOutputDevice: Error: [Callstack] 0x00000000B9886557 UE4Editor-Core.dll!TBaseMulticastDelegate<void>::Broadcast() [c:\my_code\unrealengine-release\engine\source\runtime\core\public\delegates\delegatesignatureimpl.inl:937]
+[2018.07.10-05.06.23:039][  0]LogOutputDevice: Error: [Callstack] 0x00000000B99AD435 UE4Editor-Core.dll!FModuleManager::LoadModuleWithFailureReason() [c:\my_code\unrealengine-release\engine\source\runtime\core\private\modules\modulemanager.cpp:487]
+[2018.07.10-05.06.23:039][  0]LogOutputDevice: Error: [Callstack] 0x00000000D650E0C3 UE4Editor-Projects.dll!FModuleDescriptor::LoadModulesForPhase() [c:\my_code\unrealengine-release\engine\source\runtime\projects\private\moduledescriptor.cpp:484]
+[2018.07.10-05.06.23:039][  0]LogOutputDevice: Error: [Callstack] 0x00000000D650E3AA UE4Editor-Projects.dll!FProjectManager::LoadModulesForProject() [c:\my_code\unrealengine-release\engine\source\runtime\projects\private\projectmanager.cpp:69]
+[2018.07.10-05.06.23:039][  0]LogOutputDevice: Error: [Callstack] 0x00000000982B8951 UE4Editor.exe!FEngineLoop::LoadStartupModules() [c:\my_code\unrealengine-release\engine\source\runtime\launch\private\launchengineloop.cpp:2610]
+[2018.07.10-05.06.23:039][  0]LogOutputDevice: Error: [Callstack] 0x00000000982BDE38 UE4Editor.exe!FEngineLoop::PreInit() [c:\my_code\unrealengine-release\engine\source\runtime\launch\private\launchengineloop.cpp:2027]
+[2018.07.10-05.06.23:039][  0]LogOutputDevice: Error: [Callstack] 0x00000000982B5E38 UE4Editor.exe!GuardedMain() [c:\my_code\unrealengine-release\engine\source\runtime\launch\private\launch.cpp:127]
+[2018.07.10-05.06.23:039][  0]LogOutputDevice: Error: [Callstack] 0x00000000982B609A UE4Editor.exe!GuardedMainWrapper() [c:\my_code\unrealengine-release\engine\source\runtime\launch\private\windows\launchwindows.cpp:144]
+[2018.07.10-05.06.23:039][  0]LogOutputDevice: Error: [Callstack] 0x00000000982C404C UE4Editor.exe!WinMain() [c:\my_code\unrealengine-release\engine\source\runtime\launch\private\windows\launchwindows.cpp:223]
+[2018.07.10-05.06.23:039][  0]LogOutputDevice: Error: [Callstack] 0x00000000982C5CBA UE4Editor.exe!__scrt_common_main_seh() [f:\dd\vctools\crt\vcstartup\src\startup\exe_common.inl:283]
+[2018.07.10-05.06.23:039][  0]LogOutputDevice: Error: [Callstack] 0x00000000E92E2774 KERNEL32.DLL!UnknownFunction []
+[2018.07.10-05.06.23:039][  0]LogOutputDevice: Error: [Callstack] 0x00000000E9F40D51 ntdll.dll!UnknownFunction []
+[2018.07.10-05.06.23:039][  0]LogOutputDevice: Error: 
+[2018.07.10-05.06.23:042][  0]LogStats:                SubmitErrorReport -  0.000 s
+[2018.07.10-05.06.23:189][  0]LogWindows: Warning: CreateProc failed: 系统找不到指定的文件。 (0x00000002)
+[2018.07.10-05.06.23:189][  0]LogWindows: Warning: URL: ../../../Engine/Binaries/Win64/CrashReportClient.exe "E:/ue4/DGame/Saved/Crashes/UE4CC-Windows-7F03033745F37C44CB52318ED936615F_0000" -Unattended -AppName=UE4-DGame -CrashGUID=UE4CC-Windows-7F03033745F37C44CB52318ED936615F_0000 -DebugSymbols=..\..\..\Engine\Intermediate\Symbols
+[2018.07.10-05.06.23:189][  0]LogStats:                    SendNewReport -  0.147 s
+[2018.07.10-05.06.23:189][  0]LogStats:             FDebug::EnsureFailed -  2.261 s
+[2018.07.10-05.06.23:189][  0]LogAnimation: Warning: SkeletalMesh Shield has no skeleton. This needs to fixed before an animation can be set
+[2018.07.10-05.06.23:191][  0]LogAnimation: Warning: SkeletalMesh Shield has no skeleton. This needs to fixed before an animation can be set
+[2018.07.10-05.06.23:232][  0]LogSkeletalMesh: Skeletal Mesh found in DDC [0.077653ms] /Game/Assets/Weapon/Shield.Shield
+[2018.07.10-05.06.23:235][  0]LogSkeletalMesh: Skeletal Mesh found in DDC [2.959639ms] /Game/Assets/Character/SK_Mannequin.SK_Mannequin
+[2018.07.10-05.06.23:370][  0]SourceControl: 源码控制已禁用
+[2018.07.10-05.06.23:370][  0]SourceControl: 源码控制已禁用
+[2018.07.10-05.06.23:407][  0]SourceControl: 源码控制已禁用
+[2018.07.10-05.06.23:425][  0]SourceControl: 源码控制已禁用
+[2018.07.10-05.06.23:947][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.07.10-05.06.24:115][  0]LogOcInput: OculusInput pre-init called
+[2018.07.10-05.06.24:213][  0]LogEngine: Initializing Engine...
+[2018.07.10-05.06.24:214][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.07.10-05.06.24:215][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.07.10-05.06.24:215][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.07.10-05.06.24:424][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.07.10-05.06.24:478][  0]LogInit: XAudio2 using '扬声器 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.07.10-05.06.24:509][  0]LogInit: FAudioDevice initialized.
+[2018.07.10-05.06.24:655][  0]LogDerivedDataCache: Saved boot cache 0.15s 80MB E:/ue4/DGame/DerivedDataCache/Boot.ddc.
+[2018.07.10-05.06.24:666][  0]LogInit: Texture streaming: Enabled
+[2018.07.10-05.06.24:687][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.07.10-05.06.24:700][  0]LogInit: Transaction tracking system initialized
+[2018.07.10-05.06.24:744][  0]BlueprintLog: New page: 编辑器加载
+[2018.07.10-05.06.24:998][  0]LocalizationService: 本地化服务已被禁用
+[2018.07.10-05.06.25:152][  0]LogConsoleResponse: Display: 
+[2018.07.10-05.06.25:274][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.07.10-05.06.25:274][  0]LogCook: Display: Mobile HDR setting 1
+[2018.07.10-05.06.25:274][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.07.10-05.06.25:274][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.07.10-05.06.25:274][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.07.10-05.06.25:364][  0]LogFileCache: Scanning file cache for directory 'E:/ue4/DGame/Content/' took 0.01s
+[2018.07.10-05.06.25:647][  0]SourceControl: 源码控制已禁用
+[2018.07.10-05.06.25:647][  0]Cmd: MAP LOAD FILE="E:/ue4/DGame/Content/Maps/maps_start.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.07.10-05.06.25:647][  0]LightingResults: New page: 光照构建
+[2018.07.10-05.06.25:651][  0]MapCheck: New page: 地图检测
+[2018.07.10-05.06.25:651][  0]LightingResults: New page: 光照构建
+[2018.07.10-05.06.25:663][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001e6eb3f0700, Size=384
+[2018.07.10-05.06.25:719][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001e6eb372da0, Size=208, Default__bp_01_C Function /Game/Learn_temp/bp_01.bp_01_C:ExecuteUbergraph_bp_01
+[2018.07.10-05.06.25:721][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001e6eb372da0, Size=208
+[2018.07.10-05.06.25:721][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001e6eb372da0, Size=208, Default__bp_01_C Function /Engine/Transient.REINST_bp_01_C_6:ExecuteUbergraph_bp_01
+[2018.07.10-05.06.25:722][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001e6eb3ea5c0, Size=208, Default__bp_01_C Function /Game/Learn_temp/bp_01.bp_01_C:ExecuteUbergraph_bp_01
+[2018.07.10-05.06.25:729][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001e6eb33a380, Size=176, Default__bp_int_01_C Function /Game/Learn_temp/bp_int_01.bp_int_01_C:ExecuteUbergraph_bp_int_01
+[2018.07.10-05.06.25:731][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001e6eb33a380, Size=176
+[2018.07.10-05.06.25:731][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001e6eb33a380, Size=176, Default__bp_int_01_C Function /Engine/Transient.REINST_bp_int_01_C_12:ExecuteUbergraph_bp_int_01
+[2018.07.10-05.06.25:731][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001e6eb33a080, Size=176, Default__bp_int_01_C Function /Game/Learn_temp/bp_int_01.bp_int_01_C:ExecuteUbergraph_bp_int_01
+[2018.07.10-05.06.25:734][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001e6eb3399c0, Size=176, Default__bp_int_02_C Function /Game/Learn_temp/bp_int_02.bp_int_02_C:ExecuteUbergraph_bp_int_02
+[2018.07.10-05.06.25:736][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001e6eb3399c0, Size=176
+[2018.07.10-05.06.25:736][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001e6eb3399c0, Size=176, Default__bp_int_02_C Function /Engine/Transient.REINST_bp_int_02_C_14:ExecuteUbergraph_bp_int_02
+[2018.07.10-05.06.25:736][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001e6eb339600, Size=176, Default__bp_int_02_C Function /Game/Learn_temp/bp_int_02.bp_int_02_C:ExecuteUbergraph_bp_int_02
+[2018.07.10-05.06.25:740][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001e6eb0bebc0, Size=88, Default__bp_int_triggle_C Function /Game/Learn_temp/bp_int_triggle.bp_int_triggle_C:ExecuteUbergraph_bp_int_triggle
+[2018.07.10-05.06.25:741][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001e6eb0bebc0, Size=88
+[2018.07.10-05.06.25:741][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001e6eb0bebc0, Size=88, Default__bp_int_triggle_C Function /Engine/Transient.REINST_bp_int_triggle_C_16:ExecuteUbergraph_bp_int_triggle
+[2018.07.10-05.06.25:743][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001e6eb0be800, Size=88, Default__bp_int_triggle_C Function /Game/Learn_temp/bp_int_triggle.bp_int_triggle_C:ExecuteUbergraph_bp_int_triggle
+[2018.07.10-05.06.25:825][  0]LogAIModule: Creating AISystem for world maps_start
+[2018.07.10-05.06.25:834][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.07.10-05.06.25:846][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001e6eb372da0, Size=208
+[2018.07.10-05.06.25:847][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001e6eb33a380, Size=176
+[2018.07.10-05.06.25:847][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001e6eb3399c0, Size=176
+[2018.07.10-05.06.25:847][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001e6eb0bebc0, Size=88
+[2018.07.10-05.06.25:847][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.07.10-05.06.25:892][  0]MapCheck: 地图检测完成：0个错误，0 个警告，用时44.514毫秒完成。
+[2018.07.10-05.06.25:892][  0]LogFileHelpers: Loading map 'maps_start' took 0.245
+[2018.07.10-05.06.25:937][  0]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (微软五笔).
+[2018.07.10-05.06.25:985][  0]LogCollectionManager: Loaded 0 collections in 0.001993 seconds
+[2018.07.10-05.06.26:022][  0]LogFileCache: Scanning file cache for directory 'E:/ue4/DGame/Saved/Collections/' took 0.01s
+[2018.07.10-05.06.26:022][  0]LogFileCache: Scanning file cache for directory 'E:/ue4/DGame/Content/Developers/duaduacao/Collections/' took 0.01s
+[2018.07.10-05.06.26:022][  0]LogFileCache: Scanning file cache for directory 'E:/ue4/DGame/Content/Collections/' took 0.01s
+[2018.07.10-05.06.26:022][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.07.10-05.06.26:031][  0]LogContentBrowser: Native class hierarchy populated in 0.0081 seconds. Added 2456 classes and 558 folders.
+[2018.07.10-05.06.26:037][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2018.07.10-05.06.26:066][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2018.07.10-05.06.26:120][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2018.07.10-05.06.26:180][  0]LogSlate: Took 0.000220 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.07.10-05.06.26:185][  0]LogSlate: Took 0.003700 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2018.07.10-05.06.26:186][  0]LogSlate: Took 0.000262 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.07.10-05.06.26:188][  0]LogSlate: Took 0.000185 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.07.10-05.06.26:213][  0]LogSlate: Took 0.000134 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.07.10-05.06.26:262][  0]LogRenderer: Reallocating scene render targets to support 860x1084 Format 10 NumSamples 1 (Frame:1).
+[2018.07.10-05.06.26:390][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2018.07.10-05.06.26:390][  0]LogLoad: (Engine Initialization) Total time: 42.63 seconds
+[2018.07.10-05.06.26:390][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.07.10-05.06.26:402][  0]LogSkinnedMeshComp: Warning: GetSocketByName(Shield_2): No SkeletalMesh for Component(CharacterMesh0) Actor(MyCharacter_0)
+[2018.07.10-05.06.26:402][  0]LogSkinnedMeshComp: Warning: GetSocketByName(Shield_2): No SkeletalMesh for Component(CharacterMesh0) Actor(MyCharacter_0)
+[2018.07.10-05.06.26:403][  0]LogSkinnedMeshComp: Warning: GetSocketByName(Shield_2): No SkeletalMesh for Component(CharacterMesh0) Actor(MyCharacter_0)
+[2018.07.10-05.06.26:403][  0]LogSkinnedMeshComp: Warning: GetSocketByName(Shield_2): No SkeletalMesh for Component(CharacterMesh0) Actor(MyCharacter_0)
+[2018.07.10-05.06.26:403][  0]LogSkinnedMeshComp: Warning: GetSocketByName(Shield_2): No SkeletalMesh for Component(CharacterMesh0) Actor(MyCharacter_0)
+[2018.07.10-05.06.26:403][  0]LogSkinnedMeshComp: Warning: GetSocketByName(Shield_2): No SkeletalMesh for Component(CharacterMesh0) Actor(MyCharacter_0)
+[2018.07.10-05.06.26:421][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.07.10-05.06.26:463][  1]LogAssetRegistry: Asset discovery search completed in 8.5224 seconds
+[2018.07.10-05.06.26:465][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.07.10-05.06.26:465][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000036 seconds (updated 0 objects)
+[2018.07.10-05.08.02:981][466]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.10-05.08.04:156][606]LogSlate: Took 0.000146 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.07.10-05.08.04:157][606]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.10-05.08.04:189][606]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.10-05.08.04:197][606]LogSlate: Took 0.000174 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.07.10-05.08.21:840][655]Running C:/my_code/UnrealEngine-release/Engine/Binaries/DotNET/UnrealBuildTool.exe DGame Win64 Development -editorrecompile "E:/ue4/DGame/DGame.uproject" -invalidatemakefilesonly
+[2018.07.10-05.08.22:857][655]Invalidating makefiles only in this run.
+[2018.07.10-05.08.22:981][655]Candidate modules for hot reload:
+[2018.07.10-05.08.22:981][655]  DGame
+[2018.07.10-05.08.22:981][655]Building UnrealBuildTool...
+[2018.07.10-05.08.22:982][655]Building UnrealBuildTool in C:/my_code/UnrealEngine-release/...
+[2018.07.10-05.08.22:982][655]Running: C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\bin\MSBuild.exe /nologo /verbosity:quiet "C:/my_code/UnrealEngine-release/Engine/Source/Programs/UnrealBuildTool/UnrealBuildTool.csproj" /property:Configuration=Development /property:Platform=AnyCPU
+[2018.07.10-05.08.23:888][655]Launching UnrealBuildTool... [C:/my_code/UnrealEngine-release/Engine/Binaries/DotNET/UnrealBuildTool.exe DGame -ModuleWithSuffix=DGame,2856 Win64 Development -editorrecompile -canskiplink "E:/ue4/DGame/DGame.uproject" ]
+[2018.07.10-05.08.41:480][655]CompilerResultsLog: New page: 编译- 2018年7月10日 下午9:08:41
+[2018.07.10-05.08.41:480][655]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.07.10-05.08.41:480][655]CompilerResultsLog: Creating makefile for hot reloading DGame (no existing makefile)
+[2018.07.10-05.08.41:480][655]CompilerResultsLog: Compiling game modules for hot reload
+[2018.07.10-05.08.41:480][655]CompilerResultsLog: Building UnrealHeaderTool...
+[2018.07.10-05.08.41:480][655]CompilerResultsLog: Target is up to date
+[2018.07.10-05.08.41:480][655]CompilerResultsLog: Total build time: 0.17 seconds (NoActionsToExecute executor: 0.00 seconds)
+[2018.07.10-05.08.41:480][655]CompilerResultsLog: Parsing headers for DGameEditor
+[2018.07.10-05.08.41:480][655]CompilerResultsLog:   Running UnrealHeaderTool "E:\ue4\DGame\DGame.uproject" "E:\ue4\DGame\Intermediate\Build\Win64\DGameEditor\Development\DGameEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors
+[2018.07.10-05.08.41:480][655]CompilerResultsLog: Reflection code generated for DGameEditor in 7.6879288 seconds
+[2018.07.10-05.08.41:480][655]CompilerResultsLog: Performing 5 actions (4 in parallel)
+[2018.07.10-05.08.41:480][655]CompilerResultsLog: DGame.init.gen.cpp
+[2018.07.10-05.08.41:480][655]CompilerResultsLog: MyWeapon.gen.cpp
+[2018.07.10-05.08.41:480][655]CompilerResultsLog: MyWeapon.cpp
+[2018.07.10-05.08.41:480][655]CompilerResultsLog: [4/5] Link UE4Editor-DGame-2856.dll
+[2018.07.10-05.08.41:480][655]CompilerResultsLog: [5/5] Link UE4Editor-DGame-2856.lib
+[2018.07.10-05.08.41:480][655]CompilerResultsLog:   ???ڴ????? E:\ue4\DGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-DGame-2856.suppressed.lib ?Ͷ??? E:\ue4\DGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-DGame-2856.suppressed.exp
+[2018.07.10-05.08.41:480][655]CompilerResultsLog:   ???ڴ????? E:\ue4\DGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-DGame-2856.lib ?Ͷ??? E:\ue4\DGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-DGame-2856.exp
+[2018.07.10-05.08.41:480][655]CompilerResultsLog: Total build time: 17.41 seconds (Local executor: 2.02 seconds)
+[2018.07.10-05.08.41:480][655]LogMainFrame: MainFrame: Module compiling took 18.502 seconds
+[2018.07.10-05.08.41:570][655]LogClass: Could not find existing class MyWeapon in package /Script/DGame for HotReload, assuming new class
+[2018.07.10-05.08.41:571][655]LogClass: EControllerState HotReload.
+[2018.07.10-05.08.41:574][655]LogContentBrowser: Native class hierarchy updated for 'DGame' in 0.0005 seconds. Added 6 classes and 2 folders.
+[2018.07.10-05.08.41:576][655]Display: HotReload successful (11 functions remapped  0 scriptstructs remapped)
+[2018.07.10-05.08.41:682][655]LogContentBrowser: Native class hierarchy populated in 0.0088 seconds. Added 2458 classes and 560 folders.
+[2018.07.10-05.08.41:682][655]Display: HotReload took 18.7s.
+[2018.07.10-05.08.41:683][655]Warning: HotReload operation took 18.7s.
+[2018.07.10-05.08.42:031][655]LogSlate: Window '添加C++类' being destroyed
+[2018.07.10-05.08.42:042][655]LogHotReload: New module detected: UE4Editor-DGame-2856.dll
+[2018.07.10-05.08.42:056][655]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.10-05.08.42:075][656]LogHotReload: Starting Hot-Reload from IDE
+[2018.07.10-05.08.42:111][656]LogContentBrowser: Native class hierarchy updated for 'DGame' in 0.0005 seconds. Added 6 classes and 2 folders.
+[2018.07.10-05.08.42:113][656]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2018.07.10-05.08.42:133][656]LogContentBrowser: Native class hierarchy populated in 0.0083 seconds. Added 2458 classes and 560 folders.
+[2018.07.10-05.08.42:136][656]Display: HotReload took  0.1s.
+[2018.07.10-05.10.26:479][970]LogHttp: Warning: 000001E6EB35C100: HTTP request timed out after 180.00 seconds URL=https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B95AA3F55-4A95-C499-50D4-1B8BD3FD7134%7D&AppID=UEEditor.UnrealEngine.Release&AppVersion=4.19.2-0%2B%2B%2BUE4%2BRelease-4.19&UserID=5a18308d4dbc22491a6528b3ceec25b2%7C321d150c1ad4465ea32ff383fcd85ca6%7Cb9abf892-6297-4ebe-a44c-32437dec0ee3&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2018.07.10-05.10.26:479][970]LogHttp: Warning: 000001E6EB35C100: request failed, libcurl error: 0 (No error)
+[2018.07.10-05.10.26:479][970]LogHttp: Warning: 000001E6EB35C100: libcurl info message cache 0 (  Trying 35.168.211.70...)
+[2018.07.10-05.10.26:479][970]LogHttp: Warning: 000001E6EB35C100: libcurl info message cache 1 (connect to 35.168.211.70 port 443 failed: Timed out)
+[2018.07.10-05.10.26:479][970]LogHttp: Warning: 000001E6EB35C100: libcurl info message cache 2 (  Trying 35.153.154.4...)
+[2018.07.10-05.10.26:479][970]LogHttp: Warning: 000001E6EB35C100: libcurl info message cache 3 (connect to 35.153.154.4 port 443 failed: Timed out)
+[2018.07.10-05.10.26:479][970]LogHttp: Warning: 000001E6EB35C100: libcurl info message cache 4 (  Trying 34.196.109.155...)
+[2018.07.10-05.10.26:479][970]LogHttp: Warning: 000001E6EB35C100: libcurl info message cache 5 (connect to 34.196.109.155 port 443 failed: Timed out)
+[2018.07.10-05.10.26:479][970]LogHttp: Warning: 000001E6EB35C100: libcurl info message cache 6 (  Trying 52.5.135.24...)
+[2018.07.10-05.10.26:479][970]LogHttp: Warning: 000001E6EB35C100: libcurl info message cache 7 (connect to 52.5.135.24 port 443 failed: Timed out)
+[2018.07.10-05.10.26:479][970]LogHttp: Warning: 000001E6EB35C100: libcurl info message cache 8 (  Trying 34.202.96.104...)
+[2018.07.10-05.10.26:479][970]LogHttp: Warning: 000001E6EB35C100: libcurl info message cache 9 (connect to 34.202.96.104 port 443 failed: Timed out)
+[2018.07.10-05.10.26:479][970]LogHttp: Warning: 000001E6EB35C100: libcurl info message cache 10 (  Trying 34.236.48.119...)
+[2018.07.10-05.10.26:479][970]LogHttp: Warning: 000001E6EB35C100: libcurl info message cache 11 (connect to 34.236.48.119 port 443 failed: Timed out)
+[2018.07.10-05.10.26:479][970]LogHttp: Warning: 000001E6EB35C100: libcurl info message cache 12 (  Trying 35.168.99.131...)
+[2018.07.10-05.10.26:479][970]LogHttp: Warning: 000001E6EB35C100: libcurl info message cache 13 (connect to 35.168.99.131 port 443 failed: Timed out)
+[2018.07.10-05.10.26:479][970]LogHttp: Warning: 000001E6EB35C100: libcurl info message cache 14 (  Trying 34.236.247.226...)
+[2018.07.10-05.10.26:479][970]LogHttp: Warning: 000001E6EB35C100: libcurl info message cache 15 (connect to 34.236.247.226 port 443 failed: Timed out)
+[2018.07.10-05.10.26:479][970]LogHttp: Warning: 000001E6EB35C100: libcurl info message cache 16 (  Trying 35.168.211.70...)
+[2018.07.10-05.10.26:479][970]LogHttp: Warning: 000001E6EB35C100: libcurl info message cache 17 (Closing connection 0)
+[2018.07.10-05.11.42:480][198]LogHttp: Warning: 000001E76841D780: HTTP request timed out after 180.00 seconds URL=https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B95AA3F55-4A95-C499-50D4-1B8BD3FD7134%7D&AppID=UEEditor.UnrealEngine.Release&AppVersion=4.19.2-0%2B%2B%2BUE4%2BRelease-4.19&UserID=5a18308d4dbc22491a6528b3ceec25b2%7C321d150c1ad4465ea32ff383fcd85ca6%7Cb9abf892-6297-4ebe-a44c-32437dec0ee3&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2018.07.10-05.11.42:480][198]LogHttp: Warning: 000001E76841D780: request failed, libcurl error: 0 (No error)
+[2018.07.10-05.11.42:480][198]LogHttp: Warning: 000001E76841D780: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x1e781f77fe8 [serially])
+[2018.07.10-05.11.42:480][198]LogHttp: Warning: 000001E76841D780: libcurl info message cache 1 (Hostname in DNS cache was stale, zapped)
+[2018.07.10-05.11.42:480][198]LogHttp: Warning: 000001E76841D780: libcurl info message cache 2 (  Trying 34.192.69.192...)
+[2018.07.10-05.11.42:480][198]LogHttp: Warning: 000001E76841D780: libcurl info message cache 3 (connect to 34.192.69.192 port 443 failed: Timed out)
+[2018.07.10-05.11.42:480][198]LogHttp: Warning: 000001E76841D780: libcurl info message cache 4 (  Trying 18.210.64.195...)
+[2018.07.10-05.11.42:480][198]LogHttp: Warning: 000001E76841D780: libcurl info message cache 5 (connect to 18.210.64.195 port 443 failed: Timed out)
+[2018.07.10-05.11.42:480][198]LogHttp: Warning: 000001E76841D780: libcurl info message cache 6 (  Trying 18.210.62.211...)
+[2018.07.10-05.11.42:480][198]LogHttp: Warning: 000001E76841D780: libcurl info message cache 7 (connect to 18.210.62.211 port 443 failed: Timed out)
+[2018.07.10-05.11.42:481][198]LogHttp: Warning: 000001E76841D780: libcurl info message cache 8 (  Trying 52.200.109.100...)
+[2018.07.10-05.11.42:481][198]LogHttp: Warning: 000001E76841D780: libcurl info message cache 9 (connect to 52.200.109.100 port 443 failed: Timed out)
+[2018.07.10-05.11.42:481][198]LogHttp: Warning: 000001E76841D780: libcurl info message cache 10 (  Trying 35.173.61.154...)
+[2018.07.10-05.11.42:481][198]LogHttp: Warning: 000001E76841D780: libcurl info message cache 11 (connect to 35.173.61.154 port 443 failed: Timed out)
+[2018.07.10-05.11.42:481][198]LogHttp: Warning: 000001E76841D780: libcurl info message cache 12 (  Trying 52.44.209.208...)
+[2018.07.10-05.11.42:481][198]LogHttp: Warning: 000001E76841D780: libcurl info message cache 13 (connect to 52.44.209.208 port 443 failed: Timed out)
+[2018.07.10-05.11.42:481][198]LogHttp: Warning: 000001E76841D780: libcurl info message cache 14 (  Trying 52.202.129.51...)
+[2018.07.10-05.11.42:481][198]LogHttp: Warning: 000001E76841D780: libcurl info message cache 15 (connect to 52.202.129.51 port 443 failed: Timed out)
+[2018.07.10-05.11.42:481][198]LogHttp: Warning: 000001E76841D780: libcurl info message cache 16 (  Trying 35.172.157.112...)
+[2018.07.10-05.11.42:481][198]LogHttp: Warning: 000001E76841D780: libcurl info message cache 17 (connect to 35.172.157.112 port 443 failed: Timed out)
+[2018.07.10-05.11.42:481][198]LogHttp: Warning: 000001E76841D780: libcurl info message cache 18 (  Trying 34.192.69.192...)
+[2018.07.10-05.11.42:481][198]LogHttp: Warning: 000001E76841D780: libcurl info message cache 19 (Closing connection 1)
+[2018.07.10-05.12.47:246][936]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.10-05.12.50:739][121]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.10-05.12.53:930][501]LogHotReload: New module detected: UE4Editor-DGame-6538.dll
+[2018.07.10-05.12.55:204][608]LogHotReload: Starting Hot-Reload from IDE
+[2018.07.10-05.12.55:204][608]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.07.10-05.12.55:227][608]LogClass: Could not find existing class MyWeapon in package /Script/DGame for HotReload, assuming new class
+[2018.07.10-05.12.55:229][608]LogClass: EControllerState HotReload.
+[2018.07.10-05.12.55:236][608]LogHotReload: Re-instancing MyWeapon after hot-reload.
+[2018.07.10-05.12.55:286][608]LogContentBrowser: Native class hierarchy updated for 'DGame' in 0.0005 seconds. Added 6 classes and 2 folders.
+[2018.07.10-05.12.55:288][608]Display: HotReload successful (11 functions remapped  0 scriptstructs remapped)
+[2018.07.10-05.12.55:327][608]LogContentBrowser: Native class hierarchy populated in 0.0082 seconds. Added 2458 classes and 560 folders.
+[2018.07.10-05.12.55:329][608]Display: HotReload took  0.1s.
+[2018.07.10-05.13.26:371][835]LogHttp: Warning: 000001E76841DA80: HTTP request timed out after 180.00 seconds URL=https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B95AA3F55-4A95-C499-50D4-1B8BD3FD7134%7D&AppID=UEEditor.UnrealEngine.Release&AppVersion=4.19.2-0%2B%2B%2BUE4%2BRelease-4.19&UserID=5a18308d4dbc22491a6528b3ceec25b2%7C321d150c1ad4465ea32ff383fcd85ca6%7Cb9abf892-6297-4ebe-a44c-32437dec0ee3&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2018.07.10-05.13.26:372][835]LogHttp: Warning: 000001E76841DA80: request failed, libcurl error: 0 (No error)
+[2018.07.10-05.13.26:372][835]LogHttp: Warning: 000001E76841DA80: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x1e781f77fe8 [serially])
+[2018.07.10-05.13.26:372][835]LogHttp: Warning: 000001E76841DA80: libcurl info message cache 1 (Hostname in DNS cache was stale, zapped)
+[2018.07.10-05.13.26:372][835]LogHttp: Warning: 000001E76841DA80: libcurl info message cache 2 (  Trying 34.231.138.22...)
+[2018.07.10-05.13.26:372][835]LogHttp: Warning: 000001E76841DA80: libcurl info message cache 3 (connect to 34.231.138.22 port 443 failed: Timed out)
+[2018.07.10-05.13.26:372][835]LogHttp: Warning: 000001E76841DA80: libcurl info message cache 4 (  Trying 34.207.38.109...)
+[2018.07.10-05.13.26:372][835]LogHttp: Warning: 000001E76841DA80: libcurl info message cache 5 (connect to 34.207.38.109 port 443 failed: Timed out)
+[2018.07.10-05.13.26:372][835]LogHttp: Warning: 000001E76841DA80: libcurl info message cache 6 (  Trying 34.231.0.173...)
+[2018.07.10-05.13.26:372][835]LogHttp: Warning: 000001E76841DA80: libcurl info message cache 7 (connect to 34.231.0.173 port 443 failed: Timed out)
+[2018.07.10-05.13.26:372][835]LogHttp: Warning: 000001E76841DA80: libcurl info message cache 8 (  Trying 34.232.82.35...)
+[2018.07.10-05.13.26:372][835]LogHttp: Warning: 000001E76841DA80: libcurl info message cache 9 (connect to 34.232.82.35 port 443 failed: Timed out)
+[2018.07.10-05.13.26:372][835]LogHttp: Warning: 000001E76841DA80: libcurl info message cache 10 (  Trying 34.231.103.121...)
+[2018.07.10-05.13.26:372][835]LogHttp: Warning: 000001E76841DA80: libcurl info message cache 11 (connect to 34.231.103.121 port 443 failed: Timed out)
+[2018.07.10-05.13.26:372][835]LogHttp: Warning: 000001E76841DA80: libcurl info message cache 12 (  Trying 34.228.126.143...)
+[2018.07.10-05.13.26:372][835]LogHttp: Warning: 000001E76841DA80: libcurl info message cache 13 (connect to 34.228.126.143 port 443 failed: Timed out)
+[2018.07.10-05.13.26:372][835]LogHttp: Warning: 000001E76841DA80: libcurl info message cache 14 (  Trying 34.224.106.243...)
+[2018.07.10-05.13.26:372][835]LogHttp: Warning: 000001E76841DA80: libcurl info message cache 15 (connect to 34.224.106.243 port 443 failed: Timed out)
+[2018.07.10-05.13.26:372][835]LogHttp: Warning: 000001E76841DA80: libcurl info message cache 16 (  Trying 34.225.34.243...)
+[2018.07.10-05.13.26:372][835]LogHttp: Warning: 000001E76841DA80: libcurl info message cache 17 (connect to 34.225.34.243 port 443 failed: Timed out)
+[2018.07.10-05.13.26:372][835]LogHttp: Warning: 000001E76841DA80: libcurl info message cache 18 (  Trying 34.231.138.22...)
+[2018.07.10-05.13.26:372][835]LogHttp: Warning: 000001E76841DA80: libcurl info message cache 19 (Closing connection 2)
+[2018.07.10-05.13.40:374][876]LogHotReload: New module detected: UE4Editor-DGame-4819.dll
+[2018.07.10-05.13.41:388][880]LogHotReload: Starting Hot-Reload from IDE
+[2018.07.10-05.13.41:417][880]LogClass: Could not find existing class MyWeapon in package /Script/DGame for HotReload, assuming new class
+[2018.07.10-05.13.41:417][880]LogClass: EControllerState HotReload.
+[2018.07.10-05.13.41:422][880]LogHotReload: Re-instancing MyWeapon after hot-reload.
+[2018.07.10-05.13.41:465][880]LogContentBrowser: Native class hierarchy updated for 'DGame' in 0.0004 seconds. Added 6 classes and 2 folders.
+[2018.07.10-05.13.41:467][880]Display: HotReload successful (11 functions remapped  0 scriptstructs remapped)
+[2018.07.10-05.13.41:505][880]LogContentBrowser: Native class hierarchy populated in 0.0086 seconds. Added 2458 classes and 560 folders.
+[2018.07.10-05.13.41:508][880]Display: HotReload took  0.1s.
+[2018.07.10-05.14.45:210][477]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.10-05.14.53:955][494]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 116 classes and 0 folders.
+[2018.07.10-05.14.54:173][494]LogUObjectGlobals: Created PersistentFrame Addr=0x000001e77a19bf00, Size=4, Default__SKEL_PROTO_BP_AnimBlueprint_0_C Function /Engine/Transient.SKEL_PROTO_BP_AnimBlueprint_0_C:ExecuteUbergraph_PROTO_BP_AnimBlueprint_0
+[2018.07.10-05.14.54:174][494]LogUObjectGlobals: Created PersistentFrame Addr=0x000001e77a19bef8, Size=4, Default__PROTO_BP_AnimBlueprint_0_C Function /Engine/Transient.PROTO_BP_AnimBlueprint_0_C:ExecuteUbergraph_PROTO_BP_AnimBlueprint_0
+[2018.07.10-05.14.54:458][494]LogSlate: Window '添加蓝图类' being destroyed
+[2018.07.10-05.15.00:682][229]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Weapon/bp_MyWeapon" FILE="E:/ue4/DGame/Content/Blueprints/Weapon/bp_MyWeapon.uasset" SILENT=true
+[2018.07.10-05.15.07:867][229]LogSlate: Window '信息' being destroyed
+[2018.07.10-05.15.07:872][229]EditorErrors: New page: 保存输出
+[2018.07.10-05.15.07:872][229]EditorErrors: Warning: 不能保存资源'E:/ue4/DGame/Content/Blueprints/Weapon/bp_MyWeapon.uasset'，因为仅部分地加载了该资源
+[2018.07.10-05.15.09:244][389]LogSlate: Window '信息日志' being destroyed
+[2018.07.10-05.15.09:248][389]LogSlate: Window '信息日志' being destroyed
+[2018.07.10-05.15.11:493][652]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/maps_start" FILE="E:/ue4/DGame/Content/Maps/maps_start.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.07.10-05.15.11:613][652]LogSavePackage: Save=93.24ms
+[2018.07.10-05.15.11:613][652]LogSavePackage: Moving 'E:/ue4/DGame/Saved/maps_start11D2D8AF4649B8138C4EE0A31E6BEB8D.tmp' to 'E:/ue4/DGame/Content/Maps/maps_start.umap'
+[2018.07.10-05.15.11:615][652]LogSavePackage: Display: Finished SavePackage E:/ue4/DGame/Content/Maps/maps_start.umap
+[2018.07.10-05.15.11:631][652]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/maps_start_BuiltData" FILE="E:/ue4/DGame/Content/Maps/maps_start_BuiltData.uasset" SILENT=true
+[2018.07.10-05.15.11:693][652]LogSavePackage: Save=43.79ms
+[2018.07.10-05.15.11:693][652]LogSavePackage: Moving 'E:/ue4/DGame/Saved/maps_start_BuiltData97B941A9452D95A40474AEB5409E44FE.tmp' to 'E:/ue4/DGame/Content/Maps/maps_start_BuiltData.uasset'
+[2018.07.10-05.15.11:694][652]LogSavePackage: Display: Finished SavePackage E:/ue4/DGame/Content/Maps/maps_start_BuiltData.uasset
+[2018.07.10-05.15.12:383][728]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Weapon/bp_MyWeapon" FILE="E:/ue4/DGame/Content/Blueprints/Weapon/bp_MyWeapon.uasset" SILENT=true
+[2018.07.10-05.15.15:789][728]LogSlate: Window '信息' being destroyed
+[2018.07.10-05.15.15:793][728]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Weapon/bp_MyWeapon" FILE="E:/ue4/DGame/Content/Blueprints/Weapon/bp_MyWeapon.uasset" SILENT=true
+[2018.07.10-05.15.16:434][728]LogSlate: Window '信息' being destroyed
+[2018.07.10-05.15.16:437][728]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Weapon/bp_MyWeapon" FILE="E:/ue4/DGame/Content/Blueprints/Weapon/bp_MyWeapon.uasset" SILENT=true
+[2018.07.10-05.15.16:843][728]LogSlate: Window '信息' being destroyed
+[2018.07.10-05.15.16:847][728]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Weapon/bp_MyWeapon" FILE="E:/ue4/DGame/Content/Blueprints/Weapon/bp_MyWeapon.uasset" SILENT=true
+[2018.07.10-05.15.17:186][728]LogSlate: Window '信息' being destroyed
+[2018.07.10-05.15.17:190][728]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Weapon/bp_MyWeapon" FILE="E:/ue4/DGame/Content/Blueprints/Weapon/bp_MyWeapon.uasset" SILENT=true
+[2018.07.10-05.15.18:599][728]LogSlate: Window '信息' being destroyed
+[2018.07.10-05.15.18:604][728]EditorErrors: New page: 保存输出
+[2018.07.10-05.15.18:604][728]EditorErrors: Warning: 不能保存资源'E:/ue4/DGame/Content/Blueprints/Weapon/bp_MyWeapon.uasset'，因为仅部分地加载了该资源
+[2018.07.10-05.15.18:604][728]EditorErrors: Warning: 不能保存资源'E:/ue4/DGame/Content/Blueprints/Weapon/bp_MyWeapon.uasset'，因为仅部分地加载了该资源
+[2018.07.10-05.15.18:604][728]EditorErrors: Warning: 不能保存资源'E:/ue4/DGame/Content/Blueprints/Weapon/bp_MyWeapon.uasset'，因为仅部分地加载了该资源
+[2018.07.10-05.15.18:604][728]EditorErrors: Warning: 不能保存资源'E:/ue4/DGame/Content/Blueprints/Weapon/bp_MyWeapon.uasset'，因为仅部分地加载了该资源
+[2018.07.10-05.15.18:604][728]EditorErrors: Warning: 不能保存资源'E:/ue4/DGame/Content/Blueprints/Weapon/bp_MyWeapon.uasset'，因为仅部分地加载了该资源
+[2018.07.10-05.15.20:459][728]LogSlate: Window '保存包失败' being destroyed
+[2018.07.10-05.15.24:571][204]LogSlate: Window '信息日志' being destroyed
+[2018.07.10-05.15.24:574][204]LogSlate: Window '信息日志' being destroyed
+[2018.07.10-05.15.34:886][364]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Weapon/bp_MyWeapon" FILE="E:/ue4/DGame/Content/Blueprints/Weapon/bp_MyWeapon.uasset" SILENT=true
+[2018.07.10-05.15.36:565][364]LogSlate: Window '信息' being destroyed
+[2018.07.10-05.15.36:568][364]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Weapon/bp_MyWeapon" FILE="E:/ue4/DGame/Content/Blueprints/Weapon/bp_MyWeapon.uasset" SILENT=true
+[2018.07.10-05.15.37:198][364]LogSlate: Window '信息' being destroyed
+[2018.07.10-05.15.37:201][364]EditorErrors: New page: 保存输出
+[2018.07.10-05.15.37:201][364]EditorErrors: Warning: 不能保存资源'E:/ue4/DGame/Content/Blueprints/Weapon/bp_MyWeapon.uasset'，因为仅部分地加载了该资源
+[2018.07.10-05.15.37:201][364]EditorErrors: Warning: 不能保存资源'E:/ue4/DGame/Content/Blueprints/Weapon/bp_MyWeapon.uasset'，因为仅部分地加载了该资源
+[2018.07.10-05.15.38:494][364]LogSlate: Window '保存包失败' being destroyed
+[2018.07.10-05.15.39:929][536]LogSlate: Window '信息日志' being destroyed
+[2018.07.10-05.15.39:933][536]LogSlate: Window '信息日志' being destroyed
+[2018.07.10-05.15.55:334][337]LogSkeletalMesh: Skeletal Mesh found in DDC [1.123838ms] /Game/Assets/Weapon/Sword.Sword
+[2018.07.10-05.15.57:600][608]BlueprintLog: New page: 编译bp_MyWeapon
+[2018.07.10-05.16.08:262][873]LogSlate: Window 'bp_MyWeapon*' being destroyed
+[2018.07.10-05.16.09:155][978]LogSlate: Window 'bp_MyWeapon*' being destroyed
+[2018.07.10-05.16.10:878][182]LogSlate: Window 'bp_MyWeapon*' being destroyed
+[2018.07.10-05.16.10:881][182]LogSlate: Window 'bp_MyWeapon*' being destroyed
+[2018.07.10-05.16.17:889][931]LogSlate: Took 0.008351 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.07.10-05.16.36:034][ 65]LogRenderer: Reallocating scene render targets to support 984x1084 Format 10 NumSamples 1 (Frame:1).
+[2018.07.10-05.16.40:920][649]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.10-05.16.43:195][903]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/maps_start" FILE="E:/ue4/DGame/Content/Maps/maps_start.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.07.10-05.16.43:325][903]LogSavePackage: Save=102.01ms
+[2018.07.10-05.16.43:325][903]LogSavePackage: Moving 'E:/ue4/DGame/Saved/maps_start716D0FE241627FEF765CA1A31D22BFB2.tmp' to 'E:/ue4/DGame/Content/Maps/maps_start.umap'
+[2018.07.10-05.16.43:327][903]LogSavePackage: Display: Finished SavePackage E:/ue4/DGame/Content/Maps/maps_start.umap
+[2018.07.10-05.16.43:342][903]LogFileHelpers: Saving map 'maps_start' took 0.198
+[2018.07.10-05.16.43:354][903]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Character/bp_MyCharacter" FILE="E:/ue4/DGame/Content/Blueprints/Character/bp_MyCharacter.uasset" SILENT=true
+[2018.07.10-05.16.43:382][903]LogSavePackage: Save=17.26ms
+[2018.07.10-05.16.43:382][903]LogSavePackage: Moving 'E:/ue4/DGame/Saved/bp_MyCharacter4D8E7B7B4E83142A188B5B9A3DFBD1BF.tmp' to 'E:/ue4/DGame/Content/Blueprints/Character/bp_MyCharacter.uasset'
+[2018.07.10-05.16.43:384][903]LogSavePackage: Display: Finished SavePackage E:/ue4/DGame/Content/Blueprints/Character/bp_MyCharacter.uasset
+[2018.07.10-05.16.43:387][903]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Weapon/bp_MyWeapon" FILE="E:/ue4/DGame/Content/Blueprints/Weapon/bp_MyWeapon.uasset" SILENT=true
+[2018.07.10-05.16.45:578][903]LogSlate: Window '信息' being destroyed
+[2018.07.10-05.16.45:583][903]EditorErrors: New page: 保存输出
+[2018.07.10-05.16.45:583][903]EditorErrors: Warning: 不能保存资源'E:/ue4/DGame/Content/Blueprints/Weapon/bp_MyWeapon.uasset'，因为仅部分地加载了该资源
+[2018.07.10-05.16.50:535][496]LogSlate: Window '信息日志' being destroyed
+[2018.07.10-05.16.50:538][496]LogSlate: Window '信息日志' being destroyed
+[2018.07.10-05.18.02:019][238]LogHotReload: New module detected: UE4Editor-DGame-6342.dll
+[2018.07.10-05.18.26:689][313]LogHttp: Warning: 000001E7898E4D00: HTTP request timed out after 180.00 seconds URL=https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B95AA3F55-4A95-C499-50D4-1B8BD3FD7134%7D&AppID=UEEditor.UnrealEngine.Release&AppVersion=4.19.2-0%2B%2B%2BUE4%2BRelease-4.19&UserID=5a18308d4dbc22491a6528b3ceec25b2%7C321d150c1ad4465ea32ff383fcd85ca6%7Cb9abf892-6297-4ebe-a44c-32437dec0ee3&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2018.07.10-05.18.26:689][313]LogHttp: Warning: 000001E7898E4D00: request failed, libcurl error: 0 (No error)
+[2018.07.10-05.18.26:689][313]LogHttp: Warning: 000001E7898E4D00: libcurl info message cache 0 (  Trying 52.2.250.239...)
+[2018.07.10-05.18.26:689][313]LogHttp: Warning: 000001E7898E4D00: libcurl info message cache 1 (connect to 52.2.250.239 port 443 failed: Timed out)
+[2018.07.10-05.18.26:689][313]LogHttp: Warning: 000001E7898E4D00: libcurl info message cache 2 (  Trying 52.201.7.125...)
+[2018.07.10-05.18.26:689][313]LogHttp: Warning: 000001E7898E4D00: libcurl info message cache 3 (connect to 52.201.7.125 port 443 failed: Timed out)
+[2018.07.10-05.18.26:689][313]LogHttp: Warning: 000001E7898E4D00: libcurl info message cache 4 (  Trying 52.202.184.141...)
+[2018.07.10-05.18.26:689][313]LogHttp: Warning: 000001E7898E4D00: libcurl info message cache 5 (connect to 52.202.184.141 port 443 failed: Timed out)
+[2018.07.10-05.18.26:689][313]LogHttp: Warning: 000001E7898E4D00: libcurl info message cache 6 (  Trying 52.200.19.158...)
+[2018.07.10-05.18.26:689][313]LogHttp: Warning: 000001E7898E4D00: libcurl info message cache 7 (connect to 52.200.19.158 port 443 failed: Timed out)
+[2018.07.10-05.18.26:689][313]LogHttp: Warning: 000001E7898E4D00: libcurl info message cache 8 (  Trying 52.2.36.251...)
+[2018.07.10-05.18.26:689][313]LogHttp: Warning: 000001E7898E4D00: libcurl info message cache 9 (connect to 52.2.36.251 port 443 failed: Timed out)
+[2018.07.10-05.18.26:689][313]LogHttp: Warning: 000001E7898E4D00: libcurl info message cache 10 (  Trying 52.202.10.140...)
+[2018.07.10-05.18.26:689][313]LogHttp: Warning: 000001E7898E4D00: libcurl info message cache 11 (connect to 52.202.10.140 port 443 failed: Timed out)
+[2018.07.10-05.18.26:689][313]LogHttp: Warning: 000001E7898E4D00: libcurl info message cache 12 (  Trying 52.203.126.30...)
+[2018.07.10-05.18.26:689][313]LogHttp: Warning: 000001E7898E4D00: libcurl info message cache 13 (connect to 52.203.126.30 port 443 failed: Timed out)
+[2018.07.10-05.18.26:689][313]LogHttp: Warning: 000001E7898E4D00: libcurl info message cache 14 (  Trying 52.201.67.204...)
+[2018.07.10-05.18.26:689][313]LogHttp: Warning: 000001E7898E4D00: libcurl info message cache 15 (connect to 52.201.67.204 port 443 failed: Timed out)
+[2018.07.10-05.18.26:689][313]LogHttp: Warning: 000001E7898E4D00: libcurl info message cache 16 (  Trying 52.2.250.239...)
+[2018.07.10-05.18.26:689][313]LogHttp: Warning: 000001E7898E4D00: libcurl info message cache 17 (Closing connection 3)
+[2018.07.10-05.19.26:689][493]LogHttp: Warning: 000001E7B1B8AF80: HTTP request timed out after 180.00 seconds URL=https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B95AA3F55-4A95-C499-50D4-1B8BD3FD7134%7D&AppID=UEEditor.UnrealEngine.Release&AppVersion=4.19.2-0%2B%2B%2BUE4%2BRelease-4.19&UserID=5a18308d4dbc22491a6528b3ceec25b2%7C321d150c1ad4465ea32ff383fcd85ca6%7Cb9abf892-6297-4ebe-a44c-32437dec0ee3&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2018.07.10-05.19.26:689][493]LogHttp: Warning: 000001E7B1B8AF80: request failed, libcurl error: 0 (No error)
+[2018.07.10-05.19.26:689][493]LogHttp: Warning: 000001E7B1B8AF80: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x1e781f77fe8 [serially])
+[2018.07.10-05.19.26:689][493]LogHttp: Warning: 000001E7B1B8AF80: libcurl info message cache 1 (Hostname in DNS cache was stale, zapped)
+[2018.07.10-05.19.26:689][493]LogHttp: Warning: 000001E7B1B8AF80: libcurl info message cache 2 (  Trying 52.203.126.30...)
+[2018.07.10-05.19.26:689][493]LogHttp: Warning: 000001E7B1B8AF80: libcurl info message cache 3 (connect to 52.203.126.30 port 443 failed: Timed out)
+[2018.07.10-05.19.26:689][493]LogHttp: Warning: 000001E7B1B8AF80: libcurl info message cache 4 (  Trying 52.203.15.83...)
+[2018.07.10-05.19.26:689][493]LogHttp: Warning: 000001E7B1B8AF80: libcurl info message cache 5 (connect to 52.203.15.83 port 443 failed: Timed out)
+[2018.07.10-05.19.26:689][493]LogHttp: Warning: 000001E7B1B8AF80: libcurl info message cache 6 (  Trying 52.201.7.125...)
+[2018.07.10-05.19.26:689][493]LogHttp: Warning: 000001E7B1B8AF80: libcurl info message cache 7 (connect to 52.201.7.125 port 443 failed: Timed out)
+[2018.07.10-05.19.26:689][493]LogHttp: Warning: 000001E7B1B8AF80: libcurl info message cache 8 (  Trying 52.204.64.15...)
+[2018.07.10-05.19.26:689][493]LogHttp: Warning: 000001E7B1B8AF80: libcurl info message cache 9 (connect to 52.204.64.15 port 443 failed: Timed out)
+[2018.07.10-05.19.26:689][493]LogHttp: Warning: 000001E7B1B8AF80: libcurl info message cache 10 (  Trying 52.202.184.141...)
+[2018.07.10-05.19.26:689][493]LogHttp: Warning: 000001E7B1B8AF80: libcurl info message cache 11 (connect to 52.202.184.141 port 443 failed: Timed out)
+[2018.07.10-05.19.26:689][493]LogHttp: Warning: 000001E7B1B8AF80: libcurl info message cache 12 (  Trying 52.204.246.26...)
+[2018.07.10-05.19.26:689][493]LogHttp: Warning: 000001E7B1B8AF80: libcurl info message cache 13 (connect to 52.204.246.26 port 443 failed: Timed out)
+[2018.07.10-05.19.26:689][493]LogHttp: Warning: 000001E7B1B8AF80: libcurl info message cache 14 (  Trying 52.202.10.140...)
+[2018.07.10-05.19.26:689][493]LogHttp: Warning: 000001E7B1B8AF80: libcurl info message cache 15 (connect to 52.202.10.140 port 443 failed: Timed out)
+[2018.07.10-05.19.26:689][493]LogHttp: Warning: 000001E7B1B8AF80: libcurl info message cache 16 (  Trying 52.204.40.189...)
+[2018.07.10-05.19.26:689][493]LogHttp: Warning: 000001E7B1B8AF80: libcurl info message cache 17 (connect to 52.204.40.189 port 443 failed: Timed out)
+[2018.07.10-05.19.26:689][493]LogHttp: Warning: 000001E7B1B8AF80: libcurl info message cache 18 (  Trying 52.203.126.30...)
+[2018.07.10-05.19.26:689][493]LogHttp: Warning: 000001E7B1B8AF80: libcurl info message cache 19 (Closing connection 4)
+[2018.07.10-05.20.43:693][724]LogHttp: Warning: 000001E77B35CA00: HTTP request timed out after 180.00 seconds URL=https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B95AA3F55-4A95-C499-50D4-1B8BD3FD7134%7D&AppID=UEEditor.UnrealEngine.Release&AppVersion=4.19.2-0%2B%2B%2BUE4%2BRelease-4.19&UserID=5a18308d4dbc22491a6528b3ceec25b2%7C321d150c1ad4465ea32ff383fcd85ca6%7Cb9abf892-6297-4ebe-a44c-32437dec0ee3&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2018.07.10-05.20.43:693][724]LogHttp: Warning: 000001E77B35CA00: request failed, libcurl error: 0 (No error)
+[2018.07.10-05.20.43:693][724]LogHttp: Warning: 000001E77B35CA00: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x1e781f77fe8 [serially])
+[2018.07.10-05.20.43:693][724]LogHttp: Warning: 000001E77B35CA00: libcurl info message cache 1 (Hostname in DNS cache was stale, zapped)
+[2018.07.10-05.20.43:693][724]LogHttp: Warning: 000001E77B35CA00: libcurl info message cache 2 (  Trying 52.4.200.136...)
+[2018.07.10-05.20.43:693][724]LogHttp: Warning: 000001E77B35CA00: libcurl info message cache 3 (connect to 52.4.200.136 port 443 failed: Timed out)
+[2018.07.10-05.20.43:693][724]LogHttp: Warning: 000001E77B35CA00: libcurl info message cache 4 (  Trying 52.5.135.24...)
+[2018.07.10-05.20.43:693][724]LogHttp: Warning: 000001E77B35CA00: libcurl info message cache 5 (connect to 52.5.135.24 port 443 failed: Timed out)
+[2018.07.10-05.20.43:693][724]LogHttp: Warning: 000001E77B35CA00: libcurl info message cache 6 (  Trying 52.3.214.110...)
+[2018.07.10-05.20.43:693][724]LogHttp: Warning: 000001E77B35CA00: libcurl info message cache 7 (connect to 52.3.214.110 port 443 failed: Timed out)
+[2018.07.10-05.20.43:693][724]LogHttp: Warning: 000001E77B35CA00: libcurl info message cache 8 (  Trying 52.3.59.227...)
+[2018.07.10-05.20.43:693][724]LogHttp: Warning: 000001E77B35CA00: libcurl info message cache 9 (connect to 52.3.59.227 port 443 failed: Timed out)
+[2018.07.10-05.20.43:693][724]LogHttp: Warning: 000001E77B35CA00: libcurl info message cache 10 (  Trying 52.4.186.227...)
+[2018.07.10-05.20.43:694][724]LogHttp: Warning: 000001E77B35CA00: libcurl info message cache 11 (connect to 52.4.186.227 port 443 failed: Timed out)
+[2018.07.10-05.20.43:694][724]LogHttp: Warning: 000001E77B35CA00: libcurl info message cache 12 (  Trying 52.3.98.22...)
+[2018.07.10-05.20.43:694][724]LogHttp: Warning: 000001E77B35CA00: libcurl info message cache 13 (connect to 52.3.98.22 port 443 failed: Timed out)
+[2018.07.10-05.20.43:694][724]LogHttp: Warning: 000001E77B35CA00: libcurl info message cache 14 (  Trying 52.3.199.88...)
+[2018.07.10-05.20.43:694][724]LogHttp: Warning: 000001E77B35CA00: libcurl info message cache 15 (connect to 52.3.199.88 port 443 failed: Timed out)
+[2018.07.10-05.20.43:694][724]LogHttp: Warning: 000001E77B35CA00: libcurl info message cache 16 (  Trying 52.22.97.182...)
+[2018.07.10-05.20.43:694][724]LogHttp: Warning: 000001E77B35CA00: libcurl info message cache 17 (connect to 52.22.97.182 port 443 failed: Timed out)
+[2018.07.10-05.20.43:694][724]LogHttp: Warning: 000001E77B35CA00: libcurl info message cache 18 (  Trying 52.4.200.136...)
+[2018.07.10-05.20.43:694][724]LogHttp: Warning: 000001E77B35CA00: libcurl info message cache 19 (Closing connection 5)
+[2018.07.10-05.20.47:357][734]LogHotReload: New module detected: UE4Editor-DGame-8104.dll
+[2018.07.10-05.20.48:701][739]LogHotReload: Starting Hot-Reload from IDE
+[2018.07.10-05.20.48:743][739]LogClass: EControllerState HotReload.
+[2018.07.10-05.20.48:747][739]LogContentBrowser: Native class hierarchy updated for 'DGame' in 0.0007 seconds. Added 6 classes and 2 folders.
+[2018.07.10-05.20.48:750][739]Display: HotReload successful (11 functions remapped  0 scriptstructs remapped)
+[2018.07.10-05.20.49:011][739]LogContentBrowser: Native class hierarchy populated in 0.0095 seconds. Added 2458 classes and 560 folders.
+[2018.07.10-05.20.49:015][739]Display: HotReload took  0.3s.
+[2018.07.10-05.20.58:928][390]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Weapon/bp_MyWeapon" FILE="E:/ue4/DGame/Content/Blueprints/Weapon/bp_MyWeapon.uasset" SILENT=true
+[2018.07.10-05.21.00:300][390]LogSlate: Window '信息' being destroyed
+[2018.07.10-05.21.00:305][390]EditorErrors: New page: 保存输出
+[2018.07.10-05.21.00:305][390]EditorErrors: Warning: 不能保存资源'E:/ue4/DGame/Content/Blueprints/Weapon/bp_MyWeapon.uasset'，因为仅部分地加载了该资源
+[2018.07.10-05.21.01:854][575]LogSlate: Window '信息日志' being destroyed
+[2018.07.10-05.21.01:858][575]LogSlate: Window '信息日志' being destroyed
+[2018.07.10-05.21.04:758][781]LogSlate: Window 'Delete Assets' being destroyed
+[2018.07.10-05.21.20:921][611]LogSlate: Window '添加蓝图类' being destroyed
+[2018.07.10-05.21.22:658][804]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Weapon/bp_MyWeapon" FILE="E:/ue4/DGame/Content/Blueprints/Weapon/bp_MyWeapon.uasset" SILENT=true
+[2018.07.10-05.21.22:662][804]LogSavePackage: Save=2.74ms
+[2018.07.10-05.21.22:662][804]LogSavePackage: Moving 'E:/ue4/DGame/Saved/bp_MyWeapon0557438E4981BFE2E972BB8882FA9E74.tmp' to 'E:/ue4/DGame/Content/Blueprints/Weapon/bp_MyWeapon.uasset'
+[2018.07.10-05.21.22:664][804]LogSavePackage: Display: Finished SavePackage E:/ue4/DGame/Content/Blueprints/Weapon/bp_MyWeapon.uasset
+[2018.07.10-05.25.43:867][824]LogHttp: Warning: 000001E77AB03280: HTTP request timed out after 180.00 seconds URL=https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B95AA3F55-4A95-C499-50D4-1B8BD3FD7134%7D&AppID=UEEditor.UnrealEngine.Release&AppVersion=4.19.2-0%2B%2B%2BUE4%2BRelease-4.19&UserID=5a18308d4dbc22491a6528b3ceec25b2%7C321d150c1ad4465ea32ff383fcd85ca6%7Cb9abf892-6297-4ebe-a44c-32437dec0ee3&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2018.07.10-05.25.43:867][824]LogHttp: Warning: 000001E77AB03280: request failed, libcurl error: 0 (No error)
+[2018.07.10-05.25.43:867][824]LogHttp: Warning: 000001E77AB03280: libcurl info message cache 0 (  Trying 52.204.246.26...)
+[2018.07.10-05.25.43:867][824]LogHttp: Warning: 000001E77AB03280: libcurl info message cache 1 (connect to 52.204.246.26 port 443 failed: Timed out)
+[2018.07.10-05.25.43:867][824]LogHttp: Warning: 000001E77AB03280: libcurl info message cache 2 (  Trying 52.205.159.66...)
+[2018.07.10-05.25.43:867][824]LogHttp: Warning: 000001E77AB03280: libcurl info message cache 3 (connect to 52.205.159.66 port 443 failed: Timed out)
+[2018.07.10-05.25.43:867][824]LogHttp: Warning: 000001E77AB03280: libcurl info message cache 4 (  Trying 52.205.225.225...)
+[2018.07.10-05.25.43:867][824]LogHttp: Warning: 000001E77AB03280: libcurl info message cache 5 (connect to 52.205.225.225 port 443 failed: Timed out)
+[2018.07.10-05.25.43:867][824]LogHttp: Warning: 000001E77AB03280: libcurl info message cache 6 (  Trying 52.204.64.15...)
+[2018.07.10-05.25.43:867][824]LogHttp: Warning: 000001E77AB03280: libcurl info message cache 7 (connect to 52.204.64.15 port 443 failed: Timed out)
+[2018.07.10-05.25.43:867][824]LogHttp: Warning: 000001E77AB03280: libcurl info message cache 8 (  Trying 52.205.158.236...)
+[2018.07.10-05.25.43:867][824]LogHttp: Warning: 000001E77AB03280: libcurl info message cache 9 (connect to 52.205.158.236 port 443 failed: Timed out)
+[2018.07.10-05.25.43:867][824]LogHttp: Warning: 000001E77AB03280: libcurl info message cache 10 (  Trying 52.204.40.189...)
+[2018.07.10-05.25.43:867][824]LogHttp: Warning: 000001E77AB03280: libcurl info message cache 11 (connect to 52.204.40.189 port 443 failed: Timed out)
+[2018.07.10-05.25.43:867][824]LogHttp: Warning: 000001E77AB03280: libcurl info message cache 12 (  Trying 52.203.15.83...)
+[2018.07.10-05.25.43:867][824]LogHttp: Warning: 000001E77AB03280: libcurl info message cache 13 (connect to 52.203.15.83 port 443 failed: Timed out)
+[2018.07.10-05.25.43:867][824]LogHttp: Warning: 000001E77AB03280: libcurl info message cache 14 (  Trying 52.203.126.30...)
+[2018.07.10-05.25.43:867][824]LogHttp: Warning: 000001E77AB03280: libcurl info message cache 15 (connect to 52.203.126.30 port 443 failed: Timed out)
+[2018.07.10-05.25.43:867][824]LogHttp: Warning: 000001E77AB03280: libcurl info message cache 16 (  Trying 52.204.246.26...)
+[2018.07.10-05.25.43:867][824]LogHttp: Warning: 000001E77AB03280: libcurl info message cache 17 (Closing connection 6)
+[2018.07.10-05.27.26:699][200]LogHttp: Warning: 000001E788CB9D80: HTTP request timed out after 180.00 seconds URL=https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B95AA3F55-4A95-C499-50D4-1B8BD3FD7134%7D&AppID=UEEditor.UnrealEngine.Release&AppVersion=4.19.2-0%2B%2B%2BUE4%2BRelease-4.19&UserID=5a18308d4dbc22491a6528b3ceec25b2%7C321d150c1ad4465ea32ff383fcd85ca6%7Cb9abf892-6297-4ebe-a44c-32437dec0ee3&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2018.07.10-05.27.26:699][200]LogHttp: Warning: 000001E788CB9D80: request failed, libcurl error: 0 (No error)
+[2018.07.10-05.27.26:699][200]LogHttp: Warning: 000001E788CB9D80: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x1e781f77fe8 [serially])
+[2018.07.10-05.27.26:699][200]LogHttp: Warning: 000001E788CB9D80: libcurl info message cache 1 (Hostname in DNS cache was stale, zapped)
+[2018.07.10-05.27.26:699][200]LogHttp: Warning: 000001E788CB9D80: libcurl info message cache 2 (  Trying 34.196.109.155...)
+[2018.07.10-05.27.26:699][200]LogHttp: Warning: 000001E788CB9D80: libcurl info message cache 3 (connect to 34.196.109.155 port 443 failed: Timed out)
+[2018.07.10-05.27.26:699][200]LogHttp: Warning: 000001E788CB9D80: libcurl info message cache 4 (  Trying 35.153.154.4...)
+[2018.07.10-05.27.26:699][200]LogHttp: Warning: 000001E788CB9D80: libcurl info message cache 5 (connect to 35.153.154.4 port 443 failed: Timed out)
+[2018.07.10-05.27.26:699][200]LogHttp: Warning: 000001E788CB9D80: libcurl info message cache 6 (  Trying 52.4.200.136...)
+[2018.07.10-05.27.26:699][200]LogHttp: Warning: 000001E788CB9D80: libcurl info message cache 7 (connect to 52.4.200.136 port 443 failed: Timed out)
+[2018.07.10-05.27.26:699][200]LogHttp: Warning: 000001E788CB9D80: libcurl info message cache 8 (  Trying 52.5.135.24...)
+[2018.07.10-05.27.26:699][200]LogHttp: Warning: 000001E788CB9D80: libcurl info message cache 9 (connect to 52.5.135.24 port 443 failed: Timed out)
+[2018.07.10-05.27.26:699][200]LogHttp: Warning: 000001E788CB9D80: libcurl info message cache 10 (  Trying 34.202.96.104...)
+[2018.07.10-05.27.26:699][200]LogHttp: Warning: 000001E788CB9D80: libcurl info message cache 11 (connect to 34.202.96.104 port 443 failed: Timed out)
+[2018.07.10-05.27.26:699][200]LogHttp: Warning: 000001E788CB9D80: libcurl info message cache 12 (  Trying 34.236.48.119...)
+[2018.07.10-05.27.26:699][200]LogHttp: Warning: 000001E788CB9D80: libcurl info message cache 13 (connect to 34.236.48.119 port 443 failed: Timed out)
+[2018.07.10-05.27.26:699][200]LogHttp: Warning: 000001E788CB9D80: libcurl info message cache 14 (  Trying 34.236.247.226...)
+[2018.07.10-05.27.26:699][200]LogHttp: Warning: 000001E788CB9D80: libcurl info message cache 15 (connect to 34.236.247.226 port 443 failed: Timed out)
+[2018.07.10-05.27.26:699][200]LogHttp: Warning: 000001E788CB9D80: libcurl info message cache 16 (  Trying 35.168.211.70...)
+[2018.07.10-05.27.26:699][200]LogHttp: Warning: 000001E788CB9D80: libcurl info message cache 17 (connect to 35.168.211.70 port 443 failed: Timed out)
+[2018.07.10-05.27.26:699][200]LogHttp: Warning: 000001E788CB9D80: libcurl info message cache 18 (  Trying 34.196.109.155...)
+[2018.07.10-05.27.26:699][200]LogHttp: Warning: 000001E788CB9D80: libcurl info message cache 19 (Closing connection 7)
+[2018.07.10-05.28.26:704][380]LogHttp: Warning: 000001E788CB9600: HTTP request timed out after 180.00 seconds URL=https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B95AA3F55-4A95-C499-50D4-1B8BD3FD7134%7D&AppID=UEEditor.UnrealEngine.Release&AppVersion=4.19.2-0%2B%2B%2BUE4%2BRelease-4.19&UserID=5a18308d4dbc22491a6528b3ceec25b2%7C321d150c1ad4465ea32ff383fcd85ca6%7Cb9abf892-6297-4ebe-a44c-32437dec0ee3&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2018.07.10-05.28.26:704][380]LogHttp: Warning: 000001E788CB9600: request failed, libcurl error: 0 (No error)
+[2018.07.10-05.28.26:704][380]LogHttp: Warning: 000001E788CB9600: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x1e781f77fe8 [serially])
+[2018.07.10-05.28.26:704][380]LogHttp: Warning: 000001E788CB9600: libcurl info message cache 1 (Hostname in DNS cache was stale, zapped)
+[2018.07.10-05.28.26:705][380]LogHttp: Warning: 000001E788CB9600: libcurl info message cache 2 (  Trying 52.204.64.15...)
+[2018.07.10-05.28.26:705][380]LogHttp: Warning: 000001E788CB9600: libcurl info message cache 3 (connect to 52.204.64.15 port 443 failed: Timed out)
+[2018.07.10-05.28.26:705][380]LogHttp: Warning: 000001E788CB9600: libcurl info message cache 4 (  Trying 52.204.246.26...)
+[2018.07.10-05.28.26:705][380]LogHttp: Warning: 000001E788CB9600: libcurl info message cache 5 (connect to 52.204.246.26 port 443 failed: Timed out)
+[2018.07.10-05.28.26:705][380]LogHttp: Warning: 000001E788CB9600: libcurl info message cache 6 (  Trying 52.205.225.225...)
+[2018.07.10-05.28.26:705][380]LogHttp: Warning: 000001E788CB9600: libcurl info message cache 7 (connect to 52.205.225.225 port 443 failed: Timed out)
+[2018.07.10-05.28.26:705][380]LogHttp: Warning: 000001E788CB9600: libcurl info message cache 8 (  Trying 52.204.40.189...)
+[2018.07.10-05.28.26:705][380]LogHttp: Warning: 000001E788CB9600: libcurl info message cache 9 (connect to 52.204.40.189 port 443 failed: Timed out)
+[2018.07.10-05.28.26:705][380]LogHttp: Warning: 000001E788CB9600: libcurl info message cache 10 (  Trying 52.205.158.236...)
+[2018.07.10-05.28.26:705][380]LogHttp: Warning: 000001E788CB9600: libcurl info message cache 11 (connect to 52.205.158.236 port 443 failed: Timed out)
+[2018.07.10-05.28.26:705][380]LogHttp: Warning: 000001E788CB9600: libcurl info message cache 12 (  Trying 52.205.232.82...)
+[2018.07.10-05.28.26:705][380]LogHttp: Warning: 000001E788CB9600: libcurl info message cache 13 (connect to 52.205.232.82 port 443 failed: Timed out)
+[2018.07.10-05.28.26:705][380]LogHttp: Warning: 000001E788CB9600: libcurl info message cache 14 (  Trying 52.205.159.66...)
+[2018.07.10-05.28.26:705][380]LogHttp: Warning: 000001E788CB9600: libcurl info message cache 15 (connect to 52.205.159.66 port 443 failed: Timed out)
+[2018.07.10-05.28.26:705][380]LogHttp: Warning: 000001E788CB9600: libcurl info message cache 16 (  Trying 52.203.15.83...)
+[2018.07.10-05.28.26:705][380]LogHttp: Warning: 000001E788CB9600: libcurl info message cache 17 (connect to 52.203.15.83 port 443 failed: Timed out)
+[2018.07.10-05.28.26:705][380]LogHttp: Warning: 000001E788CB9600: libcurl info message cache 18 (  Trying 52.204.64.15...)
+[2018.07.10-05.28.26:705][380]LogHttp: Warning: 000001E788CB9600: libcurl info message cache 19 (Closing connection 8)
+[2018.07.10-05.33.27:052][208]LogHttp: Warning: 000001E77AAE8700: HTTP request timed out after 180.00 seconds URL=https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B95AA3F55-4A95-C499-50D4-1B8BD3FD7134%7D&AppID=UEEditor.UnrealEngine.Release&AppVersion=4.19.2-0%2B%2B%2BUE4%2BRelease-4.19&UserID=5a18308d4dbc22491a6528b3ceec25b2%7C321d150c1ad4465ea32ff383fcd85ca6%7Cb9abf892-6297-4ebe-a44c-32437dec0ee3&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2018.07.10-05.33.27:052][208]LogHttp: Warning: 000001E77AAE8700: request failed, libcurl error: 0 (No error)
+[2018.07.10-05.33.27:052][208]LogHttp: Warning: 000001E77AAE8700: libcurl info message cache 0 (  Trying 52.205.225.225...)
+[2018.07.10-05.33.27:052][208]LogHttp: Warning: 000001E77AAE8700: libcurl info message cache 1 (connect to 52.205.225.225 port 443 failed: Timed out)
+[2018.07.10-05.33.27:052][208]LogHttp: Warning: 000001E77AAE8700: libcurl info message cache 2 (  Trying 52.206.198.61...)
+[2018.07.10-05.33.27:052][208]LogHttp: Warning: 000001E77AAE8700: libcurl info message cache 3 (connect to 52.206.198.61 port 443 failed: Timed out)
+[2018.07.10-05.33.27:052][208]LogHttp: Warning: 000001E77AAE8700: libcurl info message cache 4 (  Trying 52.206.37.107...)
+[2018.07.10-05.33.27:052][208]LogHttp: Warning: 000001E77AAE8700: libcurl info message cache 5 (connect to 52.206.37.107 port 443 failed: Timed out)
+[2018.07.10-05.33.27:052][208]LogHttp: Warning: 000001E77AAE8700: libcurl info message cache 6 (  Trying 52.205.158.236...)
+[2018.07.10-05.33.27:052][208]LogHttp: Warning: 000001E77AAE8700: libcurl info message cache 7 (connect to 52.205.158.236 port 443 failed: Timed out)
+[2018.07.10-05.33.27:052][208]LogHttp: Warning: 000001E77AAE8700: libcurl info message cache 8 (  Trying 52.205.232.82...)
+[2018.07.10-05.33.27:052][208]LogHttp: Warning: 000001E77AAE8700: libcurl info message cache 9 (connect to 52.205.232.82 port 443 failed: Timed out)
+[2018.07.10-05.33.27:052][208]LogHttp: Warning: 000001E77AAE8700: libcurl info message cache 10 (  Trying 52.205.79.197...)
+[2018.07.10-05.33.27:052][208]LogHttp: Warning: 000001E77AAE8700: libcurl info message cache 11 (connect to 52.205.79.197 port 443 failed: Timed out)
+[2018.07.10-05.33.27:052][208]LogHttp: Warning: 000001E77AAE8700: libcurl info message cache 12 (  Trying 52.206.252.70...)
+[2018.07.10-05.33.27:052][208]LogHttp: Warning: 000001E77AAE8700: libcurl info message cache 13 (connect to 52.206.252.70 port 443 failed: Timed out)
+[2018.07.10-05.33.27:052][208]LogHttp: Warning: 000001E77AAE8700: libcurl info message cache 14 (  Trying 52.205.159.66...)
+[2018.07.10-05.33.27:052][208]LogHttp: Warning: 000001E77AAE8700: libcurl info message cache 15 (connect to 52.205.159.66 port 443 failed: Timed out)
+[2018.07.10-05.33.27:052][208]LogHttp: Warning: 000001E77AAE8700: libcurl info message cache 16 (  Trying 52.205.225.225...)
+[2018.07.10-05.33.27:052][208]LogHttp: Warning: 000001E77AAE8700: libcurl info message cache 17 (Closing connection 9)
+[2018.07.10-05.33.46:718][266]LogHotReload: New module detected: UE4Editor-DGame-7082.dll
+[2018.07.10-05.33.47:725][270]LogHotReload: Starting Hot-Reload from IDE
+[2018.07.10-05.33.47:769][270]LogClass: Could not find existing class MyCharacter in package /Script/DGame for HotReload, assuming new class
+[2018.07.10-05.33.47:771][270]LogClass: Could not find existing class MyWeapon in package /Script/DGame for HotReload, assuming new class
+[2018.07.10-05.33.47:772][270]LogClass: EControllerState HotReload.
+[2018.07.10-05.33.47:774][270]LogUObjectGlobals: Warning: 寻找对象'Class /Game/Blueprints/Weapon/bp_MyWeapon.bp_MyWeapon'失败
+[2018.07.10-05.33.47:780][270]LogHotReload: Re-instancing MyCharacter after hot-reload.
+[2018.07.10-05.33.47:996][270]LogSkinnedMeshComp: Warning: GetSocketByName(Shield_2): No SkeletalMesh for Component(CharacterMesh0) Actor(MyCharacter_0)
+[2018.07.10-05.33.47:996][270]LogSkinnedMeshComp: Warning: GetSocketByName(Shield_2): No SkeletalMesh for Component(CharacterMesh0) Actor(MyCharacter_0)
+[2018.07.10-05.33.47:996][270]LogSkinnedMeshComp: Warning: GetSocketByName(Shield_2): No SkeletalMesh for Component(CharacterMesh0) Actor(MyCharacter_0)
+[2018.07.10-05.33.47:996][270]LogSkinnedMeshComp: Warning: GetSocketByName(Shield_2): No SkeletalMesh for Component(CharacterMesh0) Actor(MyCharacter_0)
+[2018.07.10-05.33.47:997][270]LogSkinnedMeshComp: Warning: GetSocketByName(Shield_2): No SkeletalMesh for Component(CharacterMesh0) Actor(MyCharacter_0)
+[2018.07.10-05.33.47:997][270]LogSkinnedMeshComp: Warning: GetSocketByName(Shield_2): No SkeletalMesh for Component(CharacterMesh0) Actor(MyCharacter_0)
+[2018.07.10-05.33.47:997][270]LogSkinnedMeshComp: Warning: GetSocketByName(Shield_2): No SkeletalMesh for Component(CharacterMesh0) Actor(MyCharacter_0)
+[2018.07.10-05.33.47:997][270]LogSkinnedMeshComp: Warning: GetSocketByName(Shield_2): No SkeletalMesh for Component(CharacterMesh0) Actor(MyCharacter_0)
+[2018.07.10-05.33.48:132][270]LogHotReload: Re-instancing MyWeapon after hot-reload.
+[2018.07.10-05.33.48:210][270]LogContentBrowser: Native class hierarchy updated for 'DGame' in 0.0006 seconds. Added 6 classes and 2 folders.
+[2018.07.10-05.33.48:213][270]Display: HotReload successful (11 functions remapped  0 scriptstructs remapped)
+[2018.07.10-05.33.48:471][270]LogContentBrowser: Native class hierarchy populated in 0.0100 seconds. Added 2458 classes and 560 folders.
+[2018.07.10-05.33.48:475][270]Display: HotReload took  0.8s.
+[2018.07.10-05.34.00:762][573]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.07.10-05.34.01:797][694]LogSlate: Took 0.009118 seconds to synchronously load lazily loaded font '../../../Engine/Content/SlateDebug/Fonts/LastResort.ttf' (5269K)
+[2018.07.10-05.34.11:697][880]BlueprintLog: New page: 编译bp_MyCharacter
+[2018.07.10-05.34.40:086][301]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/maps_start" FILE="E:/ue4/DGame/Saved/Autosaves/Game/Maps/maps_start_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2018.07.10-05.34.40:206][301]LogSavePackage: Save=109.00ms
+[2018.07.10-05.34.40:206][301]LogSavePackage: Moving 'E:/ue4/DGame/Saved/maps_start_Auto1936C20A14F67E2BB97ACBABDCF9B246B.tmp' to 'E:/ue4/DGame/Saved/Autosaves/Game/Maps/maps_start_Auto1.umap'
+[2018.07.10-05.34.40:207][301]LogSavePackage: Display: Finished SavePackage E:/ue4/DGame/Saved/Autosaves/Game/Maps/maps_start_Auto1.umap
+[2018.07.10-05.34.40:208][301]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/maps_start' took 0.146
+[2018.07.10-05.34.40:208][301]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.146
+[2018.07.10-05.34.40:210][301]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Character/bp_MyCharacter] ([1] browsable assets)...
+[2018.07.10-05.34.40:238][301]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Character/bp_MyCharacter.bp_MyCharacter]
+[2018.07.10-05.34.40:238][301]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Character/bp_MyCharacter]
+[2018.07.10-05.34.40:238][301]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Character/bp_MyCharacter" FILE="E:/ue4/DGame/Saved/Autosaves/Game/Blueprints/Character/bp_MyCharacter_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2018.07.10-05.34.40:261][301]LogSavePackage: Save=13.99ms
+[2018.07.10-05.34.40:261][301]LogSavePackage: Moving 'E:/ue4/DGame/Saved/bp_MyCharacter_Auto1B689EF4C4BB40E3DFB61BA98789AE7FA.tmp' to 'E:/ue4/DGame/Saved/Autosaves/Game/Blueprints/Character/bp_MyCharacter_Auto1.uasset'
+[2018.07.10-05.34.40:262][301]LogSavePackage: Display: Finished SavePackage E:/ue4/DGame/Saved/Autosaves/Game/Blueprints/Character/bp_MyCharacter_Auto1.uasset
+[2018.07.10-05.34.40:262][301]LogFileHelpers: Auto-saving content packages took 0.052
+[2018.07.10-05.35.26:359][441]LogHttp: Warning: 000001E77AAEB880: HTTP request timed out after 180.00 seconds URL=https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B95AA3F55-4A95-C499-50D4-1B8BD3FD7134%7D&AppID=UEEditor.UnrealEngine.Release&AppVersion=4.19.2-0%2B%2B%2BUE4%2BRelease-4.19&UserID=5a18308d4dbc22491a6528b3ceec25b2%7C321d150c1ad4465ea32ff383fcd85ca6%7Cb9abf892-6297-4ebe-a44c-32437dec0ee3&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2018.07.10-05.35.26:359][441]LogHttp: Warning: 000001E77AAEB880: request failed, libcurl error: 0 (No error)
+[2018.07.10-05.35.26:359][441]LogHttp: Warning: 000001E77AAEB880: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x1e781f77fe8 [serially])
+[2018.07.10-05.35.26:359][441]LogHttp: Warning: 000001E77AAEB880: libcurl info message cache 1 (Hostname in DNS cache was stale, zapped)
+[2018.07.10-05.35.26:359][441]LogHttp: Warning: 000001E77AAEB880: libcurl info message cache 2 (  Trying 35.173.61.154...)
+[2018.07.10-05.35.26:359][441]LogHttp: Warning: 000001E77AAEB880: libcurl info message cache 3 (connect to 35.173.61.154 port 443 failed: Timed out)
+[2018.07.10-05.35.26:359][441]LogHttp: Warning: 000001E77AAEB880: libcurl info message cache 4 (  Trying 35.169.90.239...)
+[2018.07.10-05.35.26:359][441]LogHttp: Warning: 000001E77AAEB880: libcurl info message cache 5 (connect to 35.169.90.239 port 443 failed: Timed out)
+[2018.07.10-05.35.26:359][441]LogHttp: Warning: 000001E77AAEB880: libcurl info message cache 6 (  Trying 52.44.209.208...)
+[2018.07.10-05.35.26:359][441]LogHttp: Warning: 000001E77AAEB880: libcurl info message cache 7 (connect to 52.44.209.208 port 443 failed: Timed out)
+[2018.07.10-05.35.26:359][441]LogHttp: Warning: 000001E77AAEB880: libcurl info message cache 8 (  Trying 35.169.42.52...)
+[2018.07.10-05.35.26:359][441]LogHttp: Warning: 000001E77AAEB880: libcurl info message cache 9 (connect to 35.169.42.52 port 443 failed: Timed out)
+[2018.07.10-05.35.26:360][441]LogHttp: Warning: 000001E77AAEB880: libcurl info message cache 10 (  Trying 35.168.132.219...)
+[2018.07.10-05.35.26:360][441]LogHttp: Warning: 000001E77AAEB880: libcurl info message cache 11 (connect to 35.168.132.219 port 443 failed: Timed out)
+[2018.07.10-05.35.26:360][441]LogHttp: Warning: 000001E77AAEB880: libcurl info message cache 12 (  Trying 35.172.157.112...)
+[2018.07.10-05.35.26:360][441]LogHttp: Warning: 000001E77AAEB880: libcurl info message cache 13 (connect to 35.172.157.112 port 443 failed: Timed out)
+[2018.07.10-05.35.26:360][441]LogHttp: Warning: 000001E77AAEB880: libcurl info message cache 14 (  Trying 52.202.129.51...)
+[2018.07.10-05.35.26:360][441]LogHttp: Warning: 000001E77AAEB880: libcurl info message cache 15 (connect to 52.202.129.51 port 443 failed: Timed out)
+[2018.07.10-05.35.26:360][441]LogHttp: Warning: 000001E77AAEB880: libcurl info message cache 16 (  Trying 52.200.109.100...)
+[2018.07.10-05.35.26:360][441]LogHttp: Warning: 000001E77AAEB880: libcurl info message cache 17 (connect to 52.200.109.100 port 443 failed: Timed out)
+[2018.07.10-05.35.26:360][441]LogHttp: Warning: 000001E77AAEB880: libcurl info message cache 18 (  Trying 35.173.61.154...)
+[2018.07.10-05.35.26:360][441]LogHttp: Warning: 000001E77AAEB880: libcurl info message cache 19 (Closing connection 10)
+[2018.07.10-05.36.26:691][622]LogHttp: Warning: 000001E77AAA4100: HTTP request timed out after 180.00 seconds URL=https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B95AA3F55-4A95-C499-50D4-1B8BD3FD7134%7D&AppID=UEEditor.UnrealEngine.Release&AppVersion=4.19.2-0%2B%2B%2BUE4%2BRelease-4.19&UserID=5a18308d4dbc22491a6528b3ceec25b2%7C321d150c1ad4465ea32ff383fcd85ca6%7Cb9abf892-6297-4ebe-a44c-32437dec0ee3&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2018.07.10-05.36.26:692][622]LogHttp: Warning: 000001E77AAA4100: request failed, libcurl error: 0 (No error)
+[2018.07.10-05.36.26:692][622]LogHttp: Warning: 000001E77AAA4100: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x1e781f77fe8 [serially])
+[2018.07.10-05.36.26:692][622]LogHttp: Warning: 000001E77AAA4100: libcurl info message cache 1 (Hostname in DNS cache was stale, zapped)
+[2018.07.10-05.36.26:692][622]LogHttp: Warning: 000001E77AAA4100: libcurl info message cache 2 (  Trying 34.202.222.90...)
+[2018.07.10-05.36.26:692][622]LogHttp: Warning: 000001E77AAA4100: libcurl info message cache 3 (connect to 34.202.222.90 port 443 failed: Timed out)
+[2018.07.10-05.36.26:692][622]LogHttp: Warning: 000001E77AAA4100: libcurl info message cache 4 (  Trying 34.202.144.153...)
+[2018.07.10-05.36.26:692][622]LogHttp: Warning: 000001E77AAA4100: libcurl info message cache 5 (connect to 34.202.144.153 port 443 failed: Timed out)
+[2018.07.10-05.36.26:692][622]LogHttp: Warning: 000001E77AAA4100: libcurl info message cache 6 (  Trying 34.204.55.248...)
+[2018.07.10-05.36.26:692][622]LogHttp: Warning: 000001E77AAA4100: libcurl info message cache 7 (connect to 34.204.55.248 port 443 failed: Timed out)
+[2018.07.10-05.36.26:692][622]LogHttp: Warning: 000001E77AAA4100: libcurl info message cache 8 (  Trying 34.201.203.98...)
+[2018.07.10-05.36.26:692][622]LogHttp: Warning: 000001E77AAA4100: libcurl info message cache 9 (connect to 34.201.203.98 port 443 failed: Timed out)
+[2018.07.10-05.36.26:692][622]LogHttp: Warning: 000001E77AAA4100: libcurl info message cache 10 (  Trying 34.202.80.111...)
+[2018.07.10-05.36.26:692][622]LogHttp: Warning: 000001E77AAA4100: libcurl info message cache 11 (connect to 34.202.80.111 port 443 failed: Timed out)
+[2018.07.10-05.36.26:692][622]LogHttp: Warning: 000001E77AAA4100: libcurl info message cache 12 (  Trying 34.200.55.200...)
+[2018.07.10-05.36.26:692][622]LogHttp: Warning: 000001E77AAA4100: libcurl info message cache 13 (connect to 34.200.55.200 port 443 failed: Timed out)
+[2018.07.10-05.36.26:692][622]LogHttp: Warning: 000001E77AAA4100: libcurl info message cache 14 (  Trying 34.202.188.131...)
+[2018.07.10-05.36.26:692][622]LogHttp: Warning: 000001E77AAA4100: libcurl info message cache 15 (connect to 34.202.188.131 port 443 failed: Timed out)
+[2018.07.10-05.36.26:692][622]LogHttp: Warning: 000001E77AAA4100: libcurl info message cache 16 (  Trying 34.205.114.120...)
+[2018.07.10-05.36.26:692][622]LogHttp: Warning: 000001E77AAA4100: libcurl info message cache 17 (connect to 34.205.114.120 port 443 failed: Timed out)
+[2018.07.10-05.36.26:692][622]LogHttp: Warning: 000001E77AAA4100: libcurl info message cache 18 (  Trying 34.202.222.90...)
+[2018.07.10-05.36.26:692][622]LogHttp: Warning: 000001E77AAA4100: libcurl info message cache 19 (Closing connection 11)
+[2018.07.10-05.38.20:022][961]LogHotReload: New module detected: UE4Editor-DGame-8627.dll
+[2018.07.10-05.38.21:035][965]LogHotReload: Starting Hot-Reload from IDE
+[2018.07.10-05.38.21:090][965]LogClass: EControllerState HotReload.
+[2018.07.10-05.38.21:094][965]LogContentBrowser: Native class hierarchy updated for 'DGame' in 0.0005 seconds. Added 6 classes and 2 folders.
+[2018.07.10-05.38.21:097][965]Display: HotReload successful (11 functions remapped  0 scriptstructs remapped)
+[2018.07.10-05.38.21:339][965]LogContentBrowser: Native class hierarchy populated in 0.0080 seconds. Added 2458 classes and 560 folders.
+[2018.07.10-05.38.21:343][965]Display: HotReload took  0.3s.
+[2018.07.10-05.38.46:030][199]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.10-05.38.48:978][551]BlueprintLog: New page: 编译bp_MyCharacter
+[2018.07.10-05.38.52:043][820]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/maps_start" FILE="E:/ue4/DGame/Content/Maps/maps_start.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.07.10-05.38.52:190][820]LogSavePackage: Save=107.88ms
+[2018.07.10-05.38.52:190][820]LogSavePackage: Moving 'E:/ue4/DGame/Saved/maps_startC728099B41D0CD6598FDE0B78D60C520.tmp' to 'E:/ue4/DGame/Content/Maps/maps_start.umap'
+[2018.07.10-05.38.52:192][820]LogSavePackage: Display: Finished SavePackage E:/ue4/DGame/Content/Maps/maps_start.umap
+[2018.07.10-05.38.52:207][820]LogFileHelpers: Saving map 'maps_start' took 0.210
+[2018.07.10-05.38.52:218][820]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Character/bp_MyCharacter" FILE="E:/ue4/DGame/Content/Blueprints/Character/bp_MyCharacter.uasset" SILENT=true
+[2018.07.10-05.38.52:240][820]LogSavePackage: Save=14.01ms
+[2018.07.10-05.38.52:240][820]LogSavePackage: Moving 'E:/ue4/DGame/Saved/bp_MyCharacter19873E434CC90539B45330A1A6AAECE5.tmp' to 'E:/ue4/DGame/Content/Blueprints/Character/bp_MyCharacter.uasset'
+[2018.07.10-05.38.52:242][820]LogSavePackage: Display: Finished SavePackage E:/ue4/DGame/Content/Blueprints/Character/bp_MyCharacter.uasset
+[2018.07.10-05.38.58:584][543]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.07.10-05.41.27:019][202]LogHttp: Warning: 000001E7CE503100: HTTP request timed out after 180.00 seconds URL=https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B95AA3F55-4A95-C499-50D4-1B8BD3FD7134%7D&AppID=UEEditor.UnrealEngine.Release&AppVersion=4.19.2-0%2B%2B%2BUE4%2BRelease-4.19&UserID=5a18308d4dbc22491a6528b3ceec25b2%7C321d150c1ad4465ea32ff383fcd85ca6%7Cb9abf892-6297-4ebe-a44c-32437dec0ee3&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2018.07.10-05.41.27:019][202]LogHttp: Warning: 000001E7CE503100: request failed, libcurl error: 0 (No error)
+[2018.07.10-05.41.27:019][202]LogHttp: Warning: 000001E7CE503100: libcurl info message cache 0 (  Trying 52.21.228.94...)
+[2018.07.10-05.41.27:019][202]LogHttp: Warning: 000001E7CE503100: libcurl info message cache 1 (connect to 52.21.228.94 port 443 failed: Timed out)
+[2018.07.10-05.41.27:019][202]LogHttp: Warning: 000001E7CE503100: libcurl info message cache 2 (  Trying 52.22.116.109...)
+[2018.07.10-05.41.27:019][202]LogHttp: Warning: 000001E7CE503100: libcurl info message cache 3 (connect to 52.22.116.109 port 443 failed: Timed out)
+[2018.07.10-05.41.27:019][202]LogHttp: Warning: 000001E7CE503100: libcurl info message cache 4 (  Trying 52.3.214.110...)
+[2018.07.10-05.41.27:019][202]LogHttp: Warning: 000001E7CE503100: libcurl info message cache 5 (connect to 52.3.214.110 port 443 failed: Timed out)
+[2018.07.10-05.41.27:019][202]LogHttp: Warning: 000001E7CE503100: libcurl info message cache 6 (  Trying 52.22.151.230...)
+[2018.07.10-05.41.27:019][202]LogHttp: Warning: 000001E7CE503100: libcurl info message cache 7 (connect to 52.22.151.230 port 443 failed: Timed out)
+[2018.07.10-05.41.27:019][202]LogHttp: Warning: 000001E7CE503100: libcurl info message cache 8 (  Trying 52.3.59.227...)
+[2018.07.10-05.41.27:019][202]LogHttp: Warning: 000001E7CE503100: libcurl info message cache 9 (connect to 52.3.59.227 port 443 failed: Timed out)
+[2018.07.10-05.41.27:019][202]LogHttp: Warning: 000001E7CE503100: libcurl info message cache 10 (  Trying 52.3.199.88...)
+[2018.07.10-05.41.27:019][202]LogHttp: Warning: 000001E7CE503100: libcurl info message cache 11 (connect to 52.3.199.88 port 443 failed: Timed out)
+[2018.07.10-05.41.27:019][202]LogHttp: Warning: 000001E7CE503100: libcurl info message cache 12 (  Trying 52.22.97.182...)
+[2018.07.10-05.41.27:019][202]LogHttp: Warning: 000001E7CE503100: libcurl info message cache 13 (connect to 52.22.97.182 port 443 failed: Timed out)
+[2018.07.10-05.41.27:019][202]LogHttp: Warning: 000001E7CE503100: libcurl info message cache 14 (  Trying 52.22.167.223...)
+[2018.07.10-05.41.27:019][202]LogHttp: Warning: 000001E7CE503100: libcurl info message cache 15 (connect to 52.22.167.223 port 443 failed: Timed out)
+[2018.07.10-05.41.27:019][202]LogHttp: Warning: 000001E7CE503100: libcurl info message cache 16 (  Trying 52.21.228.94...)
+[2018.07.10-05.41.27:019][202]LogHttp: Warning: 000001E7CE503100: libcurl info message cache 17 (Closing connection 12)
+[2018.07.10-05.42.28:348][385]LogHotReload: New module detected: UE4Editor-DGame-8307.dll
+[2018.07.10-05.42.29:696][390]LogHotReload: Starting Hot-Reload from IDE
+[2018.07.10-05.42.29:750][390]LogClass: EControllerState HotReload.
+[2018.07.10-05.42.29:753][390]Error: CDO Constructor (MyCharacter): Failed to find /Game/Blueprints/Weapon/bp_MyWeapon.bp_MyWeapon
+
+[2018.07.10-05.42.29:755][390]LogContentBrowser: Native class hierarchy updated for 'DGame' in 0.0005 seconds. Added 6 classes and 2 folders.
+[2018.07.10-05.42.29:755][390]Warning: Some classes could not be reloaded:
+Error: CDO Constructor (MyCharacter): Failed to find /Game/Blueprints/Weapon/bp_MyWeapon.bp_MyWeapon
+
+
+[2018.07.10-05.42.29:758][390]Display: HotReload successful (11 functions remapped  0 scriptstructs remapped)
+[2018.07.10-05.42.30:037][390]LogContentBrowser: Native class hierarchy populated in 0.0096 seconds. Added 2458 classes and 560 folders.
+[2018.07.10-05.42.30:041][390]Display: HotReload took  0.3s.
+[2018.07.10-05.42.49:385][449]LogHttp: Warning: 000001E79F1E7700: HTTP request timed out after 180.00 seconds URL=https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B95AA3F55-4A95-C499-50D4-1B8BD3FD7134%7D&AppID=UEEditor.UnrealEngine.Release&AppVersion=4.19.2-0%2B%2B%2BUE4%2BRelease-4.19&UserID=5a18308d4dbc22491a6528b3ceec25b2%7C321d150c1ad4465ea32ff383fcd85ca6%7Cb9abf892-6297-4ebe-a44c-32437dec0ee3&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2018.07.10-05.42.49:385][449]LogHttp: Warning: 000001E79F1E7700: request failed, libcurl error: 0 (No error)
+[2018.07.10-05.42.49:385][449]LogHttp: Warning: 000001E79F1E7700: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x1e781f77fe8 [serially])
+[2018.07.10-05.42.49:385][449]LogHttp: Warning: 000001E79F1E7700: libcurl info message cache 1 (Hostname in DNS cache was stale, zapped)
+[2018.07.10-05.42.49:385][449]LogHttp: Warning: 000001E79F1E7700: libcurl info message cache 2 (  Trying 34.231.138.22...)
+[2018.07.10-05.42.49:385][449]LogHttp: Warning: 000001E79F1E7700: libcurl info message cache 3 (connect to 34.231.138.22 port 443 failed: Timed out)
+[2018.07.10-05.42.49:385][449]LogHttp: Warning: 000001E79F1E7700: libcurl info message cache 4 (  Trying 34.232.82.35...)
+[2018.07.10-05.42.49:385][449]LogHttp: Warning: 000001E79F1E7700: libcurl info message cache 5 (connect to 34.232.82.35 port 443 failed: Timed out)
+[2018.07.10-05.42.49:385][449]LogHttp: Warning: 000001E79F1E7700: libcurl info message cache 6 (  Trying 34.231.0.173...)
+[2018.07.10-05.42.49:385][449]LogHttp: Warning: 000001E79F1E7700: libcurl info message cache 7 (connect to 34.231.0.173 port 443 failed: Timed out)
+[2018.07.10-05.42.49:385][449]LogHttp: Warning: 000001E79F1E7700: libcurl info message cache 8 (  Trying 34.233.223.249...)
+[2018.07.10-05.42.49:385][449]LogHttp: Warning: 000001E79F1E7700: libcurl info message cache 9 (connect to 34.233.223.249 port 443 failed: Timed out)
+[2018.07.10-05.42.49:385][449]LogHttp: Warning: 000001E79F1E7700: libcurl info message cache 10 (  Trying 34.231.103.121...)
+[2018.07.10-05.42.49:385][449]LogHttp: Warning: 000001E79F1E7700: libcurl info message cache 11 (connect to 34.231.103.121 port 443 failed: Timed out)
+[2018.07.10-05.42.49:385][449]LogHttp: Warning: 000001E79F1E7700: libcurl info message cache 12 (  Trying 34.228.126.143...)
+[2018.07.10-05.42.49:385][449]LogHttp: Warning: 000001E79F1E7700: libcurl info message cache 13 (connect to 34.228.126.143 port 443 failed: Timed out)
+[2018.07.10-05.42.49:385][449]LogHttp: Warning: 000001E79F1E7700: libcurl info message cache 14 (  Trying 34.225.34.243...)
+[2018.07.10-05.42.49:385][449]LogHttp: Warning: 000001E79F1E7700: libcurl info message cache 15 (connect to 34.225.34.243 port 443 failed: Timed out)
+[2018.07.10-05.42.49:385][449]LogHttp: Warning: 000001E79F1E7700: libcurl info message cache 16 (  Trying 34.233.154.194...)
+[2018.07.10-05.42.49:385][449]LogHttp: Warning: 000001E79F1E7700: libcurl info message cache 17 (connect to 34.233.154.194 port 443 failed: Timed out)
+[2018.07.10-05.42.49:385][449]LogHttp: Warning: 000001E79F1E7700: libcurl info message cache 18 (  Trying 34.231.138.22...)
+[2018.07.10-05.42.49:385][449]LogHttp: Warning: 000001E79F1E7700: libcurl info message cache 19 (Closing connection 13)
+[2018.07.10-05.43.14:608][745]BlueprintLog: New page: 编译bp_MyCharacter
+[2018.07.10-05.43.19:545][257]BlueprintLog: New page: 编译bp_MyCharacter
+[2018.07.10-05.43.20:910][320]BlueprintLog: New page: 编译bp_MyCharacter
+[2018.07.10-05.44.14:492][148]LogHotReload: New module detected: UE4Editor-DGame-439.dll
+[2018.07.10-05.44.15:633][241]LogHotReload: Starting Hot-Reload from IDE
+[2018.07.10-05.44.15:691][241]LogClass: EControllerState HotReload.
+[2018.07.10-05.44.15:694][241]LogHotReload: Re-instancing MyCharacter after hot-reload.
+[2018.07.10-05.44.16:099][241]LogSkinnedMeshComp: Warning: GetSocketByName(Shield_2): No SkeletalMesh for Component(CharacterMesh0) Actor(MyCharacter_0)
+[2018.07.10-05.44.16:099][241]LogSkinnedMeshComp: Warning: GetSocketByName(Shield_2): No SkeletalMesh for Component(CharacterMesh0) Actor(MyCharacter_0)
+[2018.07.10-05.44.16:099][241]LogSkinnedMeshComp: Warning: GetSocketByName(Shield_2): No SkeletalMesh for Component(CharacterMesh0) Actor(MyCharacter_0)
+[2018.07.10-05.44.16:099][241]LogSkinnedMeshComp: Warning: GetSocketByName(Shield_2): No SkeletalMesh for Component(CharacterMesh0) Actor(MyCharacter_0)
+[2018.07.10-05.44.16:100][241]LogSkinnedMeshComp: Warning: GetSocketByName(Shield_2): No SkeletalMesh for Component(CharacterMesh0) Actor(MyCharacter_0)
+[2018.07.10-05.44.16:100][241]LogSkinnedMeshComp: Warning: GetSocketByName(Shield_2): No SkeletalMesh for Component(CharacterMesh0) Actor(MyCharacter_0)
+[2018.07.10-05.44.16:100][241]LogSkinnedMeshComp: Warning: GetSocketByName(Shield_2): No SkeletalMesh for Component(CharacterMesh0) Actor(MyCharacter_0)
+[2018.07.10-05.44.16:100][241]LogSkinnedMeshComp: Warning: GetSocketByName(Shield_2): No SkeletalMesh for Component(CharacterMesh0) Actor(MyCharacter_0)
+[2018.07.10-05.44.16:290][241]LogContentBrowser: Native class hierarchy updated for 'DGame' in 0.0005 seconds. Added 6 classes and 2 folders.
+[2018.07.10-05.44.16:293][241]Display: HotReload successful (11 functions remapped  0 scriptstructs remapped)
+[2018.07.10-05.44.16:582][241]LogContentBrowser: Native class hierarchy populated in 0.0114 seconds. Added 2458 classes and 560 folders.
+[2018.07.10-05.44.16:586][241]Display: HotReload took  1.0s.
+[2018.07.10-05.44.20:915][729]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.07.10-05.44.26:686][415]LogHttp: Warning: 000001E79F1E7D00: HTTP request timed out after 180.00 seconds URL=https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B95AA3F55-4A95-C499-50D4-1B8BD3FD7134%7D&AppID=UEEditor.UnrealEngine.Release&AppVersion=4.19.2-0%2B%2B%2BUE4%2BRelease-4.19&UserID=5a18308d4dbc22491a6528b3ceec25b2%7C321d150c1ad4465ea32ff383fcd85ca6%7Cb9abf892-6297-4ebe-a44c-32437dec0ee3&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2018.07.10-05.44.26:686][415]LogHttp: Warning: 000001E79F1E7D00: request failed, libcurl error: 0 (No error)
+[2018.07.10-05.44.26:686][415]LogHttp: Warning: 000001E79F1E7D00: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x1e781f77fe8 [serially])
+[2018.07.10-05.44.26:686][415]LogHttp: Warning: 000001E79F1E7D00: libcurl info message cache 1 (Hostname in DNS cache was stale, zapped)
+[2018.07.10-05.44.26:686][415]LogHttp: Warning: 000001E79F1E7D00: libcurl info message cache 2 (  Trying 52.2.147.45...)
+[2018.07.10-05.44.26:686][415]LogHttp: Warning: 000001E79F1E7D00: libcurl info message cache 3 (connect to 52.2.147.45 port 443 failed: Timed out)
+[2018.07.10-05.44.26:686][415]LogHttp: Warning: 000001E79F1E7D00: libcurl info message cache 4 (  Trying 52.1.175.27...)
+[2018.07.10-05.44.26:686][415]LogHttp: Warning: 000001E79F1E7D00: libcurl info message cache 5 (connect to 52.1.175.27 port 443 failed: Timed out)
+[2018.07.10-05.44.26:686][415]LogHttp: Warning: 000001E79F1E7D00: libcurl info message cache 6 (  Trying 52.1.25.9...)
+[2018.07.10-05.44.26:686][415]LogHttp: Warning: 000001E79F1E7D00: libcurl info message cache 7 (connect to 52.1.25.9 port 443 failed: Timed out)
+[2018.07.10-05.44.26:686][415]LogHttp: Warning: 000001E79F1E7D00: libcurl info message cache 8 (  Trying 52.2.103.56...)
+[2018.07.10-05.44.26:686][415]LogHttp: Warning: 000001E79F1E7D00: libcurl info message cache 9 (connect to 52.2.103.56 port 443 failed: Timed out)
+[2018.07.10-05.44.26:686][415]LogHttp: Warning: 000001E79F1E7D00: libcurl info message cache 10 (  Trying 52.1.169.243...)
+[2018.07.10-05.44.26:686][415]LogHttp: Warning: 000001E79F1E7D00: libcurl info message cache 11 (connect to 52.1.169.243 port 443 failed: Timed out)
+[2018.07.10-05.44.26:686][415]LogHttp: Warning: 000001E79F1E7D00: libcurl info message cache 12 (  Trying 52.0.160.15...)
+[2018.07.10-05.44.26:686][415]LogHttp: Warning: 000001E79F1E7D00: libcurl info message cache 13 (connect to 52.0.160.15 port 443 failed: Timed out)
+[2018.07.10-05.44.26:686][415]LogHttp: Warning: 000001E79F1E7D00: libcurl info message cache 14 (  Trying 52.2.36.251...)
+[2018.07.10-05.44.26:686][415]LogHttp: Warning: 000001E79F1E7D00: libcurl info message cache 15 (connect to 52.2.36.251 port 443 failed: Timed out)
+[2018.07.10-05.44.26:686][415]LogHttp: Warning: 000001E79F1E7D00: libcurl info message cache 16 (  Trying 52.2.250.239...)
+[2018.07.10-05.44.26:686][415]LogHttp: Warning: 000001E79F1E7D00: libcurl info message cache 17 (connect to 52.2.250.239 port 443 failed: Timed out)
+[2018.07.10-05.44.26:686][415]LogHttp: Warning: 000001E79F1E7D00: libcurl info message cache 18 (  Trying 52.2.147.45...)
+[2018.07.10-05.44.26:686][415]LogHttp: Warning: 000001E79F1E7D00: libcurl info message cache 19 (Closing connection 14)
+[2018.07.10-05.44.33:032][175]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.10-05.44.34:097][290]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/maps_start" FILE="E:/ue4/DGame/Content/Maps/maps_start.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.07.10-05.44.34:268][290]LogSavePackage: Save=125.52ms
+[2018.07.10-05.44.34:268][290]LogSavePackage: Moving 'E:/ue4/DGame/Saved/maps_startB175388C47C9918F1EA222B592D25D8F.tmp' to 'E:/ue4/DGame/Content/Maps/maps_start.umap'
+[2018.07.10-05.44.34:270][290]LogSavePackage: Display: Finished SavePackage E:/ue4/DGame/Content/Maps/maps_start.umap
+[2018.07.10-05.44.34:284][290]LogFileHelpers: Saving map 'maps_start' took 0.238
+[2018.07.10-05.44.34:314][290]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Character/bp_MyCharacter" FILE="E:/ue4/DGame/Content/Blueprints/Character/bp_MyCharacter.uasset" SILENT=true
+[2018.07.10-05.44.34:338][290]LogSavePackage: Save=14.07ms
+[2018.07.10-05.44.34:338][290]LogSavePackage: Moving 'E:/ue4/DGame/Saved/bp_MyCharacterF53C67104C64317601D871AAA27C6AFC.tmp' to 'E:/ue4/DGame/Content/Blueprints/Character/bp_MyCharacter.uasset'
+[2018.07.10-05.44.34:340][290]LogSavePackage: Display: Finished SavePackage E:/ue4/DGame/Content/Blueprints/Character/bp_MyCharacter.uasset
+[2018.07.10-05.46.51:742][ 65]BlueprintLog: New page: 编译bp_MyWeapon
+[2018.07.10-05.46.53:200][227]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Weapon/bp_MyWeapon" FILE="E:/ue4/DGame/Content/Blueprints/Weapon/bp_MyWeapon.uasset" SILENT=true
+[2018.07.10-05.46.53:212][227]LogSavePackage: Save=2.77ms
+[2018.07.10-05.46.53:212][227]LogSavePackage: Moving 'E:/ue4/DGame/Saved/bp_MyWeapon793FA8274621A26CD1DA19A43C993ECB.tmp' to 'E:/ue4/DGame/Content/Blueprints/Weapon/bp_MyWeapon.uasset'
+[2018.07.10-05.46.53:214][227]LogSavePackage: Display: Finished SavePackage E:/ue4/DGame/Content/Blueprints/Weapon/bp_MyWeapon.uasset
+[2018.07.10-05.47.11:299][793]LogHotReload: New module detected: UE4Editor-DGame-4236.dll
+[2018.07.10-05.47.12:658][798]LogHotReload: Starting Hot-Reload from IDE
+[2018.07.10-05.47.12:727][798]LogClass: EControllerState HotReload.
+[2018.07.10-05.47.12:731][798]LogContentBrowser: Native class hierarchy updated for 'DGame' in 0.0004 seconds. Added 6 classes and 2 folders.
+[2018.07.10-05.47.12:734][798]Display: HotReload successful (11 functions remapped  0 scriptstructs remapped)
+[2018.07.10-05.47.12:992][798]LogContentBrowser: Native class hierarchy populated in 0.0077 seconds. Added 2458 classes and 560 folders.
+[2018.07.10-05.47.12:995][798]Display: HotReload took  0.3s.
+[2018.07.10-05.47.14:391][963]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.10-05.47.21:829][846]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Weapon/bp_MyWeapon" FILE="E:/ue4/DGame/Content/Blueprints/Weapon/bp_MyWeapon.uasset" SILENT=true
+[2018.07.10-05.47.21:841][846]LogSavePackage: Save=3.12ms
+[2018.07.10-05.47.21:841][846]LogSavePackage: Moving 'E:/ue4/DGame/Saved/bp_MyWeaponE3AA0A40441A79113F599E9BED4342F7.tmp' to 'E:/ue4/DGame/Content/Blueprints/Weapon/bp_MyWeapon.uasset'
+[2018.07.10-05.47.21:843][846]LogSavePackage: Display: Finished SavePackage E:/ue4/DGame/Content/Blueprints/Weapon/bp_MyWeapon.uasset
+[2018.07.10-05.47.24:397][152]LogTemp: Repeating last play command: 新建编辑器窗口（在编辑器中运行）
+[2018.07.10-05.47.24:421][152]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/maps_start.maps_start:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/maps_start.maps_start:PersistentLevel.maps_start' with GeneratedClass '/Game/Maps/maps_start.maps_start_C' with ClassGeneratedBy '/Game/Maps/maps_start.maps_start:PersistentLevel.maps_start'
+[2018.07.10-05.47.24:422][152]BlueprintLog: New page: 运行前自动重新编译
+[2018.07.10-05.47.24:422][152]LogPlayLevel: [PlayLevel] Compiling bp_MyWeapon before play...
+[2018.07.10-05.47.24:461][152]LogPlayLevel: PlayLevel: Blueprint regeneration took 39 ms (1 blueprints)
+[2018.07.10-05.47.24:464][152]PIE: New page: PIE会话: maps_start (2018年7月10日 下午9:47:24)
+[2018.07.10-05.47.24:465][152]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_maps_start
+[2018.07.10-05.47.24:488][152]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022859s)
+[2018.07.10-05.47.24:489][152]LogAIModule: Creating AISystem for world maps_start
+[2018.07.10-05.47.24:489][152]LogPlayLevel: PIE: World Init took: (0.000947s)
+[2018.07.10-05.47.24:489][152]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/maps_start.maps_start to /Game/Maps/UEDPIE_0_maps_start.maps_start (0.024280s)
+[2018.07.10-05.47.24:519][152]LogInit: XAudio2 using '扬声器 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.07.10-05.47.24:532][152]LogInit: FAudioDevice initialized.
+[2018.07.10-05.47.24:592][152]LogLoad: Game class is 'DGameGameModeBase'
+[2018.07.10-05.47.24:600][152]LogWorld: Bringing World /Game/Maps/UEDPIE_0_maps_start.maps_start up for play (max tick rate 0) at 2018.07.10-13.47.24
+[2018.07.10-05.47.24:608][152]LogWorld: Bringing up level for play took: 0.010503
+[2018.07.10-05.47.24:632][152]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 11 classes and 0 folders.
+[2018.07.10-05.47.24:695][152]PIE: /Game/Maps/UEDPIE_0_maps_start的‘在编辑器中播放’的起始时间0.097
+[2018.07.10-05.47.24:695][152]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/maps_start.maps_start:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/maps_start.maps_start:PersistentLevel.maps_start' with GeneratedClass '/Game/Maps/maps_start.maps_start_C' with ClassGeneratedBy '/Game/Maps/maps_start.maps_start:PersistentLevel.maps_start'
+[2018.07.10-05.47.24:726][152]LogRenderer: Reallocating scene render targets to support 1292x1084 Format 10 NumSamples 1 (Frame:1).
+[2018.07.10-05.47.27:832][518]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/maps_start.maps_start:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/maps_start.maps_start:PersistentLevel.maps_start' with GeneratedClass '/Game/Maps/maps_start.maps_start_C' with ClassGeneratedBy '/Game/Maps/maps_start.maps_start:PersistentLevel.maps_start'
+[2018.07.10-05.47.27:844][518]LogSlate: Window 'DGame 游戏预览 Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.07.10-05.47.27:878][518]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/maps_start.maps_start:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/maps_start.maps_start:PersistentLevel.maps_start' with GeneratedClass '/Game/Maps/maps_start.maps_start_C' with ClassGeneratedBy '/Game/Maps/maps_start.maps_start:PersistentLevel.maps_start'
+[2018.07.10-05.49.24:343][558]LogHotReload: New module detected: UE4Editor-DGame-2904.dll
+[2018.07.10-05.49.25:355][562]LogHotReload: Starting Hot-Reload from IDE
+[2018.07.10-05.49.25:416][562]LogClass: EControllerState HotReload.
+[2018.07.10-05.49.25:420][562]LogContentBrowser: Native class hierarchy updated for 'DGame' in 0.0005 seconds. Added 6 classes and 2 folders.
+[2018.07.10-05.49.25:423][562]Display: HotReload successful (11 functions remapped  0 scriptstructs remapped)
+[2018.07.10-05.49.25:704][562]LogContentBrowser: Native class hierarchy populated in 0.0115 seconds. Added 2458 classes and 560 folders.
+[2018.07.10-05.49.25:707][562]Display: HotReload took  0.4s.
+[2018.07.10-05.49.27:053][567]LogHttp: Warning: 000001E7BD21F580: HTTP request timed out after 180.00 seconds URL=https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B95AA3F55-4A95-C499-50D4-1B8BD3FD7134%7D&AppID=UEEditor.UnrealEngine.Release&AppVersion=4.19.2-0%2B%2B%2BUE4%2BRelease-4.19&UserID=5a18308d4dbc22491a6528b3ceec25b2%7C321d150c1ad4465ea32ff383fcd85ca6%7Cb9abf892-6297-4ebe-a44c-32437dec0ee3&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2018.07.10-05.49.27:053][567]LogHttp: Warning: 000001E7BD21F580: request failed, libcurl error: 0 (No error)
+[2018.07.10-05.49.27:053][567]LogHttp: Warning: 000001E7BD21F580: libcurl info message cache 0 (  Trying 34.207.38.109...)
+[2018.07.10-05.49.27:053][567]LogHttp: Warning: 000001E7BD21F580: libcurl info message cache 1 (connect to 34.207.38.109 port 443 failed: Timed out)
+[2018.07.10-05.49.27:053][567]LogHttp: Warning: 000001E7BD21F580: libcurl info message cache 2 (  Trying 34.207.10.243...)
+[2018.07.10-05.49.27:053][567]LogHttp: Warning: 000001E7BD21F580: libcurl info message cache 3 (connect to 34.207.10.243 port 443 failed: Timed out)
+[2018.07.10-05.49.27:053][567]LogHttp: Warning: 000001E7BD21F580: libcurl info message cache 4 (  Trying 34.206.255.118...)
+[2018.07.10-05.49.27:053][567]LogHttp: Warning: 000001E7BD21F580: libcurl info message cache 5 (connect to 34.206.255.118 port 443 failed: Timed out)
+[2018.07.10-05.49.27:053][567]LogHttp: Warning: 000001E7BD21F580: libcurl info message cache 6 (  Trying 34.206.232.16...)
+[2018.07.10-05.49.27:053][567]LogHttp: Warning: 000001E7BD21F580: libcurl info message cache 7 (connect to 34.206.232.16 port 443 failed: Timed out)
+[2018.07.10-05.49.27:053][567]LogHttp: Warning: 000001E7BD21F580: libcurl info message cache 8 (  Trying 34.224.106.243...)
+[2018.07.10-05.49.27:053][567]LogHttp: Warning: 000001E7BD21F580: libcurl info message cache 9 (connect to 34.224.106.243 port 443 failed: Timed out)
+[2018.07.10-05.49.27:053][567]LogHttp: Warning: 000001E7BD21F580: libcurl info message cache 10 (  Trying 34.228.126.143...)
+[2018.07.10-05.49.27:053][567]LogHttp: Warning: 000001E7BD21F580: libcurl info message cache 11 (connect to 34.228.126.143 port 443 failed: Timed out)
+[2018.07.10-05.49.27:053][567]LogHttp: Warning: 000001E7BD21F580: libcurl info message cache 12 (  Trying 34.231.0.173...)
+[2018.07.10-05.49.27:053][567]LogHttp: Warning: 000001E7BD21F580: libcurl info message cache 13 (connect to 34.231.0.173 port 443 failed: Timed out)
+[2018.07.10-05.49.27:053][567]LogHttp: Warning: 000001E7BD21F580: libcurl info message cache 14 (  Trying 34.225.34.243...)
+[2018.07.10-05.49.27:053][567]LogHttp: Warning: 000001E7BD21F580: libcurl info message cache 15 (connect to 34.225.34.243 port 443 failed: Timed out)
+[2018.07.10-05.49.27:053][567]LogHttp: Warning: 000001E7BD21F580: libcurl info message cache 16 (  Trying 34.207.38.109...)
+[2018.07.10-05.49.27:053][567]LogHttp: Warning: 000001E7BD21F580: libcurl info message cache 17 (Closing connection 15)
+[2018.07.10-05.49.29:803][765]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.10-05.49.32:568][ 90]BlueprintLog: New page: 编译bp_MyCharacter
+[2018.07.10-05.49.34:810][254]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/maps_start" FILE="E:/ue4/DGame/Content/Maps/maps_start.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.07.10-05.49.34:975][254]LogSavePackage: Save=129.78ms
+[2018.07.10-05.49.34:975][254]LogSavePackage: Moving 'E:/ue4/DGame/Saved/maps_start63A7C77D4BA7E09DDE31C4A3B8CB30EB.tmp' to 'E:/ue4/DGame/Content/Maps/maps_start.umap'
+[2018.07.10-05.49.34:977][254]LogSavePackage: Display: Finished SavePackage E:/ue4/DGame/Content/Maps/maps_start.umap
+[2018.07.10-05.49.34:992][254]LogFileHelpers: Saving map 'maps_start' took 0.232
+[2018.07.10-05.49.35:416][304]LogTemp: Repeating last play command: 新建编辑器窗口（在编辑器中运行）
+[2018.07.10-05.49.35:435][304]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/maps_start.maps_start:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/maps_start.maps_start:PersistentLevel.maps_start' with GeneratedClass '/Game/Maps/maps_start.maps_start_C' with ClassGeneratedBy '/Game/Maps/maps_start.maps_start:PersistentLevel.maps_start'
+[2018.07.10-05.49.35:435][304]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.07.10-05.49.35:435][304]PIE: New page: PIE会话: maps_start (2018年7月10日 下午9:49:35)
+[2018.07.10-05.49.35:435][304]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_maps_start
+[2018.07.10-05.49.35:458][304]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022727s)
+[2018.07.10-05.49.35:459][304]LogAIModule: Creating AISystem for world maps_start
+[2018.07.10-05.49.35:459][304]LogPlayLevel: PIE: World Init took: (0.000860s)
+[2018.07.10-05.49.35:459][304]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/maps_start.maps_start to /Game/Maps/UEDPIE_0_maps_start.maps_start (0.023692s)
+[2018.07.10-05.49.35:488][304]LogInit: XAudio2 using '扬声器 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.07.10-05.49.35:495][304]LogInit: FAudioDevice initialized.
+[2018.07.10-05.49.35:534][304]LogLoad: Game class is 'DGameGameModeBase'
+[2018.07.10-05.49.35:538][304]LogWorld: Bringing World /Game/Maps/UEDPIE_0_maps_start.maps_start up for play (max tick rate 0) at 2018.07.10-13.49.35
+[2018.07.10-05.49.35:539][304]LogWorld: Bringing up level for play took: 0.004020
+[2018.07.10-05.49.35:545][304]PIE: /Game/Maps/UEDPIE_0_maps_start的‘在编辑器中播放’的起始时间0.946
+[2018.07.10-05.49.35:545][304]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/maps_start.maps_start:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/maps_start.maps_start:PersistentLevel.maps_start' with GeneratedClass '/Game/Maps/maps_start.maps_start_C' with ClassGeneratedBy '/Game/Maps/maps_start.maps_start:PersistentLevel.maps_start'
+[2018.07.10-05.49.36:606][423]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.10-05.49.38:614][664]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.10-05.49.40:681][912]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.10-05.49.44:041][313]LogSlate: Window 'DGame 游戏预览 Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.07.10-05.49.44:045][313]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/maps_start.maps_start:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/maps_start.maps_start:PersistentLevel.maps_start' with GeneratedClass '/Game/Maps/maps_start.maps_start_C' with ClassGeneratedBy '/Game/Maps/maps_start.maps_start:PersistentLevel.maps_start'
+[2018.07.10-05.49.44:079][313]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/maps_start.maps_start:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/maps_start.maps_start:PersistentLevel.maps_start' with GeneratedClass '/Game/Maps/maps_start.maps_start_C' with ClassGeneratedBy '/Game/Maps/maps_start.maps_start:PersistentLevel.maps_start'
+[2018.07.10-05.49.56:354][760]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.07.10-05.50.03:512][601]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.10-05.50.03:587][610]BlueprintLog: New page: 编译bp_MyCharacter
+[2018.07.10-05.50.10:394][343]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/maps_start" FILE="E:/ue4/DGame/Content/Maps/maps_start.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.07.10-05.50.10:578][343]LogSavePackage: Save=149.45ms
+[2018.07.10-05.50.10:578][343]LogSavePackage: Moving 'E:/ue4/DGame/Saved/maps_start8854E6FC424AB06FBB3A4995C4165122.tmp' to 'E:/ue4/DGame/Content/Maps/maps_start.umap'
+[2018.07.10-05.50.10:580][343]LogSavePackage: Display: Finished SavePackage E:/ue4/DGame/Content/Maps/maps_start.umap
+[2018.07.10-05.50.10:595][343]LogFileHelpers: Saving map 'maps_start' took 0.252
+[2018.07.10-05.50.10:624][343]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Character/bp_MyCharacter" FILE="E:/ue4/DGame/Content/Blueprints/Character/bp_MyCharacter.uasset" SILENT=true
+[2018.07.10-05.50.10:648][343]LogSavePackage: Save=14.27ms
+[2018.07.10-05.50.10:649][343]LogSavePackage: Moving 'E:/ue4/DGame/Saved/bp_MyCharacterA253A4614F5E6DFC032D99923820C11B.tmp' to 'E:/ue4/DGame/Content/Blueprints/Character/bp_MyCharacter.uasset'
+[2018.07.10-05.50.10:650][343]LogSavePackage: Display: Finished SavePackage E:/ue4/DGame/Content/Blueprints/Character/bp_MyCharacter.uasset
+[2018.07.10-05.50.52:190][559]LogHttp: Warning: 000001E783BA5C00: HTTP request timed out after 180.00 seconds URL=https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B95AA3F55-4A95-C499-50D4-1B8BD3FD7134%7D&AppID=UEEditor.UnrealEngine.Release&AppVersion=4.19.2-0%2B%2B%2BUE4%2BRelease-4.19&UserID=5a18308d4dbc22491a6528b3ceec25b2%7C321d150c1ad4465ea32ff383fcd85ca6%7Cb9abf892-6297-4ebe-a44c-32437dec0ee3&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2018.07.10-05.50.52:190][559]LogHttp: Warning: 000001E783BA5C00: request failed, libcurl error: 0 (No error)
+[2018.07.10-05.50.52:190][559]LogHttp: Warning: 000001E783BA5C00: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x1e781f77fe8 [serially])
+[2018.07.10-05.50.52:190][559]LogHttp: Warning: 000001E783BA5C00: libcurl info message cache 1 (Hostname in DNS cache was stale, zapped)
+[2018.07.10-05.50.52:190][559]LogHttp: Warning: 000001E783BA5C00: libcurl info message cache 2 (  Trying 52.204.64.15...)
+[2018.07.10-05.50.52:190][559]LogHttp: Warning: 000001E783BA5C00: libcurl info message cache 3 (connect to 52.204.64.15 port 443 failed: Timed out)
+[2018.07.10-05.50.52:190][559]LogHttp: Warning: 000001E783BA5C00: libcurl info message cache 4 (  Trying 52.204.40.189...)
+[2018.07.10-05.50.52:190][559]LogHttp: Warning: 000001E783BA5C00: libcurl info message cache 5 (connect to 52.204.40.189 port 443 failed: Timed out)
+[2018.07.10-05.50.52:190][559]LogHttp: Warning: 000001E783BA5C00: libcurl info message cache 6 (  Trying 52.205.79.197...)
+[2018.07.10-05.50.52:190][559]LogHttp: Warning: 000001E783BA5C00: libcurl info message cache 7 (connect to 52.205.79.197 port 443 failed: Timed out)
+[2018.07.10-05.50.52:190][559]LogHttp: Warning: 000001E783BA5C00: libcurl info message cache 8 (  Trying 52.205.159.66...)
+[2018.07.10-05.50.52:190][559]LogHttp: Warning: 000001E783BA5C00: libcurl info message cache 9 (connect to 52.205.159.66 port 443 failed: Timed out)
+[2018.07.10-05.50.52:190][559]LogHttp: Warning: 000001E783BA5C00: libcurl info message cache 10 (  Trying 52.205.232.82...)
+[2018.07.10-05.50.52:190][559]LogHttp: Warning: 000001E783BA5C00: libcurl info message cache 11 (connect to 52.205.232.82 port 443 failed: Timed out)
+[2018.07.10-05.50.52:190][559]LogHttp: Warning: 000001E783BA5C00: libcurl info message cache 12 (  Trying 52.204.246.26...)
+[2018.07.10-05.50.52:190][559]LogHttp: Warning: 000001E783BA5C00: libcurl info message cache 13 (connect to 52.204.246.26 port 443 failed: Timed out)
+[2018.07.10-05.50.52:190][559]LogHttp: Warning: 000001E783BA5C00: libcurl info message cache 14 (  Trying 52.205.158.236...)
+[2018.07.10-05.50.52:190][559]LogHttp: Warning: 000001E783BA5C00: libcurl info message cache 15 (connect to 52.205.158.236 port 443 failed: Timed out)
+[2018.07.10-05.50.52:190][559]LogHttp: Warning: 000001E783BA5C00: libcurl info message cache 16 (  Trying 52.205.225.225...)
+[2018.07.10-05.50.52:190][559]LogHttp: Warning: 000001E783BA5C00: libcurl info message cache 17 (connect to 52.205.225.225 port 443 failed: Timed out)
+[2018.07.10-05.50.52:191][559]LogHttp: Warning: 000001E783BA5C00: libcurl info message cache 18 (  Trying 52.204.64.15...)
+[2018.07.10-05.50.52:191][559]LogHttp: Warning: 000001E783BA5C00: libcurl info message cache 19 (Closing connection 16)
+[2018.07.10-05.51.16:186][630]LogHotReload: New module detected: UE4Editor-DGame-6431.dll
+[2018.07.10-05.51.17:198][634]LogHotReload: Starting Hot-Reload from IDE
+[2018.07.10-05.51.17:253][634]LogClass: EControllerState HotReload.
+[2018.07.10-05.51.17:255][634]LogWindows: Windows GetLastError: 操作成功完成。 (0)

@@ -5,17 +5,19 @@
 #include "Runtime/Engine/Classes/Components/DecalComponent.h"
 #include "Engine/World.h"
 #include "Engine.h"
+#include "Kismet/KismetMathLibrary.h"
 
 AMyPlayerController::AMyPlayerController() {
 	// 初始化鼠标
 	bShowMouseCursor = true;							// 显示鼠标图标
 	//DefaultMouseCursor = EMouseCursor::Crosshairs;	// 设置图标样式
 
-	// 初始化跑步
-	b_run = false;
-
 	// 初始化技能状态
 	b_attack_q = false;
+	b_attack_w = false;
+	b_attack_e = false;
+	b_attack_r = false;
+
 
 	// 初始化视角移动相关参数
 	b_can_rotate = false;
@@ -31,7 +33,7 @@ AMyPlayerController::AMyPlayerController() {
 void AMyPlayerController::BeginPlay() {
 	Super::BeginPlay();
 	// 初始化旋转视角
-	SetControlRotation(FRotator(-60.0f, 0.0f, 0.0f));
+	SetControlRotation(FRotator(-45.0f, 0.0f, 0.0f));
 
 	// 初始化控制模式
 	controller_state = EControllerState::E_FREE;
@@ -55,10 +57,6 @@ void AMyPlayerController::SetupInputComponent() {
 	// 鼠标点击移动事件
 	InputComponent->BindAction("SetDestination", IE_Pressed, this, &AMyPlayerController::on_set_destination_pressed);
 	InputComponent->BindAction("SetDestination", IE_Released, this, &AMyPlayerController::on_set_destination_released);
-	// 支持触屏
-	InputComponent->BindAction("ResetVR", IE_Pressed, this, &AMyPlayerController::on_reset_VR);
-	InputComponent->BindTouch(EInputEvent::IE_Pressed, this, &AMyPlayerController::move_to_touch_location);
-	InputComponent->BindTouch(EInputEvent::IE_Repeat, this, &AMyPlayerController::move_to_touch_location);
 
 	// wasd移动事件
 	InputComponent->BindAxis("MoveForward", this, &AMyPlayerController::on_move_forward);
@@ -69,6 +67,13 @@ void AMyPlayerController::SetupInputComponent() {
 	// 技能释放事件
 	InputComponent->BindAction("Attack_Q", IE_Pressed, this, &AMyPlayerController::on_attack_q_pressed);
 	InputComponent->BindAction("Attack_Q", IE_Released, this, &AMyPlayerController::on_attack_q_released);
+	InputComponent->BindAction("Attack_W", IE_Pressed, this, &AMyPlayerController::on_attack_w_pressed);
+	InputComponent->BindAction("Attack_W", IE_Released, this, &AMyPlayerController::on_attack_w_released);
+	InputComponent->BindAction("Attack_E", IE_Pressed, this, &AMyPlayerController::on_attack_e_pressed);
+	InputComponent->BindAction("Attack_E", IE_Released, this, &AMyPlayerController::on_attack_e_released);
+	InputComponent->BindAction("Attack_R", IE_Pressed, this, &AMyPlayerController::on_attack_r_pressed);
+	InputComponent->BindAction("Attack_R", IE_Released, this, &AMyPlayerController::on_attack_r_released);
+	
 
 	// 视角移动事件
 	InputComponent->BindAction("CanRotate", IE_Pressed, this, &AMyPlayerController::on_can_rotate_pressed);
@@ -78,19 +83,16 @@ void AMyPlayerController::SetupInputComponent() {
 
 	// 视角缩放事件
 	InputComponent->BindAxis("Scale", this, &AMyPlayerController::on_scale);
+	
+	// 动作模式下呼出鼠标
+	InputComponent->BindAction("Call_Mouse", IE_Pressed, this, &AMyPlayerController::on_call_mouse_pressed);
+	InputComponent->BindAction("Call_Mouse", IE_Released, this, &AMyPlayerController::on_call_mouse_released);
 }
 
 void AMyPlayerController::move_to_cursor() {
-	if(UHeadMountedDisplayFunctionLibrary::IsHeadMountedDisplayEnabled()) {
-		if(AMyCharacter* my_pawn = Cast<AMyCharacter>(GetPawn())) {
-			if(my_pawn->get_cursor_world()) UNavigationSystem::SimpleMoveToLocation(this, my_pawn->get_cursor_world()->GetComponentLocation());
-		}
-	}
-	else {
-		FHitResult Hit;
-		GetHitResultUnderCursor(ECC_Visibility, false, Hit);
-		if(Hit.bBlockingHit) set_new_move_destination(Hit.ImpactPoint);
-	}
+	FHitResult Hit;
+	GetHitResultUnderCursor(ECC_Visibility, false, Hit);
+	if(Hit.bBlockingHit) set_new_move_destination(Hit.ImpactPoint);
 }
 void AMyPlayerController::set_new_move_destination(const FVector DestLocation) {
 	APawn* const my_pawn = GetPawn();
@@ -103,22 +105,40 @@ void AMyPlayerController::set_new_move_destination(const FVector DestLocation) {
 
 // 事件相关
 void AMyPlayerController::on_set_destination_pressed() {
+	if(controller_state == EControllerState::E_ACT) {
+		b_attack_r = true;
+		b_can_rotate = true;
+		return; 
+	}
+	if(controller_state == EControllerState::E_THREED) {
+		b_can_rotate = true;
+		return;
+	}
+	if(b_can_rotate) return;
+	bShowMouseCursor = true;
 	b_move_to_cursor = true;
-	AMyCharacter* my_pawn = (AMyCharacter*) GetPawn();		// Danger
+	AMyCharacter* my_pawn = Cast<AMyCharacter>(GetPawn());		// Danger
 	my_pawn->cursor_show(true);
+	FInputModeGameAndUI input;
+	input.SetHideCursorDuringCapture(false);
+	SetInputMode(input);
+
 }
 void AMyPlayerController::on_set_destination_released() {
+	if(controller_state == EControllerState::E_ACT) {
+		b_attack_r = false;
+		b_can_rotate = true;
+		return;
+	}
+	if(controller_state == EControllerState::E_THREED) {
+		b_can_rotate = false;
+		return;
+	}
+	if(b_can_rotate) return;
+	bShowMouseCursor = true;
 	b_move_to_cursor = false;
-	AMyCharacter* my_pawn = (AMyCharacter*) GetPawn();		// Danger
+	AMyCharacter* my_pawn = Cast<AMyCharacter>(GetPawn());		// Danger
 	my_pawn->cursor_show(false);
-}
-void AMyPlayerController::on_reset_VR() { UHeadMountedDisplayFunctionLibrary::ResetOrientationAndPosition(); }
-void AMyPlayerController::move_to_touch_location(const ETouchIndex::Type FingerIndex, const FVector Location) {
-	FVector2D ScreenSpaceLocation(Location);
-
-	FHitResult HitResult;
-	GetHitResultAtScreenPosition(ScreenSpaceLocation, CurrentClickTraceChannel, true, HitResult);
-	if(HitResult.bBlockingHit) set_new_move_destination(HitResult.ImpactPoint);
 }
 
 void AMyPlayerController::on_move_forward(float value) {
@@ -132,6 +152,7 @@ void AMyPlayerController::on_move_forward(float value) {
 		// 在前向量方向前进
 		APawn* const my_pawn = GetPawn();
 		if(my_pawn) my_pawn->AddMovementInput(direction, value);
+		StopMovement();
 	}
 }
 void AMyPlayerController::on_move_right(float value) {
@@ -145,27 +166,47 @@ void AMyPlayerController::on_move_right(float value) {
 		// 在右向量方向前进
 		APawn* my_pawn = GetPawn();
 		if(my_pawn) my_pawn->AddMovementInput(direction, value);
+		StopMovement();
 	}
 }
 // run事件
-void AMyPlayerController::on_run_start() { b_run = true; }
-void AMyPlayerController::on_run_stop() { b_run = false; }
+void AMyPlayerController::on_run_start() {
+	AMyCharacter* my_pawn = Cast<AMyCharacter>(GetPawn());		// Danger
+	if(!my_pawn) return;
+	my_pawn->GetCharacterMovement()->MaxWalkSpeed = 800.f;
+}
+void AMyPlayerController::on_run_stop() {
+	AMyCharacter* my_pawn = Cast<AMyCharacter>(GetPawn());		// Danger
+	if(!my_pawn) return;
+	my_pawn->GetCharacterMovement()->MaxWalkSpeed = 600.f;
+}
+
 // 攻击事件
 void AMyPlayerController::on_attack_q_pressed() { b_attack_q = true; }
 void AMyPlayerController::on_attack_q_released() { b_attack_q = false; }
+void AMyPlayerController::on_attack_w_pressed() { b_attack_w = true; }
+void AMyPlayerController::on_attack_w_released() { b_attack_w = false; }
+void AMyPlayerController::on_attack_e_pressed() { b_attack_e = true; }
+void AMyPlayerController::on_attack_e_released() { b_attack_e = false; }
+void AMyPlayerController::on_attack_r_pressed() { b_attack_r = true; }
+void AMyPlayerController::on_attack_r_released() { b_attack_r = false; }
+
 
 // 视角移动事件
 void AMyPlayerController::on_can_rotate_pressed() {
+	if(controller_state == EControllerState::E_ACT) { return; }
+	if(controller_state == EControllerState::E_SOLID) { return; }
 	b_can_rotate = true;
-	//bShowMouseCursor = false;
+	bShowMouseCursor = false;
 	FInputModeGameOnly input;
 	SetInputMode(input);
 }
 void AMyPlayerController::on_can_rotate_released() {
+	if(controller_state == EControllerState::E_ACT) { return; }
+	if(controller_state == EControllerState::E_SOLID) { return; }
 	b_can_rotate = false;
-	//bShowMouseCursor = true;
+	bShowMouseCursor = true;
 	FInputModeGameAndUI input;
-	input.SetHideCursorDuringCapture(true);
 	SetInputMode(input);
 }
 void AMyPlayerController::on_turn_rate(float value) {
@@ -186,23 +227,55 @@ void AMyPlayerController::on_scale(float value) {
 	my_pawn->get_camera_boom()->TargetArmLength = FMath::Clamp(my_pawn->get_camera_boom()->TargetArmLength, scale_min, scale_max);
 }
 
+// 动作模式下呼出鼠标
+void AMyPlayerController::on_call_mouse_pressed() {
+	if(controller_state != EControllerState::E_ACT) return;
+	static bool flag = false;
+	bShowMouseCursor = flag;
+	if(flag) {
+		b_can_rotate = false;
+		bShowMouseCursor = true;
+		FInputModeGameAndUI input;
+		input.SetLockMouseToViewportBehavior(EMouseLockMode::DoNotLock);
+		SetInputMode(input);
+	} 
+	else {
+		b_can_rotate = true;
+		bShowMouseCursor = false;
+		FInputModeGameOnly input;
+		SetInputMode(input);
+	}
+	flag = !flag;
+}
+void AMyPlayerController::on_call_mouse_released() {
+	if(controller_state != EControllerState::E_ACT) return;
+	//bShowMouseCursor = false;
+}
+
 // 更新控制状态 -- 根据当前状态
 void AMyPlayerController::update_controller_state() {
 	APawn * my_pawn = GetPawn();
+	if(!my_pawn) return;
 	switch(controller_state) {
 		case EControllerState::E_FREE:
-			if(my_pawn) {
 				my_pawn->bUseControllerRotationYaw = false;
-			}
 			break;
 		case EControllerState::E_SOLID:
+				SetControlRotation(FRotator(-45.0f, 0.0f, 0.0f));
+				my_pawn->bUseControllerRotationYaw = false;
 			break;
 		case EControllerState::E_THREED:
-			if(my_pawn) {
 				my_pawn->bUseControllerRotationYaw = true;
-			}
 			break;
 		case EControllerState::E_ACT:
+				b_can_rotate = true;
+				bShowMouseCursor = false;
+				FInputModeGameOnly input;
+				SetInputMode(input);
+
+				my_pawn->bUseControllerRotationYaw = true;
+				fight_state = true;
+				update_fight_state();
 			break;
 	}
 }

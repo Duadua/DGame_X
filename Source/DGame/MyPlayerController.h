@@ -19,11 +19,15 @@ class DGAME_API AMyPlayerController : public APlayerController {
 public:
 	AMyPlayerController();
 
-	UFUNCTION(BlueprintCallable, Category = "Run")
-	bool get_b_run() { return b_run; }
-
-	UFUNCTION(BlueprintCallable, Category = "Fight")
-	bool get_b_attack_q() { return b_attack_q; }
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Fight")
+	uint32 b_attack_q        : 1; // 是否释放q技能 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Fight")
+	uint32 b_attack_w        : 1; // 是否释放w技能 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Fight")
+	uint32 b_attack_e        : 1; // 是否释放e技能 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Fight")
+	uint32 b_attack_r        : 1; // 是否释放r技能 
+	
 
 	// 控制状态变量
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Controller)
@@ -44,14 +48,11 @@ protected:
 	virtual void PlayerTick(float DeltaTime) override;	// 玩家每帧更新的事件   
 	virtual void SetupInputComponent()       override;	// 设置输入组件      
 
-	void move_to_cursor();                                                                    
-	void move_to_touch_location(const ETouchIndex::Type FingerIndex, const FVector Location); 
-	void set_new_move_destination(const FVector DestLocation);                                
-
 	// 鼠标点击移动事件
-	void on_reset_VR();
 	void on_set_destination_pressed();
 	void on_set_destination_released();
+	void move_to_cursor();                                                                    
+	void set_new_move_destination(const FVector DestLocation);                                
 
 	// wasd移动事件
 	void on_move_forward(float value);
@@ -62,6 +63,13 @@ protected:
 	// 攻击事件
 	void on_attack_q_pressed();
 	void on_attack_q_released();
+	void on_attack_w_pressed();
+	void on_attack_w_released();
+	void on_attack_e_pressed();
+	void on_attack_e_released();
+	void on_attack_r_pressed();
+	void on_attack_r_released();
+	
 
 	// 视角移动事件
 	void on_can_rotate_pressed();     
@@ -72,13 +80,14 @@ protected:
 	// 视角缩放事件
 	void on_scale(float value);
 
+	// 动作模式下呼出鼠标
+	void on_call_mouse_pressed();
+	void on_call_mouse_released();
+
 private:
 
 	uint32 b_move_to_cursor : 1;				// 人物移动到鼠标标记
 
-	uint32 b_run : 1;							// 是否跑步
-
-	uint32 b_attack_q : 1;						// 是否释放q技能
 
 	// 视角移动相关
 	uint32 b_can_rotate : 1;					// 是否可以移动视角

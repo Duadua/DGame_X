@@ -4,7 +4,7 @@ public class DGame : ModuleRules {
 	public DGame(ReadOnlyTargetRules Target) : base(Target) {
 		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 	
-		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore", "UMG", "HeadMountedDisplay", /*"SQLiteSupport"*/ });
+		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore", "UMG", "HeadMountedDisplay"/*, "SQLiteSupport"*/ });
 
 		//PrivateDependencyModuleNames.AddRange(new string[] { "SQLiteSupport" });
 
