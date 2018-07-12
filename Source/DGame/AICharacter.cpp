@@ -98,8 +98,8 @@ void AAICharacter::change_shield_place(FName name) {
 
 // ÊÜÉË¼ÆËã
 void AAICharacter::DoDamage_Implementation(float delta) {
-	GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, FString("do damage"));
 	health -= delta;
-	GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, FString::SanitizeFloat(health));
-	if(health <= 0.f) { Destroy(); }
+	//GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, FString("do damage"));
+	//GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, FString::SanitizeFloat(health));
+	if(health <= 0.f) { b_death_start = true; }
 }

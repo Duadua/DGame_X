@@ -1,15 +1,15 @@
-#pragma once
+ï»¿#pragma once
 #include "CoreMinimal.h"
 #include "GameFramework/PlayerController.h"
 #include "MyPlayerController.generated.h"
 
-// ¿ØÖÆÄ£Ê½
+// æ§åˆ¶æ¨¡å¼
 UENUM(BlueprintType)
-enum class EControllerState :uint8 {				// ÉèÖÃuint8ÀàĞÍ
-	E_FREE   UMETA(DisplayName = "×ÔÔÚÊÓ½Ç"),		//ÏëÒªÏÔÊ¾ÖĞÎÄ ĞèÒª½«±àÂë¸ñÊ½ÉèÖÃÎªutf-8    
-	E_SOLID  UMETA(DisplayName = "¹Ì¶¨ÊÓ½Ç"),		//DisPlayName±íÊ¾ÏÔÊ¾µÄÃû³Æ£¬ÔÚÀ¶Í¼ÖĞ¿É¼û 
-	E_THREED UMETA(DisplayName = "3DÄ£Ê½"),			//DisPlayName±íÊ¾ÏÔÊ¾µÄÃû³Æ£¬ÔÚÀ¶Í¼ÖĞ¿É¼û 
-	E_ACT    UMETA(DisplayName = "¶¯×÷Ä£Ê½"),		//DisPlayName±íÊ¾ÏÔÊ¾µÄÃû³Æ£¬ÔÚÀ¶Í¼ÖĞ¿É¼û 
+enum class EControllerState :uint8 {				// è®¾ç½®uint8ç±»å‹
+	E_FREE   UMETA(DisplayName = "è‡ªåœ¨è§†è§’"),		//æƒ³è¦æ˜¾ç¤ºä¸­æ–‡ éœ€è¦å°†ç¼–ç æ ¼å¼è®¾ç½®ä¸ºutf-8    
+	E_SOLID  UMETA(DisplayName = "å›ºå®šè§†è§’"),		//DisPlayNameè¡¨ç¤ºæ˜¾ç¤ºçš„åç§°ï¼Œåœ¨è“å›¾ä¸­å¯è§ 
+	E_THREED UMETA(DisplayName = "3Dæ¨¡å¼"),			//DisPlayNameè¡¨ç¤ºæ˜¾ç¤ºçš„åç§°ï¼Œåœ¨è“å›¾ä¸­å¯è§ 
+	E_ACT    UMETA(DisplayName = "åŠ¨ä½œæ¨¡å¼"),		//DisPlayNameè¡¨ç¤ºæ˜¾ç¤ºçš„åç§°ï¼Œåœ¨è“å›¾ä¸­å¯è§ 
 };
 
 UCLASS()
@@ -19,55 +19,56 @@ class DGAME_API AMyPlayerController : public APlayerController {
 public:
 	AMyPlayerController();
 
-	// ³õÊ¼»¯
+	// åˆå§‹åŒ–
 	UFUNCTION(BlueprintCallable)
 	void init();
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Fight", meta = (AllowPrivateAccess = "true"))
-	uint32 b_attack_q        : 1; // ÊÇ·ñÊÍ·Åq¼¼ÄÜ 
+	uint32 b_attack_q        : 1; // æ˜¯å¦é‡Šæ”¾qæŠ€èƒ½ 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Fight", meta = (AllowPrivateAccess = "true"))
-	uint32 b_attack_w        : 1; // ÊÇ·ñÊÍ·Åw¼¼ÄÜ 
+	uint32 b_attack_w        : 1; // æ˜¯å¦é‡Šæ”¾wæŠ€èƒ½ 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Fight", meta = (AllowPrivateAccess = "true"))
-	uint32 b_attack_e        : 1; // ÊÇ·ñÊÍ·Åe¼¼ÄÜ 
+	uint32 b_attack_e        : 1; // æ˜¯å¦é‡Šæ”¾eæŠ€èƒ½ 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Fight", meta = (AllowPrivateAccess = "true"))
-	uint32 b_attack_r        : 1; // ÊÇ·ñÊÍ·År¼¼ÄÜ 
+	uint32 b_attack_r        : 1; // æ˜¯å¦é‡Šæ”¾ræŠ€èƒ½ 
 
 	UFUNCTION(BlueprintCallable)
-	bool get_b_attack();			// ÊÇ·ñ´¦ÓÚ¹¥»÷×´Ì¬
+	bool get_b_attack();			// æ˜¯å¦å¤„äºæ”»å‡»çŠ¶æ€
 
 
-	// ¿ØÖÆ×´Ì¬±äÁ¿
+	// æ§åˆ¶çŠ¶æ€å˜é‡
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Controller, meta = (AllowPrivateAccess = "true"))
 	EControllerState controller_state;
-	// ¸üĞÂ¿ØÖÆ×´Ì¬ -- ¸ù¾İµ±Ç°×´Ì¬
+	// æ›´æ–°æ§åˆ¶çŠ¶æ€ -- æ ¹æ®å½“å‰çŠ¶æ€
+	UFUNCTION(BlueprintCallable)
 	void update_controller_state();
 
-	// Õ½¶·×´Ì¬±äÁ¿
+	// æˆ˜æ–—çŠ¶æ€å˜é‡
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Fight", meta = (AllowPrivateAccess = "true"))
 	uint32 fight_state : 1;
-	// ¸üĞÂÕ½¶·×´Ì¬ -- ¸ù¾İµ±Ç°×´Ì¬
+	// æ›´æ–°æˆ˜æ–—çŠ¶æ€ -- æ ¹æ®å½“å‰çŠ¶æ€
 	UFUNCTION(BlueprintCallable)
 	void update_fight_state();
 
 
 protected:
-	virtual void BeginPlay()                 override;	// ÓÎÏ·¿ªÊ¼Ê±µÄ³õÊ¼»¯²Ù×÷ 
-	virtual void PlayerTick(float DeltaTime) override;	// Íæ¼ÒÃ¿Ö¡¸üĞÂµÄÊÂ¼ş   
-	virtual void SetupInputComponent()       override;	// ÉèÖÃÊäÈë×é¼ş      
+	virtual void BeginPlay()                 override;	// æ¸¸æˆå¼€å§‹æ—¶çš„åˆå§‹åŒ–æ“ä½œ 
+	virtual void PlayerTick(float DeltaTime) override;	// ç©å®¶æ¯å¸§æ›´æ–°çš„äº‹ä»¶   
+	virtual void SetupInputComponent()       override;	// è®¾ç½®è¾“å…¥ç»„ä»¶      
 
-	// Êó±êµã»÷ÒÆ¶¯ÊÂ¼ş
+	// é¼ æ ‡ç‚¹å‡»ç§»åŠ¨äº‹ä»¶
 	void on_set_destination_pressed();
 	void on_set_destination_released();
 	void move_to_cursor();                                                                    
 	void set_new_move_destination(const FVector DestLocation);                                
 
-	// wasdÒÆ¶¯ÊÂ¼ş
+	// wasdç§»åŠ¨äº‹ä»¶
 	void on_move_forward(float value);
 	void on_move_right(float value);
-	// runÊÂ¼ş
+	// runäº‹ä»¶
 	void on_run_start();
 	void on_run_stop();
-	// ¹¥»÷ÊÂ¼ş
+	// æ”»å‡»äº‹ä»¶
 	void on_attack_q_pressed();
 	void on_attack_q_released();
 	void on_attack_w_pressed();
@@ -78,30 +79,30 @@ protected:
 	void on_attack_r_released();
 	
 
-	// ÊÓ½ÇÒÆ¶¯ÊÂ¼ş
+	// è§†è§’ç§»åŠ¨äº‹ä»¶
 	void on_can_rotate_pressed();     
 	void on_can_rotate_released();    
 	void on_turn_rate(float value);   
 	void on_lookup_rate(float value); 
 
-	// ÊÓ½ÇËõ·ÅÊÂ¼ş
+	// è§†è§’ç¼©æ”¾äº‹ä»¶
 	void on_scale(float value);
 
-	// ¶¯×÷Ä£Ê½ÏÂºô³öÊó±ê
+	// åŠ¨ä½œæ¨¡å¼ä¸‹å‘¼å‡ºé¼ æ ‡
 	void on_call_mouse_pressed();
 	void on_call_mouse_released();
 
 private:
 
-	uint32 b_move_to_cursor : 1;				// ÈËÎïÒÆ¶¯µ½Êó±ê±ê¼Ç
+	uint32 b_move_to_cursor : 1;				// äººç‰©ç§»åŠ¨åˆ°é¼ æ ‡æ ‡è®°
 
 
-	// ÊÓ½ÇÒÆ¶¯Ïà¹Ø
-	uint32 b_can_rotate : 1;					// ÊÇ·ñ¿ÉÒÔÒÆ¶¯ÊÓ½Ç
-	// ÊÓ½ÇÒÆ¶¯ËÙ¶È
+	// è§†è§’ç§»åŠ¨ç›¸å…³
+	uint32 b_can_rotate : 1;					// æ˜¯å¦å¯ä»¥ç§»åŠ¨è§†è§’
+	// è§†è§’ç§»åŠ¨é€Ÿåº¦
 	float turn_rate;
 	float lookup_rate;
-	// ÊÓ½ÇËõ·ÅËÙ¶È
+	// è§†è§’ç¼©æ”¾é€Ÿåº¦
 	float scale_rate;
 	float scale_min;
 	float scale_max;

@@ -74,6 +74,7 @@ void ADGameGameModeBase::init_main() {
 void ADGameGameModeBase::on_welcome_start_clicked() {
 	show_widget(main_ui);
 	change_input_to_game_ui();
+	on_main_act_clicked();
 }
 
 // 主界面 模式切换按钮
@@ -120,6 +121,7 @@ void ADGameGameModeBase::on_main_act_clicked() {
 		con->update_controller_state();
 		main_ui->hide_mode_select();
 		main_ui->mode_text->SetText(FText::FromString(TEXT("动作模式")));
+		main_ui->fight_state_text->SetText(FText::FromString(TEXT("战")));
 	}
 }
 

@@ -63,8 +63,8 @@ void AMyPlayerController::init() {
 	update_controller_state();
 
 	// 初始化战斗状态
-	fight_state = false;
-	update_fight_state();
+	//fight_state = false;
+	//update_fight_state();
 
 	// 初始化旋转视角
 	SetControlRotation(FRotator(-45.0f, 0.0f, 0.0f));
@@ -210,13 +210,14 @@ void AMyPlayerController::on_run_stop() {
 }
 
 // 攻击事件
-void AMyPlayerController::on_attack_q_pressed() { b_attack_q = true; }
+void AMyPlayerController::on_attack_q_pressed() { if(!fight_state) return; b_attack_q = true; }
 void AMyPlayerController::on_attack_q_released() {  }
-void AMyPlayerController::on_attack_w_pressed() { b_attack_w = true; }
+void AMyPlayerController::on_attack_w_pressed() { if(!fight_state) return; b_attack_w = true; 
+}
 void AMyPlayerController::on_attack_w_released() {  }
-void AMyPlayerController::on_attack_e_pressed() { b_attack_e = true; }
+void AMyPlayerController::on_attack_e_pressed() { if(!fight_state) return; b_attack_e = true; }
 void AMyPlayerController::on_attack_e_released() {  }
-void AMyPlayerController::on_attack_r_pressed() { b_attack_r = true; }
+void AMyPlayerController::on_attack_r_pressed() { if(!fight_state) return; b_attack_r = true; }
 void AMyPlayerController::on_attack_r_released() {  }
 
 

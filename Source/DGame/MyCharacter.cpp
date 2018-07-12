@@ -185,8 +185,8 @@ void AMyCharacter::cursor_follow_mouse() {
 
 // ÊÜÉË¼ÆËã
 void AMyCharacter::DoDamage_Implementation(float delta) {
-	GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, FString("do damage"));
 	health -= delta;
-	GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, FString::SanitizeFloat(health));
+	//GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, FString("do damage"));
+	//GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, FString::SanitizeFloat(health));
 	if(health <= 0.f) b_death_start = true;
 }
