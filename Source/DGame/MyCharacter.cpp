@@ -12,6 +12,9 @@
 #include "Components/SkeletalMeshComponent.h"
 #include "Components/InputComponent.h"
 #include "Engine.h"
+#include "BloodBarWidget.h"
+#include "Components/WidgetComponent.h"
+#include "Kismet/KismetMathLibrary.h"
 
 AMyCharacter::AMyCharacter() {
 	init_body();											// 初始化 本身一些属性
@@ -20,6 +23,7 @@ AMyCharacter::AMyCharacter() {
 	init_cursor();											// 初始化 光标贴花
 	init_sword();											// 初始化 武器
 	init_shield();											// 初始化 盾牌
+	init_blood_bar();										// 初始化 血条
 
 	change_sword_place(FName("Sword_2"));					// 设置武器位置
 	change_shield_place(FName("Shield_2"));					// 设置盾牌位置
@@ -28,12 +32,16 @@ AMyCharacter::AMyCharacter() {
 	init_fight();
 }
 
-//void AMyCharacter::BeginPlay() { Super::BeginPlay(); }
+void AMyCharacter::BeginPlay() { 
+	Super::BeginPlay(); 
+	update_blood_bar();
+}
 
 void AMyCharacter::Tick(float DeltaTime) {
 	Super::Tick(DeltaTime);
 
 	cursor_follow_mouse();						// 让贴花跟鼠标走
+	update_blood_bar();							// 更新血量
 }
 
 
@@ -123,6 +131,32 @@ void AMyCharacter::init_shield() {
 	if(shield_mesh.Succeeded()) shield->SetSkeletalMesh(shield_mesh.Object, true);
 }
 
+// 初始化血条	
+void AMyCharacter::init_blood_bar() {
+	blood_bar = CreateDefaultSubobject<UWidgetComponent>(TEXT("BloodBar"));
+	blood_bar->AttachToComponent(RootComponent, FAttachmentTransformRules::KeepRelativeTransform);
+
+	// 设置User Widget
+	UClass* widget = LoadClass<UBloodBarWidget>(nullptr, TEXT("WidgetBlueprint'/Game/Blueprints/UI/bp_umg_blood.bp_umg_blood_C'"));
+	blood_bar->SetWidgetClass(widget);
+	blood_bar->SetRelativeLocation(FVector(0.f, 0.f, 100.f));
+
+}
+// 更新血条	
+void AMyCharacter::update_blood_bar() {
+	UBloodBarWidget* bld = Cast<UBloodBarWidget>(blood_bar->GetUserWidgetObject());
+	if(!bld) return;
+	bld->set_percent(health / health_max);
+	bld->set_color(FLinearColor(210.f/ 255.f, 305.f/255.f, 30.f/255.f));
+
+	// 设置为始终朝向镜头
+	FVector con_location = UGameplayStatics::GetPlayerController(GetWorld(), 0)->PlayerCameraManager->K2_GetActorLocation();
+	FVector bar_location = blood_bar->GetComponentLocation();
+	FRotator rot = UKismetMathLibrary::MakeRotFromX(con_location - bar_location);
+	blood_bar->SetWorldRotation(rot);
+
+}
+
 // 改变武器位置
 void AMyCharacter::change_sword_place(FName name) {
 	sword->AttachToComponent(GetMesh(), FAttachmentTransformRules::SnapToTargetIncludingScale, name);
@@ -154,5 +188,5 @@ void AMyCharacter::DoDamage_Implementation(float delta) {
 	GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, FString("do damage"));
 	health -= delta;
 	GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, FString::SanitizeFloat(health));
-	if(health <= 0.f) { Destroy(); }
+	if(health <= 0.f) b_death_start = true;
 }

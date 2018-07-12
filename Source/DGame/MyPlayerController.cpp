@@ -32,8 +32,31 @@ AMyPlayerController::AMyPlayerController() {
 
 void AMyPlayerController::BeginPlay() {
 	Super::BeginPlay();
-	// 初始化旋转视角
-	SetControlRotation(FRotator(-45.0f, 0.0f, 0.0f));
+	init();
+
+}
+void AMyPlayerController::init() {
+	// 初始化鼠标
+	bShowMouseCursor = true;							// 显示鼠标图标
+	//DefaultMouseCursor = EMouseCursor::Crosshairs;	// 设置图标样式
+
+	// 初始化技能状态
+	b_attack_q = false;
+	b_attack_w = false;
+	b_attack_e = false;
+	b_attack_r = false;
+
+
+	// 初始化视角移动相关参数
+	b_can_rotate = false;
+	turn_rate = 45.f;
+	lookup_rate = 45.f;
+
+	// 初始化视角缩放参数
+	scale_rate = 100.f;
+	scale_min = 200.f;
+	scale_max = 5000.f;
+	
 
 	// 初始化控制模式
 	controller_state = EControllerState::E_FREE;
@@ -42,6 +65,9 @@ void AMyPlayerController::BeginPlay() {
 	// 初始化战斗状态
 	fight_state = false;
 	update_fight_state();
+
+	// 初始化旋转视角
+	SetControlRotation(FRotator(-45.0f, 0.0f, 0.0f));
 }
 
 void AMyPlayerController::PlayerTick(float DeltaTime) {

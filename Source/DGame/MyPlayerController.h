@@ -19,6 +19,10 @@ class DGAME_API AMyPlayerController : public APlayerController {
 public:
 	AMyPlayerController();
 
+	// 初始化
+	UFUNCTION(BlueprintCallable)
+	void init();
+
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Fight", meta = (AllowPrivateAccess = "true"))
 	uint32 b_attack_q        : 1; // 是否释放q技能 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Fight", meta = (AllowPrivateAccess = "true"))

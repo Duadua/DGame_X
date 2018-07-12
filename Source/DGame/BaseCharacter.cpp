@@ -21,4 +21,7 @@ void ABaseCharacter::init_fight() {
 	power = power_max = 500.f;
 	attack = 100.f;
 	defence = 50.f;
+
+	b_death_start = false;
+	b_death_end = false;
 }

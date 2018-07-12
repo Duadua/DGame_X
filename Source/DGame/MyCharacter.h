@@ -32,7 +32,7 @@ public:
 	virtual void DoDamage_Implementation(float delta) override;
 
 protected:
-//	virtual void BeginPlay() override;
+	virtual void BeginPlay() override;
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
 private:
@@ -55,6 +55,9 @@ private:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Mesh, meta = (AllowPrivateAccess = "true"))
 	USkeletalMeshComponent* shield;
 
+	// 血条
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = WidgetComponent, meta = (AllowPrivateAccess = "true"))
+	class UWidgetComponent* blood_bar;
 	
 	void init_body();						// 初始化 本身一些属性  
 	void init_movement();					// 设置 移动组件 的属性 
@@ -62,8 +65,10 @@ private:
 	void init_cursor();						// 初始化光标       
 	void init_sword();						// 初始化武器       
 	void init_shield();						// 初始化盾牌       
+	void init_blood_bar();					// 初始化血条
 
 	void cursor_follow_mouse();				// 贴花跟鼠标走      
+	void update_blood_bar();				// 更新血量
 
 
 

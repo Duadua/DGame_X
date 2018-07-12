@@ -15,11 +15,11 @@ public:
 	virtual void BeginPlay() override;
 
 	// 欢迎界面
-	UPROPERTY()
-		UWelcomeWidget* welcome_ui;
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "UI")
+	UWelcomeWidget* welcome_ui;
 	// 主界面
-	UPROPERTY()
-		UMainWidget* main_ui;
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "UI")
+	UMainWidget* main_ui;
 
 	// 界面初始化
 	void init_welcome();

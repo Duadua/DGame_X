@@ -128,7 +128,7 @@ void ADGameGameModeBase::on_main_fight_click() {
 	AMyPlayerController* con = (AMyPlayerController*) UGameplayStatics::GetPlayerController(GetWorld(), 0);		// 获得 PlayerController
 	if(!con) return;
 	con->fight_state = !con->fight_state;
-//	con->update_fight_state();
+	con->update_fight_state();
 	if(con->fight_state) main_ui->fight_state_text->SetText(FText::FromString(TEXT("战")));
 	else main_ui->fight_state_text->SetText(FText::FromString(TEXT("和")));
 }
