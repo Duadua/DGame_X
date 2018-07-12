@@ -142,6 +142,7 @@ void AMyPlayerController::on_set_destination_released() {
 }
 
 void AMyPlayerController::on_move_forward(float value) {
+	if(get_b_attack()) { return; }
 	if(value != 0.0f) {
 		// 获得旋转角度
 		const FRotator rotation = GetControlRotation();
@@ -156,6 +157,7 @@ void AMyPlayerController::on_move_forward(float value) {
 	}
 }
 void AMyPlayerController::on_move_right(float value) {
+	if(get_b_attack()) return;
 	if(value != 0.0f) {
 		// 获得旋转角度
 		const FRotator rotation = GetControlRotation();
@@ -183,14 +185,20 @@ void AMyPlayerController::on_run_stop() {
 
 // 攻击事件
 void AMyPlayerController::on_attack_q_pressed() { b_attack_q = true; }
-void AMyPlayerController::on_attack_q_released() { b_attack_q = false; }
+void AMyPlayerController::on_attack_q_released() {  }
 void AMyPlayerController::on_attack_w_pressed() { b_attack_w = true; }
-void AMyPlayerController::on_attack_w_released() { b_attack_w = false; }
+void AMyPlayerController::on_attack_w_released() {  }
 void AMyPlayerController::on_attack_e_pressed() { b_attack_e = true; }
-void AMyPlayerController::on_attack_e_released() { b_attack_e = false; }
+void AMyPlayerController::on_attack_e_released() {  }
 void AMyPlayerController::on_attack_r_pressed() { b_attack_r = true; }
-void AMyPlayerController::on_attack_r_released() { b_attack_r = false; }
+void AMyPlayerController::on_attack_r_released() {  }
 
+
+// 是否处于攻击状态
+bool AMyPlayerController::get_b_attack() {
+	if(b_attack_q || b_attack_w || b_attack_e || b_attack_r) return true;
+	return false;
+}
 
 // 视角移动事件
 void AMyPlayerController::on_can_rotate_pressed() {

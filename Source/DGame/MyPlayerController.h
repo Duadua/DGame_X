@@ -19,24 +19,27 @@ class DGAME_API AMyPlayerController : public APlayerController {
 public:
 	AMyPlayerController();
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Fight")
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Fight", meta = (AllowPrivateAccess = "true"))
 	uint32 b_attack_q        : 1; // 是否释放q技能 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Fight")
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Fight", meta = (AllowPrivateAccess = "true"))
 	uint32 b_attack_w        : 1; // 是否释放w技能 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Fight")
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Fight", meta = (AllowPrivateAccess = "true"))
 	uint32 b_attack_e        : 1; // 是否释放e技能 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Fight")
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Fight", meta = (AllowPrivateAccess = "true"))
 	uint32 b_attack_r        : 1; // 是否释放r技能 
-	
+
+	UFUNCTION(BlueprintCallable)
+	bool get_b_attack();			// 是否处于攻击状态
+
 
 	// 控制状态变量
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Controller)
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Controller, meta = (AllowPrivateAccess = "true"))
 	EControllerState controller_state;
 	// 更新控制状态 -- 根据当前状态
 	void update_controller_state();
 
 	// 战斗状态变量
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Fight")
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Fight", meta = (AllowPrivateAccess = "true"))
 	uint32 fight_state : 1;
 	// 更新战斗状态 -- 根据当前状态
 	UFUNCTION(BlueprintCallable)
