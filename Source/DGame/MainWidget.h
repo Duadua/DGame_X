@@ -44,4 +44,21 @@ public:
 	uint32 b_show_select : 1;
 	void show_mode_select();
 	void hide_mode_select();
+
+	// 血量 -- bar+text
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "UI")
+	class UProgressBar* health_bar;
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "UI")
+	class UTextBlock* health_text;
+	// 魔法 -- bar+text
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "UI")
+	class UProgressBar* pow_bar;
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "UI")
+	class UTextBlock* pow_text;
+
+	// 等级
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "UI")
+	class UTextBlock* level_text;
+
+
 };

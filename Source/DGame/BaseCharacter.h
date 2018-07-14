@@ -31,6 +31,9 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Fight")
 	uint32 b_death_end : 1;	// 放完死亡动画
 
+	// 经验	
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Fight")
+	float exp;
 
 
 protected:

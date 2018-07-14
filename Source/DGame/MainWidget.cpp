@@ -1,4 +1,5 @@
 ﻿#include "MainWidget.h"
+#include "Components/ProgressBar.h"
 
 //初始化
 bool UMainWidget::Initialize() {
@@ -23,6 +24,16 @@ void UMainWidget::init() {
 	fight_state_bt   = Cast<UButton>(GetWidgetFromName(TEXT("bt_fight_state")));    
 	fight_state_text = Cast<UTextBlock>(GetWidgetFromName(TEXT("text_fight_state"))); 
 	fight_state_text->SetText(FText::FromString(TEXT("和")));
+
+	// 血量
+	health_bar  = Cast<UProgressBar>(GetWidgetFromName(TEXT("bar_health"))); 
+	health_text = Cast<UTextBlock>(GetWidgetFromName(TEXT("text_health")));  
+	// 魔法
+	pow_bar  = Cast<UProgressBar>(GetWidgetFromName(TEXT("bar_pow"))); 
+	pow_text = Cast<UTextBlock>(GetWidgetFromName(TEXT("text_pow"))); 
+
+	// 等级
+	level_text = Cast<UTextBlock>(GetWidgetFromName(TEXT("text_level")));
 
 }
 // 显示隐藏选择模式

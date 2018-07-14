@@ -4,6 +4,8 @@
 #include "MyCharacter.h"
 #include "Engine.h"
 #include "Kismet/GameplayStatics.h"
+#include "Components/ProgressBar.h"
+
 //#include "Runtime/SQLiteSupport/Public/SQLiteDatabaseConnection.h"
 
 //static void Log(FString info) { if(GEngine) GEngine->AddOnScreenDebugMessage(-1, 5.0f, FColor::Green, info);                         } 
@@ -45,6 +47,14 @@ void ADGameGameModeBase::BeginPlay() {
 		}
 		else GEngine->AddOnScreenDebugMessage(-1, 10.f, FColor::Green, "good");
 	}*/
+}
+
+
+void ADGameGameModeBase::Tick(float Delta) {
+	Super::Tick(Delta);
+
+	update_health_and_pow();
+	update_exp();
 }
 
 // 初始化
@@ -130,9 +140,34 @@ void ADGameGameModeBase::on_main_fight_click() {
 	AMyPlayerController* con = (AMyPlayerController*) UGameplayStatics::GetPlayerController(GetWorld(), 0);		// 获得 PlayerController
 	if(!con) return;
 	con->fight_state = !con->fight_state;
-	con->update_fight_state();
+	//con->update_fight_state();
 	if(con->fight_state) main_ui->fight_state_text->SetText(FText::FromString(TEXT("战")));
 	else main_ui->fight_state_text->SetText(FText::FromString(TEXT("和")));
+}
+
+// 更新血量和魔法
+void ADGameGameModeBase::update_health_and_pow() {
+	AMyCharacter* my_pawn = Cast<AMyCharacter>(UGameplayStatics::GetPlayerCharacter(GetWorld(), 0));
+	if(!my_pawn) return;
+	float value = my_pawn->health / my_pawn->health_max;
+	main_ui->health_bar->SetPercent(value);
+	FText text = FText::FromString(FString::Printf(TEXT("%d/%d"), (int)my_pawn->health, (int)my_pawn->health_max));
+	main_ui->health_text->SetText(text);
+
+	value = my_pawn->power / my_pawn->power_max;
+	main_ui->pow_bar->SetPercent(value);
+	text = FText::FromString(FString::Printf(TEXT("%d/%d"), (int)my_pawn->power, (int)my_pawn->power_max));
+	main_ui->pow_text->SetText(text);
+}
+// 更新等级
+void ADGameGameModeBase::update_exp() {
+	AMyCharacter* my_pawn = Cast<AMyCharacter>(UGameplayStatics::GetPlayerCharacter(GetWorld(), 0));
+	if(!my_pawn) return;
+	int level = (int)my_pawn->exp / 200.f;
+	FText text = FText::FromString(FString::Printf(TEXT("%d"), level));
+	main_ui->level_text->SetText(text);
+
+
 }
 
 // 小工具
@@ -162,3 +197,5 @@ void ADGameGameModeBase::change_input_to_ui_only() {
 	FInputModeUIOnly input;
 	con->SetInputMode(input);
 }
+
+

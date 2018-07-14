@@ -1,13 +1,10 @@
 #include "BloodBarWidget.h"
 #include "Components/ProgressBar.h"
 
-
-
 bool UBloodBarWidget::Initialize() {
 	if(!Super::Initialize()) return false;
 	init();
 	return true;
-
 }
 
 // ≥ı ºªØ

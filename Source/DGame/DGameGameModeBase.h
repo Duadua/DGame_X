@@ -13,6 +13,7 @@ public:
 	ADGameGameModeBase();
 
 	virtual void BeginPlay() override;
+	virtual void Tick(float Delta) override;
 
 	// 欢迎界面
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "UI")
@@ -44,6 +45,13 @@ public:
 	// 战斗状态切换控件
 	UFUNCTION()
 	void on_main_fight_click();			// 切换战斗状态
+
+	// 更新血量等信息
+	UFUNCTION()
+	void update_health_and_pow();
+	// 更新等级
+	UFUNCTION()
+	void update_exp();
 
 protected:
 

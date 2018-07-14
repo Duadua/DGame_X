@@ -89,11 +89,11 @@ void AAICharacter::init_shield() {
 
 // 改变武器位置
 void AAICharacter::change_sword_place(FName name) {
-	sword->AttachToComponent(GetMesh(), FAttachmentTransformRules::SnapToTargetIncludingScale, name);
+	sword->AttachToComponent(GetMesh(), FAttachmentTransformRules::KeepRelativeTransform, name);
 }
 // 改变盾牌位置
 void AAICharacter::change_shield_place(FName name) {
-	shield->AttachToComponent(GetMesh(), FAttachmentTransformRules::SnapToTargetIncludingScale, name);
+	shield->AttachToComponent(GetMesh(), FAttachmentTransformRules::KeepRelativeTransform, name);
 }
 
 // 受伤计算

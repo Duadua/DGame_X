@@ -58,7 +58,8 @@ void AMyCharacter::SetupPlayerInputComponent(class UInputComponent* PlayerInputC
 // 初始化战斗文本
 void AMyCharacter::init_fight() {
 	Super::init_fight();
-
+	power = 200.f;
+	power_max = 300.f;
 }
 
 
@@ -159,11 +160,11 @@ void AMyCharacter::update_blood_bar() {
 
 // 改变武器位置
 void AMyCharacter::change_sword_place(FName name) {
-	sword->AttachToComponent(GetMesh(), FAttachmentTransformRules::SnapToTargetIncludingScale, name);
+	sword->AttachToComponent(GetMesh(), FAttachmentTransformRules::KeepRelativeTransform, name);
 }
 // 改变盾牌位置
 void AMyCharacter::change_shield_place(FName name) {
-	shield->AttachToComponent(GetMesh(), FAttachmentTransformRules::SnapToTargetIncludingScale, name);
+	shield->AttachToComponent(GetMesh(), FAttachmentTransformRules::KeepRelativeTransform, name);
 }
 
 // 显示贴花 -- 供 controller 调用

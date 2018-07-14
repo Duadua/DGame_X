@@ -24,4 +24,6 @@ void ABaseCharacter::init_fight() {
 
 	b_death_start = false;
 	b_death_end = false;
+
+	exp = 0.f;
 }

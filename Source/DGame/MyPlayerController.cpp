@@ -212,12 +212,27 @@ void AMyPlayerController::on_run_stop() {
 // ¹¥»÷ÊÂ¼þ
 void AMyPlayerController::on_attack_q_pressed() { if(!fight_state) return; b_attack_q = true; }
 void AMyPlayerController::on_attack_q_released() {  }
-void AMyPlayerController::on_attack_w_pressed() { if(!fight_state) return; b_attack_w = true; 
-}
+void AMyPlayerController::on_attack_w_pressed() { if(!fight_state) return; b_attack_w = true; }
 void AMyPlayerController::on_attack_w_released() {  }
-void AMyPlayerController::on_attack_e_pressed() { if(!fight_state) return; b_attack_e = true; }
+void AMyPlayerController::on_attack_e_pressed() {
+	if(!fight_state) return; 
+	if(b_attack_e) return;
+	AMyCharacter* my_pawn = Cast<AMyCharacter>(GetPawn());
+	if(!my_pawn) return;
+	if(my_pawn->power < 25.f) return;
+	my_pawn->power -= 25.f;
+	b_attack_e = true; 
+}
 void AMyPlayerController::on_attack_e_released() {  }
-void AMyPlayerController::on_attack_r_pressed() { if(!fight_state) return; b_attack_r = true; }
+void AMyPlayerController::on_attack_r_pressed() {
+	if(!fight_state) return; 
+	if(b_attack_r) return;
+	AMyCharacter* my_pawn = Cast<AMyCharacter>(GetPawn());
+	if(!my_pawn) return;
+	if(my_pawn->power < 50.f) return;
+	my_pawn->power -= 50.f;
+	b_attack_r = true; 
+}
 void AMyPlayerController::on_attack_r_released() {  }
 
 
@@ -310,7 +325,7 @@ void AMyPlayerController::update_controller_state() {
 
 				my_pawn->bUseControllerRotationYaw = true;
 				fight_state = true;
-				update_fight_state();
+				//update_fight_state();
 			break;
 	}
 }
