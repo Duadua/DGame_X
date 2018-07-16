@@ -42,6 +42,8 @@ void AMyCharacter::Tick(float DeltaTime) {
 
 	cursor_follow_mouse();						// 让贴花跟鼠标走
 	update_blood_bar();							// 更新血量
+
+	if(GetActorLocation().Z < -200.f) { SetActorLocation(FVector(0.f, 0.f, 500.f)); }
 }
 
 
